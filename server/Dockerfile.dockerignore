@@ -1,0 +1,7 @@
+# server/Dockerfile builds from the repo root; only these reach the image.
+*
+!server/nobu
+!extract
+!overlay
+**/__pycache__
+**/*.pyc

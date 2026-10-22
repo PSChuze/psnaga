@@ -1,0 +1,5783 @@
+{
+ "_doc": "",
+ "towns": {
+  "101": {
+   "overseer": {
+    "pos": [
+     22991,
+     3200,
+     47605
+    ],
+    "dir": 151,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     17516,
+     3430,
+     16633
+    ],
+    "dir": 99,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     22852,
+     3200,
+     39887
+    ],
+    "dir": 144,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     43009,
+     3200,
+     13539
+    ],
+    "dir": 280,
+    "snap": 902,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     42109,
+     3200,
+     14739
+    ],
+    "dir": 179,
+    "snap": 1038,
+    "src": "gate region 211 arrival point + 1900 inward, +450 side"
+   },
+   "guard_212_0": {
+    "pos": [
+     22714,
+     3200,
+     46313
+    ],
+    "dir": 12,
+    "snap": 1328,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     23614,
+     3200,
+     46313
+    ],
+    "dir": 334,
+    "snap": 1441,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     50300,
+     3200,
+     23950
+    ],
+    "dir": 154,
+    "snap": 3695,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     50300,
+     3200,
+     23050
+    ],
+    "dir": 146,
+    "snap": 2914,
+    "src": "gate region 214 arrival point + 700 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     21023,
+     3235,
+     43188
+    ],
+    "dir": 145,
+    "snap": 240,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     22500,
+     3200,
+     40000
+    ],
+    "dir": 144,
+    "snap": 370,
+    "src": "T2 point beside the Craftsman"
+   },
+   "bank_keeper": {
+    "pos": [
+     21002,
+     3235,
+     42599
+    ],
+    "dir": 144,
+    "snap": 589,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     21027,
+     3235,
+     44504
+    ],
+    "dir": 146,
+    "snap": 1405,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     33915,
+     3200,
+     26026
+    ],
+    "dir": 147,
+    "snap": 839,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     38912,
+     3200,
+     15505
+    ],
+    "dir": 126,
+    "snap": 4518,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     43318,
+     3201,
+     21862
+    ],
+    "dir": 185,
+    "snap": 536,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     43549,
+     3210,
+     20856
+    ],
+    "dir": 187,
+    "snap": 571,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     43048,
+     3201,
+     21110
+    ],
+    "dir": 183,
+    "snap": 655,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     44319,
+     3200,
+     21754
+    ],
+    "dir": 191,
+    "snap": 771,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     44277,
+     3200,
+     20297
+    ],
+    "dir": 193,
+    "snap": 1301,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     30107,
+     3400,
+     21990
+    ],
+    "dir": 126,
+    "snap": 574,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     42188,
+     3200,
+     24324
+    ],
+    "dir": 178,
+    "snap": 1901,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     39505,
+     3200,
+     21225
+    ],
+    "dir": 160,
+    "snap": 2380,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     21417,
+     3200,
+     39562
+    ],
+    "dir": 142,
+    "snap": 624,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     43172,
+     3245,
+     25401
+    ],
+    "dir": 183,
+    "snap": 99,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     42893,
+     3201,
+     22900
+    ],
+    "dir": 182,
+    "snap": 1649,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     42904,
+     3200,
+     24434
+    ],
+    "dir": 182,
+    "snap": 905,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     23024,
+     3577,
+     15414
+    ],
+    "dir": 98,
+    "snap": 192,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     30500,
+     3200,
+     23500
+    ],
+    "dir": 131,
+    "snap": 2102,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     44044,
+     3245,
+     25375
+    ],
+    "dir": 187,
+    "snap": 872,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     23164,
+     3200,
+     47013
+    ],
+    "dir": 150,
+    "snap": 616,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "104": {
+   "overseer": {
+    "pos": [
+     45525,
+     3200,
+     29889
+    ],
+    "dir": 123,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     42863,
+     3400,
+     18499
+    ],
+    "dir": 17,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     19409,
+     3261,
+     18805
+    ],
+    "dir": 68,
+    "snap": 0,
+    "src": "CMAP region 407 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     27235,
+     3200,
+     13642
+    ],
+    "dir": 253,
+    "snap": 954,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     26335,
+     3200,
+     14442
+    ],
+    "dir": 181,
+    "snap": 1079,
+    "src": "gate region 211 arrival point + 1500 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     44194,
+     3200,
+     30900
+    ],
+    "dir": 125,
+    "snap": 1617,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     44194,
+     3200,
+     30000
+    ],
+    "dir": 91,
+    "snap": 1323,
+    "src": "gate region 214 arrival point + 700 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     39686,
+     3270,
+     37293
+    ],
+    "dir": 140,
+    "snap": 805,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     19918,
+     3261,
+     18616
+    ],
+    "dir": 68,
+    "snap": 543,
+    "src": "T2 point beside the Craftsman"
+   },
+   "bank_keeper": {
+    "pos": [
+     40086,
+     3270,
+     37293
+    ],
+    "dir": 142,
+    "snap": 400,
+    "src": "money changer + 400 x"
+   },
+   "merchant": {
+    "pos": [
+     37501,
+     3200,
+     35440
+    ],
+    "dir": 125,
+    "snap": 2140,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     28996,
+     3200,
+     29747
+    ],
+    "dir": 91,
+    "snap": 136,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     45685,
+     3200,
+     28521
+    ],
+    "dir": 31,
+    "snap": 1065,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     22969,
+     3231,
+     35663
+    ],
+    "dir": 105,
+    "snap": 991,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     22974,
+     3231,
+     36106
+    ],
+    "dir": 106,
+    "snap": 1040,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     23316,
+     3231,
+     35456
+    ],
+    "dir": 105,
+    "snap": 1369,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     23348,
+     3251,
+     35052
+    ],
+    "dir": 104,
+    "snap": 1545,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     23179,
+     3251,
+     34613
+    ],
+    "dir": 103,
+    "snap": 1669,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     19009,
+     3400,
+     25320
+    ],
+    "dir": 81,
+    "snap": 850,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     25000,
+     3200,
+     36500
+    ],
+    "dir": 108,
+    "snap": 724,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     24478,
+     3200,
+     36559
+    ],
+    "dir": 108,
+    "snap": 894,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     36000,
+     3200,
+     28500
+    ],
+    "dir": 85,
+    "snap": 1695,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     22033,
+     3200,
+     32687
+    ],
+    "dir": 98,
+    "snap": 324,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     22000,
+     3200,
+     34000
+    ],
+    "dir": 101,
+    "snap": 1781,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     23190,
+     3204,
+     33707
+    ],
+    "dir": 100,
+    "snap": 1569,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     41000,
+     3400,
+     25000
+    ],
+    "dir": 50,
+    "snap": 1393,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     18335,
+     3430,
+     26287
+    ],
+    "dir": 84,
+    "snap": 1474,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     24667,
+     3200,
+     33068
+    ],
+    "dir": 100,
+    "snap": 2661,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     44894,
+     3200,
+     30450
+    ],
+    "dir": 127,
+    "snap": 845,
+    "src": "T2 point by the notice board"
+   },
+   "q_hayashi": {
+    "pos": [
+     36500,
+     3200,
+     34000
+    ],
+    "dir": 35,
+    "snap": 1754,
+    "src": "T2 point by the merchant (DESIGN)"
+   }
+  },
+  "106": {
+   "overseer": {
+    "pos": [
+     47119,
+     3200,
+     43514
+    ],
+    "dir": 216,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     20475,
+     3415,
+     48691
+    ],
+    "dir": 167,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     22242,
+     3400,
+     42636
+    ],
+    "dir": 168,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     28254,
+     3200,
+     18345
+    ],
+    "dir": 167,
+    "snap": 1030,
+    "src": "gate region 211 arrival point + 1900 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     27354,
+     3200,
+     17145
+    ],
+    "dir": 80,
+    "snap": 1143,
+    "src": "gate region 211 arrival point + 700 inward, +450 side"
+   },
+   "guard_213_0": {
+    "pos": [
+     15107,
+     3200,
+     22493
+    ],
+    "dir": 10,
+    "snap": 990,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     16307,
+     3200,
+     23393
+    ],
+    "dir": 274,
+    "snap": 1022,
+    "src": "gate region 213 arrival point + 1900 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     48862,
+     3200,
+     44634
+    ],
+    "dir": 189,
+    "snap": 1135,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     46462,
+     3200,
+     43734
+    ],
+    "dir": 96,
+    "snap": 2228,
+    "src": "gate region 214 arrival point + 3100 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     30796,
+     3231,
+     31547
+    ],
+    "dir": 191,
+    "snap": 985,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     21792,
+     3400,
+     42636
+    ],
+    "dir": 167,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     30817,
+     3231,
+     32150
+    ],
+    "dir": 191,
+    "snap": 604,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     30806,
+     3231,
+     30248
+    ],
+    "dir": 192,
+    "snap": 1038,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     33000,
+     3200,
+     32500
+    ],
+    "dir": 198,
+    "snap": 1306,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     29166,
+     3200,
+     16437
+    ],
+    "dir": 270,
+    "snap": 1362,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     21559,
+     3201,
+     34049
+    ],
+    "dir": 160,
+    "snap": 645,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     21202,
+     3200,
+     35296
+    ],
+    "dir": 161,
+    "snap": 784,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     21923,
+     3210,
+     34457
+    ],
+    "dir": 162,
+    "snap": 810,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     20305,
+     3201,
+     34370
+    ],
+    "dir": 157,
+    "snap": 823,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     19975,
+     3201,
+     33794
+    ],
+    "dir": 156,
+    "snap": 1350,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     47945,
+     3200,
+     26050
+    ],
+    "dir": 245,
+    "snap": 660,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     27170,
+     3200,
+     37211
+    ],
+    "dir": 178,
+    "snap": 2881,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     32692,
+     3200,
+     39461
+    ],
+    "dir": 192,
+    "snap": 3257,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     18244,
+     3200,
+     23905
+    ],
+    "dir": 128,
+    "snap": 1307,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     17903,
+     3201,
+     34893
+    ],
+    "dir": 152,
+    "snap": 277,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     19558,
+     3201,
+     34584
+    ],
+    "dir": 156,
+    "snap": 1558,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     18073,
+     3200,
+     34221
+    ],
+    "dir": 151,
+    "snap": 812,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     17052,
+     3577,
+     45668
+    ],
+    "dir": 160,
+    "snap": 1077,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     47500,
+     3200,
+     26500
+    ],
+    "dir": 243,
+    "snap": 770,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     17104,
+     3251,
+     34480
+    ],
+    "dir": 149,
+    "snap": 899,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     46952,
+     3200,
+     42332
+    ],
+    "dir": 216,
+    "snap": 1194,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "107": {
+   "overseer": {
+    "pos": [
+     18533,
+     3200,
+     65588
+    ],
+    "dir": 357,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     20294,
+     3430,
+     18246
+    ],
+    "dir": 358,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     24000,
+     3404,
+     21500
+    ],
+    "dir": 353,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_212_0": {
+    "pos": [
+     18509,
+     3200,
+     64345
+    ],
+    "dir": 24,
+    "snap": 1394,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     19409,
+     3200,
+     64345
+    ],
+    "dir": 345,
+    "snap": 1315,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     50521,
+     3200,
+     23937
+    ],
+    "dir": 87,
+    "snap": 1068,
+    "src": "gate region 214 arrival point + 1700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     51521,
+     3200,
+     23037
+    ],
+    "dir": 4,
+    "snap": 952,
+    "src": "gate region 214 arrival point + 700 inward, +450 side"
+   },
+   "guard_215_0": {
+    "pos": [
+     34491,
+     3200,
+     39827
+    ],
+    "dir": 80,
+    "snap": 1043,
+    "src": "gate region 215 arrival point + 1700 inward, -450 side"
+   },
+   "guard_215_1": {
+    "pos": [
+     35491,
+     3200,
+     38927
+    ],
+    "dir": 1,
+    "snap": 1084,
+    "src": "gate region 215 arrival point + 700 inward, +450 side"
+   },
+   "guard_216_0": {
+    "pos": [
+     34550,
+     3200,
+     58800
+    ],
+    "dir": 40,
+    "snap": 1563,
+    "src": "gate region 216 arrival point + 700 inward, -450 side"
+   },
+   "guard_216_1": {
+    "pos": [
+     35450,
+     3200,
+     58800
+    ],
+    "dir": 5,
+    "snap": 1207,
+    "src": "gate region 216 arrival point + 700 inward, +450 side"
+   },
+   "repairer": {
+    "pos": [
+     23550,
+     3404,
+     21500
+    ],
+    "dir": 354,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_changer": {
+    "pos": [
+     30569,
+     3200,
+     35571
+    ],
+    "dir": 338,
+    "snap": 3517,
+    "src": "T2 point near the town centre (no exchange located)"
+   },
+   "bank_keeper": {
+    "pos": [
+     30969,
+     3200,
+     35571
+    ],
+    "dir": 338,
+    "snap": 400,
+    "src": "money changer + 400 x"
+   },
+   "guildmaster": {
+    "pos": [
+     27800,
+     3200,
+     40466
+    ],
+    "dir": 340,
+    "snap": 3950,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     19707,
+     3200,
+     66180
+    ],
+    "dir": 270,
+    "snap": 1202,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "merchant": {
+    "pos": [
+     24418,
+     3200,
+     32466
+    ],
+    "dir": 350,
+    "snap": 4949,
+    "src": "T2 point near the town centre (no building located)"
+   },
+   "doctor": {
+    "pos": [
+     32432,
+     3200,
+     41082
+    ],
+    "dir": 331,
+    "snap": 4673,
+    "src": "T2 point near the town centre (no apothecary located)"
+   },
+   "elder": {
+    "pos": [
+     18959,
+     3200,
+     65045
+    ],
+    "dir": 338,
+    "snap": 691,
+    "src": "T2 point by the notice board"
+   },
+   "q_saito": {
+    "pos": [
+     20546,
+     3200,
+     32347
+    ],
+    "dir": 88,
+    "snap": 3873,
+    "src": "T2 point by the merchant (DESIGN)"
+   }
+  },
+  "109": {
+   "overseer": {
+    "pos": [
+     18200,
+     3200,
+     41065
+    ],
+    "dir": 252,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     36498,
+     3430,
+     46148
+    ],
+    "dir": 254,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     18993,
+     3200,
+     35653
+    ],
+    "dir": 312,
+    "snap": 0,
+    "src": "CMAP region 401 (crafting station)"
+   },
+   "guard_213_0": {
+    "pos": [
+     15944,
+     3200,
+     40732
+    ],
+    "dir": 260,
+    "snap": 1094,
+    "src": "gate region 213 arrival point + 1500 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     15144,
+     3200,
+     41632
+    ],
+    "dir": 194,
+    "snap": 1119,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     48800,
+     3200,
+     19950
+    ],
+    "dir": 109,
+    "snap": 1310,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     48800,
+     3200,
+     19050
+    ],
+    "dir": 69,
+    "snap": 1330,
+    "src": "gate region 214 arrival point + 700 inward, +450 side"
+   },
+   "guard_215_0": {
+    "pos": [
+     49800,
+     3200,
+     32950
+    ],
+    "dir": 107,
+    "snap": 1336,
+    "src": "gate region 215 arrival point + 700 inward, -450 side"
+   },
+   "guard_215_1": {
+    "pos": [
+     49800,
+     3200,
+     32050
+    ],
+    "dir": 68,
+    "snap": 1375,
+    "src": "gate region 215 arrival point + 700 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     30211,
+     3201,
+     18062
+    ],
+    "dir": 324,
+    "snap": 653,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     18543,
+     3200,
+     35653
+    ],
+    "dir": 315,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     29829,
+     3200,
+     18023
+    ],
+    "dir": 325,
+    "snap": 384,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     30280,
+     3200,
+     16530
+    ],
+    "dir": 326,
+    "snap": 881,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     25361,
+     3200,
+     31779
+    ],
+    "dir": 306,
+    "snap": 4877,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     19500,
+     3200,
+     41000
+    ],
+    "dir": 257,
+    "snap": 5194,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     27104,
+     3200,
+     18335
+    ],
+    "dir": 329,
+    "snap": 900,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     28013,
+     3204,
+     17819
+    ],
+    "dir": 328,
+    "snap": 1603,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     27021,
+     3200,
+     15992
+    ],
+    "dir": 332,
+    "snap": 1871,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     28395,
+     3204,
+     17911
+    ],
+    "dir": 328,
+    "snap": 1989,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     28895,
+     3200,
+     18062
+    ],
+    "dir": 326,
+    "snap": 2502,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     16806,
+     3430,
+     17780
+    ],
+    "dir": 354,
+    "snap": 1475,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     17947,
+     3200,
+     25666
+    ],
+    "dir": 346,
+    "snap": 1582,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     18402,
+     3200,
+     25707
+    ],
+    "dir": 344,
+    "snap": 1688,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     30398,
+     3231,
+     21105
+    ],
+    "dir": 320,
+    "snap": 1366,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     26949,
+     3204,
+     20920
+    ],
+    "dir": 327,
+    "snap": 1234,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     27917,
+     3200,
+     19895
+    ],
+    "dir": 326,
+    "snap": 2612,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     28199,
+     3251,
+     20932
+    ],
+    "dir": 324,
+    "snap": 1878,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     39775,
+     3400,
+     42852
+    ],
+    "dir": 263,
+    "snap": 1658,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     19067,
+     3200,
+     18366
+    ],
+    "dir": 348,
+    "snap": 1544,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     28980,
+     3251,
+     20926
+    ],
+    "dir": 322,
+    "snap": 2032,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     14444,
+     3200,
+     41182
+    ],
+    "dir": 180,
+    "snap": 3758,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "110": {
+   "overseer": {
+    "pos": [
+     103250,
+     3200,
+     110250
+    ],
+    "dir": 11,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     83316,
+     3415,
+     91513
+    ],
+    "dir": 44,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     99696,
+     3200,
+     89844
+    ],
+    "dir": 10,
+    "snap": 0,
+    "src": "CMAP region 403 (forge)"
+   },
+   "guard_211_0": {
+    "pos": [
+     105753,
+     3200,
+     79292
+    ],
+    "dir": 182,
+    "snap": 1030,
+    "src": "gate region 211 arrival point + 1900 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     104853,
+     3200,
+     78692
+    ],
+    "dir": 116,
+    "snap": 968,
+    "src": "gate region 211 arrival point + 1300 inward, +450 side"
+   },
+   "guard_212_0": {
+    "pos": [
+     103263,
+     3200,
+     109494
+    ],
+    "dir": 355,
+    "snap": 2315,
+    "src": "gate region 212 arrival point + 3100 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     104163,
+     3200,
+     111894
+    ],
+    "dir": 265,
+    "snap": 1105,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "guard_213_0": {
+    "pos": [
+     82256,
+     3200,
+     108302
+    ],
+    "dir": 283,
+    "snap": 1820,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     82256,
+     3200,
+     109202
+    ],
+    "dir": 255,
+    "snap": 1835,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "shop_sword": {
+    "pos": [
+     99346,
+     3200,
+     89494
+    ],
+    "dir": 11,
+    "snap": 0,
+    "src": "around CMAP region 403 (smith hall forge)"
+   },
+   "shop_spear": {
+    "pos": [
+     100046,
+     3200,
+     89494
+    ],
+    "dir": 9,
+    "snap": 0,
+    "src": "around CMAP region 403 (smith hall forge)"
+   },
+   "shop_club": {
+    "pos": [
+     99346,
+     3200,
+     90194
+    ],
+    "dir": 11,
+    "snap": 0,
+    "src": "around CMAP region 403 (smith hall forge)"
+   },
+   "shop_armour": {
+    "pos": [
+     100046,
+     3200,
+     90194
+    ],
+    "dir": 9,
+    "snap": 0,
+    "src": "around CMAP region 403 (smith hall forge)"
+   },
+   "shop_helmet": {
+    "pos": [
+     99696,
+     3200,
+     89464
+    ],
+    "dir": 10,
+    "snap": 0,
+    "src": "around CMAP region 403 (smith hall forge)"
+   },
+   "shop_bow": {
+    "pos": [
+     109055,
+     3400,
+     89886
+    ],
+    "dir": 347,
+    "snap": 0,
+    "src": "CMAP region 402 (shrine)"
+   },
+   "shop_kosode": {
+    "pos": [
+     103603,
+     3200,
+     83999
+    ],
+    "dir": 0,
+    "snap": 1072,
+    "src": "wiki cloth icon (clothier), snapped to T2"
+   },
+   "shop_suikan": {
+    "pos": [
+     102262,
+     3201,
+     84054
+    ],
+    "dir": 3,
+    "snap": 754,
+    "src": "wiki cloth icon (clothier), snapped to T2"
+   },
+   "shop_medicine": {
+    "pos": [
+     104374,
+     3200,
+     84987
+    ],
+    "dir": 359,
+    "snap": 0,
+    "src": "CMAP region 400"
+   },
+   "bank_changer": {
+    "pos": [
+     106466,
+     3210,
+     104714
+    ],
+    "dir": 341,
+    "snap": 236,
+    "src": "wiki exchange icon, score 1.00"
+   },
+   "repairer": {
+    "pos": [
+     99205,
+     3200,
+     89752
+    ],
+    "dir": 11,
+    "snap": 500,
+    "src": "T2 point beside the Craftsman"
+   },
+   "bank_keeper": {
+    "pos": [
+     106456,
+     3210,
+     104147
+    ],
+    "dir": 342,
+    "snap": 567,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     106442,
+     3235,
+     106036
+    ],
+    "dir": 337,
+    "snap": 1292,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "shop_teahouse": {
+    "pos": [
+     97286,
+     3200,
+     109183
+    ],
+    "dir": 62,
+    "snap": 1401,
+    "src": "wiki dango icon, snapped to T2"
+   },
+   "shop_jeweller": {
+    "pos": [
+     106451,
+     3231,
+     107580
+    ],
+    "dir": 331,
+    "snap": 2822,
+    "src": "T2 point by the exchange"
+   },
+   "hall_6": {
+    "pos": [
+     100992,
+     3201,
+     87728
+    ],
+    "dir": 6,
+    "snap": 672,
+    "src": "T2 point at the smith hall (hammer icon)"
+   },
+   "hall_7": {
+    "pos": [
+     105060,
+     3200,
+     85135
+    ],
+    "dir": 357,
+    "snap": 702,
+    "src": "T2 point at the apothecary (region 400)"
+   },
+   "hall_2": {
+    "pos": [
+     86036,
+     3400,
+     83175
+    ],
+    "dir": 31,
+    "snap": 1050,
+    "src": "T2 point at the temple (region 401, bell)"
+   },
+   "hall_3": {
+    "pos": [
+     109582,
+     3400,
+     90511
+    ],
+    "dir": 345,
+    "snap": 817,
+    "src": "T2 point at the shrine (region 402, torii)"
+   },
+   "guildmaster": {
+    "pos": [
+     103692,
+     3270,
+     94328
+    ],
+    "dir": 0,
+    "snap": 2657,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     102295,
+     3200,
+     112594
+    ],
+    "dir": 90,
+    "snap": 1418,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "doctor": {
+    "pos": [
+     103624,
+     3200,
+     84870
+    ],
+    "dir": 0,
+    "snap": 759,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     104000,
+     3200,
+     111000
+    ],
+    "dir": 350,
+    "snap": 1061,
+    "src": "T2 point by the notice board"
+   },
+   "q_onui": {
+    "pos": [
+     103691,
+     3270,
+     93106
+    ],
+    "dir": 295,
+    "snap": 2835,
+    "src": "T2 point town centre"
+   },
+   "q_sakuzo": {
+    "pos": [
+     101902,
+     3200,
+     89912
+    ],
+    "dir": 268,
+    "snap": 2207,
+    "src": "T2 point corner of the smithy"
+   },
+   "q_nihei": {
+    "pos": [
+     103596,
+     3200,
+     103382
+    ],
+    "dir": 65,
+    "snap": 3164,
+    "src": "T2 point in front of the exchange"
+   },
+   "q_seikichi": {
+    "pos": [
+     90000,
+     3200,
+     80500
+    ],
+    "dir": 252,
+    "snap": 741,
+    "src": "T2 point north-west row houses"
+   },
+   "q_ohana": {
+    "pos": [
+     99577,
+     3200,
+     111297
+    ],
+    "dir": 227,
+    "snap": 3118,
+    "src": "T2 point by the teahouse (DESIGN)"
+   },
+   "q_sosuke": {
+    "pos": [
+     103646,
+     3200,
+     85711
+    ],
+    "dir": 181,
+    "snap": 1713,
+    "src": "T2 point by the clothiers (DESIGN)"
+   },
+   "q_rokusuke": {
+    "pos": [
+     83500,
+     3200,
+     107500
+    ],
+    "dir": 303,
+    "snap": 1480,
+    "src": "T2 point by the west gate (DESIGN)"
+   },
+   "q_gisuke": {
+    "pos": [
+     102852,
+     3200,
+     108730
+    ],
+    "dir": 15,
+    "snap": 1571,
+    "src": "T2 point by the notice board (DESIGN)"
+   },
+   "q_sansuke": {
+    "pos": [
+     82961,
+     3415,
+     90077
+    ],
+    "dir": 14,
+    "snap": 1480,
+    "src": "T2 point by the temple graveyard (a ghost rumour; DESIGN)"
+   }
+  },
+  "111": {
+   "overseer": {
+    "pos": [
+     20483,
+     3200,
+     53066
+    ],
+    "dir": 351,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     22600,
+     3423,
+     22306
+    ],
+    "dir": 356,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     18250,
+     3200,
+     47000
+    ],
+    "dir": 13,
+    "snap": 0,
+    "src": "CMAP region 402 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     43771,
+     3200,
+     26392
+    ],
+    "dir": 253,
+    "snap": 1001,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     42871,
+     3200,
+     27192
+    ],
+    "dir": 183,
+    "snap": 1088,
+    "src": "gate region 211 arrival point + 1500 inward, +450 side"
+   },
+   "guard_212_0": {
+    "pos": [
+     19682,
+     3200,
+     52358
+    ],
+    "dir": 18,
+    "snap": 2077,
+    "src": "gate region 212 arrival point + 2900 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     20582,
+     3200,
+     52158
+    ],
+    "dir": 354,
+    "snap": 2183,
+    "src": "gate region 212 arrival point + 3100 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     15180,
+     3235,
+     48436
+    ],
+    "dir": 36,
+    "snap": 986,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     17800,
+     3200,
+     47000
+    ],
+    "dir": 16,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     15185,
+     3235,
+     47860
+    ],
+    "dir": 34,
+    "snap": 576,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     15170,
+     3235,
+     49741
+    ],
+    "dir": 42,
+    "snap": 1244,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     26500,
+     3200,
+     37500
+    ],
+    "dir": 340,
+    "snap": 5702,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     18864,
+     3200,
+     53264
+    ],
+    "dir": 32,
+    "snap": 2363,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     36865,
+     3201,
+     52151
+    ],
+    "dir": 281,
+    "snap": 934,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     35774,
+     3200,
+     52946
+    ],
+    "dir": 278,
+    "snap": 1222,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     34749,
+     3204,
+     51960
+    ],
+    "dir": 283,
+    "snap": 1290,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     36923,
+     3201,
+     52760
+    ],
+    "dir": 278,
+    "snap": 1355,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     37416,
+     3201,
+     51709
+    ],
+    "dir": 282,
+    "snap": 1395,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     15955,
+     3400,
+     27669
+    ],
+    "dir": 9,
+    "snap": 495,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     45679,
+     3201,
+     51691
+    ],
+    "dir": 278,
+    "snap": 876,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     44000,
+     3200,
+     50500
+    ],
+    "dir": 281,
+    "snap": 1486,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     17500,
+     3200,
+     50000
+    ],
+    "dir": 27,
+    "snap": 1861,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     39353,
+     3231,
+     48279
+    ],
+    "dir": 290,
+    "snap": 624,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "shop_jeweller": {
+    "pos": [
+     15189,
+     3235,
+     50348
+    ],
+    "dir": 45,
+    "snap": 1713,
+    "src": "hand-read coin icon, the exchange"
+   },
+   "hall_6": {
+    "pos": [
+     34574,
+     3201,
+     52907
+    ],
+    "dir": 279,
+    "snap": 1854,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     40206,
+     3251,
+     48545
+    ],
+    "dir": 288,
+    "snap": 940,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     27491,
+     3577,
+     20973
+    ],
+    "dir": 348,
+    "snap": 492,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     14615,
+     3400,
+     26438
+    ],
+    "dir": 11,
+    "snap": 2021,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     39198,
+     3231,
+     48900
+    ],
+    "dir": 288,
+    "snap": 640,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     21068,
+     3200,
+     55259
+    ],
+    "dir": 270,
+    "snap": 2269,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "113": {
+   "overseer": {
+    "pos": [
+     14929,
+     3200,
+     41468
+    ],
+    "dir": 228,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     23146,
+     3430,
+     19543
+    ],
+    "dir": 338,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     44500,
+     3200,
+     28750
+    ],
+    "dir": 292,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_213_0": {
+    "pos": [
+     16142,
+     3200,
+     40452
+    ],
+    "dir": 308,
+    "snap": 1525,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     16142,
+     3200,
+     41352
+    ],
+    "dir": 272,
+    "snap": 1202,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     31193,
+     3200,
+     46237
+    ],
+    "dir": 349,
+    "snap": 1116,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     32093,
+     3200,
+     46237
+    ],
+    "dir": 314,
+    "snap": 1565,
+    "src": "gate region 214 arrival point + 700 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     18152,
+     3220,
+     39490
+    ],
+    "dir": 291,
+    "snap": 414,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     44050,
+     3200,
+     28750
+    ],
+    "dir": 292,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     18756,
+     3220,
+     39487
+    ],
+    "dir": 288,
+    "snap": 604,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     16853,
+     3220,
+     39500
+    ],
+    "dir": 300,
+    "snap": 950,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     28500,
+     3200,
+     38000
+    ],
+    "dir": 282,
+    "snap": 1682,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     14697,
+     3200,
+     42744
+    ],
+    "dir": 191,
+    "snap": 1830,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     16355,
+     3201,
+     58057
+    ],
+    "dir": 187,
+    "snap": 232,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     16708,
+     3200,
+     57742
+    ],
+    "dir": 188,
+    "snap": 673,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     15869,
+     3200,
+     57620
+    ],
+    "dir": 185,
+    "snap": 797,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     15478,
+     3201,
+     58912
+    ],
+    "dir": 184,
+    "snap": 1042,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     17051,
+     3201,
+     59051
+    ],
+    "dir": 188,
+    "snap": 1067,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     46930,
+     3200,
+     22083
+    ],
+    "dir": 300,
+    "snap": 665,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     26590,
+     3200,
+     61149
+    ],
+    "dir": 211,
+    "snap": 1672,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     25248,
+     3200,
+     63143
+    ],
+    "dir": 206,
+    "snap": 3158,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     21500,
+     3200,
+     42000
+    ],
+    "dir": 262,
+    "snap": 1172,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     24683,
+     3245,
+     55421
+    ],
+    "dir": 216,
+    "snap": 1008,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     15186,
+     3210,
+     58346
+    ],
+    "dir": 183,
+    "snap": 1125,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     23850,
+     3231,
+     55563
+    ],
+    "dir": 213,
+    "snap": 1259,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     16797,
+     3577,
+     20175
+    ],
+    "dir": 353,
+    "snap": 493,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     46000,
+     3200,
+     22500
+    ],
+    "dir": 300,
+    "snap": 1134,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     25270,
+     3201,
+     56199
+    ],
+    "dir": 216,
+    "snap": 975,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     15442,
+     3200,
+     40902
+    ],
+    "dir": 272,
+    "snap": 764,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "114": {
+   "overseer": {
+    "pos": [
+     13500,
+     3200,
+     33000
+    ],
+    "dir": 247,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     64481,
+     3430,
+     25348
+    ],
+    "dir": 278,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     69500,
+     3405,
+     28500
+    ],
+    "dir": 274,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     40608,
+     3200,
+     20650
+    ],
+    "dir": 251,
+    "snap": 1034,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     39708,
+     3200,
+     21250
+    ],
+    "dir": 185,
+    "snap": 934,
+    "src": "gate region 211 arrival point + 1300 inward, +450 side"
+   },
+   "guard_212_0": {
+    "pos": [
+     41721,
+     3200,
+     39741
+    ],
+    "dir": 357,
+    "snap": 903,
+    "src": "gate region 212 arrival point + 1500 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     42621,
+     3200,
+     40541
+    ],
+    "dir": 276,
+    "snap": 949,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "guard_213_0": {
+    "pos": [
+     14138,
+     3200,
+     32107
+    ],
+    "dir": 306,
+    "snap": 1298,
+    "src": "gate region 213 arrival point + 1700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     14538,
+     3200,
+     33007
+    ],
+    "dir": 264,
+    "snap": 1463,
+    "src": "gate region 213 arrival point + 2100 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     23357,
+     3220,
+     31327
+    ],
+    "dir": 276,
+    "snap": 1988,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     69050,
+     3405,
+     28500
+    ],
+    "dir": 274,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     23354,
+     3220,
+     31919
+    ],
+    "dir": 273,
+    "snap": 592,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     23353,
+     3220,
+     30014
+    ],
+    "dir": 283,
+    "snap": 2375,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     45500,
+     3200,
+     29000
+    ],
+    "dir": 276,
+    "snap": 1830,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     12500,
+     3200,
+     31500
+    ],
+    "dir": 357,
+    "snap": 1059,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     35360,
+     3200,
+     26650
+    ],
+    "dir": 284,
+    "snap": 353,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     35650,
+     3204,
+     27309
+    ],
+    "dir": 283,
+    "snap": 573,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     36224,
+     3200,
+     27073
+    ],
+    "dir": 283,
+    "snap": 621,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     36596,
+     3201,
+     26447
+    ],
+    "dir": 284,
+    "snap": 941,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     36556,
+     3204,
+     27663
+    ],
+    "dir": 281,
+    "snap": 1259,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     17415,
+     3400,
+     24800
+    ],
+    "dir": 327,
+    "snap": 1054,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     66500,
+     3200,
+     35000
+    ],
+    "dir": 267,
+    "snap": 1211,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     68437,
+     3200,
+     35441
+    ],
+    "dir": 267,
+    "snap": 3047,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     24095,
+     3200,
+     34828
+    ],
+    "dir": 259,
+    "snap": 1052,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "hall_6": {
+    "pos": [
+     35218,
+     3200,
+     25337
+    ],
+    "dir": 288,
+    "snap": 1483,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_2": {
+    "pos": [
+     69991,
+     3577,
+     23684
+    ],
+    "dir": 279,
+    "snap": 502,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     15480,
+     3430,
+     24574
+    ],
+    "dir": 339,
+    "snap": 2997,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     44722,
+     3247,
+     29802
+    ],
+    "dir": 275,
+    "snap": 1117,
+    "src": "T2 point near the town centre (no apothecary located)"
+   },
+   "elder": {
+    "pos": [
+     12438,
+     3200,
+     33648
+    ],
+    "dir": 180,
+    "snap": 1244,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "115": {
+   "overseer": {
+    "pos": [
+     36528,
+     3200,
+     49072
+    ],
+    "dir": 179,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     23501,
+     3415,
+     48155
+    ],
+    "dir": 158,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     21500,
+     3200,
+     35500
+    ],
+    "dir": 144,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     38060,
+     3200,
+     16218
+    ],
+    "dir": 203,
+    "snap": 1518,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     37160,
+     3200,
+     16218
+    ],
+    "dir": 168,
+    "snap": 1431,
+    "src": "gate region 211 arrival point + 700 inward, +450 side"
+   },
+   "guard_212_0": {
+    "pos": [
+     36619,
+     3200,
+     47952
+    ],
+    "dir": 355,
+    "snap": 1240,
+    "src": "gate region 212 arrival point + 1700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     37519,
+     3200,
+     48752
+    ],
+    "dir": 293,
+    "snap": 1095,
+    "src": "gate region 212 arrival point + 900 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     40153,
+     3200,
+     42388
+    ],
+    "dir": 99,
+    "snap": 968,
+    "src": "gate region 214 arrival point + 1500 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     40553,
+     3200,
+     41488
+    ],
+    "dir": 37,
+    "snap": 929,
+    "src": "gate region 214 arrival point + 1100 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     35945,
+     3220,
+     26797
+    ],
+    "dir": 175,
+    "snap": 1167,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     21050,
+     3200,
+     35500
+    ],
+    "dir": 143,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     36546,
+     3220,
+     26802
+    ],
+    "dir": 178,
+    "snap": 601,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     34514,
+     3231,
+     26796
+    ],
+    "dir": 169,
+    "snap": 1900,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     25713,
+     3270,
+     34047
+    ],
+    "dir": 150,
+    "snap": 2916,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     38079,
+     3200,
+     14345
+    ],
+    "dir": 270,
+    "snap": 1146,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     16976,
+     3201,
+     20559
+    ],
+    "dir": 107,
+    "snap": 744,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     18010,
+     3200,
+     20779
+    ],
+    "dir": 109,
+    "snap": 1406,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     15325,
+     3201,
+     20556
+    ],
+    "dir": 106,
+    "snap": 1522,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     15079,
+     3210,
+     20050
+    ],
+    "dir": 105,
+    "snap": 1999,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     16220,
+     3200,
+     19242
+    ],
+    "dir": 103,
+    "snap": 2054,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     33935,
+     3400,
+     41819
+    ],
+    "dir": 174,
+    "snap": 719,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     18324,
+     3200,
+     28420
+    ],
+    "dir": 127,
+    "snap": 1263,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     18828,
+     3200,
+     29557
+    ],
+    "dir": 130,
+    "snap": 1722,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     35509,
+     3200,
+     17810
+    ],
+    "dir": 158,
+    "snap": 1259,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     20122,
+     3245,
+     20052
+    ],
+    "dir": 109,
+    "snap": 186,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     18076,
+     3200,
+     19590
+    ],
+    "dir": 106,
+    "snap": 2162,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     20120,
+     3245,
+     19306
+    ],
+    "dir": 106,
+    "snap": 719,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     18750,
+     3577,
+     48837
+    ],
+    "dir": 152,
+    "snap": 658,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     33000,
+     3405,
+     41000
+    ],
+    "dir": 172,
+    "snap": 944,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     19260,
+     3201,
+     19698
+    ],
+    "dir": 107,
+    "snap": 932,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     37069,
+     3200,
+     49652
+    ],
+    "dir": 180,
+    "snap": 793,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "117": {
+   "overseer": {
+    "pos": [
+     42065,
+     3200,
+     42687
+    ],
+    "dir": 296,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     39153,
+     3730,
+     63960
+    ],
+    "dir": 234,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     30520,
+     4030,
+     63465
+    ],
+    "dir": 214,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     23641,
+     3500,
+     51646
+    ],
+    "dir": 320,
+    "snap": 1770,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     23641,
+     3500,
+     52546
+    ],
+    "dir": 292,
+    "snap": 1228,
+    "src": "gate region 211 arrival point + 700 inward, +450 side"
+   },
+   "guard_213_0": {
+    "pos": [
+     26539,
+     3500,
+     40355
+    ],
+    "dir": 153,
+    "snap": 1014,
+    "src": "gate region 213 arrival point + 1300 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     25639,
+     3500,
+     39755
+    ],
+    "dir": 102,
+    "snap": 1397,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     41171,
+     3201,
+     43386
+    ],
+    "dir": 112,
+    "snap": 2087,
+    "src": "gate region 214 arrival point + 2700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     40971,
+     3201,
+     42486
+    ],
+    "dir": 87,
+    "snap": 2132,
+    "src": "gate region 214 arrival point + 2900 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     32250,
+     3231,
+     41165
+    ],
+    "dir": 320,
+    "snap": 371,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     31109,
+     4030,
+     63242
+    ],
+    "dir": 216,
+    "snap": 630,
+    "src": "T2 point beside the Craftsman"
+   },
+   "bank_keeper": {
+    "pos": [
+     32848,
+     3231,
+     41125
+    ],
+    "dir": 318,
+    "snap": 599,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     30836,
+     3231,
+     41207
+    ],
+    "dir": 324,
+    "snap": 1545,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     34000,
+     3500,
+     49000
+    ],
+    "dir": 286,
+    "snap": 4012,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     23000,
+     3500,
+     54000
+    ],
+    "dir": 182,
+    "snap": 1905,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     16896,
+     3300,
+     58851
+    ],
+    "dir": 138,
+    "snap": 582,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     18059,
+     3300,
+     58637
+    ],
+    "dir": 143,
+    "snap": 662,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     18231,
+     3300,
+     58215
+    ],
+    "dir": 142,
+    "snap": 900,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     16578,
+     3301,
+     58109
+    ],
+    "dir": 133,
+    "snap": 939,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     18501,
+     3304,
+     59154
+    ],
+    "dir": 148,
+    "snap": 1249,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     30500,
+     3500,
+     59000
+    ],
+    "dir": 228,
+    "snap": 102,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     22258,
+     3300,
+     58605
+    ],
+    "dir": 174,
+    "snap": 382,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     22276,
+     3300,
+     58060
+    ],
+    "dir": 174,
+    "snap": 760,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     40910,
+     3200,
+     44238
+    ],
+    "dir": 294,
+    "snap": 1191,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     19420,
+     3331,
+     62160
+    ],
+    "dir": 161,
+    "snap": 187,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     17355,
+     3300,
+     59844
+    ],
+    "dir": 144,
+    "snap": 1283,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     19420,
+     3331,
+     61479
+    ],
+    "dir": 159,
+    "snap": 587,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     39905,
+     3730,
+     58139
+    ],
+    "dir": 250,
+    "snap": 545,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     30050,
+     3700,
+     59706
+    ],
+    "dir": 223,
+    "snap": 839,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     18671,
+     3330,
+     62044
+    ],
+    "dir": 157,
+    "snap": 758,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     41561,
+     3200,
+     42067
+    ],
+    "dir": 298,
+    "snap": 799,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "118": {
+   "overseer": {
+    "pos": [
+     60373,
+     3200,
+     27035
+    ],
+    "dir": 253,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "craftsman": {
+    "pos": [
+     37071,
+     3200,
+     37747
+    ],
+    "dir": 178,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     38018,
+     3200,
+     20814
+    ],
+    "dir": 245,
+    "snap": 1106,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     37118,
+     3200,
+     21414
+    ],
+    "dir": 186,
+    "snap": 1067,
+    "src": "gate region 211 arrival point + 1300 inward, +450 side"
+   },
+   "guard_213_0": {
+    "pos": [
+     30820,
+     3200,
+     25988
+    ],
+    "dir": 333,
+    "snap": 1021,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     31420,
+     3200,
+     26888
+    ],
+    "dir": 271,
+    "snap": 1060,
+    "src": "gate region 213 arrival point + 1300 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     59378,
+     3200,
+     27161
+    ],
+    "dir": 91,
+    "snap": 1776,
+    "src": "gate region 214 arrival point + 2100 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     59578,
+     3200,
+     26261
+    ],
+    "dir": 61,
+    "snap": 1806,
+    "src": "gate region 214 arrival point + 1900 inward, +450 side"
+   },
+   "guard_215_0": {
+    "pos": [
+     30822,
+     3200,
+     42572
+    ],
+    "dir": 339,
+    "snap": 1016,
+    "src": "gate region 215 arrival point + 700 inward, -450 side"
+   },
+   "guard_215_1": {
+    "pos": [
+     31422,
+     3200,
+     43472
+    ],
+    "dir": 273,
+    "snap": 959,
+    "src": "gate region 215 arrival point + 1300 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     49241,
+     3220,
+     29437
+    ],
+    "dir": 231,
+    "snap": 305,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     37711,
+     3200,
+     38354
+    ],
+    "dir": 180,
+    "snap": 882,
+    "src": "T2 point beside the Craftsman"
+   },
+   "bank_keeper": {
+    "pos": [
+     48651,
+     3220,
+     29427
+    ],
+    "dir": 230,
+    "snap": 590,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     50546,
+     3220,
+     29443
+    ],
+    "dir": 234,
+    "snap": 1291,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     47219,
+     3231,
+     29450
+    ],
+    "dir": 226,
+    "snap": 5179,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     36428,
+     3200,
+     20114
+    ],
+    "dir": 90,
+    "snap": 1140,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shrine": {
+    "pos": [
+     44216,
+     3200,
+     27910
+    ],
+    "dir": 220,
+    "snap": 6964,
+    "src": "T2 point near the town centre (no building located)"
+   },
+   "shop_sword": {
+    "pos": [
+     38219,
+     3204,
+     45044
+    ],
+    "dir": 181,
+    "snap": 442,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     39121,
+     3201,
+     44324
+    ],
+    "dir": 184,
+    "snap": 1048,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     37000,
+     3200,
+     44000
+    ],
+    "dir": 179,
+    "snap": 1272,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     37500,
+     3200,
+     43500
+    ],
+    "dir": 180,
+    "snap": 1273,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     39159,
+     3204,
+     45395
+    ],
+    "dir": 184,
+    "snap": 1304,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_kosode": {
+    "pos": [
+     34671,
+     3200,
+     42919
+    ],
+    "dir": 173,
+    "snap": 368,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     34216,
+     3200,
+     43926
+    ],
+    "dir": 172,
+    "snap": 1449,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     60274,
+     3200,
+     28739
+    ],
+    "dir": 249,
+    "snap": 1443,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     46500,
+     3200,
+     43500
+    ],
+    "dir": 201,
+    "snap": 477,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     38439,
+     3200,
+     46029
+    ],
+    "dir": 182,
+    "snap": 1451,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     45069,
+     3200,
+     44076
+    ],
+    "dir": 197,
+    "snap": 1651,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "doctor": {
+    "pos": [
+     48277,
+     3200,
+     42846
+    ],
+    "dir": 205,
+    "snap": 1894,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     61043,
+     3200,
+     26219
+    ],
+    "dir": 255,
+    "snap": 1056,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "121": {
+   "overseer": {
+    "pos": [
+     46269,
+     3200,
+     25463
+    ],
+    "dir": 111,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "shrine": {
+    "pos": [
+     17850,
+     3415,
+     23999
+    ],
+    "dir": 88,
+    "snap": 0,
+    "src": "CMAP regions 302-308 (graveyard)"
+   },
+   "craftsman": {
+    "pos": [
+     33486,
+     3730,
+     28604
+    ],
+    "dir": 105,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_212_0": {
+    "pos": [
+     46219,
+     3200,
+     48130
+    ],
+    "dir": 137,
+    "snap": 1311,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     46019,
+     3200,
+     47230
+    ],
+    "dir": 93,
+    "snap": 1097,
+    "src": "gate region 212 arrival point + 900 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     46962,
+     3200,
+     26531
+    ],
+    "dir": 178,
+    "snap": 1032,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     45162,
+     3200,
+     25631
+    ],
+    "dir": 94,
+    "snap": 1843,
+    "src": "gate region 214 arrival point + 2500 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     35390,
+     3231,
+     24254
+    ],
+    "dir": 87,
+    "snap": 257,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     32891,
+     3730,
+     28828
+    ],
+    "dir": 105,
+    "snap": 636,
+    "src": "T2 point beside the Craftsman"
+   },
+   "bank_keeper": {
+    "pos": [
+     35379,
+     3231,
+     23666
+    ],
+    "dir": 84,
+    "snap": 588,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     35369,
+     3231,
+     25566
+    ],
+    "dir": 93,
+    "snap": 1197,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     31127,
+     3430,
+     31439
+    ],
+    "dir": 111,
+    "snap": 803,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     45105,
+     3200,
+     22935
+    ],
+    "dir": 52,
+    "snap": 3252,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shop_sword": {
+    "pos": [
+     21618,
+     3204,
+     32420
+    ],
+    "dir": 106,
+    "snap": 256,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     22551,
+     3201,
+     32387
+    ],
+    "dir": 107,
+    "snap": 715,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     20818,
+     3200,
+     32882
+    ],
+    "dir": 107,
+    "snap": 1091,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     21948,
+     3204,
+     31399
+    ],
+    "dir": 104,
+    "snap": 1133,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     20990,
+     3200,
+     31669
+    ],
+    "dir": 104,
+    "snap": 1215,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     33950,
+     3400,
+     32295
+    ],
+    "dir": 118,
+    "snap": 679,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     46000,
+     3200,
+     41500
+    ],
+    "dir": 174,
+    "snap": 1494,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     46124,
+     3200,
+     45516
+    ],
+    "dir": 176,
+    "snap": 4601,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     40559,
+     3200,
+     23929
+    ],
+    "dir": 82,
+    "snap": 352,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     16924,
+     3201,
+     37938
+    ],
+    "dir": 113,
+    "snap": 95,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     22974,
+     3200,
+     33223
+    ],
+    "dir": 109,
+    "snap": 1321,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     17058,
+     3200,
+     37286
+    ],
+    "dir": 112,
+    "snap": 575,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_2": {
+    "pos": [
+     21118,
+     3580,
+     20435
+    ],
+    "dir": 80,
+    "snap": 702,
+    "src": "hand-read temple icon, the temple"
+   },
+   "hall_3": {
+    "pos": [
+     33400,
+     3200,
+     33709
+    ],
+    "dir": 122,
+    "snap": 1033,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     16011,
+     3245,
+     37579
+    ],
+    "dir": 112,
+    "snap": 981,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     46327,
+     3200,
+     26941
+    ],
+    "dir": 146,
+    "snap": 1479,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "122": {
+   "overseer": {
+    "pos": [
+     36292,
+     3200,
+     49328
+    ],
+    "dir": 12,
+    "snap": 0,
+    "src": "CMAP region 301 (notice board)"
+   },
+   "craftsman": {
+    "pos": [
+     45233,
+     3200,
+     24652
+    ],
+    "dir": 342,
+    "snap": 0,
+    "src": "CMAP region 400 (crafting station)"
+   },
+   "guard_211_0": {
+    "pos": [
+     38886,
+     3200,
+     16826
+    ],
+    "dir": 173,
+    "snap": 941,
+    "src": "gate region 211 arrival point + 1500 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     37986,
+     3200,
+     16026
+    ],
+    "dir": 98,
+    "snap": 1022,
+    "src": "gate region 211 arrival point + 700 inward, +450 side"
+   },
+   "guard_212_0": {
+    "pos": [
+     36118,
+     3200,
+     48180
+    ],
+    "dir": 1,
+    "snap": 1746,
+    "src": "gate region 212 arrival point + 2500 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     37018,
+     3200,
+     48580
+    ],
+    "dir": 327,
+    "snap": 1598,
+    "src": "gate region 212 arrival point + 2100 inward, +450 side"
+   },
+   "guard_213_0": {
+    "pos": [
+     15520,
+     3200,
+     39491
+    ],
+    "dir": 1,
+    "snap": 994,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     16520,
+     3200,
+     40391
+    ],
+    "dir": 275,
+    "snap": 990,
+    "src": "gate region 213 arrival point + 1700 inward, +450 side"
+   },
+   "guard_214_0": {
+    "pos": [
+     50475,
+     3200,
+     39384
+    ],
+    "dir": 98,
+    "snap": 988,
+    "src": "gate region 214 arrival point + 1700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     50875,
+     3200,
+     38484
+    ],
+    "dir": 37,
+    "snap": 958,
+    "src": "gate region 214 arrival point + 1300 inward, +450 side"
+   },
+   "bank_changer": {
+    "pos": [
+     26631,
+     3220,
+     40315
+    ],
+    "dir": 44,
+    "snap": 725,
+    "src": "hand-read exchange icon"
+   },
+   "repairer": {
+    "pos": [
+     44783,
+     3200,
+     24652
+    ],
+    "dir": 342,
+    "snap": 450,
+    "src": "Craftsman - 450 x"
+   },
+   "bank_keeper": {
+    "pos": [
+     26047,
+     3220,
+     40323
+    ],
+    "dir": 45,
+    "snap": 584,
+    "src": "T2 point beside the money changer"
+   },
+   "merchant": {
+    "pos": [
+     27941,
+     3220,
+     40306
+    ],
+    "dir": 40,
+    "snap": 748,
+    "src": "T2 point nearest the exchange, clear of the bank"
+   },
+   "guildmaster": {
+    "pos": [
+     27529,
+     3200,
+     34559
+    ],
+    "dir": 29,
+    "snap": 4243,
+    "src": "T2 point nearest the town centre"
+   },
+   "guide": {
+    "pos": [
+     35438,
+     3200,
+     50684
+    ],
+    "dir": 90,
+    "snap": 1130,
+    "src": "T2 point 1000..6000 from the spawn point"
+   },
+   "shrine": {
+    "pos": [
+     32514,
+     3200,
+     38561
+    ],
+    "dir": 18,
+    "snap": 4364,
+    "src": "T2 point near the town centre (no building located)"
+   },
+   "shop_sword": {
+    "pos": [
+     31111,
+     3210,
+     29455
+    ],
+    "dir": 14,
+    "snap": 283,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_spear": {
+    "pos": [
+     30853,
+     3201,
+     28437
+    ],
+    "dir": 14,
+    "snap": 855,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_club": {
+    "pos": [
+     31740,
+     3201,
+     29073
+    ],
+    "dir": 13,
+    "snap": 888,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_armour": {
+    "pos": [
+     31810,
+     3210,
+     29680
+    ],
+    "dir": 13,
+    "snap": 1009,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_helmet": {
+    "pos": [
+     29918,
+     3200,
+     29875
+    ],
+    "dir": 18,
+    "snap": 1124,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "shop_bow": {
+    "pos": [
+     24769,
+     3400,
+     25550
+    ],
+    "dir": 25,
+    "snap": 786,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "shop_kosode": {
+    "pos": [
+     29434,
+     3200,
+     26411
+    ],
+    "dir": 16,
+    "snap": 1366,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_suikan": {
+    "pos": [
+     29150,
+     3204,
+     27489
+    ],
+    "dir": 18,
+    "snap": 2282,
+    "src": "hand-read cloth icon, the clothier"
+   },
+   "shop_teahouse": {
+    "pos": [
+     38062,
+     3200,
+     46411
+    ],
+    "dir": 341,
+    "snap": 2256,
+    "src": "hand-read dango icon, the teahouse"
+   },
+   "shop_medicine": {
+    "pos": [
+     27762,
+     3245,
+     29596
+    ],
+    "dir": 23,
+    "snap": 60,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_6": {
+    "pos": [
+     29370,
+     3200,
+     28373
+    ],
+    "dir": 18,
+    "snap": 1767,
+    "src": "hand-read hammer icon, the smith hall"
+   },
+   "hall_7": {
+    "pos": [
+     28024,
+     3231,
+     28778
+    ],
+    "dir": 21,
+    "snap": 864,
+    "src": "hand-read mortar icon, the apothecary"
+   },
+   "hall_3": {
+    "pos": [
+     26454,
+     3200,
+     27618
+    ],
+    "dir": 24,
+    "snap": 1914,
+    "src": "hand-read torii icon, the shrine"
+   },
+   "doctor": {
+    "pos": [
+     27290,
+     3230,
+     28661
+    ],
+    "dir": 23,
+    "snap": 1047,
+    "src": "T2 point by the apothecary"
+   },
+   "elder": {
+    "pos": [
+     35877,
+     3200,
+     48846
+    ],
+    "dir": 21,
+    "snap": 636,
+    "src": "T2 point by the notice board"
+   }
+  },
+  "410": {
+   "guard_212_0": {
+    "pos": [
+     24875,
+     3200,
+     18414
+    ],
+    "dir": 86,
+    "snap": 1128,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     25775,
+     3200,
+     17614
+    ],
+    "dir": 14,
+    "snap": 914,
+    "src": "gate region 212 arrival point + 1500 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     10382,
+     3845,
+     12442
+    ],
+    "dir": 69,
+    "snap": 147,
+    "src": "T2 point at the keep"
+   },
+   "general_0": {
+    "pos": [
+     9852,
+     3845,
+     12050
+    ],
+    "dir": 68,
+    "snap": 659,
+    "src": "T2 point beside the lord"
+   },
+   "general_1": {
+    "pos": [
+     10024,
+     3845,
+     11292
+    ],
+    "dir": 66,
+    "snap": 1205,
+    "src": "T2 point beside the lord"
+   },
+   "general_2": {
+    "pos": [
+     9069,
+     3845,
+     11588
+    ],
+    "dir": 68,
+    "snap": 1567,
+    "src": "T2 point beside the lord"
+   },
+   "general_3": {
+    "pos": [
+     8793,
+     3845,
+     12505
+    ],
+    "dir": 71,
+    "snap": 1591,
+    "src": "T2 point beside the lord"
+   },
+   "general_4": {
+    "pos": [
+     8910,
+     3846,
+     13194
+    ],
+    "dir": 73,
+    "snap": 1653,
+    "src": "T2 point beside the lord"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     26458,
+     3200,
+     13792
+    ],
+    "dir": 354,
+    "snap": 0,
+    "src": "castle region 400, at the onmyoji hall"
+   },
+   "castellan": {
+    "pos": [
+     20518,
+     3200,
+     13188
+    ],
+    "dir": 46,
+    "snap": 579,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     22626,
+     3301,
+     16670
+    ],
+    "dir": 62,
+    "snap": 524,
+    "src": "T2 point at the samurai hall (helmet icon)"
+   },
+   "hall_4": {
+    "pos": [
+     24546,
+     3309,
+     11360
+    ],
+    "dir": 12,
+    "snap": 94,
+    "src": "T2 point at the onmyoji hall (yin-yang icon)"
+   },
+   "hall_5": {
+    "pos": [
+     28287,
+     3300,
+     11429
+    ],
+    "dir": 342,
+    "snap": 547,
+    "src": "T2 point at the ninja house (shuriken icon)"
+   },
+   "shop_ninja": {
+    "pos": [
+     27213,
+     3200,
+     11382
+    ],
+    "dir": 350,
+    "snap": 561,
+    "src": "T2 point by the ninja house"
+   },
+   "q_geni": {
+    "pos": [
+     19279,
+     3200,
+     12710
+    ],
+    "dir": 69,
+    "snap": 1328,
+    "src": "T2 point beside the castellan"
+   }
+  },
+  "401": {
+   "guard_211_0": {
+    "pos": [
+     27050,
+     3050,
+     35800
+    ],
+    "dir": 40,
+    "snap": 2234,
+    "src": "gate region 211 arrival point + 700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     27950,
+     3050,
+     35800
+    ],
+    "dir": 18,
+    "snap": 1787,
+    "src": "gate region 211 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     33438,
+     3375,
+     13562
+    ],
+    "dir": 349,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     32844,
+     3490,
+     13649
+    ],
+    "dir": 350,
+    "snap": 600,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     26500,
+     3200,
+     22000
+    ],
+    "dir": 7,
+    "snap": 2129,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     28408,
+     3306,
+     25694
+    ],
+    "dir": 0,
+    "snap": 1300,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     29816,
+     3301,
+     25187
+    ],
+    "dir": 355,
+    "snap": 1190,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     29436,
+     3178,
+     33937
+    ],
+    "dir": 350,
+    "snap": 1850,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     32254,
+     3301,
+     26275
+    ],
+    "dir": 344,
+    "snap": 1483,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     29000,
+     3200,
+     33000
+    ],
+    "dir": 356,
+    "snap": 1887,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "404": {
+   "guard_212_0": {
+    "pos": [
+     22875,
+     3200,
+     33274
+    ],
+    "dir": 75,
+    "snap": 904,
+    "src": "gate region 212 arrival point + 1100 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     23775,
+     3200,
+     32474
+    ],
+    "dir": 359,
+    "snap": 1027,
+    "src": "gate region 212 arrival point + 1900 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     18658,
+     3400,
+     14726
+    ],
+    "dir": 14,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     17907,
+     3400,
+     15002
+    ],
+    "dir": 17,
+    "snap": 800,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     18849,
+     3200,
+     23139
+    ],
+    "dir": 23,
+    "snap": 1381,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     24763,
+     3301,
+     27014
+    ],
+    "dir": 355,
+    "snap": 72,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     16359,
+     3301,
+     25238
+    ],
+    "dir": 37,
+    "snap": 420,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     16095,
+     3200,
+     30904
+    ],
+    "dir": 60,
+    "snap": 746,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     15744,
+     3309,
+     24854
+    ],
+    "dir": 38,
+    "snap": 812,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     15338,
+     3300,
+     31799
+    ],
+    "dir": 67,
+    "snap": 787,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "406": {
+   "guard_214_0": {
+    "pos": [
+     45800,
+     3200,
+     26450
+    ],
+    "dir": 172,
+    "snap": 1456,
+    "src": "gate region 214 arrival point + 700 inward, -450 side"
+   },
+   "guard_214_1": {
+    "pos": [
+     45200,
+     3200,
+     25550
+    ],
+    "dir": 124,
+    "snap": 976,
+    "src": "gate region 214 arrival point + 1300 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     21190,
+     3846,
+     15132
+    ],
+    "dir": 70,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     21795,
+     3846,
+     15819
+    ],
+    "dir": 71,
+    "snap": 915,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     31000,
+     3200,
+     20500
+    ],
+    "dir": 76,
+    "snap": 405,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     36238,
+     3306,
+     15904
+    ],
+    "dir": 53,
+    "snap": 773,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     31555,
+     3301,
+     15479
+    ],
+    "dir": 61,
+    "snap": 116,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     31376,
+     3306,
+     23136
+    ],
+    "dir": 84,
+    "snap": 436,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     31066,
+     3301,
+     15847
+    ],
+    "dir": 62,
+    "snap": 564,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     30818,
+     3300,
+     23656
+    ],
+    "dir": 86,
+    "snap": 875,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "407": {
+   "guard_213_0": {
+    "pos": [
+     17523,
+     3200,
+     22235
+    ],
+    "dir": 266,
+    "snap": 1025,
+    "src": "gate region 213 arrival point + 1900 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     16323,
+     3200,
+     23135
+    ],
+    "dir": 170,
+    "snap": 985,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     40290,
+     3200,
+     22725
+    ],
+    "dir": 268,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     39565,
+     3200,
+     22122
+    ],
+    "dir": 270,
+    "snap": 943,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     27050,
+     3205,
+     23514
+    ],
+    "dir": 263,
+    "snap": 664,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     17300,
+     3200,
+     24054
+    ],
+    "dir": 234,
+    "snap": 779,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     22971,
+     3301,
+     16281
+    ],
+    "dir": 304,
+    "snap": 553,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     21141,
+     3200,
+     28323
+    ],
+    "dir": 226,
+    "snap": 375,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     23220,
+     3301,
+     17107
+    ],
+    "dir": 299,
+    "snap": 1142,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     20526,
+     3300,
+     29448
+    ],
+    "dir": 219,
+    "snap": 910,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "409": {
+   "guard_213_0": {
+    "pos": [
+     20466,
+     3200,
+     15809
+    ],
+    "dir": 305,
+    "snap": 2088,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     20466,
+     3200,
+     16709
+    ],
+    "dir": 280,
+    "snap": 1740,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     27154,
+     3400,
+     31635
+    ],
+    "dir": 216,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     26265,
+     3400,
+     31566
+    ],
+    "dir": 214,
+    "snap": 892,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     22500,
+     3200,
+     24500
+    ],
+    "dir": 219,
+    "snap": 638,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     20177,
+     3301,
+     15052
+    ],
+    "dir": 298,
+    "snap": 840,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     14553,
+     3309,
+     22632
+    ],
+    "dir": 161,
+    "snap": 494,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     24156,
+     3200,
+     20877
+    ],
+    "dir": 243,
+    "snap": 601,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     15000,
+     3301,
+     22036
+    ],
+    "dir": 163,
+    "snap": 1149,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     24111,
+     3200,
+     21495
+    ],
+    "dir": 239,
+    "snap": 1172,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "411": {
+   "guard_212_0": {
+    "pos": [
+     27550,
+     3175,
+     36300
+    ],
+    "dir": 7,
+    "snap": 3727,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     28450,
+     3175,
+     36300
+    ],
+    "dir": 353,
+    "snap": 3727,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     14382,
+     3845,
+     13878
+    ],
+    "dir": 26,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     13302,
+     3846,
+     14754
+    ],
+    "dir": 28,
+    "snap": 1391,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     21500,
+     3200,
+     24000
+    ],
+    "dir": 20,
+    "snap": 1761,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     25607,
+     3306,
+     23863
+    ],
+    "dir": 8,
+    "snap": 410,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     25265,
+     3306,
+     31679
+    ],
+    "dir": 15,
+    "snap": 303,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     30413,
+     3306,
+     24512
+    ],
+    "dir": 352,
+    "snap": 282,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     25167,
+     3301,
+     32325
+    ],
+    "dir": 16,
+    "snap": 895,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     30400,
+     3312,
+     23500
+    ],
+    "dir": 353,
+    "snap": 774,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "413": {
+   "guard_213_0": {
+    "pos": [
+     13551,
+     3200,
+     21989
+    ],
+    "dir": 357,
+    "snap": 1012,
+    "src": "gate region 213 arrival point + 700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     14551,
+     3200,
+     22889
+    ],
+    "dir": 276,
+    "snap": 1057,
+    "src": "gate region 213 arrival point + 1700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     33997,
+     3301,
+     16296
+    ],
+    "dir": 287,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     33703,
+     3301,
+     16910
+    ],
+    "dir": 285,
+    "snap": 681,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     26532,
+     3200,
+     23003
+    ],
+    "dir": 270,
+    "snap": 1257,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     16202,
+     3306,
+     30614
+    ],
+    "dir": 212,
+    "snap": 467,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     21630,
+     3306,
+     17953
+    ],
+    "dir": 296,
+    "snap": 300,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     21785,
+     3306,
+     28323
+    ],
+    "dir": 243,
+    "snap": 472,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     21500,
+     3200,
+     19500
+    ],
+    "dir": 289,
+    "snap": 1263,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     21705,
+     3306,
+     29101
+    ],
+    "dir": 239,
+    "snap": 827,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "414": {
+   "guard_212_0": {
+    "pos": [
+     20995,
+     2900,
+     29354
+    ],
+    "dir": 82,
+    "snap": 1015,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     21895,
+     2900,
+     28554
+    ],
+    "dir": 6,
+    "snap": 952,
+    "src": "gate region 212 arrival point + 1500 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     18035,
+     3845,
+     13812
+    ],
+    "dir": 13,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     17287,
+     3848,
+     14141
+    ],
+    "dir": 15,
+    "snap": 817,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     22114,
+     3200,
+     20067
+    ],
+    "dir": 359,
+    "snap": 1144,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     28103,
+     3301,
+     26854
+    ],
+    "dir": 307,
+    "snap": 534,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     17840,
+     3309,
+     23503
+    ],
+    "dir": 27,
+    "snap": 262,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     26831,
+     3000,
+     23013
+    ],
+    "dir": 330,
+    "snap": 304,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     16823,
+     3301,
+     23131
+    ],
+    "dir": 32,
+    "snap": 822,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     26821,
+     3006,
+     22071
+    ],
+    "dir": 333,
+    "snap": 763,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "415": {
+   "guard_213_0": {
+    "pos": [
+     17053,
+     2750,
+     26111
+    ],
+    "dir": 264,
+    "snap": 1058,
+    "src": "gate region 213 arrival point + 1700 inward, -450 side"
+   },
+   "guard_213_1": {
+    "pos": [
+     16053,
+     2750,
+     27011
+    ],
+    "dir": 183,
+    "snap": 1012,
+    "src": "gate region 213 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     50080,
+     3925,
+     16967
+    ],
+    "dir": 284,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     49266,
+     4585,
+     16362
+    ],
+    "dir": 285,
+    "snap": 1014,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     38000,
+     3550,
+     23000
+    ],
+    "dir": 277,
+    "snap": 2654,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     29000,
+     3200,
+     28500
+    ],
+    "dir": 261,
+    "snap": 576,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     24982,
+     3301,
+     21942
+    ],
+    "dir": 290,
+    "snap": 562,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     29086,
+     3306,
+     22299
+    ],
+    "dir": 284,
+    "snap": 219,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     24179,
+     3306,
+     21830
+    ],
+    "dir": 292,
+    "snap": 1128,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     28463,
+     3300,
+     22705
+    ],
+    "dir": 283,
+    "snap": 752,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "417": {
+   "guard_212_0": {
+    "pos": [
+     30447,
+     3200,
+     30134
+    ],
+    "dir": 1,
+    "snap": 1959,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     29547,
+     3200,
+     30134
+    ],
+    "dir": 25,
+    "snap": 2166,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     14106,
+     3900,
+     19193
+    ],
+    "dir": 52,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     14724,
+     3900,
+     19683
+    ],
+    "dir": 52,
+    "snap": 790,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     20193,
+     3400,
+     24516
+    ],
+    "dir": 55,
+    "snap": 650,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     25384,
+     3301,
+     18894
+    ],
+    "dir": 22,
+    "snap": 147,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     29648,
+     3306,
+     14996
+    ],
+    "dir": 3,
+    "snap": 242,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     20338,
+     3500,
+     23126
+    ],
+    "dir": 50,
+    "snap": 260,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     28570,
+     3301,
+     15238
+    ],
+    "dir": 7,
+    "snap": 1240,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     19692,
+     3512,
+     22432
+    ],
+    "dir": 49,
+    "snap": 701,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "418": {
+   "guard_212_0": {
+    "pos": [
+     23036,
+     3200,
+     56369
+    ],
+    "dir": 77,
+    "snap": 982,
+    "src": "gate region 212 arrival point + 700 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     23936,
+     3200,
+     55569
+    ],
+    "dir": 3,
+    "snap": 1029,
+    "src": "gate region 212 arrival point + 1500 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     27500,
+     3200,
+     19000
+    ],
+    "dir": 355,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     27175,
+     3846,
+     19910
+    ],
+    "dir": 355,
+    "snap": 967,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     26500,
+     3200,
+     38000
+    ],
+    "dir": 352,
+    "snap": 612,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     20331,
+     3301,
+     47650
+    ],
+    "dir": 22,
+    "snap": 1193,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     19058,
+     3301,
+     37967
+    ],
+    "dir": 15,
+    "snap": 1151,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     32985,
+     3312,
+     45905
+    ],
+    "dir": 321,
+    "snap": 265,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     18766,
+     3301,
+     38517
+    ],
+    "dir": 16,
+    "snap": 1412,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     32498,
+     3300,
+     46407
+    ],
+    "dir": 321,
+    "snap": 488,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "421": {
+   "guard_211_0": {
+    "pos": [
+     25388,
+     3200,
+     16520
+    ],
+    "dir": 174,
+    "snap": 1026,
+    "src": "gate region 211 arrival point + 1700 inward, -450 side"
+   },
+   "guard_211_1": {
+    "pos": [
+     24488,
+     3200,
+     15520
+    ],
+    "dir": 91,
+    "snap": 1013,
+    "src": "gate region 211 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     17000,
+     3200,
+     31000
+    ],
+    "dir": 154,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     17000,
+     3200,
+     30000
+    ],
+    "dir": 153,
+    "snap": 1000,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     18966,
+     3301,
+     24694
+    ],
+    "dir": 150,
+    "snap": 1074,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     22270,
+     3301,
+     17372
+    ],
+    "dir": 140,
+    "snap": 531,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     23324,
+     3301,
+     28914
+    ],
+    "dir": 172,
+    "snap": 214,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     16235,
+     3306,
+     17191
+    ],
+    "dir": 112,
+    "snap": 84,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     23055,
+     3309,
+     28233
+    ],
+    "dir": 171,
+    "snap": 663,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     16130,
+     3300,
+     16418
+    ],
+    "dir": 107,
+    "snap": 702,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "422": {
+   "guard_212_0": {
+    "pos": [
+     27611,
+     3200,
+     53052
+    ],
+    "dir": 353,
+    "snap": 954,
+    "src": "gate region 212 arrival point + 1500 inward, -450 side"
+   },
+   "guard_212_1": {
+    "pos": [
+     28511,
+     3200,
+     53852
+    ],
+    "dir": 278,
+    "snap": 1021,
+    "src": "gate region 212 arrival point + 700 inward, +450 side"
+   },
+   "lord": {
+    "pos": [
+     23500,
+     3575,
+     16500
+    ],
+    "dir": 6,
+    "snap": 0,
+    "src": "T2 point farthest from the castle gate (the keep end)"
+   },
+   "retainer": {
+    "pos": [
+     23668,
+     3676,
+     17617
+    ],
+    "dir": 6,
+    "snap": 1129,
+    "src": "T2 point beside the lord"
+   },
+   "castellan": {
+    "pos": [
+     27500,
+     3575,
+     29500
+    ],
+    "dir": 0,
+    "snap": 1007,
+    "src": "T2 point nearest the compound centre"
+   },
+   "hall_1": {
+    "pos": [
+     39000,
+     3275,
+     36500
+    ],
+    "dir": 330,
+    "snap": 1359,
+    "src": "T2 point at the hand-read helmet icon"
+   },
+   "hall_4": {
+    "pos": [
+     20500,
+     3300,
+     28500
+    ],
+    "dir": 14,
+    "snap": 1303,
+    "src": "T2 point at the hand-read yinyang icon"
+   },
+   "hall_5": {
+    "pos": [
+     17947,
+     3201,
+     40250
+    ],
+    "dir": 31,
+    "snap": 635,
+    "src": "T2 point at the hand-read shuriken icon"
+   },
+   "onmyoji_elder": {
+    "pos": [
+     20178,
+     3406,
+     25335
+    ],
+    "dir": 13,
+    "snap": 1889,
+    "src": "T2 point by the onmyoji hall"
+   },
+   "shop_ninja": {
+    "pos": [
+     17099,
+     3306,
+     40458
+    ],
+    "dir": 34,
+    "snap": 1076,
+    "src": "T2 point by the ninja house"
+   }
+  },
+  "10": {
+   "q_matahachi": {
+    "pos": [
+     111125,
+     4460,
+     34024
+    ],
+    "dir": 196,
+    "snap": 4178,
+    "src": "T2 point Owari field cell r1c5"
+   },
+   "q_fujimura": {
+    "pos": [
+     152784,
+     3673,
+     164436
+    ],
+    "dir": 333,
+    "snap": 6222,
+    "src": "T2 point Owari field cell r8c7"
+   }
+  }
+ }
+}

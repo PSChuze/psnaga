@@ -1,0 +1,5827 @@
+id	en
+0.0	None
+0.1	Plain Knife
+0.2	Plain Kozuka
+0.3	Plain Aikuchi
+0.4	Plain Tanto
+0.5	Plain Kogatana
+0.6	Plain Bamboo Rod
+0.7	Plain Hananeji
+0.8	Plain Tetto
+0.9	Plain Naeshi
+0.10	Plain Jutte
+0.11	Plain Metezashi
+0.12	Plain Wakizashi
+0.13	Plain Kodachi
+0.14	Plain Field Swd
+0.15	Plain Tachi
+0.16	Plain Rusty Swd
+0.17	Plain Danbira
+0.18	Plain Iron Swd
+0.19	Plain Steel Swd
+0.20	Plain Ornate Swd
+0.21	Plain Shinai
+0.22	Plain Hide Whip
+0.23	Plain Wood Whip
+0.24	Plain Iron Whip
+0.25	Plain Steel Whip
+0.26	Plain Bamboo Spr
+0.27	Plain Suyari
+0.28	Plain Kikuchi
+0.29	Plain Katakama
+0.30	Plain Cross Spr
+0.31	Plain Scythe
+0.32	Plain Daito
+0.33	Plain Nagamaki
+0.34	Plain Naginata
+0.35	Plain Onaginata
+0.36	Plain Club
+0.37	Plain Octa Rod
+0.38	Plain Iron Rod
+0.39	Plain Fang Club
+0.40	Plain Kanasaibo
+0.41	Plain Hand Spike
+0.42	Plain Hook Rod
+0.43	Plain Makurayari
+0.44	Plain Short Spr
+0.45	Plain Hand Spear
+0.46	Plain Splitter
+0.47	Plain Hatchet
+0.48	Plain Small Axe
+0.49	Plain War Axe
+0.50	Plain Masakari
+0.51	Plain Log Bow
+0.52	Plain Rattan Bow
+0.53	Plain Shuzen Bow
+0.54	Plain Soui Bow
+0.55	Plain Shigetou
+0.56	Plain Matchlock
+0.57	Plain Tanegashi
+0.58	Plain Repeat Gun
+0.59	Plain Triple Gun
+0.60	Plain Ninja Mete
+0.61	Plain Ninja Waki
+0.62	Plain Ninja Kod
+0.63	Plain Back Blade
+0.64	Plain Ninjato
+0.65	Arrow
+0.66	Fire Arrow
+0.67	Signal Arrow
+0.68	Hamaya Arrow
+0.69	Blast Shot
+0.70	Light Arrow
+0.71	Poison Arrow
+0.72	1-Monme Shot
+0.73	2-Monme Shot
+0.74	3-Monme Shot
+0.75	Caltrops
+0.76	Kunai
+0.77	Shuriken
+0.78	Cross Shuriken
+0.79	Wheel Shuriken
+0.80	Biwa
+0.81	Flute
+0.82	Drum
+0.83	Spyglass
+0.84	Travel Katana
+0.85	Plain Wood Staff
+0.86	Plain Copper Stf
+0.87	Plain Iron Staff
+0.88	Plain Bell Staff
+0.89	Plain Buddha Stf
+0.90	Old Sash
+0.91	GM Jutte
+0.92	GM Robe
+0.93	GM Food
+0.94	GM Special
+0.95	GM Necklace
+0.96	GM Sash
+0.97	GM Helm
+0.98	GM Container
+0.99	GM Katana
+0.100	GM Armor
+0.101	Plain Old Vest
+0.102	Plain Cloth Vest
+0.103	Plain Hide Vest
+0.104	Plain Rusty Wrap
+0.105	Plain Hard Wrap
+0.106	Plain Copper Wrp
+0.107	Plain Iron Mail
+0.108	Plain Steel Mail
+0.109	Plain Odoshi
+0.110	Plain O-yoroi
+0.111	Plain Gusoku
+0.112	Plain Okegawa
+0.113	Plain Hotoke-Do
+0.114	Plain Nanban
+0.115	Plain Gilt Nanbn
+0.116	Plain Ninja Rag
+0.117	Plain Ninja Thin
+0.118	Plain Ninja Thik
+0.119	Plain Ninja Hide
+0.120	Plain Ninja Hard
+0.121	Plain Ninja Silk
+0.122	Plain Old NjMail
+0.123	Plain Hrd NjMail
+0.124	Plain Chn NjMail
+0.125	Plain Stl NjMail
+0.126	Plain Rags
+0.127	Plain Poor Robe
+0.128	Plain Kosode
+0.129	Plain Monk Robe
+0.130	Plain Jikitotsu
+0.131	Plain Motsuke-e
+0.132	Plain Ami-e
+0.133	Plain Half Kesa
+0.134	Plain Kesa Robe
+0.135	Plain Daijo Robe
+0.136	Plain Rag Robe
+0.137	Plain Commoner
+0.138	Plain Hoi
+0.139	Plain Hanjiri
+0.140	Plain Kariginu
+0.141	Plain Suikan
+0.142	Plain Konoshi
+0.143	Plain Noushi
+0.144	Plain Ikan
+0.145	Plain Sokutai
+0.146	Plain Saifuku
+0.147	Plain Joue
+0.148	Plain Aigi
+0.149	Plain Chihaya
+0.150	Plain Wood Brow
+0.151	Plain Ashi Band
+0.152	Plain Old Hoshi
+0.153	Plain Hoshi Helm
+0.154	Plain Old Suji
+0.155	Plain Suji Helm
+0.156	Plain Eboshi Hlm
+0.157	Plain Kasa Helm
+0.158	Plain Ko-Eboshi
+0.159	Plain Nae-Eboshi
+0.160	Plain Tateeboshi
+0.161	Plain Uikanmuri
+0.162	Plain Crown
+0.163	Plain Chikiri
+0.164	Plain Hood
+0.165	Plain Tokin
+0.166	Plain Kato Kesa
+0.167	Plain Mousu
+0.168	Plain Wood Pin
+0.169	Plain Lacq Pin
+0.170	Plain Silver Pin
+0.171	Plain Gold Pin
+0.172	Bekko Hairpin
+0.173	Plain Neck Cord
+0.174	Plain Iron Neck
+0.175	Plain Lacq Neck
+0.176	Plain Slvr Neck
+0.177	Plain Gold Neck
+0.178	Plain Waist Cord
+0.179	Plain Cloth Loin
+0.180	Plain Crepe Sash
+0.181	Plain Hide Loin
+0.182	Plain Silk Sash
+0.183	Plain Jubako
+0.184	Plain Small Bag
+0.185	Plain Shldr Box
+0.186	Plain Quilt Box
+0.187	Plain Pouch
+0.188	Plain Twin Bag
+0.189	Plain Quilt Bag
+0.190	Plain Medium Bag
+0.191	Plain Large Bag
+0.192	Plain Shldr Bag
+0.193	Plain Headband
+0.194	Plain Hide Band
+0.195	Plain Cured Band
+0.196	Plain Copper Brw
+0.197	Plain Iron Brow
+0.198	Sacred Jewel
+0.199	Plain Fan
+0.200	Plain Screen
+0.201	Heal Powder
+0.202	Heal Pill
+0.203	Heal Elixir
+0.204	Mankin Powder
+0.205	Mankin Pill
+0.206	Mankin Elixir
+0.207	Guard Powder
+0.208	Power Powder
+0.209	Bear Powder
+0.210	Bear Pill
+0.211	Bear Elixir
+0.212	Rokuo Powder
+0.213	Rokuo Pill
+0.214	Rokuo Elixir
+0.215	Skill Powder
+0.216	Skill Pill
+0.217	Skill Elixir
+0.218	Wit Powder
+0.219	Wit Pill
+0.220	Wit Elixir
+0.221	Orochi Fang
+0.222	Sennin Powder
+0.223	Sennin Pill
+0.224	Sennin Elixir
+0.225	Earth Powder
+0.226	Curse Talisman
+0.227	Waist Guard
+0.228	Thin Robe
+0.229	Spear
+0.230	Earth Pill
+0.231	Earth Elixir
+0.232	Bamboo Vest
+0.233	Water Powder
+0.234	Water Pill
+0.235	Water Elixir
+0.236	Fire Powder
+0.237	Fire Pill
+0.238	Fire Elixir
+0.239	Wind Powder
+0.240	Wind Pill
+0.241	Wind Elixir
+0.242	Chill Powder
+0.243	Chill Pill
+0.244	Chill Elixir
+0.245	Sap Powder
+0.246	Sap Pill
+0.247	Sap Elixir
+0.248	Drain Powder
+0.249	Drain Pill
+0.250	Drain Elixir
+0.251	Flame Powder
+0.252	Flame Pill
+0.253	Flame Elixir
+0.254	Soul Sap Powder
+0.255	Soul Sap Pill
+0.256	Soul Sap Elixir
+0.257	Soul Reap Powder
+0.258	Soul Reap Pill
+0.259	Soul Reap Elixir
+0.260	Feeble Powder
+0.261	Feeble Pill
+0.262	Feeble Elixir
+0.263	Weaken Powder
+0.264	Weaken Pill
+0.265	Weaken Elixir
+0.266	Slow Powder
+0.267	Slow Pill
+0.268	Slow Elixir
+0.269	Thunder Powder
+0.270	Thunder Pill
+0.271	Thunder Elixir
+0.272	Revive Elixir
+0.273	Dispel Med
+0.274	Fortune Pill
+0.275	Fortune Elixir
+0.276	Omiki
+0.277	Sake
+0.278	Doburoku
+0.279	Dango
+0.280	Sakura Mochi
+0.281	Soba
+0.282	Rice Ball
+0.283	Bento
+0.284	Kaki Yokan
+0.285	Grilled Ayu
+0.286	War Banner
+0.287	Beast Meat
+0.288	Peddler Med
+0.289	Rare Silver
+0.290	Rare Gold
+0.291	Iron Tools
+0.292	Wood Gorget
+0.293	Wood Hairpin
+0.294	Victory Daruma
+0.295	Seafood
+0.296	Mountain Fare
+0.297	Rice
+0.298	Eel
+0.299	Clay
+0.300	Sasa Dango
+0.301	Gold Leaf
+0.302	Silver Leaf
+0.303	Red Dye
+0.304	Black Dye
+0.305	Blue Dye
+0.306	Green Dye
+0.307	Silver
+0.308	Gold
+0.309	Agate
+0.310	Shako
+0.311	Platinum
+0.312	Ivory Stone
+0.313	Crystal
+0.314	Lapis
+0.315	Tortoiseshell
+0.316	Coral
+0.317	Amber
+0.318	Malachite
+0.319	Pearl
+0.320	Jasper
+0.321	Jade
+0.322	Ruby
+0.323	Sapphire
+0.324	Diamond
+0.325	Dragon Tear
+0.326	Enchant Stone
+0.327	Kogatana (Smn)
+0.328	Jutte (Smn)
+0.329	Spirit Swd (Smn)
+0.330	Iron Whip (Smn)
+0.331	Iron Axe (Smn)
+0.332	Iron Spear (Smn)
+0.333	Naginata (Smn)
+0.334	Kanabo (Smn)
+0.335	Hand Spear (Smn)
+0.336	Shuriken (Smn)
+0.337	Arrow (Smn)
+0.338	Sake (Smn)
+0.339	Spirit Stn (Smn)
+0.340	Soul Stone (Smn)
+0.341	Pearl Rice
+0.342	Horse
+0.343	Craft Tools
+0.344	Wood Tools
+0.345	Writing Set
+0.346	Saltpeter
+0.347	Sulfur
+0.348	Arrow Shaft
+0.349	Glue
+0.350	Kunai Mold
+0.351	Shuriken Mold
+0.352	Caltrop Mold
+0.353	Beast Claw
+0.354	Oda Long Spear
+0.355	Saito Long Spear
+0.356	Arrow (War)
+0.357	Fire Arrow (War)
+0.358	Signal Ar (War)
+0.359	Gift
+0.360	Tiger Pelt
+0.361	Diplo Letter
+0.362	Cross Shrk Mold
+0.363	Fur
+0.364	Edict
+0.365	Bandit Topknot
+0.366	Nobushi Topknot
+0.367	Prime Beast Meat
+0.368	Morph Leaf
+0.369	Tsukimi Udon
+0.370	Curse Wand
+0.371	Oni Crest
+0.372	Oni Crest Comb
+0.373	Hermit Figure
+0.374	Wheel Shrk Mold
+0.375	Guard Topknot
+0.376	Dispatch
+0.377	Tax Papers
+0.378	Hannya Mask
+0.379	Yoshinobu Token
+0.380	Gunpowder
+0.381	Kihada
+0.382	Oren
+0.383	Akebi
+0.384	Ginkgo
+0.385	Enju
+0.386	Otogiri
+0.387	Honeysuckle
+0.388	Dokudami
+0.389	Tachimachi
+0.390	Gentian
+0.391	Senburi
+0.392	Agarwood
+0.393	Bear Bile
+0.394	Ginseng
+0.395	Tajihi
+0.396	Ox Bezoar
+0.397	Musk
+0.398	Bayberry
+0.399	Senso
+0.400	Aconite
+0.401	Hemlock
+0.402	Dokuzeri
+0.403	Waraitake
+0.404	Dokuutsugi
+0.405	Datura
+0.406	Higanbana
+0.407	Ephedra
+0.408	Okinagusa
+0.409	Enishida
+0.410	Fly Agaric
+0.411	Scopolia
+0.412	Oleander
+0.413	Fukujuso
+0.414	Foxglove
+0.415	Takenigusa
+0.416	Lobelia
+0.417	Henbane
+0.418	Cotton Cloth
+0.419	Washi Paper
+0.420	Lumber
+0.421	Brass
+0.422	Vine
+0.423	Lacquer
+0.424	Iron
+0.425	Matchcord
+0.426	Antelope Horn
+0.427	Oil
+0.428	Water
+0.429	Pure Water
+0.430	Leather
+0.431	Bowstring
+0.432	Deer Antler
+0.433	Silk
+0.434	Cinnabar
+0.435	Gold Dust
+0.436	Big Coin Purse
+0.437	Whetstone
+0.438	File
+0.439	Stock Wood
+0.440	Mechanism
+0.441	Ornate Hilt
+0.442	Wood Handle
+0.443	Scabbard
+0.444	Water Shell Wrap
+0.445	Veneer
+0.446	Large Veneer
+0.447	Maki-e
+0.448	Gun Barrel
+0.449	Steel Sm Blade
+0.450	Tough Bowstring
+0.451	Cross Spearhead
+0.452	Katakama Head
+0.453	Spearhead
+0.454	Iron Sm Axhead
+0.455	Iron Sm Blade
+0.456	Iron Md Blade
+0.457	Iron Lg Blade
+0.458	Dbl Lg Blade
+0.459	Ferrule
+0.460	Kogusoku
+0.461	Mekugi
+0.462	Iron Bar
+0.463	Armor Plate
+0.464	Tsuba
+0.465	Arrowhead
+0.466	Sm Lead Ball
+0.467	Lg Lead Ball
+0.468	Star Helm Bowl
+0.469	Ridge Helm Bowl
+0.470	Eboshi Bowl
+0.471	Kasa Helm Bowl
+0.472	Fine Bowstring
+0.473	Kuwagata Crest
+0.474	Sun Disc Crest
+0.475	Crescent Crest
+0.476	Nembutsu Crest
+0.477	3-Kuwagata Crst
+0.478	Antler Crest
+0.479	Shikoro
+0.480	Iron Rivets
+0.481	Scales
+0.482	Big Gun Barrel
+0.483	Dbl Sm Blade
+0.484	Dbl Md Blade
+0.485	Clasp
+0.486	Cord
+0.487	Feather
+0.488	Kabura
+0.489	Bow Core
+0.490	Sasa Sushi
+0.491	Hoe
+0.492	Training Katana
+0.493	Owari Ticket
+0.494	Suruga Ticket
+0.495	Shuriken (War)
+0.496	2-Monme (War)
+0.497	Nimiso
+0.498	Miso Udon
+0.499	Okitsu Tai
+0.500	Dried Fish
+0.501	Iron Plate
+0.502	Bamboo
+0.503	Wrapped Hilt
+0.504	Md Lead Ball
+0.505	Arsenic
+0.506	Beetle Powder
+0.507	Calabar Bean
+0.508	Uesugi Topknot
+0.509	Takeda Topknot
+0.510	Hojo Topknot
+0.511	Imagawa Topknot
+0.512	Tokugawa Topknot
+0.513	Oda Topknot
+0.514	Saito Topknot
+0.515	Honganji Topknot
+0.516	Asakura Topknot
+0.517	Azai Topknot
+0.518	Iga Topknot
+0.519	Ashikaga Topknot
+0.520	Miyoshi Topknot
+0.521	Saika Topknot
+0.522	Uesugi Banner
+0.523	Takeda Banner
+0.524	Hojo Banner
+0.525	Imagawa Banner
+0.526	Tokugawa Banner
+0.527	Oda Banner
+0.528	Saito Banner
+0.529	Honganji Banner
+0.530	Asakura Banner
+0.531	Azai Banner
+0.532	Iga Banner
+0.533	Ashikaga Banner
+0.534	Miyoshi Banner
+0.535	Saika Banner
+0.536	Kishimen
+0.537	Uiro
+0.538	Veg Rice Ball
+0.539	Houtou
+0.540	Oyaki
+0.541	Shinshu Soba
+0.542	Hama Natto
+0.543	Unaju
+0.544	Shiokara
+0.545	Asakusa Nori
+0.546	Egawa Sake
+0.547	Kamaboko
+0.548	Formation Book
+0.549	Koshu Tactics
+0.550	Blank Book
+0.551	Koshu War Scroll
+0.552	Ii Rally Letter
+0.553	Ii Headband
+0.554	Ieyasu Letter
+0.555	Sakuza Dagger
+0.556	Shosenkyo Water
+0.557	Nindo Sake
+0.558	Monopoly Permit
+0.559	Monopoly License
+0.560	Oman Hairpin
+0.561	White Snake Fang
+0.562	Shinsui Brew
+0.563	Sanpai Brew
+0.564	Suginami
+0.565	Seiryu
+0.566	Mino Shiragiku
+0.567	Gonbei Herb Sake
+0.568	Autumn Eve
+0.569	Housaku
+0.570	Fuji Red Clay
+0.571	Hamana Orb
+0.572	Onikuma Liver
+0.573	Kincho Manju
+0.574	Fushimi Yokan
+0.575	Mimuro
+0.576	Awayuki
+0.577	Koyuzu
+0.578	Tou Dango
+0.579	Big Kintsuba
+0.580	Abekawa Mochi
+0.581	Korogaki
+0.582	Loyal Headband
+0.583	Asukai Kemari
+0.584	Joan's Medicine
+0.585	Saigusa Report
+0.586	Love Lucky Cat
+0.587	Sayo's Charm
+0.588	Oak Crest Tanto
+0.589	Healing Potion
+0.590	Tadakatsu Spear
+0.591	White Wolf Tail
+0.592	Aoi Inro
+0.593	Sotetsu MedBook
+0.594	Oanzu's Basket
+0.595	Mitake Soba
+0.596	Katsuie Report
+0.597	Hideyoshi Report
+0.598	Cipher Note
+0.599	Bandit Whites
+0.600	Corpse Liver
+0.601	Rat Tail
+0.602	War Banner
+0.603	Snake Skin
+0.604	Wolf Fang
+0.605	Intro Letter
+0.606	Thin Barrel
+0.607	Alms
+0.608	Spider Silk
+0.609	Spirit Talisman
+0.610	Centipede Leg
+0.611	Bat Wing
+0.612	Report I
+0.613	Oni Eye Stone
+0.614	Repair Item
+0.615	Topknot
+0.616	Exorcism Charm
+0.617	Blueprint
+0.618	Medicine Fee
+0.619	Seafood
+0.620	Fruit
+0.621	Salt
+0.622	Miso Barrel
+0.623	Doburoku Barrel
+0.624	Sake Barrel
+0.625	Medicine Box
+0.626	Gold Ingot
+0.627	Tea Utensils
+0.628	Nishiki-e
+0.629	Crystal Chunk
+0.630	Jade Chunk
+0.631	Porcelain
+0.632	Lacquerware
+0.633	Sedge Hat
+0.634	Silk Cloth
+0.635	Cotton Cloth
+0.636	Hemp Cloth
+0.637	Washi Bundle
+0.638	Lumber
+0.639	Charcoal
+0.640	Cotton
+0.641	Raw Silk
+0.642	Hemp Thread
+0.643	Iron Ore
+0.644	Sulfur Stone
+0.645	Saltpeter Barrel
+0.646	War Spear
+0.647	War Gun
+0.648	Powder Barrel
+0.649	Masakatsu Report
+0.650	Hayashi Deed
+0.651	Tawaraya Cargo
+0.652	Bandit Tally
+0.653	Patrol Report
+0.654	Seikichi Goods
+0.655	Yoro Fall Water
+0.656	Shogi Board Leg
+0.657	Snake Ward Orb
+0.658	Yashagami Sword
+0.659	Bandit Proof
+0.660	Kimura Rec Ltr
+0.661	Sanada Nin Proof
+0.662	Bokuzen Letter
+0.663	Hanbei Challenge
+0.664	Koshu Tactics
+0.665	Koshu War Scroll
+0.666	Momiji Necklace
+0.667	Kihei's Letter
+0.668	Iga Ninja Garb
+0.669	Yoshimasa Knot
+0.670	Sena Miso Barrel
+0.671	Katsurayama Ltr
+0.672	Pebble
+0.673	Scroll Scrap
+0.674	Summon Back Scrl
+0.675	So's Petition
+0.676	Rattan Firebomb
+0.677	Wraith Ear
+0.678	Rai Kunimitsu
+0.679	Joan's Elixir
+0.680	Yoshinobu Ltr
+0.681	Sanada Nin Rept
+0.682	Fuchino Silk
+0.683	Snake Eye
+0.684	Corpse Garb
+0.685	Wood Plastron
+0.686	Copper Plastron
+0.687	Iron Plastron
+0.688	Leather Haramaki
+0.689	Iron Haramaki
+0.690	Steel Haramaki
+0.691	Ninja Saw Sword
+0.692	Cane Sword
+0.693	Cure Water
+0.694	Cure Pellet
+0.695	Cure Tablet
+0.696	16 Star Helm
+0.697	32 Star Helm
+0.698	8 Ridge Helm
+0.699	32 Ridge Helm
+0.700	64 Ridge Helm
+0.701	8 Star Helm
+0.702	Oni Visage
+0.703	White Wolf Fang
+0.704	Momiji Shawl
+0.705	Abyss Eye Stone
+0.706	Wraith Stone
+0.707	Yomi Ink Stone
+0.708	Rat Tooth
+0.709	Bear Claw
+0.710	Tatsunami Basket
+0.711	Tatsunami Fan
+0.712	Toramasa Spear
+0.713	Seki O-yoroi
+0.714	Seki Haramaki
+0.715	Seki Do-maru
+0.716	Hina Bandit Prf
+0.717	Hina Village Obi
+0.718	Hotta Dokuu Knot
+0.719	Ishigaya Knot
+0.720	Kanenori
+0.721	Saito Bros Knot
+0.722	Naomori Knot
+0.723	Moriyasu Knot
+0.724	Michitoshi Knot
+0.725	Masked Hood
+0.727	Hayataro Fur
+0.728	Ogasawara Ltr
+0.729	Red Plum Comb
+0.730	Spy's Topknot
+0.731	Apostate Staff
+0.732	Thief's Topknot
+0.733	Viper Fang
+0.734	Stray Dog Claw
+0.735	Noshu Kanehisa
+0.736	Manslayer Katana
+0.737	Maiden's Kimono
+0.738	Bandit's Cargo
+0.739	Ikko Topknot
+0.740	Ikko Bamboo Spr
+0.741	Ikko Alms
+0.742	Ikko Half-Kesa
+0.743	Spider Leg
+0.744	Fallen Crescent
+0.745	Nobushi Eyepatch
+0.746	Nobushi Do-maru
+0.747	Nobushi Blk Helm
+0.748	Assassin Topknot
+0.749	Sohei Naginata
+0.750	Assassin Bug
+0.751	Vigor Feather
+0.752	Ki-Drain Sword
+0.753	Rib Haramaki
+0.754	Dark Helm
+0.755	Death Staff
+0.756	Spirit Stone
+0.757	Snake Venom
+0.758	Jet-Black Wrap
+0.759	Kai Dog Pelt
+0.760	Aburaage
+0.761	Okuri-inu Ward
+0.762	Fox Pelt
+0.763	Fox Fur Collar
+0.764	Nozuchi Fang
+0.765	Hatahiro Hood
+0.766	Yamamba Knife
+0.767	Wankashi Scale
+0.768	Tiger Pelt
+0.769	Tiger Claw
+0.770	Beheading Axe
+0.771	Flame Yuigesa
+0.772	Windblade Staff
+0.773	Jet-Black Shawl
+0.774	Giant Bat Wing
+0.775	Misshapen Comb
+0.776	Camellia Comb
+0.777	Oda Triple Gun
+0.778	Sassa Musket
+0.779	Geni Black Kesa
+0.780	Warding Beads
+0.781	Bandit Noose
+0.782	Yoshitatsu Prf
+0.783	Wolf Dung
+0.784	Fire Lance
+0.785	Small Knife
+0.786	Fake Meito
+0.787	Fake Gusoku
+0.788	Robber Hood
+0.789	Snake Tonic
+0.790	Ikko Lead Prec
+0.791	Mukai-inu Stone
+0.792	Flower Helm
+0.793	Flower Do-maru
+0.794	Con Artist Prec
+0.795	Yoshikane Sword
+0.796	Nobutomo Helm
+0.797	Shiba Hitatare
+0.798	Surprise Daruma
+0.799	Snake Meat
+0.800	Ambush Club
+0.801	Cursed Pelt
+0.802	Seki Dagger
+0.803	Seki Iron Whip
+0.804	Apostate Sword
+0.805	Fox Talisman
+0.806	Hida Bat Hat
+0.807	Seki Hatchet
+0.808	Hida Longbow
+0.809	Hida Kariginu
+0.810	Hida Shichishito
+0.811	Mtn Spider Trap
+0.812	Tsuchihebi Eye
+0.813	Golden Hammer
+0.814	Henbe Pumpkin
+0.815	Swallow's Gift
+0.816	Seki Red Do-maru
+0.817	Seki Kanabo
+0.818	Saw Sword
+0.819	Yashahebi Strap
+0.820	Arikura Robe
+0.821	Toki Blk O-yoroi
+0.822	Toki's Hawk
+0.823	Anegakoji Sword
+0.824	Anegakoji Robe
+0.825	Curse Book
+0.826	Sleep Incense
+0.827	Ninja Scroll
+0.828	Stimulant
+0.829	Ninja-Dog Kunai
+0.830	Fleetfoot Charm
+0.831	Dog Tamer Staff
+0.832	Possessed Lump
+0.833	Stolen Plastron
+0.834	Owl Eye
+0.835	Evil Club
+0.836	Shimahebi Skin
+0.837	Scary Menpo
+0.838	Broken Haramaki
+0.839	Karasuhebi Skin
+0.840	Karasuhebi Bag
+0.841	Shiraiwa Fossil
+0.842	Shiraiwa Haori
+0.843	Ikko Sohei Hood
+0.844	Ikko Magatama
+0.845	Mikawa Ikko Prec
+0.846	Mikawa Do-maru
+0.847	Bee Kama Spear
+0.848	Kira Iron Helm
+0.849	Jodo Teachings
+0.850	Mikawa Tachi
+0.851	Mikawa Haramaki
+0.852	Sosuke's Doodle
+0.853	Sumi-e Primer
+0.854	Kikka Elixir
+0.855	Manslayer Axe
+0.856	Concealing Mask
+0.857	Plain Shino
+0.858	Painted Shino
+0.859	Nerikomi Shino
+0.860	Pottery Way I
+0.861	Pottery Way II
+0.862	Pottery Way III
+0.863	Oni-ita
+0.864	White Clay
+0.865	Red Clay
+0.866	Flame Tiger Spr
+0.867	Nobushige Award
+0.868	Nobushige Order
+0.869	Kansuke Report
+0.870	Yamakan Award
+0.871	Mukuan Record
+0.872	Kitchen Knife
+0.873	Tiger Fang
+0.874	Hemp Cord
+0.875	Enomoto Spear
+0.876	Rookie Headband
+0.877	Sanryaku
+0.878	Shigin Primer
+0.879	Parent's Heart
+0.880	Bamboo Fan
+0.881	Isaribi Book
+0.882	Kagetsura Ltr
+0.883	Bandit's Charm
+0.884	Charred Stake
+0.885	Madness Suikan
+0.886	Yaizu Harpoon
+0.887	Yaizu Cutlass
+0.888	Pirate Vow Robe
+0.889	Cult Kosode
+0.890	Cult Robe
+0.891	Rotted Robe
+0.892	Rotted Helm
+0.893	Puppet Hat
+0.894	Puppeteer Robe
+0.895	Kudashi Robe
+0.896	Oni-Jizo Belly
+0.897	Puppet Heart
+0.898	Makeup
+0.899	Rotted Meito
+0.900	Fuji Nasu
+0.901	Honganji Caddy
+0.902	Kokushi Nasu
+0.903	Tsutsui Caddy
+0.904	Miyao Caddy
+0.905	Honnoji Bunrin
+0.906	Nitta Caddy
+0.907	Uesugi Gourd
+0.908	Tsukumo Nasu
+0.909	Shuko Konasu
+0.910	Narashiba Caddy
+0.911	Hatsuhana Caddy
+0.912	Shuko Bunrin
+0.913	Matsumoto Nasu
+0.914	Joo Nasu
+0.915	Enjobo Caddy
+0.916	Tamagaki Bunrin
+0.917	Nitari Nasu
+0.918	Matsuya Caddy
+0.919	Somu Caddy
+0.920	Hoozuki Bunrin
+0.921	Osozakura Caddy
+0.922	Ankokuji Caddy
+0.923	Utsugumo Taikai
+0.924	Takenaka Caddy
+0.925	Tsukushi Caddy
+0.926	Inaba Gourd
+0.927	Matsumae Caddy
+0.928	Yamana Caddy
+0.929	Kuki Bunrin
+0.930	Mikazuki
+0.931	Matsushima
+0.932	Shijukkoku
+0.933	Shoka
+0.934	Roei Jar
+0.935	Hashidate
+0.936	Shiga
+0.937	Susono
+0.938	Hyogo
+0.939	Rinki Jar
+0.940	Hiragumo Kettle
+0.941	Fujigata Kettle
+0.942	Otogoze Kettle
+0.943	Amidado Kettle
+0.944	Daikodo Kettle
+0.945	Ubaguchi Kettle
+0.946	Darumado Kettle
+0.947	Zodiac Kettle
+0.948	Ashiya Kettle
+0.949	Shirihari Kettle
+0.950	Seiji Bakohan
+0.951	Seiji Matsumoto
+0.952	Kuroraku Daikoku
+0.953	Hosokawa Ido
+0.954	Kaga Ido
+0.955	Kuroraku Toyobo
+0.956	Akaraku Hayabune
+0.957	Kizaemon Ido
+0.958	Yohen Tenmoku
+0.959	Akaraku Rinzai
+0.960	Miyoshi Kofuki
+0.961	Mishima Fujibaka
+0.962	Niji Tenmoku
+0.963	Uraku Ido
+0.964	Unkaku Hikida
+0.965	Araki Korai
+0.966	Mishima Oke
+0.967	Shibata Ido
+0.968	Totoya Korai
+0.969	Unohanagaki
+0.970	Akaraku Bowl
+0.971	Mino Akatsuki
+0.972	Ouban Spear
+0.973	Hanagura Kesa
+0.974	Crow Kesa
+0.975	Coin Purse
+0.976	Shell Plastron
+0.977	Orochi Liver
+0.978	Koen Daijo Robe
+0.979	Evil Cult Robe
+0.980	Apostate Kesa
+0.981	Sultry Chihaya
+0.982	Death Prophecy
+0.983	Unclean Robe
+0.984	Dog Orb - Love
+0.985	Death Hood
+0.986	Dreamer's Orb
+0.987	Vampire Staff
+0.988	Iron Mask
+0.989	Evil Stone Mask
+0.990	Frog Meat
+0.991	Kawahebi Scale
+0.992	Yashahebi Tongue
+0.993	Karasuhebi Bone
+0.994	Demon Viper Eye
+0.995	Rogue Monk Kesa
+0.996	Guard Iron Whip
+0.997	Fake Monk Robe
+0.998	Martial Arts Bk
+0.999	Light Do-maru
+0.1000	Yamainu's Gift
+0.1001	Onimaru Kunitsu
+0.1002	Juzumaru
+0.1003	O-Tenta Mitsuyo
+0.1004	Dojigiri
+0.1005	Mikazuki Mune
+0.1006	Kiku Ichimonji
+0.1007	Fukuoka Ichimon
+0.1008	Kamakura Ichimon
+0.1009	Onikiri
+0.1010	Kogarasumaru
+0.1011	Kogarashi
+0.1012	Kogitsunemaru
+0.1013	Bizen Osafune
+0.1014	Masamune
+0.1015	Murasame
+0.1016	Muramasa
+0.1017	Onimaru
+0.1018	Honebami
+0.1019	Sadamune
+0.1020	Daihannya
+0.1021	Shichishito
+0.1022	Futsunomitama
+0.1023	Totsuka Tsurugi
+0.1024	Kusanagi
+0.1025	Kabutsuchi
+0.1026	Nikko Sukezane
+0.1027	Seki Magoroku
+0.1028	Oniwari
+0.1029	Kikoku
+0.1030	Sozasa Samonji
+0.1031	Shincho Koki
+0.1032	Kurogane
+0.1033	Oni Helm
+0.1034	Tennyo Hagoromo
+0.1035	Tennyo Obi
+0.1036	Malice Blade
+0.1037	Tonbogiri
+0.1038	Rattan Bow
+0.1039	Ii Red Armor
+0.1040	Ii Red Oni
+0.1041	Hanzo's Spear
+0.1042	Red Gusoku
+0.1043	Red Helm
+0.1044	Heshikiri
+0.1045	Go Yoshihiro
+0.1046	Yoshifusa
+0.1047	Aizu Shintogo
+0.1048	Hyuga Masamune
+0.1049	Hocho Masamune
+0.1050	Kosetsu Samonji
+0.1051	Shishio Sword
+0.1052	Hachimonji
+0.1053	Hangetsumaru
+0.1054	Wakakaede
+0.1055	Kasen Kanesada
+0.1056	Kageboshi
+0.1057	Kamewari
+0.1058	Omokage
+0.1059	Onami Kunitoshi
+0.1060	Shinogi Toshiro
+0.1061	Azamaru
+0.1062	Jikkyu Mitsutada
+0.1063	Rokumata
+0.1064	Tora Gozen
+0.1065	Ichigo Hitofuri
+0.1066	Izumi Kanesada
+0.1067	Hacho Nenbutsu
+0.1068	Azai Ichimonji
+0.1069	Bizen Kagemitsu
+0.1070	Gold Tojin Helm
+0.1071	Koriki Buddha
+0.1072	Amano's Charm
+0.1073	Honda Makiwari
+0.1074	Sasaho Spear
+0.1075	Sakai War Drum
+0.1076	Kasha Necklace
+0.1077	Kasha Oni Fang
+0.1078	Nishi Sword
+0.1079	Goshi
+0.1080	Hachimantaro
+0.1081	Inaba Go
+0.1082	Inatomi Gunnery
+0.1083	Kametoshi Spear
+0.1084	Furinkazan
+0.1085	Kansuke Tactics
+0.1086	Upstart Surcoat
+0.1087	Nihongo
+0.1088	Janome Cap Helm
+0.1089	Kiyomasa Spear
+0.1090	Motochika
+0.1091	Koshu Horse Doc
+0.1092	Koyo Gunkan
+0.1093	Yamagata Eboshi
+0.1094	Takeda Red Armor
+0.1095	Danjo Spear
+0.1096	Sanada Tactics
+0.1097	Oni-Mino Hood
+0.1098	Takeda Crown
+0.1099	99-Art Precepts
+0.1100	Fudo Portrait
+0.1101	Tenjin Portrait
+0.1102	Tatenashi Armor
+0.1103	Mokko
+0.1104	Nobutomo Sutra
+0.1105	Shingen Chart
+0.1106	Yoshihiro Tachi
+0.1107	Kanematsu Doc
+0.1108	Blood Spear
+0.1109	Earth O-yoroi
+0.1110	Blue Drop - Mad
+0.1111	Wind Fan
+0.1112	Tengu Tokin
+0.1113	Mamushi Pike
+0.1114	Bokuzen Tactics
+0.1115	Hanbei Tactics
+0.1116	Snake King Sword
+0.1117	Sakuran Bow
+0.1118	Viperbane Sword
+0.1119	Viperbane Spear
+0.1120	Viperbane
+0.1121	Viper Holy Sword
+0.1122	Viper Dagger
+0.1123	Chikuzen Samonji
+0.1124	Kamewari Katana
+0.1125	Blk Zunari Helm
+0.1126	Blk Okegawa Do
+0.1127	32 Sm Star Helm
+0.1128	Crest Helm
+0.1129	Buffalo Blk Helm
+0.1130	Brn 5-Plate Do
+0.1131	Scale Gusoku
+0.1132	Crescent Nanban
+0.1133	Inlaid Nanban
+0.1134	Rust Acorn Helm
+0.1135	Red Crest Helm
+0.1136	Red War-Fan Do
+0.1137	Nagasaka 64 Helm
+0.1138	Red Ninja Armor
+0.1139	Antler Blk Helm
+0.1140	Blk Juzu Do
+0.1141	Red Nio Do
+0.1142	62 Ridge Helm
+0.1143	Dragon Blk Armor
+0.1144	Sekiguchi Nanban
+0.1145	Sun Hineno Helm
+0.1146	Ogata Harikake
+0.1147	Red-Laced Gusoku
+0.1148	Lion Red Helm
+0.1149	Oni-Musashi Do
+0.1150	Oni-Musashi Helm
+0.1151	Tenmangu Do
+0.1152	Blk Tokan Helm
+0.1153	Navy Sun Gusoku
+0.1154	Red Mogami Do
+0.1155	Saigusa 60 Helm
+0.1156	Saigusa 2-Do
+0.1157	Buffalo Momo Hlm
+0.1158	6-Arrow Ridge Hl
+0.1159	Okudaira Blk Hlm
+0.1160	Okudaira Blk Do
+0.1161	Etchu Helm
+0.1162	Irobe Nanban Do
+0.1163	Kuwagata Helm
+0.1164	Inaba Mogami Do
+0.1165	Double-Ring Helm
+0.1166	Gold Hinomaru Do
+0.1167	White Rim Helm
+0.1168	Rabbit Ear Helm
+0.1169	Akechi Nanban
+0.1170	Naoe Ai Helm
+0.1171	Silver 42 Helm
+0.1172	Purple Akoda
+0.1173	Sword Akoda
+0.1174	Hosokawa Harmk
+0.1175	Yamauchi Peach
+0.1176	Hide Butsu Do
+0.1177	Saizo Sasa Yari
+0.1178	Ii Red Oni Helm
+0.1179	Sakakibara Helm
+0.1180	Okubo Blk Gusoku
+0.1181	Sturdy Gusoku
+0.1182	Kazumasu Hakama
+0.1183	Koga Kataori
+0.1184	Akechi O-Yoroi
+0.1185	Kuro Horo Chief
+0.1186	Sessai Tactics
+0.1187	Sugaya Domaru
+0.1188	Oni Genba Armor
+0.1189	Kuro Horo Armor
+0.1190	Kuro Horo Helm
+0.1191	Aka Horo Yoroi
+0.1192	Aka Horo Hood
+0.1193	Sassa Horo Helm
+0.1194	Sakuma Tosei
+0.1195	Sakuma Helm
+0.1196	Oda Toujin Helm
+0.1197	Oda Nanban Mail
+0.1198	Clam Blade Yari
+0.1199	Madness Robe
+0.1200	Akiba Genin Gi
+0.1201	Beckoning Cat
+0.1202	Yamaonba Mask
+0.1203	Ninja Garb
+0.1204	Yamabushi Kesa
+0.1205	Akiba Chunin
+0.1206	Defense Rod
+0.1207	Punish Whip
+0.1208	Soiled Chihaya
+0.1209	Dreary Bow
+0.1210	Lost Soul
+0.1211	Blk Dragon Scale
+0.1212	Sm Soul Crystal
+0.1213	Soul Crystal
+0.1214	Gakuganji Yoroi
+0.1215	Mizoguchi Book
+0.1216	Tokusei Kanabo
+0.1217	Ogasawara Yari
+0.1218	Suwa Eboshi
+0.1219	Suwa Purif Rod
+0.1220	Suwa Drum
+0.1221	Suwa Biwa
+0.1222	Shinshu Robe
+0.1223	Ashigaru Prec I
+0.1224	Style Primer I
+0.1225	Snake Wht Cord
+0.1226	Snake Blk Cord
+0.1227	Mizuchi Fang
+0.1228	Mizuchi Staff
+0.1229	Drizzle Water
+0.1230	Wraith Haraate
+0.1231	Kubimusha Helm
+0.1232	Rotten Flesh
+0.1233	Skull Necklace
+0.1234	Vigor Shakujo
+0.1235	Skull Crown
+0.1236	Mother's Heart
+0.1237	Bug Slayer
+0.1238	Shiba Topknot
+0.1239	Toki Topknot
+0.1240	Gate Dispatch
+0.1241	Proclamation
+0.1242	Hidden Knife
+0.1243	Mitsuyasu Knot
+0.1244	Hineno Topknot
+0.1245	Coarse Clay
+0.1246	Polish Grass
+0.1247	Thin Cord
+0.1248	Braided Cord
+0.1249	Red Cord
+0.1250	Hemp Cloth
+0.1251	Crepe Silk
+0.1252	Plain Silk
+0.1253	Gold Brocade
+0.1254	Clear Lacquer
+0.1255	Pine Resin
+0.1256	Copper Leaf
+0.1257	Bare Wood Rod
+0.1258	Hard Leather
+0.1259	Steel Rod
+0.1260	Iron Pillar
+0.1261	Wire
+0.1262	Lacquered Hilt
+0.1263	Steel Md Blade
+0.1264	Steel Lg Blade
+0.1265	Steel Sm Axhead
+0.1266	Iron Lg Axhead
+0.1267	Steel Lg Axhead
+0.1268	Slim Tachi
+0.1269	Copper Plate
+0.1270	Steel Plate
+0.1271	Slim Gun Plan
+0.1272	Pistol Plan
+0.1273	Matchlock Plan
+0.1274	Tanegashima Pln
+0.1275	10-Momme Plan
+0.1276	Repeat Gun Plan
+0.1277	Triple Gun Plan
+0.1278	Shuriken Mold
+0.1279	Licorice
+0.1280	Cinnamon
+0.1281	Madder
+0.1282	Mtn Indigo
+0.1283	Sansho Berry
+0.1284	Tengusa
+0.1285	Linden
+0.1286	Raicho Feather
+0.1287	Great Bow
+0.1288	War Arrow
+0.1289	Fire Arrow
+0.1290	Solid Arrow
+0.1291	Blast Round
+0.1292	Moonlight Arrow
+0.1293	Sun Disc Arrow
+0.1294	Red Hamaya
+0.1295	Silver Arrow
+0.1296	Bamboo Gorget
+0.1297	Bamboo Hairpin
+0.1298	Kacho Painting
+0.1299	Landscape Art
+0.1300	Beauty Painting
+0.1301	Kacho Fan
+0.1302	Sansui Fan
+0.1303	Beauty Fan
+0.1304	Kacho Screen
+0.1305	Sansui Screen
+0.1306	Genre Screen
+0.1307	Boat Eboshi
+0.1308	Ivory Sword
+0.1309	Slim Gun
+0.1310	Pistol
+0.1311	10-Momme Gun
+0.1312	Polish Sand
+0.1313	Suzuran
+0.1314	Koshu Tact Copy
+0.1315	Enshu Tact Copy
+0.1316	Mikawa Tac Copy
+0.1317	Owari Tact Copy
+0.1318	Mino Tact Copy
+0.1319	Happo Shuriken
+0.1320	Enshu Tactics
+0.1321	Mikawa Tactics
+0.1322	Owari Tactics
+0.1323	Mino Tactics
+0.1324	Danjo Yari Kai
+0.1325	Asono Haraate
+0.1326	Hida Light Joe
+0.1327	Ujiie Nanban
+0.1328	Hineno Gusoku
+0.1329	Blue Moon Helm
+0.1330	Charge Gusoku
+0.1331	Inlay Nanban
+0.1332	Ascetic Crown
+0.1333	Maeno Ninja Gi
+0.1334	Maeno Nin Hood
+0.1335	Sanjuro Nin Gi
+0.1336	Sekian Robe
+0.1337	Geni Blk Robe
+0.1338	Dainagon Robe
+0.1339	Kyutaro Robe
+0.1340	Mizoguchi Do
+0.1341	Tsumaki Yoroi
+0.1342	Hida Star Helm
+0.1343	Loyal Hitatare
+0.1344	Michitoshi Robe
+0.1345	Hibino Crested
+0.1346	Iron Facemask
+0.1347	Yoshitaka Helm
+0.1348	Tenugui
+0.1349	Travel Diary
+0.1350	Plain Nin Hood
+0.1351	Plain Nin Mask
+0.1352	Hanzo Hood
+0.1353	Hanzo Nin Mail
+0.1354	Buddha Robe
+0.1355	Officer Cap
+0.1356	Magistrate Cap
+0.1357	Mikawa Gusoku
+0.1358	Hiraiwa Helm
+0.1359	Plain Nin Helm
+0.1360	Iron Nin Helm
+0.1361	Steel Nin Helm
+0.1362	Tri-Crest Helm
+0.1363	Abe Long Yari
+0.1364	Strategist Robe
+0.1365	High Monk Hood
+0.1366	Kemari Garb
+0.1367	Red Sm Eboshi
+0.1368	Udono Holy Garb
+0.1369	Shogen Cap
+0.1370	Ohara Noshi
+0.1371	Masatsuna Helm
+0.1372	Masatsuna Armor
+0.1373	Suruga Yoroi
+0.1374	Eel Suikan
+0.1375	Udono Holy Mail
+0.1376	Okitsu Suikan
+0.1377	Guardian Katana
+0.1378	Miura Hitatare
+0.1379	Iio Black Noshi
+0.1380	Ichinomiya
+0.1381	Anguish Robe
+0.1382	Ascetic Armor
+0.1383	Ii Red Hood
+0.1384	Ii Red Do
+0.1385	Itami Navy Helm
+0.1386	Itami Navy Mail
+0.1387	Suruga Bow
+0.1388	Onmyo Robe
+0.1389	Tokichiro Robe
+0.1390	Fine Suikan
+0.1391	Black Haramaki
+0.1392	Blue Haramaki
+0.1393	Green Haramaki
+0.1394	Red Haramaki
+0.1395	Lacq Haramaki
+0.1396	Deluxe Haramaki
+0.1397	Charge Spear
+0.1398	Rearguard Book
+0.1399	Kuwagata Helm
+0.1400	Black Kuw Helm
+0.1401	Red Kuw Helm
+0.1402	Green Kuw Helm
+0.1403	Blue Kuw Helm
+0.1404	Lacq Kuw Helm
+0.1405	Crescent Helm
+0.1406	Black Cres Helm
+0.1407	Red Cres Helm
+0.1408	Green Cres Helm
+0.1409	Blue Cres Helm
+0.1410	Lacq Cres Helm
+0.1411	Atobe Admin Bk
+0.1412	Kawanaka Yari
+0.1413	Nichii's Will
+0.1414	Kiso Kaja Robe
+0.1415	Tutor Hitatare
+0.1416	Diplomacy Guide
+0.1417	Akiyama Ox Helm
+0.1418	Honsaroku
+0.1419	Veteran Yoroi
+0.1420	Mino Four Cap
+0.1421	Naomitsu Sash
+0.1422	Kazumasa Orb
+0.1423	Oni Mino Katana
+0.1424	Shuri Naginata
+0.1425	Book of Ruin
+0.1426	Proof of Virtue
+0.1427	Valor Naginata
+0.1428	Impure Kesa
+0.1429	Black Vestment
+0.1430	Red Vestment
+0.1431	Green Vestment
+0.1432	Blue Vestment
+0.1433	Deluxe Vestment
+0.1434	Oda Aunt's Love
+0.1435	Boss Baton
+0.1436	Black Casual
+0.1437	Red Casual
+0.1438	Green Casual
+0.1439	Blue Casual
+0.1440	Deluxe Casual
+0.1441	Black Kosode
+0.1442	Red Kosode
+0.1443	Green Kosode
+0.1444	Blue Kosode
+0.1445	***
+0.1446	Loyal Mask
+0.1447	Honor Naginata
+0.1448	Glory Great Bow
+0.1449	Prayer Rod
+0.1450	Chigiriki
+0.1451	Samurai Eboshi
+0.1452	Inome Masakari
+0.1453	Kakeya Mallet
+0.1454	Takatenjin Charm
+0.1455	Ladder Armor
+0.1456	Bloody Katana
+0.1457	Genzoku Hood
+0.1458	Iwaoka Records
+0.1459	Iwai Admin Bk
+0.1460	Buko Yawa I
+0.1461	Buko Yawa II
+0.1462	Uesugi Muster
+0.1463	Jewelry Tools
+0.1464	Adorn Tools
+0.1465	Spirit Dog Claw
+0.1466	Rat Stone
+0.1467	Hemp
+0.1468	Cotton
+0.1469	Mulberry Leaf
+0.1470	Silk Cocoon
+0.1471	Raw Silk Bundle
+0.1472	Plywood
+0.1473	Iron Sand
+0.1474	Tamahagane
+0.1475	Copper Ore
+0.1476	Charcoal
+0.1477	Soft Charcoal
+0.1478	Copper
+0.1479	Loving Heart
+0.1480	White Robe
+0.1481	Yahiko Cstl Pln
+0.1482	True Hojo Cstl
+0.1483	Toyama Rec Ltr
+0.1484	Double Basket
+0.1485	Dragon Bag
+0.1486	Frog Stone
+0.1487	Frog Stone Bit
+0.1488	Serpent Corpse
+0.1489	Serpent Parts
+0.1490	Yamanoue Soji
+0.1491	3-Scale Yari
+0.1492	Ueda Conch
+0.1493	Goemon's Masu
+0.1494	Fuma Secret Ltr
+0.1495	Black Feather
+0.1496	Buckwheat Flour
+0.1497	Echigo Kagetora
+0.1498	Jay Cord
+0.1499	Fox Tail
+0.1500	Odawara Ruler
+0.1501	Sparrow Sash
+0.1502	Tsukikage
+0.1503	Black Soybeans
+0.1504	Hemp Seed
+0.1505	Sakaki
+0.1506	Dojo Sign
+0.1507	Sanin Iron Sand
+0.1508	Cursed Beads
+0.1509	Right Oni Note
+0.1510	Left Oni Note
+0.1511	Poison Frog Oil
+0.1512	Hangman's Cord
+0.1513	Umegae Talisman
+0.1514	Nenokuni Sand
+0.1515	Great Kaburaya
+0.1516	Haraate
+0.1517	Black Haraate
+0.1518	Red Haraate
+0.1519	Green Haraate
+0.1520	Blue Haraate
+0.1521	Deluxe Haraate
+0.1522	Sturdy Noshi
+0.1523	Black Noshi
+0.1524	Red Noshi
+0.1525	Green Noshi
+0.1526	Blue Noshi
+0.1527	Deluxe Noshi
+0.1528	Domaru
+0.1529	Black Domaru
+0.1530	Red Domaru
+0.1531	Green Domaru
+0.1532	Blue Domaru
+0.1533	Deluxe Domaru
+0.1534	Laced O-Yoroi
+0.1535	Black Ito Yoroi
+0.1536	Red Ito Yoroi
+0.1537	Green Ito Yoroi
+0.1538	Blue Ito Yoroi
+0.1539	Tricolor Yoroi
+0.1540	Lacquered Tosei
+0.1541	Black Tosei
+0.1542	Red Tosei
+0.1543	Green Tosei
+0.1544	Blue Tosei
+0.1545	Deluxe Tosei
+0.1546	Wasei Nanban Do
+0.1547	Black Nanban Do
+0.1548	Red Nanban Do
+0.1549	Green Nanban Do
+0.1550	Blue Nanban Do
+0.1551	Deluxe Nanban
+0.1552	NPC Gunbai
+0.1553	Suruga Tokko
+0.1554	Suruga Sanko
+0.1555	Mikawa Ninja Gi
+0.1556	Nue Corpse
+0.1557	Receipt
+0.1558	Manase Medicine
+0.1559	Dragon's Pride
+0.1560	Snow Amulet
+0.1561	Grief Dagger
+0.1562	Ujiteru Cutoff
+0.1563	Kagetora Cutoff
+0.1564	Oishi Pouch
+0.1565	Ginkgo Box
+0.1566	Azukitogi Claw
+0.1567	Monster Costume
+0.1568	Crimson Fan
+0.1569	Ice Snow Fan
+0.1570	2-Head Serpent
+0.1571	Snake Ward Stn
+0.1572	White Snake
+0.1573	Blue Snake
+0.1574	White Wolf
+0.1575	Black Wolf
+0.1576	Brown Wolf
+0.1577	White Rat
+0.1578	Red Rat
+0.1579	White Tiger
+0.1580	Silver Fox
+0.1581	Red Frog
+0.1582	Blue Frog
+0.1583	Black Oni
+0.1584	Blue Oni
+0.1585	Gray Horse
+0.1586	Dark Bay Horse
+0.1587	Red Townsman
+0.1588	Green Townsman
+0.1589	Red Bandit
+0.1590	Green Bandit
+0.1591	Green Westerner
+0.1592	Black Westerner
+0.1593	Blue West Lady
+0.1594	Green West Lady
+0.1595	Golden Spider
+0.1596	Blue Ushi-Oni
+0.1597	White Bear
+0.1598	Red Bear
+0.1599	Red Bat
+0.1600	Golden Bat
+0.1601	Knife
+0.1602	Kozuka
+0.1603	Aikuchi
+0.1604	Tanto
+0.1605	Kogatana
+0.1606	Bamboo Rod
+0.1607	Hananeji
+0.1608	Iron Blade
+0.1609	Naeshi
+0.1610	Jitte
+0.1611	Metezashi
+0.1612	Wakizashi
+0.1613	Kodachi
+0.1614	Yaken
+0.1615	Tachi
+0.1616	Rusty Sword
+0.1617	Danbira
+0.1618	Iron Sword
+0.1619	Steel Sword
+0.1620	Ornate Sword
+0.1621	Shinai
+0.1622	Leather Whip
+0.1623	Wooden Whip
+0.1624	Iron Whip
+0.1625	Steel Whip
+0.1626	Bamboo Spear
+0.1627	Suyari
+0.1628	Kikuchi Yari
+0.1629	Katakama Yari
+0.1630	Cross Spear
+0.1631	Great Scythe
+0.1632	Daito
+0.1633	Nagamaki
+0.1634	Naginata
+0.1635	O-Naginata
+0.1636	Club
+0.1637	Octagon Staff
+0.1638	Iron Rod
+0.1639	Fanged Club
+0.1640	Kanasaibo
+0.1641	Tetsukiya
+0.1642	Hook Rod
+0.1643	Makura Yari
+0.1644	Short Spear
+0.1645	Hand Spear
+0.1646	Splitting Axe
+0.1647	Hatchet
+0.1648	Small Axe
+0.1649	Battle Axe
+0.1650	Broad Axe
+0.1651	Maruki Bow
+0.1652	3-Wrap Bow
+0.1653	Shuzen Bow
+0.1654	Soui Bow
+0.1655	Shigeto Bow
+0.1656	Matchlock
+0.1657	Tanegashima
+0.1658	Repeat Gun
+0.1659	Triple Gun
+0.1660	Ninja Metezashi
+0.1661	Ninja Wakizashi
+0.1662	Ninja Kodachi
+0.1663	Back Katana
+0.1664	Ninjato
+0.1665	Wooden Staff
+0.1666	Copper Staff
+0.1667	Iron Staff
+0.1668	Bell Shakujo
+0.1669	Bosatsu Shakujo
+0.1670	Old Haraate
+0.1671	Cloth Haraate
+0.1672	Leather Haraate
+0.1673	Rusty Haramaki
+0.1674	Hard Haramaki
+0.1675	Copper Haramaki
+0.1676	Iron Domaru
+0.1677	Steel Domaru
+0.1678	Laced Yoroi
+0.1679	O-Yoroi
+0.1680	Gusoku Armor
+0.1681	Okegawa Gusoku
+0.1682	Butsu Gusoku
+0.1683	Nanban Mail
+0.1684	Gilt Nanban Mail
+0.1685	Ragged Ninja Gi
+0.1686	Thin Ninja Gi
+0.1687	Thick Ninja Gi
+0.1688	Hide Ninja Gi
+0.1689	Hard Ninja Gi
+0.1690	Silk Ninja Gi
+0.1691	Old Ninja Mail
+0.1692	Hard Ninja Mail
+0.1693	Chain Ninja Mail
+0.1694	Steel Ninja Mail
+0.1695	Rags
+0.1696	Crude Kosode
+0.1697	Kosode
+0.1698	Monk Robe
+0.1699	Jikitotsu
+0.1700	Motsuke Robe
+0.1701	Amie Robe
+0.1702	Half Kesa
+0.1703	Kesa Robe
+0.1704	Daijo Robe
+0.1705	Ragged Robe
+0.1706	Commoner Garb
+0.1707	Hoi Robe
+0.1708	Hanjiri
+0.1709	Kariginu
+0.1710	Suikan
+0.1711	Ko-Noshi
+0.1712	Noshi
+0.1713	Ikan
+0.1714	Sokutai
+0.1715	Saifuku
+0.1716	Joe Robe
+0.1717	Awasegi
+0.1718	Chihaya
+0.1719	Wood Hitaiate
+0.1720	Ashigaru Band
+0.1721	Old Star Helm
+0.1722	Star Helm
+0.1723	Old Ridge Helm
+0.1724	Ridge Helm
+0.1725	Eboshi Helm
+0.1726	Toujin Helm
+0.1727	Small Eboshi
+0.1728	Soft Eboshi
+0.1729	Tate Eboshi
+0.1730	Uikanmuri
+0.1731	Court Cap
+0.1732	Chikiri
+0.1733	Hood
+0.1734	Tokin
+0.1735	Katto Kesa
+0.1736	Mousu
+0.1737	Wood Hairpin
+0.1738	Lacq Hairpin
+0.1739	Silver Hairpin
+0.1740	Gold Hairpin
+0.1741	Neck Cord
+0.1742	Iron Necklace
+0.1743	Lacq Necklace
+0.1744	Silver Necklace
+0.1745	Gold Necklace
+0.1746	Waist Cord
+0.1747	Cloth Wrap
+0.1748	Chirimen Sash
+0.1749	Leather Wrap
+0.1750	Silk Sash
+0.1751	Jubako
+0.1752	Small Bag
+0.1753	Shoulder Box
+0.1754	Fine Box
+0.1755	Drawstring Bag
+0.1756	Split Bag
+0.1757	Fine Bag
+0.1758	Medium Bag
+0.1759	Large Bag
+0.1760	Shoulder Bag
+0.1761	Headband
+0.1762	Leather Band
+0.1763	Cured Lthr Band
+0.1764	Copper Brow Grd
+0.1765	Iron Brow Guard
+0.1766	Ninja Hood
+0.1767	Ninja Mask
+0.1768	Ninja Helmet
+0.1769	Iron Ninja Helm
+0.1770	Steel Ninja Helm
+0.1771	Goldman
+0.1772	Yamabuki Hannya
+0.1773	Old Portrait
+0.1774	Animal Pelt
+0.1775	Yukitsubaki Fan
+0.1776	Beads of Love
+0.1777	Fire Rat Claw
+0.1778	Mukeeinu Hide
+0.1779	Mizugumo Leg
+0.1780	Wild Wisteria
+0.1781	Iron Bug Shell
+0.1782	Ema Code Paper
+0.1783	Bamboo Grass
+0.1784	Cattail Pollen
+0.1785	Goji Berry
+0.1786	Samurai Prec I
+0.1787	Samurai Prec II
+0.1788	Samurai Prec III
+0.1789	Samurai Prec IV
+0.1790	Samurai Prec V
+0.1791	Samurai Prec VI
+0.1792	Samurai Prec VII
+0.1793	Dagger Manual 1
+0.1794	Dagger Manual 2
+0.1795	Dagger Manual 3
+0.1796	Dagger Manual 4
+0.1797	Sword Manual I
+0.1798	Sword Manual II
+0.1799	Sword Manual III
+0.1800	Sword Manual IV
+0.1801	Spear Manual I
+0.1802	Spear Manual II
+0.1803	Spear Manual III
+0.1804	Spear Manual IV
+0.1805	Club Manual I
+0.1806	Club Manual II
+0.1807	Club Manual III
+0.1808	Club Manual IV
+0.1809	Bow Manual I
+0.1810	Bow Manual II
+0.1811	Bow Manual III
+0.1812	Bow Manual IV
+0.1813	Bow Manual V
+0.1814	Gun Manual I
+0.1815	Gun Manual II
+0.1816	Gun Manual III
+0.1817	Gun Manual IV
+0.1818	Martial Arts I
+0.1819	Martial Arts II
+0.1820	Martial Arts III
+0.1821	Martial Arts IV
+0.1822	Martial Arts V
+0.1823	Martial Arts VI
+0.1824	Tactics I
+0.1825	Tactics II
+0.1826	Tactics III
+0.1827	Tactics IV
+0.1828	Tactics V
+0.1829	Tactics VI
+0.1830	Formations
+0.1831	Fieldcraft I
+0.1832	Fieldcraft II
+0.1833	Devotions I
+0.1834	Devotions II
+0.1835	Devotions III
+0.1836	Devotions IV
+0.1837	Devotions V
+0.1838	Sohei Arts I
+0.1839	Sohei Arts II
+0.1840	Sohei Arts III
+0.1841	Sohei Arts IV
+0.1842	Sohei Arts V
+0.1843	Sohei Arts VI
+0.1844	Buddhism I
+0.1845	Buddhism II
+0.1846	Buddhism III
+0.1847	Buddhism IV
+0.1848	Buddhism V
+0.1849	Buddhism VI
+0.1850	Buddhism Satori
+0.1851	Esoteric I
+0.1852	Esoteric II
+0.1853	Esoteric III
+0.1854	Esoteric IV
+0.1855	Esoteric V
+0.1856	Esoteric VI
+0.1857	Dharma Guard I
+0.1858	Dharma Guard II
+0.1859	Dharma Guard III
+0.1860	Dharma Guard IV
+0.1861	Dharma Guard V
+0.1862	Priest Prec I
+0.1863	Priest Prec II
+0.1864	Priest Prec III
+0.1865	Priest Prec IV
+0.1866	Priest Prec V
+0.1867	Priest Prec VI
+0.1868	Shinto I
+0.1869	Shinto II
+0.1870	Shinto III
+0.1871	Shinto IV
+0.1872	Shinto V
+0.1873	Shinto VI
+0.1874	Shinto VII
+0.1875	Ko-Shinto I
+0.1876	Ko-Shinto II
+0.1877	Ko-Shinto III
+0.1878	Ko-Shinto IV
+0.1879	Ko-Shinto V
+0.1880	Ko-Shinto VI
+0.1881	Rites I
+0.1882	Rites II
+0.1883	Rites III
+0.1884	Rites IV
+0.1885	Rites V
+0.1886	Rites VI
+0.1887	Gagaku I
+0.1888	Gagaku II
+0.1889	Gagaku III
+0.1890	Gagaku IV
+0.1891	Gagaku V
+0.1892	Gagaku VI
+0.1893	Gagaku VII
+0.1894	Onmyoji Prec I
+0.1895	Onmyoji Prec II
+0.1896	Onmyoji Prec III
+0.1897	Onmyoji Prec IV
+0.1898	Onmyoji Prec V
+0.1899	Onmyoji Prec VI
+0.1900	Earth Arts I
+0.1901	Earth Arts II
+0.1902	Earth Arts III
+0.1903	Earth Arts IV
+0.1904	Earth Arts V
+0.1905	Water Arts I
+0.1906	Water Arts II
+0.1907	Water Arts III
+0.1908	Water Arts IV
+0.1909	Water Arts V
+0.1910	Fire Arts I
+0.1911	Fire Arts II
+0.1912	Fire Arts III
+0.1913	Fire Arts IV
+0.1914	Fire Arts V
+0.1915	Wind Arts I
+0.1916	Wind Arts II
+0.1917	Wind Arts III
+0.1918	Wind Arts IV
+0.1919	Wind Arts V
+0.1920	Sendo I
+0.1921	Sendo II
+0.1922	Sendo III
+0.1923	Sendo IV
+0.1924	Sendo V
+0.1925	Sendo VI
+0.1926	Summoning I
+0.1927	Summoning II
+0.1928	Summoning III
+0.1929	Summoning IV
+0.1930	Summoning V
+0.1931	Ninja Prec I
+0.1932	Ninja Prec II
+0.1933	Ninja Prec III
+0.1934	Ninja Prec IV
+0.1935	Ninja Prec V
+0.1936	Ninja Prec VI
+0.1937	Assassin I
+0.1938	Assassin II
+0.1939	Assassin III
+0.1940	Assassin IV
+0.1941	Assassin V
+0.1942	Ninjutsu I
+0.1943	Ninjutsu II
+0.1944	Ninjutsu III
+0.1945	Ninjutsu IV
+0.1946	Ninjutsu V
+0.1947	Espionage I
+0.1948	Espionage II
+0.1949	Espionage III
+0.1950	Espionage IV
+0.1951	Espionage V
+0.1952	Ninpo Book I
+0.1953	Ninpo Book II
+0.1954	Ninpo Book III
+0.1955	Ninpo Book IV
+0.1956	Ninpo Book V
+0.1957	Ninpo Book VI
+0.1958	Smith Prec I
+0.1959	Smith Prec II
+0.1960	Smith Prec III
+0.1961	Smith Prec IV
+0.1962	Helmet Book I
+0.1963	Helmet Book II
+0.1964	Helmet Book III
+0.1965	Helmet Book IV
+0.1966	Armor Book I
+0.1967	Armor Book II
+0.1968	Armor Book III
+0.1969	Blunt Book I
+0.1970	Blunt Book II
+0.1971	Blunt Book III
+0.1972	Blade Book I
+0.1973	Blade Book II
+0.1974	Blade Book III
+0.1975	Polearm Book I
+0.1976	Polearm Book II
+0.1977	Polearm Book III
+0.1978	Casting Book I
+0.1979	Casting Book II
+0.1980	Smith Arts I
+0.1981	Smith Arts II
+0.1982	Smith Arts III
+0.1983	Smith Arts IV
+0.1984	Phys Prec I
+0.1985	Phys Prec II
+0.1986	Phys Prec III
+0.1987	Phys Prec IV
+0.1988	Mysticism I
+0.1989	Mysticism II
+0.1990	Mysticism III
+0.1991	Mysticism IV
+0.1992	Mysticism V
+0.1993	Mysticism VI
+0.1994	Mysticism VII
+0.1995	Shugendo I
+0.1996	Shugendo II
+0.1997	Shugendo III
+0.1998	Shugendo IV
+0.1999	Shugendo V
+0.2000	Shugendo VI
+0.2001	Shugendo VII
+0.2002	Medicine I
+0.2003	Medicine II
+0.2004	Medicine III
+0.2005	Medicine IV
+0.2006	Medicine V
+0.2007	Medicine VI
+0.2008	Medicine VII
+0.2009	Compounding I
+0.2010	Compounding II
+0.2011	Compounding III
+0.2012	Elixir Mix
+0.2013	Elixir Mix II
+0.2014	Prescription I
+0.2015	Prescription II
+0.2016	Prescription III
+0.2017	Bear Pelt
+0.2018	Snake Liver
+0.2019	Toad Oil
+0.2020	Ronin Topknot
+0.2021	Uesugi Topknot
+0.2022	Takeda Topknot
+0.2023	Hojo Topknot
+0.2024	Imagawa Topknot
+0.2025	Tokugawa Topknot
+0.2026	Oda Topknot
+0.2027	Saito Topknot
+0.2028	Honganji Topknot
+0.2029	Asakura Topknot
+0.2030	Azai Topknot
+0.2031	Iga Topknot
+0.2032	Ashikaga Topknot
+0.2033	Miyoshi Topknot
+0.2034	Saika Topknot
+0.2035	Gale Powder
+0.2036	Gale Pill
+0.2037	Gale Elixir
+0.2038	Trance Powder
+0.2039	Trance Pill
+0.2040	Trance Elixir
+0.2041	Insight Powder
+0.2042	Insight Pill
+0.2043	Insight Elixir
+0.2044	Swift Powder
+0.2045	Swift Pill
+0.2046	Swift Elixir
+0.2047	Eye Drops
+0.2048	Godspeed Med
+0.2049	Stealth Med
+0.2050	Transform Med
+0.2051	Divine Med
+0.2052	Bamboo Rice
+0.2053	Packed Meal
+0.2054	Wicker Case
+0.2055	Cooking Tools
+0.2056	Dull Club
+0.2057	Green Ninja Hood
+0.2058	Wrapping Sash
+0.2059	Snakeskin Bow
+0.2060	Shark Ninjato
+0.2061	Mondo Staff
+0.2062	108 Prayer Beads
+0.2063	Foxfire Sword
+0.2064	Foxfire Soul
+0.2065	Bear Cub Doll
+0.2066	Bear Cub Pelt
+0.2067	Tiger Fur Hat
+0.2068	Old Katana
+0.2069	Tattered Armor
+0.2070	Spyglass
+0.2071	Wolf Tail
+0.2072	Wolf's Spirit
+0.2073	Yamabushi Pouch
+0.2074	Black Horn Hood
+0.2075	Venom Spear
+0.2076	Hakuzosu Mask
+0.2077	Abbot's Robe
+0.2078	Great Viper Eye
+0.2079	Viper Drum
+0.2080	Insect Rod
+0.2081	Thick Silk
+0.2082	Koga Red Hood
+0.2083	Red Kunoichi
+0.2084	Black Ninja Mail
+0.2085	Gabishi
+0.2086	Shiranui Katana
+0.2087	Flame Snake Eye
+0.2088	White Lily Sword
+0.2089	Gale Snake Eye
+0.2090	Vajra Bow
+0.2091	Vajra Snake Eye
+0.2092	Blue Blade Oni
+0.2093	Still Snake Eye
+0.2094	Serpent Slayer
+0.2095	Serpent Seal
+0.2096	Furinkazan Seal
+0.2097	Shadowpin Knife
+0.2098	Sealing Amulet
+0.2099	Garlic
+0.2100	Onion
+0.2101	Bamboo Staff
+0.2102	Bamboo Basket
+0.2103	Black Crow Bow
+0.2104	Black Crow Blade
+0.2105	Yamabushi Staff
+0.2106	Furugitsunemaru
+0.2107	Old Fox Flute
+0.2108	Fish Creel
+0.2109	Snow Trout
+0.2110	Hanging Bag
+0.2111	Bag Drum
+0.2112	Kappa's Dish
+0.2113	Kapparai
+0.2114	Snakebone Amulet
+0.2115	Snakebone Wrap
+0.2116	Bonten Old Kesa
+0.2117	Red Horn Hood
+0.2118	Python Katana
+0.2119	Python Flute
+0.2120	Black Fox Wraith
+0.2121	Black Fox Pelt
+0.2122	Ninjato
+0.2123	White Snake Cord
+0.2124	White Headband
+0.2125	Ninja Jitte
+0.2126	Cheap Knife
+0.2127	Shady Hood
+0.2128	Red Snake Cord
+0.2129	Red Headband
+0.2130	Black Snake Cord
+0.2131	Black Headband
+0.2132	Blue Snake Cord
+0.2133	Blue Headband
+0.2134	Abacus Staff
+0.2135	Coin Box
+0.2136	Centipede Bow
+0.2137	Centipede Staff
+0.2138	Weasel Club
+0.2139	Handsome Weasel
+0.2140	Uproar Drum
+0.2141	Osawa Fox Pelt
+0.2142	Shadow Sash Cord
+0.2143	Alluring Fan
+0.2144	Fuma Ninja Helm
+0.2145	Fuma Ninja Garb
+0.2146	Decoy Doll
+0.2147	Blue Ninja Mail
+0.2148	Weather Clock
+0.2149	Yamabuki Robe
+0.2150	Assassin Katana
+0.2151	Black Ninja Garb
+0.2152	Great Hammer
+0.2153	Eel Thunder Bow
+0.2154	Deluxe Unadon
+0.2155	Tenro Shawl
+0.2156	Tenro Sash
+0.2157	White Tenro Cape
+0.2158	White Tenro Cowl
+0.2159	Black Tenro Cape
+0.2160	Black Tenro Cowl
+0.2161	Maten Eye
+0.2162	Maten Robe
+0.2163	Haunted Yumaki
+0.2164	Holey Sash
+0.2165	Broken Juzu
+0.2166	Nukenin Topknot
+0.2167	Old Ascetic Garb
+0.2168	Nyudo Necklace
+0.2169	Dirty Clothes
+0.2170	Laundry Basket
+0.2171	White Fox Elixir
+0.2172	Fox King Crest
+0.2173	Fox King Claw
+0.2174	Venom Mist Blade
+0.2175	Iga Ninja Mail
+0.2176	Ochimusha Knot
+0.2177	Mononoke Fang
+0.2178	Ujigami Charm
+0.2179	Chipped Treasure
+0.2180	Bandit Boss Knot
+0.2181	Letter to Chief
+0.2182	Jingasa Helmet
+0.2183	Ashigaru Jingasa
+0.2184	Fox White Down
+0.2185	Hidden Tribute
+0.2186	Wraith Spirit
+0.2187	White Clay
+0.2188	Ascetic Tools
+0.2189	Onibaran Root
+0.2190	Water Spirit
+0.2191	Dark Firefly Orb
+0.2192	Glow Bead
+0.2193	Lantern Staff
+0.2194	Snakeskin Pin
+0.2195	She-Snake Eye
+0.2196	Wet Ascetic Garb
+0.2197	Ancient Shell
+0.2198	Rainmaker Doll
+0.2199	Binding Katana
+0.2200	Old Fox Staff
+0.2201	Old Fox Biwa
+0.2202	Crimson Hairpin
+0.2203	Crimson Veil
+0.2204	Ginkgo Haramaki
+0.2205	Akizuki Katana
+0.2206	Satori Crystal
+0.2207	Dodge Rod
+0.2208	Fake Crest
+0.2209	Sealing Wedge
+0.2210	Guard Pill
+0.2211	Guard Elixir
+0.2212	Might Pill
+0.2213	Might Elixir
+0.2214	Rokusuke's Gift
+0.2215	Rokusuke Wisdom
+0.2216	Chiyo's Medicine
+0.2217	Old Peach Tree
+0.2218	Mikawa Ink
+0.2219	Ninzaburo Spirit
+0.2220	Ninzaburo Cargo
+0.2221	Sunkokudo Brush
+0.2222	Totomi Ghost Art
+0.2223	Shinko Peach Bow
+0.2224	Wolf Paper
+0.2225	Bat Paper
+0.2226	Snake Paper
+0.2227	Rat Paper
+0.2228	Toothpick
+0.2229	Ench Stone Kit
+0.2230	Shojo Grass
+0.2231	Ember Stone
+0.2232	Ogress Heart
+0.2233	Higekiri
+0.2234	Hinoki Wood
+0.2235	Phoenix Bamboo
+0.2236	Nether Stone
+0.2237	Physician Pouch
+0.2238	Fuji Skull
+0.2239	Unseal Talisman
+0.2240	Old Chinese Book
+0.2241	Fake Will
+0.2242	Ninja Dog Collar
+0.2243	Foreign Report
+0.2244	Warrior Token
+0.2245	Torn Map
+0.2246	Violet Pearl
+0.2247	Kagesada Ofuda
+0.2248	Tortoise Shell
+0.2249	Fisher's Charm
+0.2250	Gentle Magatama
+0.2251	Friendship Pass
+0.2252	Goodwill Pass
+0.2253	Dried Rice
+0.2254	Water of Life
+0.2255	Speed Water
+0.2256	Strength Water
+0.2257	Dried Meat
+0.2258	Wisdom Water
+0.2259	Snake Venom
+0.2260	Medicinal Herb
+0.2261	Godspeed Leaf
+0.2262	Virtue Water
+0.2263	Venom Crow Arrow
+0.2264	Black Monk Robe
+0.2265	Fur Waistwrap
+0.2266	Fire Arrow
+0.2267	Snakeskin Case
+0.2268	Frog Suikan
+0.2269	Carapace Helmet
+0.2270	Rake Charm
+0.2271	Snake Liver Med
+0.2272	Guard Baton
+0.2273	Tenchu Spear
+0.2274	Shiba Clan Sword
+0.2275	Toad Medicine
+0.2276	Tiger Haori
+0.2277	Toki Clan Sword
+0.2278	Russet Robe
+0.2279	Navy Monk Robe
+0.2280	Blue Shade Robe
+0.2281	Courage Drum
+0.2282	Jet Black Mask
+0.2283	White Kogatana
+0.2284	Crested Jitte
+0.2285	Katakama Spear
+0.2286	Blue Belly Guard
+0.2287	Sturdy Katana
+0.2288	Sturdy Bow
+0.2289	Painted Sash
+0.2290	Sturdy Case
+0.2291	Cloth Helmet
+0.2292	Scourge Whip
+0.2293	Fake Shichishito
+0.2294	Black Haramaki
+0.2295	Red Cross Spear
+0.2296	Iron Rib Helmet
+0.2297	Black Noble Robe
+0.2298	Power Naginata
+0.2299	Chancellor Robe
+0.2300	Spirit Rod
+0.2301	Iron Domaru
+0.2302	Red O-yoroi
+0.2303	Dark Ninja Mail
+0.2304	Smith's Gusoku
+0.2305	Sun Eboshi Helm
+0.2306	Light Repeater
+0.2307	Nanban Cuirass
+0.2308	Safety Charm
+0.2309	Travel Bag
+0.2310	Stratagem Book
+0.2311	Face Veil
+0.2312	Sturdy Shawl
+0.2313	Stealth Water
+0.2314	Incense Pouch
+0.2315	Raid Helmet
+0.2316	Nanban Cloak
+0.2317	Old Hood
+0.2318	Wood Scrap Staff
+0.2319	Red Hood
+0.2320	Buddha's Juzu
+0.2321	Patchwork Guard
+0.2322	Peddler's Staff
+0.2323	Guard Blade
+0.2324	Officer's Whip
+0.2325	Ki Headband
+0.2326	Merchant Charm
+0.2327	Pebble Shot
+0.2328	Punish Rod
+0.2329	Patrol Flag
+0.2330	Small Haramaki
+0.2331	Crested Sash
+0.2332	Boulder Shot
+0.2333	Threat Arrow
+0.2334	Small Bow
+0.2335	Bindweed Poison
+0.2336	Karakuri Knife
+0.2337	Soul Crush Rod
+0.2338	Light Bow
+0.2339	Exorcist Bow
+0.2340	Gale Neckwrap
+0.2341	Conch Necklace
+0.2342	Wind Sash
+0.2343	Sniper Spyglass
+0.2344	Raid Neck Guard
+0.2345	Ninja Pauldron
+0.2346	Great Ninjato
+0.2347	4-String Biwa
+0.2348	Ascetic Robe
+0.2349	Great Comp Bow
+0.2350	Repair Material
+0.2351	Blue Heron Flute
+0.2352	Ruby Magestone
+0.2353	Bamboo Watergun
+0.2354	Lil Enma Baton
+0.2355	Foxfire Kng Swd
+0.2356	Foxfire Kg Soul
+0.2357	Torch Staff
+0.2358	Flame of Life
+0.2359	Scorch Ox Horn
+0.2360	Ushioni Shoe
+0.2361	Oni Fang Katana
+0.2362	Enma Rakan Rod
+0.2363	Enma Statue
+0.2364	Earth Grime
+0.2365	Golden Bead
+0.2366	Giant Spidercut
+0.2367	Curse Straw Doll
+0.2368	Stinky Loincloth
+0.2369	Bone Charcoal
+0.2370	Bone Pus Jar
+0.2371	Gold Ore
+0.2372	Menkurabe Eye
+0.2373	Gold Thief Pouch
+0.2374	Golden Orb
+0.2375	Gold Bar
+0.2376	Bloody Cleaver
+0.2377	Miser's Soul
+0.2378	Sleep Pillow
+0.2379	Hikikomori
+0.2380	Momonjii Staff
+0.2381	Grandpa's Clock
+0.2382	Golden Ox Horn
+0.2383	Huge Gold Nugget
+0.2384	Kanayama Club
+0.2385	Sado Kongo Club
+0.2386	Peerless Spear
+0.2387	Rebel Jinbaori
+0.2388	Usami Tactics
+0.2389	Shoki Katana
+0.2390	Uesugi Eboshi
+0.2391	Toishi Book
+0.2392	Valor Odachi
+0.2393	Kawada Strategy
+0.2394	Yoshie Biwa
+0.2395	Bloody Commend.
+0.2396	Uesugi Admin Bk
+0.2397	Treasury Book
+0.2398	Oni Tachi - Yin
+0.2399	Oni Tachi - Yang
+0.2400	Kage Spear
+0.2401	Thick Kosode
+0.2402	Etchu Wakizashi
+0.2403	Toyama Inro
+0.2404	Shibata Crst Axe
+0.2405	Warrior's Bow
+0.2406	Bishamon Gusoku
+0.2407	Silver Bishamon
+0.2408	Great Bishamon
+0.2409	Jio Hachiman Ar
+0.2410	Jio Hachimn Helm
+0.2411	Goshiki Ar - Red
+0.2412	Goshiki Hlm-Red
+0.2413	Goshiki O-yoroi
+0.2414	Goshiki Mousu
+0.2415	Goshiki Blue Do
+0.2416	Goshiki Horn Cap
+0.2417	Goshiki Blk Robe
+0.2418	Goshiki Crown
+0.2419	Ito Corps Gun
+0.2420	Daidoji Govt Bk
+0.2421	Go-Hojo Armor
+0.2422	Renga Book
+0.2423	Izu Navy Lt Arm
+0.2424	Fuma Jonin Armor
+0.2425	Fuma Katana
+0.2426	Inomata Do
+0.2427	Ryoseiki
+0.2428	Ko-Jio Tachi
+0.2429	Council Eboshi
+0.2430	Defense Longbow
+0.2431	Longevity Book
+0.2432	Youth Armor
+0.2433	Hojo Land Ledger
+0.2434	Hojo Godaiki
+0.2435	Narita Prayer Bk
+0.2436	Regret Katana
+0.2437	Painting Case
+0.2438	Stone Splitter
+0.2439	Samurai Master 1
+0.2440	Samurai Master 2
+0.2441	Samurai Master 3
+0.2442	Samurai Master 4
+0.2443	Arts Way 1
+0.2444	Arts Way 2
+0.2445	Arts Way 3
+0.2446	Arts Way 4
+0.2447	Priest Master 1
+0.2448	Priest Master 2
+0.2449	Priest Master 3
+0.2450	Priest Master 4
+0.2451	Priest Master 5
+0.2452	Exorcism Ward
+0.2453	Onmyoji Master 1
+0.2454	Onmyoji Master 2
+0.2455	Onmyoji Master 3
+0.2456	Ninja Master 1
+0.2457	Ninja Master 2
+0.2458	Ninja Master 3
+0.2459	Poison Brew 1
+0.2460	Poison Brew 2
+0.2461	Poison Brew 3
+0.2462	Smithing Basics
+0.2463	Book of Arms
+0.2464	Book of Armor
+0.2465	Onsen Egg
+0.2466	Azuki Manju
+0.2467	Grilled Manju
+0.2468	Single Binding
+0.2469	Iwana
+0.2470	Kamameshi
+0.2471	Hegi Soba
+0.2472	Edo Sakura
+0.2473	Revive Elixir
+0.2474	Bangasa
+0.2475	Bamboo Bow
+0.2476	Single Bow
+0.2477	Mizusashi
+0.2478	Flower Vase
+0.2479	Tea Bowl
+0.2480	Tea Caddy
+0.2481	Tea Jar
+0.2482	Tea Kettle
+0.2483	Tenmoku Bowl
+0.2484	Katatsuki Caddy
+0.2485	Botsu
+0.2486	Relief Medicine
+0.2487	Kibushi Clay
+0.2488	Gairome Clay
+0.2489	Kyara
+0.2490	Sandalwood
+0.2491	Sado Ticket
+0.2492	Naoetsu Ticket
+0.2493	Glaze
+0.2494	Sharp Fang
+0.2495	Rogue Deco Sword
+0.2496	Rogue Haramaki
+0.2497	Blood Monk Robe
+0.2498	Blood Hood
+0.2499	Gaunt Wolf Pelt
+0.2500	White Suikan
+0.2501	Hunter's Bow
+0.2502	Snake Weave Sash
+0.2503	Snow Crystal
+0.2504	Water Robe
+0.2505	Black Sand
+0.2506	White Sand
+0.2507	Throwing Zori
+0.2508	Bearhide Waraji
+0.2509	Snakeskin Cord
+0.2510	Queen Rat Pelt
+0.2511	Tattered Pelt
+0.2512	Decent Pelt
+0.2513	Fine Pelt
+0.2514	Wolf Pawn Fang
+0.2515	Wolf Prcss Fang
+0.2516	Wolf King Fang
+0.2517	Kodama's Joy
+0.2518	Kodama Sorrow
+0.2519	Kodama Anger
+0.2520	Earth's Blessing
+0.2521	Earth's Sorrow
+0.2522	Earth's Anger
+0.2523	Red Pelt
+0.2524	Black Moon Fang
+0.2525	Red Moon Fang
+0.2526	White Moon Fang
+0.2527	Beast Wisdom
+0.2528	Beast Heart
+0.2529	Beast Body
+0.2530	Nature Instinct
+0.2531	Life Force
+0.2532	Tengu Whirlwind
+0.2533	Fudaraku Robe
+0.2534	Hunter Longbow
+0.2535	Hunter Lt Gun
+0.2536	Kozukebaba Mask
+0.2537	Doll Stone
+0.2538	Shimuri Orb
+0.2539	Onimara
+0.2540	Nature Harmony
+0.2541	Earth's Bond
+0.2542	Wolf Elder Fang
+0.2543	Blue Moon Fang
+0.2544	Wisdom Robe
+0.2545	Power Staff
+0.2546	Sand Spider Leg
+0.2547	Mom Spider Bond
+0.2548	Carry Basket
+0.2549	Mud Dumpling
+0.2550	Muddy Water
+0.2551	Dust Hachimaki
+0.2552	Trainee Ocarina
+0.2553	Stealth Garb
+0.2554	Hiding Mist Hat
+0.2555	Orochi Talisman
+0.2556	Snake Black Bow
+0.2557	Silent Bell
+0.2558	Kita Bell Cord
+0.2559	Wrath Staff
+0.2560	Crimson Neckcord
+0.2561	Boxwood Kanzashi
+0.2562	Day Lantern
+0.2563	Moondance Tail
+0.2564	Festival Drum
+0.2565	Whistle Arrow
+0.2566	Smoke Hachimaki
+0.2567	Tail Wrap
+0.2568	Happy Leash
+0.2569	Happy Collar
+0.2570	Iron Fang
+0.2571	Needlefur Armor
+0.2572	Needle Jinbaori
+0.2573	Nukenin Diary
+0.2574	Dark Hydrangea
+0.2575	Iron Haze
+0.2576	Bandit Facewrap
+0.2577	Slash Crescent
+0.2578	Naughty Shunga
+0.2579	Sheer Kosode
+0.2580	Makeup Kit
+0.2581	Barbarian Sword
+0.2582	Bando Bow
+0.2583	Nobushi Haramaki
+0.2584	Boss Lady Candy
+0.2585	Boss Lady Whip
+0.2586	Acupress Mastery
+0.2587	Warm Zori
+0.2588	Patchwork Wallet
+0.2589	Snicker Fan
+0.2590	Big Furoshiki
+0.2591	Hobby Banzai
+0.2592	Nightmare Flute
+0.2593	Daydream Crystl
+0.2594	Bliss Rake
+0.2595	Rev Dream Noren
+0.2596	Happy Fuzz
+0.2597	Bliss Tail
+0.2598	Slumber Staff
+0.2599	Mellow Kesa
+0.2600	Dreambird Wing
+0.2601	Fake Fuma Knife
+0.2602	Bando Sutra
+0.2603	Inn Tab Book
+0.2604	Dark Thin Wings
+0.2605	Door Smasher
+0.2606	Vault Breaker
+0.2607	Ashigara Axe
+0.2608	Kamakura X-Spear
+0.2609	Sea Snake Venom
+0.2610	Broken O-yoroi
+0.2611	Izuna Bamb Tube
+0.2612	Izuna Boost Tin
+0.2613	Tigress Waistgd
+0.2614	Crab Meat
+0.2615	Hightide Caller
+0.2616	Water Peril Kesa
+0.2617	Long Ladle
+0.2618	Whirlwind Charm
+0.2619	Kintoki Bellygd
+0.2620	Sakata Axe
+0.2621	Flame Fan
+0.2622	Hitorima Staff
+0.2623	Flying Monkey
+0.2624	Snow Robe
+0.2625	Bando Star Helm
+0.2626	Bando O-yoroi
+0.2627	Fuma Blade
+0.2628	Fuma Shuriken
+0.2629	Starter Armor
+0.2630	Yanada Hitatare
+0.2631	Yanada Crown
+0.2632	Dog Whistle
+0.2633	Sanraku Katana
+0.2634	Koga Kubo Sword
+0.2635	Koga Kubo Noshi
+0.2636	Noble Clothes
+0.2637	Noble Sash
+0.2638	Kuchiyose Robe
+0.2639	Yokai Purify Rod
+0.2640	Tanzaru Nin Armr
+0.2641	Tengu Telescope
+0.2642	Hokibo Cloak
+0.2643	Sagami Conch
+0.2644	Old Fox Charm
+0.2645	Old Prayer Beads
+0.2646	Curse Fang
+0.2647	Bristle Hide
+0.2648	Flame Stone
+0.2649	Temper Material
+0.2650	New Danjo Spear
+0.2651	Diplomacy Guide
+0.2652	100-Kill Katana
+0.2653	Yoriki Jinbaori
+0.2654	Sessho-seki
+0.2655	Killing Thrust
+0.2656	Yasha Bishamon
+0.2657	Kasuga Cup
+0.2658	Scarlet Jinbaori
+0.2659	3-Shoot Cloth
+0.2660	Echigo Shoki Spr
+0.2661	Echigo Tactics
+0.2662	Bear Ant Odachi
+0.2663	Snowstorm Jinba
+0.2664	Love Amulet
+0.2665	Agekita Wolf Swd
+0.2666	Tobatsu Banner
+0.2667	Agekita Leaf Fl
+0.2668	Ogasawara Etiq.
+0.2669	Katabami Cloth
+0.2670	3-Star Hakama
+0.2671	Treasury Abacus
+0.2672	Red Spirea Cloth
+0.2673	Hepatica Hakama
+0.2674	Kuyo Dyed Cloth
+0.2675	Amakasu Chg Spr
+0.2676	Moon Yasha
+0.2677	Flame Oni Club
+0.2678	Furinkazan Flag
+0.2679	New 99 Precepts
+0.2680	Yamagata Red Ar
+0.2681	Koshu Cav Tactic
+0.2682	Baba Castle Bk
+0.2683	Koyo Gunkan Cpy
+0.2684	Suwa Blessing
+0.2685	Obu Red Jinbaori
+0.2686	Mokko Craft Kit
+0.2687	Onimino Naginata
+0.2688	Koshu Chronicle
+0.2689	Atobe Logistics
+0.2690	Shingen Dam Plan
+0.2691	Monk Horn Cap
+0.2692	Good Rule Crest
+0.2693	Hojo Tiger Seal
+0.2694	3-Scale Jinbaori
+0.2695	Hitoyogiri
+0.2696	Nikko Ichimonji
+0.2697	Shiranami Cane
+0.2698	Odawara Hojoki
+0.2699	Blk Swallow Cap
+0.2700	Navy Wave Hakama
+0.2701	Hojo Wht Scale
+0.2702	Hojo Yel Scale
+0.2703	Enoshima Ben Bow
+0.2704	Hojo Red Scale
+0.2705	Sagami Dragn Orb
+0.2706	Hojo Blk Scale
+0.2707	Hojo Blu Scale
+0.2708	Sagami Dragn Wsk
+0.2709	Omodaka Jofu
+0.2710	Odawara Lantern
+0.2711	Oyado Chg Spear
+0.2712	Sagami Dragn Hrn
+0.2713	Fuma Rasetsu Eye
+0.2714	Yoshimt Samonji
+0.2715	Akadori Gunbai
+0.2716	Okabe Chg Mask
+0.2717	Imagawa Kanamoku
+0.2718	Isei Teikin
+0.2719	Maple Stone
+0.2720	Fujieda Naginata
+0.2721	3-Line Crest Bow
+0.2722	Suruga Crescent
+0.2723	Osmanthus 7-Swd
+0.2724	Yaizu Bow Kit
+0.2725	Mokko Blk Hakama
+0.2726	Suruga Kite
+0.2727	Sankocho Bow
+0.2728	Suruga Bmb Craft
+0.2729	3-Pine Crest Fan
+0.2730	Hirai Emb Jofu
+0.2731	Suruga Blue Dye
+0.2732	Fujieda Makie Bx
+0.2733	Black Crow
+0.2734	Okanjake
+0.2735	Suruga Hina Doll
+0.2736	Fudo Masamune
+0.2737	4-Season Screen
+0.2738	Mikawa Shoki Flg
+0.2739	Mu-Ichimonji Spr
+0.2740	Spirit War Drum
+0.2741	Ii Corps Red Ar
+0.2742	Onisakuza Monji
+0.2743	Fujimaki Gunbai
+0.2744	Torii Punish Rod
+0.2745	Yohen Tenmoku
+0.2746	Ninja Secret
+0.2747	Hiryu Cannon
+0.2748	Sasarindo Box
+0.2749	7-Star Hood
+0.2750	Hokoku Fest Scrn
+0.2751	Nikko Sleep Cat
+0.2752	3-Star X-Spear
+0.2753	Mikawa Fire Arts
+0.2754	Karigane Cloth
+0.2755	Red Wisteria Bow
+0.2756	Red Kaji Jofu
+0.2757	Stubborn Band
+0.2758	Wave Jinbaori
+0.2759	Wave Lotus Spear
+0.2760	Fuwa Tomoe Crown
+0.2761	Nagai Naginata
+0.2762	Mtn-Water Screen
+0.2763	Choryu Punish Rd
+0.2764	Grn Suhama Jofu
+0.2765	Sakura Blizzard
+0.2766	Mino Raicho Hood
+0.2767	Blk Sasa Gunbai
+0.2768	Phoenix Gold Cl
+0.2769	Sasa Ichimonji
+0.2770	Snakeye Crescent
+0.2771	Hida Ikkanbari
+0.2772	Gyoyo Jofu
+0.2773	Yew X-Spear
+0.2774	Kikko Hakama
+0.2775	Gekka Bijin
+0.2776	Kikyo Makie Box
+0.2777	Ambition Gunbai
+0.2778	Valor Hachimaki
+0.2779	Dawn Tea Bowl
+0.2780	Chanchanko
+0.2781	Magistrate Sash
+0.2782	Kyoto Shosidai
+0.2783	Hidenaga's Book
+0.2784	Black Horo Flag
+0.2785	Sassa Repeater
+0.2786	Horo Corps Spear
+0.2787	OniMusashi Band
+0.2788	Sage Tate-Eboshi
+0.2789	Kabukimono Mask
+0.2790	Hachisuka Hood
+0.2791	OniGenba Emblem
+0.2792	Sasaho Spear
+0.2793	Hanbasuke Jofu
+0.2794	Maple Jinbaori
+0.2795	Kageyu Jinbaori
+0.2796	Yamagata Red Hor
+0.2797	Yamagata Red Nin
+0.2798	Yamagata Red Cpe
+0.2799	Ii Red Haori
+0.2800	Ii Red Nin Armor
+0.2801	Ii Red Cape
+0.2802	Hojo Yel Haori
+0.2803	Hojo Yel Nin Arm
+0.2804	Hojo Yel Cape
+0.2805	Hojo Red Haori
+0.2806	Hojo Red Nin Arm
+0.2807	Hojo Blk Haori
+0.2808	Hojo Blk Nin Arm
+0.2809	Hojo Blu Haori
+0.2810	Hojo Blu Nin Arm
+0.2811	Blk Horo Noshi
+0.2812	Blk Horo Cape
+0.2813	Blk Horo Nin Arm
+0.2814	Chainmail Nin
+0.2815	Kasuga Bajohai
+0.2816	Sm Gold Nugget
+0.2817	Esshu Tactics Cp
+0.2818	Soshu Tactics Cp
+0.2819	Esshu Tactics
+0.2820	Soshu Tactics
+0.2821	Echizen Ticket
+0.2822	Settsu Ticket
+0.2823	Iga Ninja Garb
+0.2824	Court Flute
+0.2825	Pilgrim Robe
+0.2826	Toneri Eboshi
+0.2827	Ashigaru Domaru
+0.2828	Toki Hitatare
+0.2829	Ashigara Axe
+0.2830	War God Charm
+0.2831	Kurobe Water
+0.2832	Yusuisen Sake
+0.2833	Trout Sushi
+0.2834	Firefly Squid
+0.2835	Etchu Miso
+0.2836	Kakimochi
+0.2837	Peony
+0.2838	Silver Peony
+0.2839	Crimson Peony
+0.2840	Green Peony
+0.2841	Small Peony
+0.2842	Silver Sm Peony
+0.2843	Crimson Sm Peony
+0.2844	Green Sm Peony
+0.2845	Single Bloom
+0.2846	Silver 1-Bloom
+0.2847	Crimson 1-Bloom
+0.2848	Green 1-Bloom
+0.2849	Hypnosis Claw
+0.2850	Gaki Neck Guard
+0.2851	Gaki Baton
+0.2852	Rogue Shackle
+0.2853	Gaki Twin Horns
+0.2854	Freeze Talisman
+0.2855	Flame Talisman
+0.2856	Crimson Fang
+0.2857	Thunder Claw
+0.2858	Dust Hide
+0.2859	Frigid Tongue
+0.2860	Waira Claw
+0.2861	Freeze Needle
+0.2862	Fierce Grtsword
+0.2863	Waira Short Claw
+0.2864	Darkness Club
+0.2865	Gale Club
+0.2866	Hail Chunk
+0.2867	Wicked Feather
+0.2868	Purgatory Fang
+0.2869	Jet-Black Kanabo
+0.2870	Dark Waist Cord
+0.2871	Violet Hagoromo
+0.2872	Genbu Fire Seed
+0.2873	Suzaku Fire Seed
+0.2874	Byakko Fire Seed
+0.2875	Seiryu Fire Seed
+0.2876	Fake Ninjato
+0.2877	Fake Curse Staff
+0.2878	Fake Monk Staff
+0.2879	Fake Tachi
+0.2880	Fake Club
+0.2881	Fashion Primer 2
+0.2882	Debauchery 101
+0.2883	Tipsy Katana
+0.2884	Fake Medicine 1
+0.2885	Earth War Cry
+0.2886	Plain Mawashi
+0.2887	Swap Powder
+0.2888	Earth's Cry
+0.2889	High Tide Orb
+0.2890	Prank Robe
+0.2891	Nostalgia Robe
+0.2892	Clumsy Purse
+0.2893	Sorrow Thread
+0.2894	Water Purse
+0.2895	Sloth Hairpin
+0.2896	Rusty Katana
+0.2897	Old Shrine Heart
+0.2898	Muddy Robe
+0.2899	Muddy O-yoroi
+0.2900	Muddy Staff
+0.2901	Muddy Eboshi
+0.2902	Muddy Dagger
+0.2903	Poor Hachimaki
+0.2904	Yukyo Sarashi
+0.2905	Dice Poison Thrd
+0.2906	Wolf Yokai Tanto
+0.2907	Inromaru
+0.2908	Cunning Ledger
+0.2909	Pilgrim Medicine
+0.2910	Tyrant Tiger Rob
+0.2911	Frozen Pellet
+0.2912	Greed Kodachi
+0.2913	Fire Pellet
+0.2914	Lofty Ambition
+0.2915	Reflect Beads
+0.2916	Cord of Regret
+0.2917	Guard's Padding
+0.2918	Snow Fur
+0.2919	Binding Cord
+0.2920	Tateyama Hat
+0.2921	Escape Manual
+0.2922	Pilgrim Elixir
+0.2923	Calamity Orb
+0.2924	Corrupt Orb
+0.2925	Gale Headband
+0.2926	Tattered Hood
+0.2927	Botched Katana
+0.2928	Tateyama Cap
+0.2929	Amazake
+0.2930	Sour Umeboshi
+0.2931	Luck Potion
+0.2932	Wisdom Essence
+0.2933	Fire Blessing
+0.2934	Skill Tonic
+0.2935	Painless
+0.2936	Porter Pill
+0.2937	Ushi-oni Gall
+0.2938	Healing Powder
+0.2939	Water Blessing
+0.2940	Life Cut Potion
+0.2941	Intellect Powder
+0.2942	Thunder Talisman
+0.2943	Charm Perfume
+0.2944	Storm Talisman
+0.2945	Healer's Pill
+0.2946	Stimulant
+0.2947	Spirit Sight
+0.2948	Dark Poison
+0.2949	Ki Drain Drug
+0.2950	Ignite Powder
+0.2951	Waira Poison
+0.2952	Solitude Curse
+0.2953	Lethargy Powder
+0.2954	Spider Venom
+0.2955	Subdue Poison
+0.2956	Immobilize Drug
+0.2957	Storm Drug
+0.2958	Secret Paralyzer
+0.2959	Thunder Drug
+0.2960	Chill Drug
+0.2961	Levin Hammer
+0.2962	Thunder Staff
+0.2963	Taka's Note
+0.2964	Aoi's Black Hair
+0.2965	Lady Aoi Sachet
+0.2966	Yoshinaka Sketch
+0.2967	Nun Kensei Sutra
+0.2968	Genji Topknot
+0.2969	Levin Talisman
+0.2970	Shennong's Bowl
+0.2971	Giant Clam Shell
+0.2972	Medicine Payment
+0.2973	Chokichi's Note
+0.2974	Regret Kozuka
+0.2975	Tsutsumi Ledger
+0.2976	Custom Wicker
+0.2977	Naotsugu Meds
+0.2978	Heike Noshi Robe
+0.2979	Peddler's Proof
+0.2980	Nagamoto Spear
+0.2981	Nagazumi Crown
+0.2982	Nagashiro Flute
+0.2983	Nagakuni Sash
+0.2984	Mirage Crystal
+0.2985	Okina Decurse
+0.2986	Okina Revive
+0.2987	Okina Vajra
+0.2988	Okina Salve
+0.2989	Okina Incense
+0.2990	Okina Antidote
+0.2991	Raijin Ofuda
+0.2992	Lotus Root
+0.2993	Kuwai
+0.2994	Himuro Manju
+0.2995	Kiku Sake
+0.2996	Mackerel
+0.2997	Snow Crab
+0.2998	Warabi Mochi
+0.2999	Ono Springwater
+0.3000	Red Konnyaku
+0.3001	Funazushi
+0.3002	Omi Rice
+0.3003	Biwa Still Water
+0.3004	Ise Lobster
+0.3005	Clam
+0.3006	Ankoro Mochi
+0.3007	Ise Rough Seas
+0.3008	Echigo Ticket
+0.3009	Snake Offering
+0.3010	Spider Offering
+0.3011	Wolf Offering
+0.3012	Bear Offering
+0.3013	Rat Offering
+0.3014	Tiger Offering
+0.3015	Bat Offering
+0.3016	Fox Offering
+0.3017	Frog Offering
+0.3018	Doll Offering
+0.3019	Oni Offering
+0.3020	Tengu Offering
+0.3021	Soul Offering
+0.3022	Hannya Offering
+0.3023	Ushioni Offering
+0.3024	Imp Offering
+0.3025	Nue Offering
+0.3026	Raijin Offering
+0.3027	Nio Offering
+0.3028	Tsuchi Offering
+0.3029	Yuhime Offering
+0.3030	Tsuchigumo Offer
+0.3031	Demon Offering
+0.3032	Wraith Offering
+0.3033	Samurai Prec 1R
+0.3034	Samurai Prec 2R
+0.3035	Samurai Prec 3R
+0.3036	Samurai Prec 4R
+0.3037	Samurai Prec 5R
+0.3038	Samurai Prec 6R
+0.3039	Samurai Prec 7R
+0.3040	Dagger Manual 1R
+0.3041	Dagger Manual 2R
+0.3042	Dagger Manual 3R
+0.3043	Dagger Manual 4R
+0.3044	Sword Manual 1R
+0.3045	Sword Manual 2R
+0.3046	Sword Manual 3R
+0.3047	Sword Manual 4R
+0.3048	Spear Manual 1R
+0.3049	Spear Manual 2R
+0.3050	Spear Manual 3R
+0.3051	Spear Manual 4R
+0.3052	Club Manual 1R
+0.3053	Club Manual 2R
+0.3054	Club Manual 3R
+0.3055	Club Manual 4R
+0.3056	Bow Manual 1R
+0.3057	Bow Manual 2R
+0.3058	Bow Manual 3R
+0.3059	Bow Manual 4R
+0.3060	Bow Manual 5R
+0.3061	Gun Manual 1R
+0.3062	Gun Manual 2R
+0.3063	Gun Manual 3R
+0.3064	Gun Manual 4R
+0.3065	Martial Arts 1R
+0.3066	Martial Arts 2R
+0.3067	Martial Arts 3R
+0.3068	Martial Arts 4R
+0.3069	Martial Arts 5R
+0.3070	Martial Arts 6R
+0.3071	Tactics 1R
+0.3072	Tactics 2R
+0.3073	Tactics 3R
+0.3074	Tactics 4R
+0.3075	Tactics 5R
+0.3076	Tactics 6R
+0.3077	Formations R
+0.3078	Fieldcraft 1R
+0.3079	Fieldcraft 2R
+0.3080	Devotions 1R
+0.3081	Devotions 2R
+0.3082	Devotions 3R
+0.3083	Devotions 4R
+0.3084	Devotions 5R
+0.3085	Sohei Arts 1R
+0.3086	Sohei Arts 2R
+0.3087	Sohei Arts 3R
+0.3088	Sohei Arts 4R
+0.3089	Sohei Arts 5R
+0.3090	Sohei Arts 6R
+0.3091	Buddhist Way 1R
+0.3092	Buddhist Way 2R
+0.3093	Buddhist Way 3R
+0.3094	Buddhist Way 4R
+0.3095	Buddhist Way 5R
+0.3096	Buddhist Way 6R
+0.3097	Buddhist SatoriR
+0.3098	Esoteric 1R
+0.3099	Esoteric 2R
+0.3100	Esoteric 3R
+0.3101	Esoteric 4R
+0.3102	Esoteric 5R
+0.3103	Esoteric 6R
+0.3104	Dharma Guard 1R
+0.3105	Dharma Guard 2R
+0.3106	Dharma Guard 3R
+0.3107	Dharma Guard 4R
+0.3108	Dharma Guard 5R
+0.3109	Priest Prec 1R
+0.3110	Priest Prec 2R
+0.3111	Priest Prec 3R
+0.3112	Priest Prec 4R
+0.3113	Priest Prec 5R
+0.3114	Priest Prec 6R
+0.3115	Shinto 1R
+0.3116	Shinto 2R
+0.3117	Shinto 3R
+0.3118	Shinto 4R
+0.3119	Shinto 5R
+0.3120	Shinto 6R
+0.3121	Shinto 7R
+0.3122	Ko-Shinto 1R
+0.3123	Ko-Shinto 2R
+0.3124	Ko-Shinto 3R
+0.3125	Ko-Shinto 4R
+0.3126	Ko-Shinto 5R
+0.3127	Ko-Shinto 6R
+0.3128	Rites 1R
+0.3129	Rites 2R
+0.3130	Rites 3R
+0.3131	Rites 4R
+0.3132	Rites 5R
+0.3133	Rites 6R
+0.3134	Gagaku 1R
+0.3135	Gagaku 2R
+0.3136	Gagaku 3R
+0.3137	Gagaku 4R
+0.3138	Gagaku 5R
+0.3139	Gagaku 6R
+0.3140	Gagaku 7R
+0.3141	Onmyoji Prec 1R
+0.3142	Onmyoji Prec 2R
+0.3143	Onmyoji Prec 3R
+0.3144	Onmyoji Prec 4R
+0.3145	Onmyoji Prec 5R
+0.3146	Onmyoji Prec 6R
+0.3147	Earth Arts 1R
+0.3148	Earth Arts 2R
+0.3149	Earth Arts 3R
+0.3150	Earth Arts 4R
+0.3151	Earth Arts 5R
+0.3152	Water Arts 1R
+0.3153	Water Arts 2R
+0.3154	Water Arts 3R
+0.3155	Water Arts 4R
+0.3156	Water Arts 5R
+0.3157	Fire Arts 1R
+0.3158	Fire Arts 2R
+0.3159	Fire Arts 3R
+0.3160	Fire Arts 4R
+0.3161	Fire Arts 5R
+0.3162	Wind Arts 1R
+0.3163	Wind Arts 2R
+0.3164	Wind Arts 3R
+0.3165	Wind Arts 4R
+0.3166	Wind Arts 5R
+0.3167	Sendo 1R
+0.3168	Sendo 2R
+0.3169	Sendo 3R
+0.3170	Sendo 4R
+0.3171	Sendo 5R
+0.3172	Sendo 6R
+0.3173	Summoning 1R
+0.3174	Summoning 2R
+0.3175	Summoning 3R
+0.3176	Summoning 4R
+0.3177	Summoning 5R
+0.3178	Ninja Prec 1R
+0.3179	Ninja Prec 2R
+0.3180	Ninja Prec 3R
+0.3181	Ninja Prec 4R
+0.3182	Ninja Prec 5R
+0.3183	Ninja Prec 6R
+0.3184	Assassination 1R
+0.3185	Assassination 2R
+0.3186	Assassination 3R
+0.3187	Assassination 4R
+0.3188	Assassination 5R
+0.3189	Ninjutsu 1R
+0.3190	Ninjutsu 2R
+0.3191	Ninjutsu 3R
+0.3192	Ninjutsu 4R
+0.3193	Ninjutsu 5R
+0.3194	Espionage 1R
+0.3195	Espionage 2R
+0.3196	Espionage 3R
+0.3197	Espionage 4R
+0.3198	Espionage 5R
+0.3199	Ninpo Book 1R
+0.3200	Ninpo Book 2R
+0.3201	Ninpo Book 3R
+0.3202	Ninpo Book 4R
+0.3203	Ninpo Book 5R
+0.3204	Ninpo Book 6R
+0.3205	Smith Prec 1R
+0.3206	Smith Prec 2R
+0.3207	Smith Prec 3R
+0.3208	Smith Prec 4R
+0.3209	Helmet Book 1R
+0.3210	Helmet Book 2R
+0.3211	Helmet Book 3R
+0.3212	Helmet Book 4R
+0.3213	Armor Book 1R
+0.3214	Armor Book 2R
+0.3215	Armor Book 3R
+0.3216	Blunt Book 1R
+0.3217	Blunt Book 2R
+0.3218	Blunt Book 3R
+0.3219	Sword Book 1R
+0.3220	Sword Book 2R
+0.3221	Sword Book 3R
+0.3222	Spear Book 1R
+0.3223	Spear Book 2R
+0.3224	Spear Book 3R
+0.3225	Casting Book 1R
+0.3226	Casting Book 2R
+0.3227	Smith Martial 1R
+0.3228	Smith Martial 2R
+0.3229	Smith Martial 3R
+0.3230	Smith Martial 4R
+0.3231	Phys Prec 1R
+0.3232	Phys Prec 2R
+0.3233	Phys Prec 3R
+0.3234	Phys Prec 4R
+0.3235	Mysticism 1R
+0.3236	Mysticism 2R
+0.3237	Mysticism 3R
+0.3238	Mysticism 4R
+0.3239	Mysticism 5R
+0.3240	Mysticism 6R
+0.3241	Mysticism 7R
+0.3242	Shugendo 1R
+0.3243	Shugendo 2R
+0.3244	Shugendo 3R
+0.3245	Shugendo 4R
+0.3246	Shugendo 5R
+0.3247	Shugendo 6R
+0.3248	Shugendo 7R
+0.3249	Medicine 1R
+0.3250	Medicine 2R
+0.3251	Medicine 3R
+0.3252	Medicine 4R
+0.3253	Medicine 5R
+0.3254	Medicine 6R
+0.3255	Medicine 7R
+0.3256	Compounding 1R
+0.3257	Compounding 2R
+0.3258	Compounding 3R
+0.3259	Elixir Mixing R
+0.3260	Elixir Mixing 2R
+0.3261	Prescription 1R
+0.3262	Prescription 2R
+0.3263	Prescription 3R
+0.3264	Samurai Mstr 1R
+0.3265	Samurai Mstr 2R
+0.3266	Samurai Mstr 3R
+0.3267	Samurai Mstr 4R
+0.3268	Fine Arts 1R
+0.3269	Fine Arts 2R
+0.3270	Fine Arts 3R
+0.3271	Fine Arts 4R
+0.3272	Priest Mstr 1R
+0.3273	Priest Mstr 2R
+0.3274	Priest Mstr 3R
+0.3275	Priest Mstr 4R
+0.3276	Priest Mstr 5R
+0.3277	Exorcism R
+0.3278	Onmyoji Mstr 1R
+0.3279	Onmyoji Mstr 2R
+0.3280	Onmyoji Mstr 3R
+0.3281	Ninja Mstr 1R
+0.3282	Ninja Mstr 2R
+0.3283	Ninja Mstr 3R
+0.3284	Poison Craft 1R
+0.3285	Poison Craft 2R
+0.3286	Poison Craft 3R
+0.3287	Smith Basics R
+0.3288	Arms Book R
+0.3289	Defense Book R
+0.3290	Morph Nanban
+0.3291	Morph Kenshin
+0.3292	Morph Shingen
+0.3293	Morph Ujiyasu
+0.3294	Morph Yoshimoto
+0.3295	Morph Ieyasu
+0.3296	Morph Nobunaga
+0.3297	Morph Dosan
+0.3298	Morph Yoshikage
+0.3299	Morph Nagamasa
+0.3300	Morph Momochi
+0.3301	Morph Yoshiteru
+0.3302	Morph Nagayoshi
+0.3303	Morph Magoichi
+0.3304	Morph Preacher
+0.3305	Morph Bandit
+0.3306	Morph Pirate
+0.3307	Morph Peasant
+0.3308	Morph Townsman
+0.3309	Kyonyo Statue
+0.3310	Scrap Back Note
+0.3311	Kenson's Words
+0.3312	Ganshoji Kanabo
+0.3313	Komyo Amida Mask
+0.3314	Red Haramaki
+0.3315	Buddha's Staff
+0.3316	Uno's Diary
+0.3317	Ryojaku's Robe
+0.3318	Honganji Domaru
+0.3319	Shishinki
+0.3320	Kaga Shigeto Bow
+0.3321	Rennyo's Life
+0.3322	Namu Amida Whip
+0.3323	Honganji O-yoroi
+0.3324	Grand Moksha Rod
+0.3325	Buddha Red Spear
+0.3326	Komyo Amida Helm
+0.3327	Shimotsuma Axe
+0.3328	Heretic Slayer
+0.3329	Domaisho
+0.3330	Kennyo Manifesto
+0.3331	Kyonyo Letter
+0.3332	Scrap Note Copy
+0.3333	Koshoji Hood
+0.3334	Heretic Crusher
+0.3335	Amida Mask
+0.3336	Koshoji Wrap
+0.3337	Buddha's Shakujo
+0.3338	Uno Diary Copy
+0.3339	Shooji Half-Kesa
+0.3340	Amida Domaru
+0.3341	Shishinki Copy
+0.3342	Kaga Longbow
+0.3343	Saint Life Copy
+0.3344	Karma Whip
+0.3345	Amida O-yoroi
+0.3346	Moksha Rod
+0.3347	Buddha Longspear
+0.3348	Amida Helm
+0.3349	Wrath Battle Axe
+0.3350	Heretic Cleaver
+0.3351	Domaisho Copy
+0.3352	Gold Daimon Robe
+0.3353	Asakura Kotegiri
+0.3354	Asakura 17 Code
+0.3355	Asakura O-yoroi
+0.3356	Blue Jinbaori
+0.3357	Soteki Talks
+0.3358	Mounted Archery
+0.3359	Echigo Land Reg
+0.3360	Kagetsune Spear
+0.3361	Taro-tachi
+0.3362	Shiraito Domaru
+0.3363	Ichijo Court Cap
+0.3364	Kagetada Bow
+0.3365	Magara Great Axe
+0.3366	Asakura Roster
+0.3367	Sasabu Wolf Mace
+0.3368	Ichijodani Map
+0.3369	Higo Sadakuni
+0.3370	Yoshikage Onari
+0.3371	Blood Jumonji
+0.3372	Asakura Blk Hood
+0.3373	Kanaki Zanbato
+0.3374	Kunikiyo
+0.3375	Daimon Hitatare
+0.3376	Takakage 17 Copy
+0.3377	Asakura Armor
+0.3378	Echizen Jinbaori
+0.3379	Soteki Talk Copy
+0.3380	Inu-oumono Guide
+0.3381	Echizen Reg Copy
+0.3382	Hundred Spear
+0.3383	Jiro-tachi
+0.3384	Asakura Domaru
+0.3385	Ichijo Sam Cap
+0.3386	Horie Bow
+0.3387	Magara Battleaxe
+0.3388	Asakura Fief Reg
+0.3389	Sasabu Club
+0.3390	Ichijo Map Copy
+0.3391	Meijin Echigo
+0.3392	Onari Rec Copy
+0.3393	Yamazaki Jumonji
+0.3394	Asakura Hood
+0.3395	Kanaki Naginata
+0.3396	Chiyozuru Kuni
+0.3397	Hisamasa Longbow
+0.3398	Yahei Menpo
+0.3399	Peony Screen
+0.3400	Stealth Armor
+0.3401	Mimasaka Surcoat
+0.3402	Azai Sandaiki
+0.3403	Anegawa 11 Break
+0.3404	Idomura Nodachi
+0.3405	Eizan Kanabo
+0.3406	Tsukigase Blade
+0.3407	Odani Build Map
+0.3408	Black Moegi Wrap
+0.3409	Shinjo Star Helm
+0.3410	Steel Domaru
+0.3411	Awaji Kaiken
+0.3412	Enshu Shigaraki
+0.3413	Red Haraate
+0.3414	Wakisaka Eboshi
+0.3415	Chisui Seiyo
+0.3416	Kanbei Tosei
+0.3417	Crescent Kabuto
+0.3418	Soshu Sadamune
+0.3419	Omi Longbow
+0.3420	Fierce Menpo
+0.3421	Decayed Gusoku
+0.3422	Stealth Garb
+0.3423	Akao Jinbaori
+0.3424	Azai Chronicle
+0.3425	11-Break Spear
+0.3426	Idomura Naginata
+0.3427	Miyabe Octa Rod
+0.3428	Tsukigase Plain
+0.3429	Castle Bld Prec
+0.3430	Black Red Wrap
+0.3431	Shinjo Helm
+0.3432	Yuge Red Domaru
+0.3433	Awaji Wakizashi
+0.3434	Takatori Caddy
+0.3435	Black Haraate
+0.3436	Kazaori Eboshi
+0.3437	Chisui Copy
+0.3438	Kanbei Tosei Set
+0.3439	Bear-Fur Gusoku
+0.3440	Big Talk Secrets
+0.3441	Stray Dog Fang
+0.3442	Taromaru Diary
+0.3443	Orochi Slayer
+0.3444	Orochi Cutter
+0.3445	Uroko Wakizashi
+0.3446	21 Articles Copy
+0.3447	Yone's Onigiri
+0.3448	Hot-Blood Sash
+0.3449	Tatsubo's Doodle
+0.3450	Torn Doodle
+0.3451	Backscratcher
+0.3452	Worn Fan
+0.3453	Memory Eboshi
+0.3454	Glory's Remnant
+0.3455	Custom Big Club
+0.3456	Jugo's Signature
+0.3457	Fake Benkei Rod
+0.3458	Fake Kanjincho
+0.3459	Pest-Ward Fire
+0.3460	Muddy Potato
+0.3461	Potato Basket
+0.3462	Gold Dust Pouch
+0.3463	Bloody Sutra
+0.3464	Statue Sutra
+0.3465	Filial Sutra
+0.3466	Hate Flesh Mask
+0.3467	Child's Portrait
+0.3468	Longing Sash
+0.3469	Pretty Cowry
+0.3470	Shabby Sake Cask
+0.3471	Prized Firewater
+0.3472	Scolding Letter
+0.3473	Paper Twine
+0.3474	Konago Onigiri
+0.3475	Piece: Elephant
+0.3476	Piece: Prince
+0.3477	Piece: Pawn
+0.3478	Teikin Excerpt
+0.3479	Teikin Copy
+0.3480	Shabby Censer
+0.3481	Rare Censer
+0.3482	White Censer
+0.3483	Western Cup
+0.3484	Cracked Jar
+0.3485	Echizen Jar
+0.3486	Oroshi Soba
+0.3487	Koshosho Dagger
+0.3488	Koshosho Hairpin
+0.3489	17 Articles Copy
+0.3490	Small Urn
+0.3491	Victory Charm
+0.3492	Victory Chestnut
+0.3493	Seiryu Whisker
+0.3494	Sea Dragon Pearl
+0.3495	Zen Lineage Cert
+0.3496	Okichi's Sash
+0.3497	Zen Master Sash
+0.3498	Forged License
+0.3499	Wave Kodachi
+0.3500	Shady Tally
+0.3501	Secret Deed
+0.3502	Broken Mirror
+0.3503	Nun's Camellia
+0.3504	Nun's Robe
+0.3505	Grimy Hagoromo
+0.3506	Tennyo Pouch
+0.3507	Mummy Scale
+0.3508	Rokkaku Topknot
+0.3509	Kyogoku Topknot
+0.3510	Home Funazushi
+0.3511	Bad Funazushi
+0.3512	Magatama Shard
+0.3513	Lake Pirate Pass
+0.3514	Kongokai Mandala
+0.3515	Taizokai Mandala
+0.3516	Kikuishi R.Eye
+0.3517	Kikuishi L.Eye
+0.3518	Gratitude Haori
+0.3519	Gratitude Pin
+0.3520	Baby Snake Molt
+0.3521	White Snake Obi
+0.3522	Fox Disguise
+0.3523	Fire Ward Tag
+0.3524	Zenbei's Mallet
+0.3525	Kanbei's Hammer
+0.3526	Ajari Seal Bead
+0.3527	Ghost Candy
+0.3528	Old Rosary
+0.3529	Pirate Emblem
+0.3530	Snow Tenugui
+0.3531	Frozen Breath
+0.3532	Cold Thin Robe
+0.3533	Warm Thin Robe
+0.3534	Gutless Staff
+0.3535	Six Desires
+0.3536	Snowmelt Charm
+0.3537	Frozen Wing
+0.3538	Frozen Hood
+0.3539	Snowball
+0.3540	Noshu Haramaki
+0.3541	Araya Sake
+0.3542	Stripped Kesa
+0.3543	Noshu Domaru
+0.3544	Snow Tiger Hide
+0.3545	Snow Staff
+0.3546	Doubtful Gaze
+0.3547	Frozen Liver
+0.3548	Hunter Long Gun
+0.3549	Lamplight Orb
+0.3550	Sea Iron Pestle
+0.3551	Giant Fang
+0.3552	Dog Ward Flint
+0.3553	Hakui Arrow
+0.3554	Call of the Sea
+0.3555	Skinning Knife
+0.3556	Sloth Hide
+0.3557	Keta Myojin Kine
+0.3558	Kamisugi Arrow
+0.3559	Dull Metezashi
+0.3560	Hunted's Spear
+0.3561	Runaway Hitaate
+0.3562	Cold Waist Cord
+0.3563	Amateur Tactics
+0.3564	Shady Strategy
+0.3565	Warm Toad Oil
+0.3566	Mad Tokko
+0.3567	Bandit Boss Dirk
+0.3568	Frozen Sea Split
+0.3569	Takayoji
+0.3570	Croc Hide Guard
+0.3571	Rime Frost
+0.3572	Great Ice Split
+0.3573	Echizen Hitaate
+0.3574	Frozen Moon
+0.3575	Echizen StarHelm
+0.3576	Frozen Bear Paw
+0.3577	Drill Kamayari
+0.3578	Snow Axe
+0.3579	Heretic Blade
+0.3580	Bloody Katana
+0.3581	Mountain Coat
+0.3582	Rusty Kuwagata
+0.3583	Nun's Incense
+0.3584	Nun's Hood
+0.3585	Mermaid Flesh
+0.3586	Thief's Axe
+0.3587	Obafumi Dog Fur
+0.3588	False Fish Creel
+0.3589	Kodoku Jar
+0.3590	Amateur Gun
+0.3591	Crude Bullet
+0.3592	Dusty Monk Robe
+0.3593	Azuchi Thief Rod
+0.3594	Wet Juzu
+0.3595	New Repeater
+0.3596	Maple Kariginu
+0.3597	Big Catfish Barb
+0.3598	Ninja Wolf Liver
+0.3599	Takamuro Baton
+0.3600	Repeater Plans
+0.3601	Gawata Thread
+0.3602	Takamuro Whip
+0.3603	Triple Gun Plans
+0.3604	Crimson Claw
+0.3605	Katsube Sword
+0.3606	Koga Nuke Armor
+0.3607	Cairn Stone
+0.3608	Small Spirit
+0.3609	Kijo Robe
+0.3610	Child Soul Pouch
+0.3611	Sandbag
+0.3612	Sturdy Zori
+0.3613	Giant Monk Robe
+0.3614	Holy Mtn Soil
+0.3615	Vicious Fang
+0.3616	Natsume Drum I
+0.3617	Maneater Kanabo
+0.3618	Rosewood Biwa
+0.3619	Chazuke Bowl
+0.3620	Hot Wind Fur
+0.3621	Pirate Hood
+0.3622	Deck Breaker
+0.3623	Stabbing Rod
+0.3624	Grudge Juzu
+0.3625	Great Shakujo
+0.3626	Otagamaru
+0.3627	Cursed BloodOath
+0.3628	Scorch Tachi
+0.3629	Lotus Mirror
+0.3630	Kongosho
+0.3631	Seiran Jewel
+0.3632	Rebel Banner
+0.3633	Ama Staff
+0.3634	Wet Feather
+0.3635	Human Face Scale
+0.3636	Sea Roar Biwa
+0.3637	Wet Furisode
+0.3638	Damp Map
+0.3639	Tidemark Obi
+0.3640	Sea Storm Fan
+0.3641	Foreign 3-Gun
+0.3642	Foreign Doll
+0.3643	Fiddler Crab
+0.3644	Rough Wave Oar
+0.3645	Whitecap Kesa
+0.3646	Shachi Hide
+0.3647	Shachi Fang
+0.3648	Shore Scent
+0.3649	Void Taiko
+0.3650	Water Ward Sword
+0.3651	Warped BeastBone
+0.3652	Seiryu Engetsuto
+0.3653	Lowly Katana
+0.3654	Whisper Hairpin
+0.3655	Gambler Pouch
+0.3656	Drunk Dream
+0.3657	Fallen Sutra
+0.3658	Tangled Juzu
+0.3659	Drunk Hachimaki
+0.3660	Soulsteal Sword
+0.3661	Hiei Sohei Book
+0.3662	Merit Helm
+0.3663	Torn O-yoroi
+0.3664	Delusion Noshi
+0.3665	Soulhunt Juzu
+0.3666	Death Reek Bag
+0.3667	Broken Blade
+0.3668	Lonely Doll
+0.3669	Nether Tachi
+0.3670	Ringing Juzu
+0.3671	Wrath Pestle
+0.3672	Grimy Monk Robe
+0.3673	Dull Obi Clasp
+0.3674	Warped Pagoda
+0.3675	Sootsweep Rod
+0.3676	Quake Mallet
+0.3677	Storm O-yoroi
+0.3678	Kagura 7-Sword
+0.3679	Flame Dance
+0.3680	Chipped AlmsBowl
+0.3681	Seafood Meal
+0.3682	Stolen Ornate Sw
+0.3683	Swift Zori
+0.3684	Stolen Treas Sw
+0.3685	Mountain Pepper
+0.3686	Suzuka Big Pass
+0.3687	Poison Barb Limb
+0.3688	Hook Rod
+0.3689	Worn Zeichiku
+0.3690	Tade Stick
+0.3691	Abalone
+0.3692	Ward Hachimaki
+0.3693	Home Painting
+0.3694	Dried Bear Gall
+0.3695	Dull Hairpin
+0.3696	Dried Fox Pelt
+0.3697	Toxic Barb Limb
+0.3698	Dari Fruit
+0.3699	Blackmist Powder
+0.3700	Aoba Ryuteki
+0.3701	Shura Katana
+0.3702	Kaga Tactics
+0.3703	Echizen Tactics
+0.3704	Omi Tactics
+0.3705	Iga Tactics
+0.3706	Shogun Tactics
+0.3707	Settsu Tactics
+0.3708	Kishu Tactics
+0.3709	Kaga Tac Copy
+0.3710	Echizen Tac Copy
+0.3711	Omi Tac Copy
+0.3712	Iga Tac Copy
+0.3713	Shogun Tac Copy
+0.3714	Settsu Tac Copy
+0.3715	Kishu Tac Copy
+0.3716	Youth Medicine
+0.3717	Fine Salt
+0.3718	Kanbei Repeater
+0.3719	Ajari Grand Juzu
+0.3720	Roberto Love Ltr
+0.3721	Old Telescope
+0.3722	Silver Rosary
+0.3723	Horse Herd Byobu
+0.3724	Koshoji Shakujo
+0.3725	Saikoji Jewel
+0.3726	Koshoji Jinbaori
+0.3727	Amida Obi
+0.3728	Amida Jinbaori
+0.3729	Shout Tessen
+0.3730	Kotekiri Tachi
+0.3731	Kagetsura GoldSw
+0.3732	Asakura Tessen
+0.3733	Ichijodani Fan
+0.3734	Mizoe Staff
+0.3735	Amemori Spear
+0.3736	Anyoji Staff
+0.3737	Shinjo Steel Sw
+0.3738	Yuge Jinbaori
+0.3739	Weathercock Fan
+0.3740	Honor Tessen
+0.3741	Kanbei Longspear
+0.3742	7 Spears Award
+0.3743	Odawara Plum
+0.3744	Fine Setsu Beans
+0.3745	Setsubun Beans
+0.3746	Poor Setsu Beans
+0.3747	Red Oni Blood
+0.3748	Blue Oni Blood
+0.3749	Black Oni Blood
+0.3750	Kijo Blood
+0.3751	Imp Blood
+0.3752	Oni Horn
+0.3753	Small Oni Tear
+0.3754	Oni Tear
+0.3755	Big Oni Tear
+0.3756	Shoninki
+0.3757	Bansenshukai
+0.3758	Mochizuki Ninto
+0.3759	Omi Onkoroku
+0.3760	Koga Ninja Jitte
+0.3761	Joun War Axe
+0.3762	Iranki
+0.3763	Kashin Koji Rod
+0.3764	Dojun Kill Blade
+0.3765	Ukai Ninja Sash
+0.3766	Koga Strong Bow
+0.3767	Tarao Nin Armor
+0.3768	Sarutobi Ninto
+0.3769	Izuna Ninpo Book
+0.3770	Sasayama Spear
+0.3771	Otowa Iga Gun
+0.3772	Koyama Nin Garb
+0.3773	Koyo Ninpo Book
+0.3774	Kazawaki
+0.3775	Kozaru Metezashi
+0.3776	Grand Thief Prec
+0.3777	Koga OniSlay Gun
+0.3778	Shoninki Copy
+0.3779	Bansenshukai Cpy
+0.3780	Koga Ninto
+0.3781	Omi Onkoroku Cpy
+0.3782	Ninja Jitte
+0.3783	Ninja War Axe
+0.3784	Iranki Copy
+0.3785	Illusion Staff
+0.3786	Iga Kill Blade
+0.3787	Koga Ninja Sash
+0.3788	Koga Bow
+0.3789	Koga Nin Armor
+0.3790	Tsuge Ninto
+0.3791	Izuna Ninpo Cpy
+0.3792	Koga Nin Spear
+0.3793	Iga Gun
+0.3794	Iga Ninja Garb
+0.3795	Koyo Ninpo Cpy
+0.3796	Kazawaki Copy
+0.3797	Tsuge Metezashi
+0.3798	Thief Precepts
+0.3799	Koga Gun
+0.3800	Dummy 1
+0.3801	Yoshiaki Naisho
+0.3802	Kanrei Hosho
+0.3803	Doyo Basara Sw
+0.3804	Chikugo Jinbaori
+0.3805	Dummy 2
+0.3806	Taiko Scribe Pen
+0.3807	Hyogo Jar
+0.3808	Yoshiaki Award
+0.3809	Mimasaka Spear
+0.3810	Koremasa Rosary
+0.3811	Sado Naginata
+0.3812	Kemari Secrets
+0.3813	Kutsuki Dark Sw
+0.3814	Letter Etiquette
+0.3815	Makishima Bow
+0.3816	Yoshizane Coat
+0.3817	Mitsubuchi Bow
+0.3818	Hikobe Katana
+0.3819	Isshiki FangClub
+0.3820	Yamato Kongozue
+0.3821	Tennozan Spear
+0.3822	Lion Fury Blade
+0.3823	Yoshiaki Letter
+0.3824	Kanrei Letter
+0.3825	Basara Sword
+0.3826	Sesshu Jinbaori
+0.3827	Hosokawa Tachi
+0.3828	Scribe's Brush
+0.3829	Dokun's Jar
+0.3830	Yoshiaki AwdCopy
+0.3831	Yamaoka Spear
+0.3832	Frois Nihonshi
+0.3833	Matsui Nagamaki
+0.3834	Kemari Sec Copy
+0.3835	Dark Tachi
+0.3836	Soga Chronicle
+0.3837	Makishima L.Bow
+0.3838	Odate Jinbaori
+0.3839	Mitsubuchi L.Bow
+0.3840	Loyal Tachi
+0.3841	Isshiki Octa Rod
+0.3842	Itami Kongozue
+0.3843	Bloody Longspear
+0.3844	Thunder 3-Gun
+0.3845	Genbu Guard Mail
+0.3846	Snake God Bead
+0.3847	Isshuken Coat
+0.3848	Oni Sogo Spear
+0.3849	Miyoshi RegicAxe
+0.3850	Hosokawa Ryoke
+0.3851	ShogunSlay Tachi
+0.3852	Iwanari FangClub
+0.3853	Ashura Rod
+0.3854	Shinka Seishiki
+0.3855	Sakon Roar Spear
+0.3856	Ukon Jinbaori
+0.3857	Ukon's Rosary
+0.3858	Miyoshiki
+0.3859	Jiton Shakujo
+0.3860	Tamonin Nikki
+0.3861	Shichijo Rikio
+0.3862	Tenman Bow
+0.3863	Yamatoki
+0.3864	Miyake Zanbato
+0.3865	Oka Steel Whip
+0.3866	Nagayoshi Bizen
+0.3867	Danjo Tea Kettle
+0.3868	Motsugai PlainSw
+0.3869	Atagi Navy Coat
+0.3870	Kiyasha Spear
+0.3871	Regicide Axe
+0.3872	Hosokawa RyoCopy
+0.3873	Regicide Tachi
+0.3874	Iwanari Octa Rod
+0.3875	Horagatoge Pole
+0.3876	Shinka Seis Copy
+0.3877	Lion Roar Spear
+0.3878	Matsukura Coat
+0.3879	Settsu Rosary
+0.3880	Miyoshiki Copy
+0.3881	Pilgrim Shakujo
+0.3882	Tamonin Nik Copy
+0.3883	Rikio Sword
+0.3884	Awa Moonlit Bow
+0.3885	Yamatoki Copy
+0.3886	Settsu Zanbato
+0.3887	Ichijoin Whip
+0.3888	Yatagarasu 3Gun
+0.3889	Saika Jinbaori
+0.3890	Koyaan Manju
+0.3891	Saika Gunnery
+0.3892	Tsukushi Nobkuni
+0.3893	Yuun Kanasaibo
+0.3894	Sokoji Engi
+0.3895	Kumano Blessing
+0.3896	Tsuda Gunnery
+0.3897	Kumano Engi
+0.3898	Hayatama Sword
+0.3899	Hida Assassin Sw
+0.3900	Steady Oni Gun
+0.3901	Oni Nanban Gun
+0.3902	Gun Craft Book
+0.3903	Firefly TwinGun
+0.3904	Negoro TwinGun
+0.3905	Kumano Kongozue
+0.3906	Iwamurobo Spear
+0.3907	Fujimaru Zanbato
+0.3908	Kumano Ward Bow
+0.3909	Saika Wrath Axe
+0.3910	Yatagarasu 2Gun
+0.3911	Gunner Jinbaori
+0.3912	Nenbutsu Katana
+0.3913	Saika Gun Copy
+0.3914	Matoba Death Sw
+0.3915	Mitsui FangClub
+0.3916	Sokoji Engi Cpy
+0.3917	Yatagarasu Bless
+0.3918	Tsuda Gun Copy
+0.3919	Kumano Engi Cpy
+0.3920	Okami Sword
+0.3921	Assassin Sword
+0.3922	Rebel Matchlock
+0.3923	Oni Shot Gun
+0.3924	Gun Craft Copy
+0.3925	Firefly Matchlk
+0.3926	Negoro Gun
+0.3927	Kumano Shugenzue
+0.3928	Rousing Spear
+0.3929	Fujimaru Naginta
+0.3930	Demon Ward Bow
+0.3931	Saika War Axe
+0.3932	Cricket Wing
+0.3933	Bent Metezashi
+0.3934	Burglar Spear
+0.3935	Cheap Wakizashi
+0.3936	W.Catfish Hide
+0.3937	Double Base Bag
+0.3938	Wild Cross Spear
+0.3939	Banned Karaori
+0.3940	Tiger Hide Belt
+0.3941	Oil Seed
+0.3942	Ibaraki R.Arm
+0.3943	Traveler Shawl
+0.3944	Striped Obi
+0.3945	Rust Leather
+0.3946	Weakling Hood
+0.3947	Zealot Juzu
+0.3948	Bushi Chief Mail
+0.3949	Tassel Loincloth
+0.3950	Firetip Staff
+0.3951	Ibuki Helm
+0.3952	3 Maidens Flute
+0.3953	Pride Kesa
+0.3954	Powder Bag
+0.3955	Snakeskin Bag
+0.3956	1000 Thread Robe
+0.3957	Fake Morph Drug
+0.3958	Sunshower
+0.3959	Snapped Katana
+0.3960	Ishu Bushi Mask
+0.3961	Runaway Leather
+0.3962	Dark Oni
+0.3963	Tanuki Kariginu
+0.3964	Fudo Masakari
+0.3965	Kishu Kamayari
+0.3966	Wild Tiger Obi
+0.3967	Snow Obi Clasp
+0.3968	Water Yokai Kesa
+0.3969	Coward's Knife
+0.3970	Nanban Armor
+0.3971	Nanban War Axe
+0.3972	Wax Wings
+0.3973	Grape Wine
+0.3974	Spirit Dog Horn
+0.3975	Mtn God Spirit
+0.3976	Genin Ninto
+0.3977	Fort Ninja Gun
+0.3978	Shadow Runner
+0.3979	Poison Viper
+0.3980	Muyu
+0.3981	Fort Jonin Armor
+0.3982	Platinum Sanko
+0.3983	Red Rice
+0.3984	Katayaki
+0.3985	Pickled Liver
+0.3986	Iga Sake
+0.3987	Kujo Negi
+0.3988	Tofu
+0.3989	Fushimi Sake
+0.3990	Mikan
+0.3991	Nanko Umeboshi
+0.3992	Kinzanji Miso
+0.3993	Kishu Stream
+0.3994	Deer Senbei
+0.3995	Miwa Somen
+0.3996	Kakinoha Sushi
+0.3997	Temple Sake
+0.3998	Fuki
+0.3999	Mizu Nasu
+0.4000	Anko Mochi
+0.4001	Inabuse Stream
+0.4002	Castella
+0.4003	Pumpkin
+0.4004	Tempura
+0.4005	Wine
+0.4006	Sealed Jewel
+0.4007	Yomi Necklace
+0.4008	Yomi Jewel
+0.4009	Yomi Pedestal
+0.4010	Yomi Chain
+0.4011	White Soulstone
+0.4012	Red Soulstone
+0.4013	Chibiki Big Bow
+0.4014	God's Guidepost
+0.4015	Storm Noshi
+0.4016	Ice Naginata
+0.4017	Flame Cloth
+0.4018	Daiei Bolt Sword
+0.4019	Immortal Stone
+0.4020	Spacetime Stone
+0.4021	Nanban New Gun
+0.4022	Tamba Tea Jar
+0.4023	Ki-Seto Vase
+0.4024	Tenmyo Kettle
+0.4025	Black Raku Bowl
+0.4026	Dagger
+0.4027	Sword
+0.4028	Axe
+0.4029	Spear
+0.4030	Hammer
+0.4031	Stick
+0.4032	Archery
+0.4033	Spanish Armor
+0.4034	Portugal Armor
+0.4035	Glass Hairpin
+0.4036	Rosary
+0.4037	Velvet
+0.4038	Rasha
+0.4039	Juban
+0.4040	Raincoat
+0.4041	Rasha Jinbaori
+0.4042	Bay Horse Figure
+0.4043	White Horse Fig
+0.4044	Table Clock
+0.4045	Globe
+0.4046	Deerskin Bag
+0.4047	Konpeito
+0.4048	Genpuku Sword
+0.4049	Dull O-yoroi
+0.4050	Wave Dagger
+0.4051	Omaki Braid Cord
+0.4052	Omaki Rag Cord
+0.4053	Broken Braid Std
+0.4054	Omaki Braidstand
+0.4055	Secret Molasses
+0.4056	Molasses
+0.4057	Ninja Katayaki
+0.4058	Hard Katayaki
+0.4059	Osono Koshimaki
+0.4060	Seika Scarf
+0.4061	Hoji Waist Cord
+0.4062	Heavy Naeshi
+0.4063	Madenokoji Tanz
+0.4064	Woven Sm Pouch
+0.4065	Woven Daily Wear
+0.4066	Guard Blade
+0.4067	Clay Sake Bottle
+0.4068	Sober-Up Fan
+0.4069	Sweet Tooth
+0.4070	Bamboo Leaf
+0.4071	Huge Botamochi
+0.4072	Jishudo Card
+0.4073	Lucky Kitten
+0.4074	Money Bug Shell
+0.4075	Jellyfish Bone
+0.4076	Shorinbo Bag
+0.4077	Oyu Tenugui
+0.4078	Isana Harpoon
+0.4079	Isana Baleen
+0.4080	Sachi Mikan
+0.4081	Orange BellyGrd
+0.4082	Orange Robe
+0.4083	Yura's Stipend
+0.4084	Sad Cash Cow
+0.4085	Dream Compost
+0.4086	Tendai Uyaku
+0.4087	Fujitan Ash
+0.4088	9-Node Calamus
+0.4089	Black Mugwort
+0.4090	Sennin Karaginu
+0.4091	Sennin Karaobi
+0.4092	Evil Love Flame
+0.4093	Yearning Orb
+0.4094	Anchin's Robe
+0.4095	Parting Rosary
+0.4096	Hosshin Kesa
+0.4097	Fresh Mackerel
+0.4098	Deluxe Daifuku
+0.4099	Deluxe Monaka
+0.4100	Deluxe Minazuki
+0.4101	Speed Waraji
+0.4102	Test Yakimochi
+0.4103	Basic Yakimochi
+0.4104	Flat Yakimochi
+0.4105	Sincere Chawan
+0.4106	Hirokoji Bond
+0.4107	Torn Bond
+0.4108	Miyakowasure
+0.4109	Kikyo Bat Fan
+0.4110	Great Tengu Fan
+0.4111	Shuten-Doji Cup
+0.4112	Nue Tongue
+0.4113	Kikutei Cap
+0.4114	Kikutei Obi
+0.4115	Iga Ash Chawan
+0.4116	Iga Crack Vase
+0.4117	Hex Grinder
+0.4118	Hex Pestle
+0.4119	Hex Pestle Fine
+0.4120	Hex Pestle Grand
+0.4121	Hex Incense
+0.4122	Hex Censer
+0.4123	Hex Gall
+0.4124	Hex Bone
+0.4125	EnchStone Care
+0.4126	Samurai Mstr Bk
+0.4127	Geido Bk1
+0.4128	Geido Bk2
+0.4129	Priest Mstr Bk
+0.4130	Onmyoji Mstr Bk1
+0.4131	Onmyoji Mstr Bk2
+0.4132	Ninja Mstr Bk1
+0.4133	Ninja Mstr Bk2
+0.4134	Arms Book Bk1
+0.4135	Arms Book Bk2
+0.4136	Arms Book Bk3
+0.4137	Armor Book Bk1
+0.4138	Armor Book Bk2
+0.4139	Armor Book Bk3
+0.4140	Bushido I
+0.4141	Bushido II
+0.4142	Martial Lore I
+0.4143	Martial Lore II
+0.4144	Adv Tactics I
+0.4145	Adv Tactics II
+0.4146	Sohei Arts I
+0.4147	Sohei Arts II
+0.4148	Buddhism I
+0.4149	Buddhism II
+0.4150	Esoteric Arts I
+0.4151	Esoteric Arts II
+0.4152	Shinto Text I
+0.4153	Shinto Text II
+0.4154	KoShinto Text I
+0.4155	KoShinto Text II
+0.4156	Gagaku Art I
+0.4157	Gagaku Art II
+0.4158	Onmyodo I
+0.4159	Onmyodo II
+0.4160	Onmyodo III
+0.4161	Sendo Theory I
+0.4162	Sendo Theory II
+0.4163	High Summon I
+0.4164	High Summon II
+0.4165	Secret Ninpo I
+0.4166	Secret Ninpo II
+0.4167	Assassin Art I
+0.4168	Assassin Art II
+0.4169	Ninja Secret I
+0.4170	Ninja Secret II
+0.4171	Weapon Care I
+0.4172	Weapon Care II
+0.4173	Armor Care I
+0.4174	Armor Care II
+0.4175	Gun Care I
+0.4176	Gun Care II
+0.4177	Adv Medicine I
+0.4178	Adv Medicine II
+0.4179	Mysticism I
+0.4180	Mysticism II
+0.4181	Shugendo I
+0.4182	Shugendo II
+0.4183	Kozo Frag 1
+0.4184	Kozo Frag 2
+0.4185	Kozo Frag 3
+0.4186	Kozo Frag 4
+0.4187	Kozo Frag 5
+0.4188	Ganpi Frag 1
+0.4189	Ganpi Frag 2
+0.4190	Ganpi Frag 3
+0.4191	Ganpi Frag 4
+0.4192	Ganpi Frag 5
+0.4193	Mitsumata Frag 1
+0.4194	Mitsumata Frag 2
+0.4195	Mitsumata Frag 3
+0.4196	Mitsumata Frag 4
+0.4197	Mitsumata Frag 5
+0.4198	Koya Peak Axe
+0.4199	Ibaraki Baton
+0.4200	Otegine
+0.4201	Yoshioka Suke
+0.4202	Yoichi Bow
+0.4203	Yaita Matchlock
+0.4204	Dark Triple Gun
+0.4205	Red Haramaki
+0.4206	Black Domaru
+0.4207	Gold Kozane
+0.4208	Nio Gusoku
+0.4209	White Gusoku
+0.4210	Indigo Ninja Gi
+0.4211	7-Jo Bark Kesa
+0.4212	Gold Brocade Hoe
+0.4213	Navy O-Yoroi
+0.4214	Sakura O-Yoroi
+0.4215	Egret Kariginu
+0.4216	Blue Kokechi Ho
+0.4217	Shiho Star Helm
+0.4218	Antler Helm
+0.4219	Daikoku Helm
+0.4220	Michizane Cap
+0.4221	Saicho Hood
+0.4222	Saika Steel Mask
+0.4223	Tsuzure Weave
+0.4224	Yamato Kudatama
+0.4225	Raden Gogen Biwa
+0.4226	Semiore Flute
+0.4227	Grape Drum Body
+0.4228	Halberd
+0.4229	Serpent Staff
+0.4230	Lion Byobu
+0.4231	Shosho Hakkei
+0.4232	Sun Tzu
+0.4233	Shiki
+0.4234	Yomi Seal Orb
+0.4235	Yatsuhashi
+0.4236	Cipher Letter
+0.4237	Owl Hood
+0.4238	Owl Talon
+0.4239	Wrought Iron
+0.4240	Bitten Scrap
+0.4241	Fang Shuriken
+0.4242	Tengu-Uchi
+0.4243	Leg-Bind Ball
+0.4244	Toad Venom Gland
+0.4245	Bug Venom Powder
+0.4246	Dewy Kitten
+0.4247	Neko Manma
+0.4248	Silver Cat Bell
+0.4249	Senko Haori
+0.4250	Senko Hiogi
+0.4251	Hatsune Drum
+0.4252	Genkuro Drum
+0.4253	Genkuro Devotion
+0.4254	Sosho Topknot
+0.4255	Mataemon Topknot
+0.4256	Yagyu Topknot
+0.4257	Shinkage Scroll
+0.4258	Kannon Eye Water
+0.4259	Tsubosaka Sutra
+0.4260	Sawaichi Eyedrop
+0.4261	Hozoin Kamayari
+0.4262	Hozoin Spear
+0.4263	Hozoin License
+0.4264	Kumokirimaru
+0.4265	Spider Silk Hoe
+0.4266	Spidersilk Noshi
+0.4267	Fragrant Tonic
+0.4268	Old Lake Soil
+0.4269	Field Ember
+0.4270	Sorcery Crystal
+0.4271	Broken Dark Gem
+0.4272	Demon's Heart
+0.4273	Byakko Jinbaori
+0.4274	Byakko Shawl
+0.4275	Tokitsugu Diary
+0.4276	Toshimi Jufu
+0.4277	Tsumekiri Fang
+0.4278	Onmyo Charm
+0.4279	Anchor Axe
+0.4280	Spirit Dog Fang
+0.4281	Poison Thread
+0.4282	Burning Feather
+0.4283	Byakko Roar
+0.4284	Asuka Twin Gun
+0.4285	Hiten Gun
+0.4286	Crane Twin Gun
+0.4287	Saika Matchlock
+0.4288	Phantom Kogatana
+0.4289	Phantom Tachi
+0.4290	Phantom Robe
+0.4291	Phantom Haraate
+0.4292	Phantom Kansho
+0.4293	Three Crows Hood
+0.4294	3 Crows Armor
+0.4295	3 Crows Ninjato
+0.4296	Olivine
+0.4297	Nectar
+0.4298	Small Lapis
+0.4299	Worked Bekko
+0.4300	Coral Bead
+0.4301	Small Amber
+0.4302	Pearl Grain
+0.4303	Broken Comb
+0.4304	Rusty Hairpin
+0.4305	East Topknot
+0.4306	West Topknot
+0.4307	Calcite
+0.4308	Calcite +2
+0.4309	Calcite +3
+0.4310	Calcite +4
+0.4311	Calcite +5
+0.4312	Calcite +6
+0.4313	Amazonite
+0.4314	Amazonite +2
+0.4315	Amazonite +3
+0.4316	Amazonite +4
+0.4317	Amazonite +5
+0.4318	Amazonite +6
+0.4319	Garnet
+0.4320	Garnet +2
+0.4321	Garnet +3
+0.4322	Garnet +4
+0.4323	Garnet +5
+0.4324	Garnet +6
+0.4325	Tiger Eye
+0.4326	Tiger Eye +2
+0.4327	Tiger Eye +3
+0.4328	Tiger Eye +4
+0.4329	Tiger Eye +5
+0.4330	Tiger Eye +6
+0.4331	Rhodonite
+0.4332	Rhodonite +2
+0.4333	Rhodonite +3
+0.4334	Rhodonite +4
+0.4335	Rhodonite +5
+0.4336	Rhodonite +6
+0.4337	Opal
+0.4338	Opal +40
+0.4339	Opal +60
+0.4340	Opal +80
+0.4341	Opal +100
+0.4342	Opal +120
+0.4343	Aragonite
+0.4344	Aragonite +40
+0.4345	Aragonite +60
+0.4346	Aragonite +80
+0.4347	Aragonite +100
+0.4348	Aragonite +120
+0.4349	Azurite
+0.4350	Azurite +2
+0.4351	Azurite +3
+0.4352	Azurite +4
+0.4353	Azurite +5
+0.4354	Azurite +6
+0.4355	Fluorite
+0.4356	Fluorite +2
+0.4357	Fluorite +3
+0.4358	Fluorite +4
+0.4359	Fluorite +5
+0.4360	Fluorite +6
+0.4361	Bloodstone
+0.4362	Bloodstone +2
+0.4363	Bloodstone +3
+0.4364	Bloodstone +4
+0.4365	Bloodstone +5
+0.4366	Bloodstone +6
+0.4367	Dzi Bead
+0.4368	Dzi Bead +2
+0.4369	Dzi Bead +3
+0.4370	Dzi Bead +4
+0.4371	Dzi Bead +5
+0.4372	Dzi Bead +6
+0.4373	Talisman
+0.4374	Bear Pill (War)
+0.4375	Roku Pill (War)
+0.4376	Deft Pill (War)
+0.4377	Wit Pill (War)
+0.4378	Sage Pill (War)
+0.4379	Earth Pill (War)
+0.4380	Water Pill (War)
+0.4381	Fire Pill (War)
+0.4382	Wind Pill (War)
+0.4383	Eyedrops (War)
+0.4384	Speed Med (War)
+0.4385	Hide Med (War)
+0.4386	Heal Pill (War)
+0.4387	East Kogatana
+0.4388	East Tachi
+0.4389	East Cross Spear
+0.4390	East Iron Club
+0.4391	East Rattan Bow
+0.4392	East Ridge Helm
+0.4393	East Mousu
+0.4394	East Cap
+0.4395	East Ninja Helm
+0.4396	East Hotoke Do
+0.4397	East Monk Robe
+0.4398	East Sokutai
+0.4399	East Ninja Armor
+0.4400	West Kogatana
+0.4401	West Tachi
+0.4402	West Cross Spear
+0.4403	West Iron Club
+0.4404	West Rattan Bow
+0.4405	West Ridge Helm
+0.4406	West Mousu
+0.4407	West Cap
+0.4408	West Ninja Helm
+0.4409	West Hotoke Do
+0.4410	West Monk Robe
+0.4411	West Sokutai
+0.4412	West Ninja Armor
+0.4413	East Arms Tally
+0.4414	West Arms Tally
+0.4415	Sword of Grief
+0.4416	Dandy's Flute
+0.4417	Surprise Dye
+0.4418	Whimsy Crest
+0.4419	Slim Pill
+0.4420	Plump Pill
+0.4421	Talisman Book F
+0.4422	Talisman Book B
+0.4423	Divine Sueki
+0.4424	Sueki Shard 1
+0.4425	Sueki Shard 2
+0.4426	Sueki Shard 3
+0.4427	Sueki Shard 4
+0.4428	Sueki Shard 5
+0.4429	Sueki Shard 6
+0.4430	Sueki Shard 7
+0.4431	Azure Paper
+0.4432	Scarlet Paper
+0.4433	White Paper
+0.4434	Blue Tanzaku
+0.4435	Red Tanzaku
+0.4436	White Tanzaku
+0.4437	Friendship Token
+0.4438	Friend Magatama
+0.4439	Love Token
+0.4440	Love Kanzashi
+0.4441	Handknit Shawl
+0.4442	Small Peony Star
+0.4443	Peony Star
+0.4444	1-Flower Star
+0.4445	Bee Star
+0.4446	Kiku Star
+0.4447	Kiku
+0.4448	Silver Kiku
+0.4449	Crimson Kiku
+0.4450	Green Kiku
+0.4451	Bee
+0.4452	Silver Bee
+0.4453	Crimson Bee
+0.4454	Green Bee
+0.4455	Fireworks Award
+0.4456	SenKiku
+0.4457	Silver SenKiku
+0.4458	Crimson SenKiku
+0.4459	Green SenKiku
+0.4460	Rainbow SenKiku
+0.4461	Kogiku
+0.4462	Silver Kogiku
+0.4463	Crimson Kogiku
+0.4464	Green Kogiku
+0.4465	Kogiku Star
+0.4466	SenKiku Star
+0.4467	Bird Lime
+0.4468	Dark Tide Jewel
+0.4469	Crown of Thorns
+0.4470	Yomi Defilement
+0.4471	Ura's Glass Eye
+0.4472	Jade Disc
+0.4473	Old Hoe
+0.4474	Old Bell
+0.4475	Hikan Mirror
+0.4476	Jailer Sasumata
+0.4477	Rock Pestle
+0.4478	Purple Mane
+0.4479	Dormant Scale
+0.4480	Snake Bone
+0.4481	Small Haniwa
+0.4482	Large Haniwa
+0.4483	Niemon Potion
+0.4484	Dark Tengu Mask
+0.4485	Earth Orb Staff
+0.4486	Earthenware
+0.4487	Strange Dogu
+0.4488	Abyss Painting
+0.4489	Fleshy Hannya
+0.4490	Ominous Armor
+0.4491	Henge Ledger
+0.4492	One-Way Ticket
+0.4493	Torment Rod
+0.4494	Dream Hagoromo
+0.4495	Mumyo Triple Gun
+0.4496	Roaring O-Yoroi
+0.4497	Soaring Scale
+0.4498	Hex Cloud Thread
+0.4499	Spiked Collar
+0.4500	Stench Bag
+0.4501	Miasma Orb
+0.4502	Hannya Noh Mask
+0.4503	Mikan Dish
+0.4504	Tengu Noh Mask
+0.4505	Momiji Plant
+0.4506	Kaede Plant
+0.4507	Pine Plant
+0.4508	Small Pine Plant
+0.4509	Twin Plant
+0.4510	Small Plant
+0.4511	Bamboo Plant
+0.4512	Sakura Plant
+0.4513	Willow Plant
+0.4514	Rock Garden Base
+0.4515	Camellia Ikebana
+0.4516	Hydrangea Bed
+0.4517	Seiryu Horn
+0.4518	Suzaku Feather
+0.4519	Skull
+0.4520	Tiger Skin Rug
+0.4521	Rice Bale
+0.4522	Toad Club
+0.4523	Omusubi Bento
+0.4524	Rice and Soup
+0.4525	Grilled Fish
+0.4526	Fuda - Victory
+0.4527	Fuda - Fire Safe
+0.4528	Fuda - Exorcism
+0.4529	Fuda - No Rest
+0.4530	Fuda - Good Deed
+0.4531	Fuda - Riches
+0.4532	Fuda - Safety
+0.4533	Fuda - Warrior
+0.4534	XS Garden Rock
+0.4535	Garden Rock
+0.4536	Sm Garden Rock
+0.4537	Rhomb Stepstone
+0.4538	Round Stepstone
+0.4539	Square Stepstone
+0.4540	Ear Stepstone
+0.4541	Spear Stepstone
+0.4542	Sm Water Basin
+0.4543	Namahage Mask
+0.4544	Chopping Block
+0.4545	Big Round Hedge
+0.4546	Oni Kanabo
+0.4547	Sm Samurai House
+0.4548	Crude Shack
+0.4549	Haniwa
+0.4550	Lintel
+0.4551	Lucky Cat
+0.4552	Giant Shuriken
+0.4553	Red Decor Armor
+0.4554	Tricolor Dango
+0.4555	Genbu Shell
+0.4556	Pillar
+0.4557	Okiku Doll
+0.4558	Miko Doll
+0.4559	Lucky Sake Cask
+0.4560	Raijin Kanabo
+0.4561	Iris Ikebana
+0.4562	Samurai House
+0.4563	Komainu
+0.4564	Buddha Statue
+0.4565	Weeds
+0.4566	Farm Plot
+0.4567	Round Hedge
+0.4568	Display Fan
+0.4569	Small Basket
+0.4570	Small Signboard
+0.4571	Plain Fusuma
+0.4572	Red Futon
+0.4573	Blue Obi Rack
+0.4574	Signboard
+0.4575	Courier Basket
+0.4576	Painted Fusuma
+0.4577	Carry Basket
+0.4578	Blue Robe Rack
+0.4579	Paper Lantern
+0.4580	Ink Wash Fusuma
+0.4581	Tea Picnic Mat
+0.4582	Purple Obi Rack
+0.4583	Brown Futon
+0.4584	Orange Robe Rack
+0.4585	Armrest Cushion
+0.4586	Tokonoma
+0.4587	Lavish Fusuma
+0.4588	Straw Raincoat
+0.4589	Wooden Trunk
+0.4590	Small Desk
+0.4591	Large Bookshelf
+0.4592	Outdoor Barrel
+0.4593	Closed Bookshelf
+0.4594	Rice Tub
+0.4595	Stair Tansu
+0.4596	Curved-Leg Desk
+0.4597	Teahouse Parasol
+0.4598	Bow Rack
+0.4599	Black Desk
+0.4600	Black Wardrobe
+0.4601	Guard Helm
+0.4602	Cabinet Tansu
+0.4603	Flat Desk
+0.4604	Decent Barrel
+0.4605	Simple Lantern
+0.4606	Plain Box
+0.4607	Seated Jizo
+0.4608	Entrance Steps
+0.4609	Kamidana
+0.4610	Drawer Box
+0.4611	Wooden Lantern
+0.4612	Offering Stand
+0.4613	Tamatebako
+0.4614	Jizo Statue
+0.4615	Maki-e Box
+0.4616	Dresser
+0.4617	Stone Stele
+0.4618	Tea Ware Box
+0.4619	Makeup Shelf
+0.4620	Torii Gate
+0.4621	Stone Lantern
+0.4622	Roofed Kamidana
+0.4623	Sake Flask
+0.4624	Sake Cup
+0.4625	Homemade Cup
+0.4626	Wooden Plate
+0.4627	Small Clay Jar
+0.4628	Sake Set Tray
+0.4629	Scenery Screen
+0.4630	Sm Sake Bottle
+0.4631	Teacup
+0.4632	Tall Jar
+0.4633	Maki-e Teacup
+0.4634	Shigaraki Jar
+0.4635	Full Tea Set
+0.4636	Decent Scroll
+0.4637	Clay Jar
+0.4638	Porcelain Jar
+0.4639	Round Gravestone
+0.4640	Decent Byobu
+0.4641	Wall Sickle
+0.4642	Crude Hoe
+0.4643	Okame Noh Mask
+0.4644	Anvil
+0.4645	Plain Kamado
+0.4646	Five Paving Set
+0.4647	Goemon Bath
+0.4648	Wall Katana
+0.4649	Decor Kongo Rod
+0.4650	Inari Statue
+0.4651	Spear Rack
+0.4652	Fair Kamado
+0.4653	Katana Rack
+0.4654	Triple Paver Set
+0.4655	Fine Water Basin
+0.4656	Gun Rack
+0.4657	Daily Waraji
+0.4658	Haystack
+0.4659	Plain Fence
+0.4660	Rope Net Cushion
+0.4661	Straw Dry Rack
+0.4662	Partition
+0.4663	Barn
+0.4664	Plain Well
+0.4665	Simple Fence
+0.4666	Bamboo Fence
+0.4667	Haystack Rack
+0.4668	Thatched Hut
+0.4669	Wheel
+0.4670	Samurai Screen
+0.4671	Shrub Fence
+0.4672	Storage Shed
+0.4673	Wooden Well
+0.4674	Wheelbarrow
+0.4675	Sm Wicker Box
+0.4676	Straw Scarecrow
+0.4677	Tobacco Pouch
+0.4678	Tinderbox
+0.4679	Teahouse Chair
+0.4680	Fine Hearth
+0.4681	Meal Tray
+0.4682	Small Tatami
+0.4683	Brazier
+0.4684	Mum Ikebana
+0.4685	Hearth
+0.4686	Alcove Tatami
+0.4687	Armrest
+0.4688	Andon Lamp
+0.4689	Hall Tatami
+0.4690	Feast Tray
+0.4691	Fancy Obi Rack
+0.4692	Peach Fusuma
+0.4693	Big Pine Plant
+0.4694	Nice Plant
+0.4695	Fuda: Prosperity
+0.4696	Fuda: Bishamon
+0.4697	Fuda: No Sake
+0.4698	Fuda: Seized
+0.4699	L Yard Rock
+0.4700	XL Yard Rock
+0.4701	Grave
+0.4702	Bamboo Grove
+0.4703	Triad Statue
+0.4704	Palm Tree
+0.4705	Bearskin Rug
+0.4706	Large Plant
+0.4707	Fine Jizo
+0.4708	Small Shrine
+0.4709	Black Lantern
+0.4710	Great Torii
+0.4711	Wicker Wood Box
+0.4712	Koto
+0.4713	Big Clay Jar
+0.4714	Porcelain Jar
+0.4715	Gold Screen
+0.4716	Stone Well
+0.4717	Big Drying Rack
+0.4718	Large Cart
+0.4719	Kicho Screen
+0.4720	Red Kimono Rack
+0.4721	Floral Jar
+0.4722	Sumo Ring
+0.4723	Nanban Castella
+0.4724	Azai Banner
+0.4725	Asakura Banner
+0.4726	Shogun Banner
+0.4727	Honganji Banner
+0.4728	Hojo Banner
+0.4729	Imagawa Banner
+0.4730	Miyoshi Banner
+0.4731	Iga Banner
+0.4732	Oda Banner
+0.4733	Saika Banner
+0.4734	Saito Banner
+0.4735	Takeda Banner
+0.4736	Tokugawa Banner
+0.4737	Uesugi Banner
+0.4738	Kagami Mochi
+0.4739	Storehouse
+0.4740	5-Tier Pagoda
+0.4741	Clay Figure
+0.4742	Attendant Seat
+0.4743	Kadomatsu
+0.4744	Ceramic Tanuki
+0.4745	Small Battery
+0.4746	Bell Tower
+0.4747	Fixed Cannon
+0.4748	Large Stable
+0.4749	Garden Gate
+0.4750	Kanabo
+0.4751	Ox Cleaver
+0.4752	Longhouse
+0.4753	Taiko Drum
+0.4754	Small Haniwa
+0.4755	Large Taiko
+0.4756	Human Haniwa
+0.4757	Small Tsuzumi
+0.4758	Soldier Haniwa
+0.4759	4-Tier Tansu
+0.4760	3-Tier Shelf
+0.4761	Paulownia Tansu
+0.4762	Large Low Table
+0.4763	Medicine Tansu
+0.4764	5-Tier Tansu
+0.4765	Sake Barrel
+0.4766	Sm Black Tansu
+0.4767	Black Low Table
+0.4768	2-Tier W Chest
+0.4769	Tall Table
+0.4770	Wardrobe
+0.4771	Smith's Tools
+0.4772	Garden Pond
+0.4773	Rock and Pine
+0.4774	XL Yard Sand
+0.4775	L Yard Sand
+0.4776	Yard Sand
+0.4777	S Yard Sand
+0.4778	XS Yard Sand
+0.4779	L Tall Yard Sand
+0.4780	Tall Yard Sand
+0.4781	S Tall Yard Sand
+0.4782	XL Yard Turf
+0.4783	L Yard Turf
+0.4784	Yard Turf
+0.4785	S Yard Turf
+0.4786	XS Yard Turf
+0.4787	L Tall Yard Turf
+0.4788	Tall Yard Turf
+0.4789	S Tall Yard Turf
+0.4790	Fuda: Sold
+0.4791	Buddha Head
+0.4792	Shogi Board
+0.4793	Step Shelf
+0.4794	Colored Parasol
+0.4795	Long Step Shelf
+0.4796	Shigaraki Jar
+0.4797	Wind Chime
+0.4798	Wall Hanger
+0.4799	Shishi-odoshi
+0.4800	Shield
+0.4801	Plaster Wall
+0.4802	Round Lantern
+0.4803	Candlestand
+0.4804	Lacquer Stand
+0.4805	Torch
+0.4806	Bow Lantern
+0.4807	Long Lantern
+0.4808	Red Lantern
+0.4809	Nio Statue A
+0.4810	Nio Statue Un
+0.4811	House Entry Wall
+0.4812	Kozo Paper
+0.4813	Rapeseed Oil
+0.4814	Birch Wood
+0.4815	Smoked Bamboo
+0.4816	Feathers
+0.4817	Rat Leather
+0.4818	Sake Koji
+0.4819	Sake Rice
+0.4820	Pig Iron
+0.4821	Sumi Ink
+0.4822	Log
+0.4823	Soap
+0.4824	Seashell
+0.4825	Cherry Wood
+0.4826	Sumac Wood
+0.4827	Camphor Wood
+0.4828	Fox Leather
+0.4829	Silica Stone
+0.4830	Awase Whetstone
+0.4831	Geranium Powder
+0.4832	Goji Powder
+0.4833	Rehmannia Pwd
+0.4834	Igusa Reed
+0.4835	Paste
+0.4836	Black Lacquer
+0.4837	Med Sake Koji
+0.4838	Med Sake Rice
+0.4839	Horsehair Brush
+0.4840	Ganpi Paper
+0.4841	Cedar Wood
+0.4842	Wolf Leather
+0.4843	Iron Bloom
+0.4844	Dried Mugwort
+0.4845	Pure Water Drop
+0.4846	Earthen Clay
+0.4847	Flint
+0.4848	Purple Quartz
+0.4849	Tea Leaf Powder
+0.4850	Chili Powder
+0.4851	Cassia Powder
+0.4852	Fennel Powder
+0.4853	Polished Log
+0.4854	Perilla Oil
+0.4855	Turtle Shell
+0.4856	Shell White
+0.4857	Hackberry Wood
+0.4858	Kikko Bamboo
+0.4859	Silk Thread
+0.4860	Meteor Iron
+0.4861	Feldspar
+0.4862	Small Jade
+0.4863	Turmeric Powder
+0.4864	Citrus Peel Pwd
+0.4865	Primrose Powder
+0.4866	White Charcoal
+0.4867	Colored Lacquer
+0.4868	Fine Tamahagane
+0.4869	Mitsumata Paper
+0.4870	Turtle Blood
+0.4871	Sharkskin
+0.4872	Fine Sake Koji
+0.4873	Oak Wood
+0.4874	Spindle Wood
+0.4875	Fine Sake Rice
+0.4876	Cowhide
+0.4877	Deer Antler
+0.4878	Deerskin
+0.4879	Holy Water Drop
+0.4880	Fine Platinum
+0.4881	Kiseto Clay
+0.4882	Dressed Beef
+0.4883	Oxhair Brush
+0.4884	Whale Oil
+0.4885	Chestnut Wood
+0.4886	Willow Wood
+0.4887	Hotei Bamboo
+0.4888	Fine Feathers
+0.4889	Super Holy Drop
+0.4890	Prem Tamahagane
+0.4891	True Sharkskin
+0.4892	Prem Sake Koji
+0.4893	Pine Wood
+0.4894	Prem Sake Rice
+0.4895	Wild Silk
+0.4896	Whale Blood
+0.4897	Ambergris
+0.4898	Whale Sinew
+0.4899	Paulownia Wood
+0.4900	Fine Cowhide
+0.4901	Suiton
+0.4902	Fried Egg
+0.4903	Yakitori
+0.4904	Edamame
+0.4905	Clam Tsukudani
+0.4906	Simmered Hijiki
+0.4907	Sardine Balls
+0.4908	Rice Ball Wrap
+0.4909	Kinpira Gobo
+0.4910	Zaru Soba
+0.4911	Natto
+0.4912	Squid Shiokara
+0.4913	Dried Aji
+0.4914	Wakame Miso Soup
+0.4915	Congee & Miso
+0.4916	Locust Tsukudani
+0.4917	Umeboshi
+0.4918	Basashi
+0.4919	Yudofu
+0.4920	Kyarabuki
+0.4921	Octopus Sashimi
+0.4922	Dried Herring
+0.4923	Oden
+0.4924	Clam Miso Soup
+0.4925	Mochi
+0.4926	Offering Mochi
+0.4927	Snail Tsukudani
+0.4928	Shiratama
+0.4929	Kitsune Udon
+0.4930	Grilled Saury
+0.4931	Kamaboko
+0.4932	Scallop
+0.4933	Steamed Shrimp
+0.4934	Sakura Mochi
+0.4935	Sekihan
+0.4936	7-Herb Congee
+0.4937	Chestnut Rice
+0.4938	Kuri Kinton
+0.4939	Grilled Beef
+0.4940	Cheese
+0.4941	Miso Venison
+0.4942	Unaju
+0.4943	Hatomugi Rice
+0.4944	Kusa Mochi
+0.4945	Pickled Cucumber
+0.4946	Miso Cucumber
+0.4947	Ikura Gunkan
+0.4948	Grilled Salmon
+0.4949	Oyster Nabe
+0.4950	Boiled Crab
+0.4951	Bamboo Rice
+0.4952	Tanuki Soup
+0.4953	Boar Nabe
+0.4954	Pickled Eggplant
+0.4955	Miso Eggplant
+0.4956	Katsuo Tataki
+0.4957	Uni Bowl
+0.4958	Ohagi
+0.4959	Grilled Corn
+0.4960	Grilled Abalone
+0.4961	Makunouchi
+0.4962	Dobin Mushi
+0.4963	Matsutake Rice
+0.4964	Tempura Udon
+0.4965	Tuna Nigiri
+0.4966	Whale Meat
+0.4967	Whole Sea Bream
+0.4968	Kaiken
+0.4969	Warabite-to
+0.4970	Shibauchi
+0.4971	Splitting Axe
+0.4972	Heavy Axe
+0.4973	Great Masakari
+0.4974	Uchigatana
+0.4975	Mokusa-to
+0.4976	Dotanuki
+0.4977	Tsukushi Nagta
+0.4978	War Scythe
+0.4979	Hook Te-yari
+0.4980	Cross Te-yari
+0.4981	Tsukushi Yari
+0.4982	Large Yari
+0.4983	Kanto Tachi
+0.4984	Sanko Sword
+0.4985	Shippei
+0.4986	Kyosaku
+0.4987	Iron Nyoi
+0.4988	Tokko
+0.4989	Spiked Club
+0.4990	7-Star Baton
+0.4991	Hachigane
+0.4992	Hyottoko Mask
+0.4993	Steel Browplate
+0.4994	Fox Mask
+0.4995	Purple Star Helm
+0.4996	Navy Star Helm
+0.4997	Winged Suji Helm
+0.4998	Gilt Suji Helm
+0.4999	Black Kasa Helm
+0.5000	Gilt Kasa Helm
+0.5001	Folding Helm
+0.5002	Gilt Eboshi Helm
+0.5003	Black Haramaki
+0.5004	Scale Haramaki
+0.5005	Black Hara-ate
+0.5006	Cowhide Hara-ate
+0.5007	Tiered O-yoroi
+0.5008	Gold O-yoroi
+0.5009	Navy Tosei Armor
+0.5010	Black 5-Plate Do
+0.5011	Star Shuriken
+0.5012	Manji Shuriken
+0.5013	Sakai Gun
+0.5014	Kunitomo Gun
+0.5015	Sakai Repeater
+0.5016	Inatomi Repeater
+0.5017	Sakai 3-Barrel
+0.5018	Tanega 3-Barrel
+0.5019	3-Ply Bow
+0.5020	Yagura Bow
+0.5021	White Arrow
+0.5022	Blast Shell
+0.5023	Zen Staff
+0.5024	Sage's Staff
+0.5025	Koshu Tactics 2
+0.5026	Plate
+0.5027	Incense Burner
+0.5028	Kacho Scroll
+0.5029	Landscape Scroll
+0.5030	Canopy
+0.5031	Tall Eboshi
+0.5032	Large Wicker Box
+0.5033	Eyepatch
+0.5034	Gold Crown
+0.5035	Raden Necklace
+0.5036	Magatama Beads
+0.5037	Raden Hairpin
+0.5038	Saishi
+0.5039	Great Hamaya
+0.5040	Comet Arrow
+0.5041	Fundoshi
+0.5042	Koshimaki
+0.5043	Flashy Fundoshi
+0.5044	Sexy Koshimaki
+0.5045	Kusazuri
+0.5046	Waist Cinch
+0.5047	Nyoho Robe
+0.5048	Yui Kesa
+0.5049	Gojo Kesa
+0.5050	Shichijo Kesa
+0.5051	Kakue Robe
+0.5052	Hitatare
+0.5053	Joue Robe
+0.5054	Omigoromo
+0.5055	Shadow Ninja Gi
+0.5056	8-Pt Ninja Helm
+0.5057	Black Ninja Mail
+0.5058	Ninjato
+0.5059	Gale Ninja Gi
+0.5060	32-Pt Ninja Helm
+0.5061	Scale Ninja Mail
+0.5062	Zanbato
+0.5063	Cedar Hilt
+0.5064	Jabara Hilt
+0.5065	Leather Hilt
+0.5066	Sanko Hilt
+0.5067	Sharkskin Hilt
+0.5068	Lacquer Foil
+0.5069	Plain Scroll
+0.5070	Plain Kakejiku
+0.5071	Plain Fusuma
+0.5072	Strong Bowstring
+0.5073	Strong Bow Core
+0.5074	White Oak Stock
+0.5075	Cowhide Cord
+0.5076	Hilt Wrap
+0.5077	Semi Silk Thread
+0.5078	Round Cord
+0.5079	Fine Silk Thread
+0.5080	Cotton Flat Cord
+0.5081	Leather Cord
+0.5082	Square Cord
+0.5083	Silk Cord
+0.5084	Screw
+0.5085	Nail
+0.5086	Rivet
+0.5087	Menuki
+0.5088	Fancy Menuki
+0.5089	Silver Ornament
+0.5090	Gold Ornament
+0.5091	Ornate Clasp
+0.5092	Ornate Ferrule
+0.5093	Fuchigashira
+0.5094	Steel Rivet
+0.5095	Steel Shikoro
+0.5096	Tosei Shikoro
+0.5097	Steel Arrowhead
+0.5098	Plate Scale
+0.5099	Fine Plate Scale
+0.5100	Iron Armor Plate
+0.5101	Steel Armor Plt
+0.5102	Hard Steel Plate
+0.5103	Steel
+0.5104	Ornate Tsuba
+0.5105	Browplate
+0.5106	3rd-Grade Sake
+0.5107	2nd-Grade Sake
+0.5108	1st-Grade Sake
+0.5109	Semi Silk Cloth
+0.5110	Silk Cloth
+0.5111	Fine Silk Cloth
+0.5112	Damask
+0.5113	Satin Weave
+0.5114	Satin
+0.5115	White Dye
+0.5116	Sermon Pill
+0.5117	Sermon Elixir
+0.5118	Fortune Powder
+0.5119	Fortune Pill
+0.5120	Fortune Elixir
+0.5121	Eye Drops II
+0.5122	Stealth Drug II
+0.5123	Hearing Drug
+0.5124	Bone-In Meat
+0.5125	Sleeping Drug
+0.5126	Excite Drug
+0.5127	Plumping Drug
+0.5128	Slimming Drug
+0.5129	Height Drug
+0.5130	Shrink Drug
+0.5131	Gauntlet
+0.5132	Shino Gauntlet
+0.5133	Tube Gauntlet
+0.5134	Chain Gauntlet
+0.5135	Gourd Gauntlet
+0.5136	Leather Gloves
+0.5137	Hard Hide Gloves
+0.5138	Silk Gloves
+0.5139	Wolf Hide Gloves
+0.5140	Cowhide Gloves
+0.5141	Deerskin Gloves
+0.5142	Waraji
+0.5143	Geta
+0.5144	Tabi
+0.5145	Kogake
+0.5146	Gaiters
+0.5147	Shin Guard
+0.5148	Asagutsu
+0.5149	Charm
+0.5150	Kokeshi
+0.5151	Ofuda
+0.5152	Buddha Statue
+0.5153	Star Shrkn Mold
+0.5154	Manji Shrkn Mold
+0.5155	Sakai Gun Plan
+0.5156	Kunitomo Plan
+0.5157	Sakai Rep Plan
+0.5158	Inatomi Plan
+0.5159	Sakai Tri Plan
+0.5160	Tanega Tri Plan
+0.5161	Ramie Fiber
+0.5162	Shale Clay
+0.5163	Millet Straw
+0.5164	Brown Rice Straw
+0.5165	Rice Straw
+0.5166	Rock
+0.5167	Granite
+0.5168	Large Rock
+0.5169	Plant Ash
+0.5170	Candle
+0.5171	Mum Flower
+0.5172	Helm Book V
+0.5173	Helm Book VI
+0.5174	Helm Book VII
+0.5175	Armor Book IV
+0.5176	Armor Book V
+0.5177	Blunt Book IV
+0.5178	Blunt Book V
+0.5179	Blade Book IV
+0.5180	Blade Book V
+0.5181	Spear Book IV
+0.5182	Spear Book V
+0.5183	Casting Book III
+0.5184	Casting Book IV
+0.5185	Samurai Mstr 5
+0.5186	Samurai Mstr 6
+0.5187	Samurai Mstr 7
+0.5188	Samurai Mstr 8
+0.5189	Samurai Mstr 9
+0.5190	Arts Path 5
+0.5191	Arts Path 6
+0.5192	Arts Path 7
+0.5193	Arts Path 8
+0.5194	Priest Mstr 6
+0.5195	Priest Mstr 7
+0.5196	Priest Mstr 8
+0.5197	Onmyoji Mstr 4
+0.5198	Onmyoji Mstr 5
+0.5199	Onmyoji Mstr 6
+0.5200	Ninja Mstr 4
+0.5201	Ninja Mstr 5
+0.5202	Ninja Mstr 6
+0.5203	Physician Mstr 1
+0.5204	Physician Mstr 2
+0.5205	Physician Mstr 3
+0.5206	Physician Mstr 4
+0.5207	Physician Mstr 5
+0.5208	Smith Basics 2
+0.5209	Samurai Furn 1
+0.5210	Samurai Furn 2
+0.5211	Monk Furn 1
+0.5212	Monk Furn 2
+0.5213	Priest Furn 1
+0.5214	Priest Furn 2
+0.5215	Blue Whetstone
+0.5216	White Whetstone
+0.5217	Black Clay
+0.5218	Crystal
+0.5219	Amethyst
+0.5220	Wisteria Vine
+0.5221	Talc
+0.5222	Suita Whetstone
+0.5223	Bellflower
+0.5224	Ginger
+0.5225	Plantain
+0.5226	Kudzu
+0.5227	Oak Charcoal
+0.5228	Bat Guano
+0.5229	Oak Branch
+0.5230	Samurai Prec 8
+0.5231	Loyalty
+0.5232	Esoteric 7
+0.5233	Gagaku Saibara
+0.5234	Ko-Shinto 7
+0.5235	Onmyoji Prec 7
+0.5236	Espionage 6
+0.5237	Smith Prec 5
+0.5238	Smith Prec 6
+0.5239	Physician Prec 5
+0.5240	Battle Precepts
+0.5241	Black Armor Bug
+0.5242	White Armor Bug
+0.5243	Blue Fishman
+0.5244	Black Fishman
+0.5245	White Giant Dog
+0.5246	Lt Red Shikome
+0.5247	Lt Blue Shikome
+0.5248	Black Skull
+0.5249	Dark Red Skull
+0.5250	White Tanuki
+0.5251	Blue Ochimusha
+0.5252	Red Ochimusha
+0.5253	Blue Rogue Monk
+0.5254	Red Rogue Monk
+0.5255	Black Monk
+0.5256	Yellow Monk
+0.5257	White Ninja
+0.5258	White Yamabushi
+0.5259	Black Yamabushi
+0.5260	Green Headless
+0.5261	Red Headless
+0.5262	Black Live Armor
+0.5263	Green Live Armor
+0.5264	Brown Komuso
+0.5265	White Komuso
+0.5266	Pure Wht Komuso
+0.5267	New Pearl Rice
+0.5268	Novice Tachi
+0.5269	Novice Shoto
+0.5270	Novice Jumonji
+0.5271	Novice Kanasaibo
+0.5272	Novice Gusoku
+0.5273	Novice Sokutai
+0.5274	Novice Monk Robe
+0.5275	Novice NinjaMail
+0.5276	Suspect's Letter
+0.5277	Suspect's Memo
+0.5278	Old Gloves
+0.5279	Old Waraji
+0.5280	Old Doll
+0.5281	Blank Crest Book
+0.5282	Sakura Crest
+0.5283	Scale Crest
+0.5284	Bamboo Crest
+0.5285	Coin Crest
+0.5286	Moon Crest
+0.5287	Kudzu Crest
+0.5288	Wave Crest
+0.5289	Crane Crest
+0.5290	Tomoe Crest
+0.5291	Standing Book
+0.5292	Fine Standg Book
+0.5293	Erased Std Book
+0.5294	Crest Secret Bk
+0.5295	Bloodline Power
+0.5296	Blood Scroll
+0.5297	Chief's Commend
+0.5298	Bamboo Coil Lntl
+0.5299	Fan Decor Lintel
+0.5300	Fine Shoji Lntl
+0.5301	Rough Shoji Lntl
+0.5302	Ranma Lintel
+0.5303	Decent Lintel
+0.5304	Decent Jar
+0.5305	Byakko Rug
+0.5306	Seiryu Head
+0.5307	Shinryu Head
+0.5308	Firewood Bundle
+0.5309	School Letter
+0.5310	Duel Challenge
+0.5311	Master's Gift
+0.5312	Learning Book 1
+0.5313	Learning Book 2
+0.5314	Learning Book 3
+0.5315	Learning Book 4
+0.5316	Learning Book 5
+0.5317	Learning Book 6
+0.5318	Learning Book 7
+0.5319	Learning Book 8
+0.5320	Learning Book 9
+0.5321	Learning Book 10
+0.5322	Learning Book 11
+0.5323	Learning Book 12
+0.5324	Learning Book 13
+0.5325	Learning Book 14
+0.5326	Learning Book 15
+0.5327	Red Nun
+0.5328	White Nun
+0.5329	Green Nun
+0.5330	Sky Blue Nun
+0.5331	Old Copper Coin
+0.5332	Gold Key
+0.5333	Silver Key
+0.5334	Copper Key
+0.5335	Iron Key
+0.5336	Platinum Key
+0.5337	Tin Key
+0.5338	Lead Key
+0.5339	Crest Craft Tool
+0.5340	Bulk Repair Mat
+0.5341	Soul Talisman
+0.5342	Festival Fan
+0.5343	Cross Vajra
+0.5344	Evil Ward Kozuka
+0.5345	Crescent Sword
+0.5346	Broken Nanbanto
+0.5347	Rusty Pickaxe
+0.5348	Nanban Katakama
+0.5349	Giant Beast Fang
+0.5350	Kabuki Kiseru
+0.5351	Kakizome Brush
+0.5352	Lucky Rake
+0.5353	Broken BlkRaku
+0.5354	Cracked Celadon
+0.5355	Chipped RedRaku
+0.5356	Amateur Rod
+0.5357	Dull Wht Porc
+0.5358	Votive Katana
+0.5359	Nanban Bow
+0.5360	Okame Mask
+0.5361	Tengu Mask
+0.5362	Hannya Mask
+0.5363	Kensei Eyepatch
+0.5364	Lacquer Jingasa
+0.5365	Odd Eboshi Helm
+0.5366	Nanban Kabuto
+0.5367	Nanban Hat
+0.5368	Manji Crest
+0.5369	Big Side Crest
+0.5370	Big Cresc Crest
+0.5371	Rabbit Ear Crest
+0.5372	Feather Crest
+0.5373	Horsehair Crest
+0.5374	Double Kuwagata
+0.5375	Big Sun Crest
+0.5376	Big Ring Crest
+0.5377	Half-Moon Crest
+0.5378	Wing Crest
+0.5379	Scout's Book
+0.5380	Arrows
+0.5381	Bullets
+0.5382	Cannonball
+0.5383	Cannon Parts
+0.5384	Bamboo Bundle
+0.5385	Wooden Stake
+0.5386	Art of War
+0.5387	Amber Small Key
+0.5388	Agate Small Key
+0.5389	Lapis Small Key
+0.5390	Wanted Poster
+0.5391	Peach Orb
+0.5392	Withered Peach
+0.5393	Early Ripe Orb
+0.5394	Yomi Road Pass
+0.5395	Nuboko Shard
+0.5396	Clear Lac Foil
+0.5397	Black Lac Foil
+0.5398	Color Lac Foil
+0.5399	Surplus Rice
+0.5400	Fine Cloth
+0.5401	Shiny Koban
+0.5402	Small Tablet
+0.5403	Large Tablet
+0.5404	Engraved Tablet
+0.5405	Important Book
+0.5406	Precious Book
+0.5407	Rare Book
+0.5408	Novice Slash Prc
+0.5409	Novice Chant Prc
+0.5410	Spider
+0.5411	Stink Bug
+0.5412	Dragonfly
+0.5413	Snail
+0.5414	Locust
+0.5415	Waterweed
+0.5416	Newt
+0.5417	Mantis
+0.5418	Pond Snail
+0.5419	Sparrow
+0.5420	Killifish
+0.5421	Frog
+0.5422	Salvinia
+0.5423	Loach
+0.5424	Crow
+0.5425	Firefly
+0.5426	Barnyard Millet
+0.5427	Grain Straw
+0.5428	Sake Rice Ears
+0.5429	Red Rice
+0.5430	Rice Husk
+0.5431	Brown Rice
+0.5432	Pure Water
+0.5433	Brown Rice Straw
+0.5434	Mid Sake Ears
+0.5435	Rush Reed
+0.5436	Mochi Rice
+0.5437	Rice Bran
+0.5438	Polished Rice
+0.5439	Fine Sake Ears
+0.5440	Spirit Water
+0.5441	Rice Straw
+0.5442	Job's Tears
+0.5443	Aromatic Rice
+0.5444	Super Spirit Wtr
+0.5445	Top Sake Ears
+0.5446	Improved Rice
+0.5447	Ult Spirit Water
+0.5448	Drone Beetle
+0.5449	Cicada
+0.5450	Honeybee
+0.5451	Saw Stag Beetle
+0.5452	Deer
+0.5453	Turtledove
+0.5454	Hornet
+0.5455	Monkey
+0.5456	Giant Stag
+0.5457	Stray Dog
+0.5458	Boar
+0.5459	Rhino Beetle
+0.5460	Bear
+0.5461	Birch Branch
+0.5462	Birch Bark
+0.5463	Smoked Bamboo
+0.5464	Smoked Bam Bark
+0.5465	Sawdust
+0.5466	Cherry Leaf
+0.5467	Cherry Branch
+0.5468	Cherry Bark
+0.5469	Sumac Berry
+0.5470	Sumac Branch
+0.5471	Camphor Branch
+0.5472	Dead Plants
+0.5473	Cedar Branch
+0.5474	Mugwort Leaf
+0.5475	Plum
+0.5476	Mulberry Feed
+0.5477	Raw Lacquer
+0.5478	Hackberry Branch
+0.5479	Turtle Bamboo
+0.5480	Honey
+0.5481	Oak Branch
+0.5482	Sakaki Leaf
+0.5483	Spindle Branch
+0.5484	Deer Pelt
+0.5485	Venison
+0.5486	Deer Antler
+0.5487	Chestnut Branch
+0.5488	Chestnut Burr
+0.5489	Bamboo Shoot
+0.5490	Willow Branch
+0.5491	Hotei Bamboo
+0.5492	Pine Branch
+0.5493	Kunugi Leaf
+0.5494	Matsutake
+0.5495	Paulownia Branch
+0.5496	Mt Bear Pelt
+0.5497	Bear Paw
+0.5498	Bear Meat
+0.5499	Chicken
+0.5500	Rat
+0.5501	Fox
+0.5502	Farm Horse
+0.5503	Wolf
+0.5504	Farm Duck
+0.5505	Silkworm
+0.5506	Cow
+0.5507	Cormorant
+0.5508	Swan
+0.5509	Wild Silkworm
+0.5510	Fine Cow
+0.5511	Chicken Feather
+0.5512	Chicken Egg
+0.5513	Chicken Meat
+0.5514	Rat Pelt
+0.5515	Fine Fox Pelt
+0.5516	Horse Dung
+0.5517	Horse Meat
+0.5518	Horsehair
+0.5519	Wolf Pelt
+0.5520	Silkworm Cocoon
+0.5521	Silkworm Pupa
+0.5522	Cow Dung
+0.5523	Cow Pelt
+0.5524	Cow Hair
+0.5525	Beef
+0.5526	Milk
+0.5527	Swan Feather
+0.5528	Wild Silk Cocoon
+0.5529	Wild Silk Pupa
+0.5530	Fine Cow Pelt
+0.5531	Shale Earth
+0.5532	Akame Iron Sand
+0.5533	Silica Stone
+0.5534	Blue Whetstone
+0.5535	Rock Chunk
+0.5536	Quartzite
+0.5537	Masa Iron Sand
+0.5538	Loam Earth
+0.5539	Feldspar Lump
+0.5540	Jade Stone
+0.5541	Meteorite
+0.5542	Limestone
+0.5543	Kise Earth
+0.5544	Top Platinum Ore
+0.5545	Granite Lump
+0.5546	Fine Masa Sand
+0.5547	Big Rock Chunk
+0.5548	Fire Clay
+0.5549	Top Masa Sand
+0.5550	Aphid
+0.5551	Earthworm
+0.5552	Click Beetle
+0.5553	Ladybug
+0.5554	Caterpillar
+0.5555	Gecko
+0.5556	Longhorn Beetle
+0.5557	Lizard
+0.5558	Field Mouse
+0.5559	Snake
+0.5560	House Pigeon
+0.5561	Butterfly
+0.5562	Mole
+0.5563	Wild Fox
+0.5564	Tanuki
+0.5565	Paper Mulberry
+0.5566	Rapeseed
+0.5567	Foxtail Millet
+0.5568	Soybean
+0.5569	Ramie
+0.5570	Pieris
+0.5571	Wheat Straw
+0.5572	Buckwheat
+0.5573	Proso Millet
+0.5574	Burdock
+0.5575	Cranesbill
+0.5576	Gampi
+0.5577	Butterbur Bud
+0.5578	Fine Mandarin
+0.5579	Goji Berry
+0.5580	Rehmannia
+0.5581	Tea Leaves
+0.5582	Chili Pepper
+0.5583	Cassia Seed
+0.5584	Fennel
+0.5585	Small Chrysanth
+0.5586	Turmeric
+0.5587	Dried Peel
+0.5588	Evening Primrose
+0.5589	Perilla
+0.5590	Tobacco
+0.5591	Wheat
+0.5592	Rat Meat
+0.5593	Mitsumata
+0.5594	Adzuki Bean
+0.5595	Seven Herbs
+0.5596	Sugarcane
+0.5597	Snake Feed
+0.5598	Pasture Grass
+0.5599	Cucumber
+0.5600	Potato
+0.5601	Green Onion
+0.5602	Boar Meat
+0.5603	Tanuki Meat
+0.5604	Barley
+0.5605	Eggplant
+0.5606	Spinach
+0.5607	Corn
+0.5608	Peach
+0.5609	Giant Pumpkin
+0.5610	Lugworm
+0.5611	Smelt
+0.5612	Carp
+0.5613	Wild Duck
+0.5614	Tadpole Shrimp
+0.5615	Heron
+0.5616	Seal
+0.5617	Hijiki
+0.5618	Shijimi Clam
+0.5619	Sardine
+0.5620	Coarse Salt
+0.5621	Fish Sauce
+0.5622	Horse Mackerel
+0.5623	Wakame
+0.5624	Squid
+0.5625	Shell Lime
+0.5626	Octopus
+0.5627	Asari Clam
+0.5628	Herring
+0.5629	Herring Roe
+0.5630	Fish Oil
+0.5631	Fish Meal
+0.5632	Nori
+0.5633	Turtle
+0.5634	Saury
+0.5635	Scallop
+0.5636	Shrimp
+0.5637	Cod
+0.5638	Pure Salt
+0.5639	Stingray
+0.5640	Kombu
+0.5641	Softshell Turtle
+0.5642	Fine Eel
+0.5643	Oyster
+0.5644	Crab
+0.5645	Salmon
+0.5646	Salmon Roe
+0.5647	Bonito
+0.5648	Deep Sea Water
+0.5649	Sea Urchin
+0.5650	Shark
+0.5651	Fine Abalone
+0.5652	Deep Sea Salt
+0.5653	Sea Bream
+0.5654	Tuna
+0.5655	Whale
+0.5656	Wooden Bowl
+0.5657	Chopsticks
+0.5658	Miso
+0.5659	Fishhook
+0.5660	Bento Box
+0.5661	Clay Sinker
+0.5662	Offering Stand
+0.5663	Soy Sauce
+0.5664	Clay Teapot
+0.5665	Handmade Candle
+0.5666	Lacquered Bowl
+0.5667	Lacquer Jubako
+0.5668	Brown Sugar
+0.5669	Vinegar
+0.5670	Donburi Bowl
+0.5671	Dried Bonito
+0.5672	White Sugar
+0.5673	Straw Rope
+0.5674	Bucket
+0.5675	Drying Pole
+0.5676	Fishing Rod
+0.5677	Sickle
+0.5678	Saw
+0.5679	Chisel
+0.5680	Mallet
+0.5681	Iron Pot
+0.5682	Cold Chisel
+0.5683	Sewing Needle
+0.5684	Straw Creel
+0.5685	Kamado Stove
+0.5686	Roof Tile
+0.5687	Tilling Hoe
+0.5688	Casting Net
+0.5689	Reins
+0.5690	Straw Mat
+0.5691	Purify Wand
+0.5692	Straw Boots
+0.5693	Hatchet
+0.5694	Rake
+0.5695	Millstone
+0.5696	Pieris Bug Kill
+0.5697	Bird Scare Eye
+0.5698	Insect Net
+0.5699	Jar
+0.5700	Rowboat
+0.5701	Cup
+0.5702	Mortar
+0.5703	Pestle
+0.5704	Fine Charcoal
+0.5705	Barrel
+0.5706	Saddle
+0.5707	Wood Plane
+0.5708	Horseshoe
+0.5709	Straw Cutter
+0.5710	Blowpipe
+0.5711	Paper Lantern
+0.5712	Charcoal Grill
+0.5713	Octopus Trap
+0.5714	Vidro Glass
+0.5715	Chain Pump
+0.5716	Drying Rack
+0.5717	Bird Clapper
+0.5718	Pickaxe
+0.5719	Key
+0.5720	Spade
+0.5721	Large Saw
+0.5722	Nose Ring
+0.5723	Tobacco Bug Kill
+0.5724	Scarecrow
+0.5725	Fixed Net
+0.5726	Harpoon
+0.5727	Water Jar
+0.5728	River Barge
+0.5729	Wine Glass
+0.5730	Tamagushi
+0.5731	Harrow
+0.5732	Axe
+0.5733	Sparrow Net
+0.5734	Clay Pot
+0.5735	Big Catch Flag
+0.5736	Stained Glass
+0.5737	Leveling Maul
+0.5738	Threshing Comb
+0.5739	Crosscut Saw
+0.5740	Survey Tool
+0.5741	Wire Mesh
+0.5742	Handcart
+0.5743	Sailing Ship
+0.5744	Waterwheel
+0.5745	Straw Hut
+0.5746	Bird Coop
+0.5747	Furnace
+0.5748	Salt Field
+0.5749	Reservoir
+0.5750	Charcoal Hut
+0.5751	Insect Hut
+0.5752	Fence
+0.5753	Medium Furnace
+0.5754	Water Tank
+0.5755	Well
+0.5756	Stable
+0.5757	Silkworm Farm
+0.5758	Tidal Flat
+0.5759	Cistern
+0.5760	Large Furnace
+0.5761	Water Channel
+0.5762	Forest Fence
+0.5763	Harbor
+0.5764	Seedling Hut
+0.5765	Rail Track
+0.5766	Breakwater
+0.5767	Tatara Forge
+0.5768	Fish Farm
+0.5769	Fine Cistern
+0.5770	Finish Whetstone
+0.5771	White Whetstone
+0.5772	Monster Claw
+0.5773	Monster Fang
+0.5774	Monster Hide
+0.5775	Monster Gall
+0.5776	Arms
+0.5777	Firearms
+0.5778	Warhorse
+0.5779	Talisman Front 2
+0.5780	Talisman Back 2
+0.5781	Hiryu Cake
+0.5782	Hiryu Mochi
+0.5783	Strategy Book 1
+0.5784	Strategy Book 2
+0.5785	Saint Book 1
+0.5786	Saint Book 2
+0.5787	Shinto Book 1
+0.5788	Shinto Book 2
+0.5789	Truth Book 1
+0.5790	Truth Book 2
+0.5791	Secret Book 1
+0.5792	Secret Book 2
+0.5793	Master Book 1
+0.5794	Master Book 2
+0.5795	Remedy Book 1
+0.5796	Remedy Book 2
+0.5797	Bushido III
+0.5798	Martial III
+0.5799	Adv Tactics III
+0.5800	Sohei III
+0.5801	Buddhism III
+0.5802	Esoteric III
+0.5803	Shinto III
+0.5804	Ko-Shinto III
+0.5805	Gagaku III
+0.5806	Onmyodo IV
+0.5807	Sendo III
+0.5808	Ninpo III
+0.5809	Assassin III
+0.5810	Ninjutsu III
+0.5811	Weapon Care III
+0.5812	Armor Care III
+0.5813	Gun Care III
+0.5814	Adv Medicine III
+0.5815	Mysticism III
+0.5816	Shugendo III
+0.5817	Onmyoji Furn 1
+0.5818	Onmyoji Furn 2
+0.5819	Ninja Furn 1
+0.5820	Ninja Furn 2
+0.5821	Smith Furn 1
+0.5822	Smith Furn 2
+0.5823	Physician Furn 1
+0.5824	Physician Furn 2
+0.5825	Steward Intro
+0.5826	Steward's Search

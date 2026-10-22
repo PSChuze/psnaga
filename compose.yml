@@ -1,0 +1,109 @@
+# Nobunaga's Ambition Online server: docker compose up -d
+#
+# Settings come from .env (run python setup.py, or copy .env.example). Build the game data from
+# your disc once first:
+#   docker compose run --rm extract
+#
+# The admin port for an OpenLobby panel is reached over the shared `openlobby` network:
+#   docker network inspect openlobby >/dev/null 2>&1 || docker network create openlobby
+#
+# Host folders (NOBU_STATE, default ./state):
+#   data/    accounts, characters, news, reports, backups/
+#   logs/    every session both ways, events.jsonl
+#   certs/   the login's TLS certificate (made on first start)
+#   assets/  game data built by extract from your disc
+name: nobu
+
+x-nobu: &nobu
+  build:
+    context: .
+    dockerfile: server/Dockerfile
+  image: psnaga:local
+  restart: unless-stopped
+  env_file: .env
+  volumes:
+    - ${NOBU_STATE:-./state}/data:/data
+    - ${NOBU_STATE:-./state}/logs:/logs
+    - ${NOBU_STATE:-./state}/assets:/assets:ro
+  logging: &logcap
+    driver: json-file
+    options: {max-size: "10m", max-file: "3"}
+
+services:
+  # Connect server on 9070 (fixed in the client): the update check, then the world list.
+  connsv:
+    <<: *nobu
+    command: ["python", "-u", "-m", "nobu.connsv"]
+    environment:
+      NOBU_BIND: 0.0.0.0
+      NOBU_CONNSV_PORTS: "9070"
+      # The client takes the login's port from this (host:port/path).
+      NOBU_LOGIN_HOST: nobol.koei.co.jp:${NOBU_LOGIN_PORT:-9443}/auth
+      NOBU_WORLDS: ${NOBU_SERVER_NAME:-Nobunaga}@${NOBU_PUBLIC_IP:?set NOBU_PUBLIC_IP in .env}:${NOBU_WORLD_PORT:-9110}
+    ports:
+      - "${NOBU_CONNSV_PORT:-9070}:9070"
+
+  # The GAMECITY login (plain HTTP); its TLS is terminated in front of it (ssl3).
+  auth:
+    <<: *nobu
+    command: ["python", "-u", "-m", "nobu.auth"]
+    environment:
+      NOBU_AUTH_BIND: 0.0.0.0
+      NOBU_AUTH_PORT: "18080"
+
+  # TLS 1.0 / SSLv3 for the login, passed on to auth.
+  ssl3:
+    build: server/sslterm
+    image: psnaga-ssl3:local
+    restart: unless-stopped
+    volumes:
+      - ${NOBU_STATE:-./state}/certs:/certs
+    environment:
+      NOBU_SSL_ACCEPT: 0.0.0.0:${NOBU_LOGIN_PORT:-9443}
+      NOBU_SSL_CONNECT: auth:18080
+    ports:
+      - "${NOBU_LOGIN_PORT:-9443}:${NOBU_LOGIN_PORT:-9443}"
+    depends_on: [auth]
+    logging: *logcap
+
+  # The world server, and the admin port an OpenLobby panel talks to (never published).
+  world:
+    <<: *nobu
+    command: ["python", "-u", "-m", "nobu.world"]
+    # docker stop -> SIGTERM: sessions closed, saves flushed (NOBU_SHUTDOWN_SECS x 2 at worst).
+    stop_grace_period: 20s
+    environment:
+      NOBU_BIND: 0.0.0.0
+      NOBU_WORLD_PORT: ${NOBU_WORLD_PORT:-9110}
+      NOBU_ADMIN_PORT: "19111"
+      NOBU_ADMIN_BIND: 0.0.0.0
+      NOBU_ADMIN_TOKEN: ${NOBU_ADMIN_TOKEN:?set NOBU_ADMIN_TOKEN in .env}
+      NOBU_ADMIN_CONTAINERS: nobu-world-1,nobu-connsv-1,nobu-auth-1,nobu-ssl3-1
+    ports:
+      - "${NOBU_WORLD_PORT:-9110}:${NOBU_WORLD_PORT:-9110}"
+    labels:
+      org.openlobby.role: game
+      org.openlobby.game.key: nobu
+      org.openlobby.game.title: Nobunaga's Ambition Online
+      org.openlobby.admin.url: http://nobu:19111
+    networks:
+      default: {}
+      openlobby:
+        aliases: [nobu]
+
+  # Builds the game data from the disc image in NOBU_DISCS (or the files setup names in
+  # NOBU_DISC_FILES) into the state folder's assets/.
+  extract:
+    <<: *nobu
+    profiles: [extract]
+    restart: "no"
+    command: ["python", "-u", "-m", "extract"]
+    environment:
+      NOBU_DISC_FILES: ${NOBU_DISC_FILES:-}
+    volumes:
+      - ${NOBU_DISCS:-./discs}:/discs:ro
+      - ${NOBU_STATE:-./state}/assets:/assets
+
+networks:
+  openlobby:
+    external: true

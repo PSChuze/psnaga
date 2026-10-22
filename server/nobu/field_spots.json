@@ -1,0 +1,1913 @@
+{
+ "_doc": "",
+ "fields": {
+  "1": {
+   "ferry_14": {
+    "pos": [
+     52500,
+     2884,
+     206500
+    ],
+    "dir": 90,
+    "src": "lowest T2 point of the port cell r10c2",
+    "arrive": [
+     52900,
+     2884,
+     206500
+    ]
+   },
+   "cp_echigo-cp-e_0": {
+    "pos": [
+     150000,
+     6451,
+     273499
+    ],
+    "dir": 28,
+    "src": "T2 point beside checkpoint echigo-cp-e"
+   },
+   "cp_echigo-cp-e_1": {
+    "pos": [
+     148500,
+     6359,
+     274999
+    ],
+    "dir": 70,
+    "src": "T2 point beside checkpoint echigo-cp-e"
+   },
+   "cp_echigo-cp-s_0": {
+    "pos": [
+     42000,
+     6286,
+     277499
+    ],
+    "dir": 22,
+    "src": "T2 point beside checkpoint echigo-cp-s"
+   },
+   "cp_echigo-cp-s_1": {
+    "pos": [
+     45000,
+     6350,
+     277499
+    ],
+    "dir": 328,
+    "src": "T2 point beside checkpoint echigo-cp-s"
+   },
+   "cp_echigo-cp-w_0": {
+    "pos": [
+     8500,
+     6101,
+     262000
+    ],
+    "dir": 339,
+    "src": "T2 point beside checkpoint echigo-cp-w"
+   },
+   "cp_echigo-cp-w_1": {
+    "pos": [
+     10500,
+     6119,
+     263499
+    ],
+    "dir": 297,
+    "src": "T2 point beside checkpoint echigo-cp-w"
+   },
+   "farmer_0": {
+    "pos": [
+     153500,
+     6050,
+     106500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     147200,
+     5649,
+     209808
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r10c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "traveller_0": {
+    "pos": [
+     68000,
+     5202,
+     232000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r11c3 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "2": {
+   "cp_kozuke-cp-n_0": {
+    "pos": [
+     93781,
+     8035,
+     30786
+    ],
+    "dir": 321,
+    "src": "T2 point beside checkpoint kozuke-cp-n"
+   },
+   "cp_kozuke-cp-s_0": {
+    "pos": [
+     173798,
+     3160,
+     198081
+    ],
+    "dir": 4,
+    "src": "T2 point beside checkpoint kozuke-cp-s"
+   },
+   "cp_kozuke-cp-s_1": {
+    "pos": [
+     175132,
+     3195,
+     198250
+    ],
+    "dir": 332,
+    "src": "T2 point beside checkpoint kozuke-cp-s"
+   },
+   "cp_kozuke-cp-w_0": {
+    "pos": [
+     39051,
+     7052,
+     162145
+    ],
+    "dir": 222,
+    "src": "T2 point beside checkpoint kozuke-cp-w"
+   },
+   "cp_kozuke-cp-w_1": {
+    "pos": [
+     39892,
+     7016,
+     160681
+    ],
+    "dir": 269,
+    "src": "T2 point beside checkpoint kozuke-cp-w"
+   },
+   "farmer_0": {
+    "pos": [
+     151500,
+     4576,
+     148000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     115206,
+     4691,
+     142609
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     69021,
+     6086,
+     110200
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     126500,
+     7381,
+     73000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     151931,
+     3366,
+     172023
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r8c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     68000,
+     5212,
+     133500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c3 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "3": {
+   "cp_musashi-cp-n_0": {
+    "pos": [
+     119000,
+     5685,
+     40000
+    ],
+    "dir": 131,
+    "src": "T2 point beside checkpoint musashi-cp-n"
+   },
+   "cp_musashi-cp-n_1": {
+    "pos": [
+     123000,
+     5739,
+     40500
+    ],
+    "dir": 228,
+    "src": "T2 point beside checkpoint musashi-cp-n"
+   },
+   "cp_musashi-cp-w_0": {
+    "pos": [
+     73500,
+     6333,
+     187000
+    ],
+    "dir": 329,
+    "src": "T2 point beside checkpoint musashi-cp-w"
+   },
+   "cp_musashi-cp-w_1": {
+    "pos": [
+     74500,
+     6769,
+     187500
+    ],
+    "dir": 306,
+    "src": "T2 point beside checkpoint musashi-cp-w"
+   },
+   "cp_musashi-cp-s_0": {
+    "pos": [
+     184000,
+     4857,
+     213000
+    ],
+    "dir": 321,
+    "src": "T2 point beside checkpoint musashi-cp-s"
+   },
+   "cp_musashi-cp-s_1": {
+    "pos": [
+     185000,
+     5018,
+     214000
+    ],
+    "dir": 285,
+    "src": "T2 point beside checkpoint musashi-cp-s"
+   },
+   "farmer_0": {
+    "pos": [
+     138496,
+     5883,
+     127851
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     148000,
+     5332,
+     187500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r9c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     151500,
+     5729,
+     150500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     128329,
+     6011,
+     87203
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_4": {
+    "pos": [
+     127484,
+     5907,
+     70664
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     132497,
+     5896,
+     48503
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     92036,
+     7366,
+     128075
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_2": {
+    "pos": [
+     154000,
+     5615,
+     168500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r8c7 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "4": {
+   "cp_kai-cp-e_0": {
+    "pos": [
+     242845,
+     4307,
+     111738
+    ],
+    "dir": 8,
+    "src": "T2 point beside checkpoint kai-cp-e"
+   },
+   "cp_kai-cp-w_0": {
+    "pos": [
+     13289,
+     5557,
+     32337
+    ],
+    "dir": 237,
+    "src": "T2 point beside checkpoint kai-cp-w"
+   },
+   "cp_kai-cp-s_0": {
+    "pos": [
+     76016,
+     3429,
+     257987
+    ],
+    "dir": 36,
+    "src": "T2 point beside checkpoint kai-cp-s"
+   },
+   "cp_kai-cp-s_1": {
+    "pos": [
+     75139,
+     3429,
+     258226
+    ],
+    "dir": 51,
+    "src": "T2 point beside checkpoint kai-cp-s"
+   }
+  },
+  "5": {
+   "cp_shinano-cp-n_0": {
+    "pos": [
+     121000,
+     4888,
+     23500
+    ],
+    "dir": 153,
+    "src": "T2 point beside checkpoint shinano-cp-n"
+   },
+   "cp_shinano-cp-n_1": {
+    "pos": [
+     122080,
+     4908,
+     24723
+    ],
+    "dir": 177,
+    "src": "T2 point beside checkpoint shinano-cp-n"
+   },
+   "cp_shinano-cp-e_0": {
+    "pos": [
+     191000,
+     6127,
+     145000
+    ],
+    "dir": 74,
+    "src": "T2 point beside checkpoint shinano-cp-e"
+   },
+   "cp_shinano-cp-e3_0": {
+    "pos": [
+     141500,
+     5491,
+     260000
+    ],
+    "dir": 3,
+    "src": "T2 point beside checkpoint shinano-cp-e3"
+   },
+   "cp_shinano-cp-e3_1": {
+    "pos": [
+     142000,
+     6166,
+     258000
+    ],
+    "dir": 355,
+    "src": "T2 point beside checkpoint shinano-cp-e3"
+   },
+   "cp_shinano-cp-s_0": {
+    "pos": [
+     78500,
+     5843,
+     388500
+    ],
+    "dir": 333,
+    "src": "T2 point beside checkpoint shinano-cp-s"
+   },
+   "cp_shinano-cp-s_1": {
+    "pos": [
+     77164,
+     4991,
+     386893
+    ],
+    "dir": 359,
+    "src": "T2 point beside checkpoint shinano-cp-s"
+   },
+   "cp_shinano-cp-w_0": {
+    "pos": [
+     9500,
+     4800,
+     319000
+    ],
+    "dir": 261,
+    "src": "T2 point beside checkpoint shinano-cp-w"
+   },
+   "cp_shinano-cp-w_1": {
+    "pos": [
+     9000,
+     4947,
+     321000
+    ],
+    "dir": 220,
+    "src": "T2 point beside checkpoint shinano-cp-w"
+   },
+   "farmer_0": {
+    "pos": [
+     143580,
+     6296,
+     115597
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     93866,
+     6264,
+     272045
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r13c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     13823,
+     7158,
+     235527
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r11c0 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     130216,
+     6327,
+     113242
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmwife_0": {
+    "pos": [
+     143000,
+     4897,
+     12000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r0c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmwife_1": {
+    "pos": [
+     24435,
+     7155,
+     289875
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r14c1 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     168123,
+     5679,
+     11524
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r0c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     81213,
+     5880,
+     277287
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r13c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_2": {
+    "pos": [
+     26832,
+     7633,
+     270031
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r13c1 (wiki field NPCs)",
+    "when": "any"
+   },
+   "ikko_0": {
+    "pos": [
+     111215,
+     8967,
+     183872
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r9c5 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "6": {
+   "cp_sagami-cp-n_0": {
+    "pos": [
+     207108,
+     3744,
+     49334
+    ],
+    "dir": 127,
+    "src": "T2 point beside checkpoint sagami-cp-n"
+   },
+   "cp_sagami-cp-n_1": {
+    "pos": [
+     208500,
+     3586,
+     51000
+    ],
+    "dir": 157,
+    "src": "T2 point beside checkpoint sagami-cp-n"
+   },
+   "cp_sagami-cp-w_0": {
+    "pos": [
+     6429,
+     5825,
+     95894
+    ],
+    "dir": 287,
+    "src": "T2 point beside checkpoint sagami-cp-w"
+   },
+   "cp_sagami-cp-w_1": {
+    "pos": [
+     7908,
+     5862,
+     95865
+    ],
+    "dir": 281,
+    "src": "T2 point beside checkpoint sagami-cp-w"
+   },
+   "traveller_0": {
+    "pos": [
+     51000,
+     3726,
+     133500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     50000,
+     6337,
+     108000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_0": {
+    "pos": [
+     167351,
+     4803,
+     72211
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "ikko_0": {
+    "pos": [
+     123000,
+     3324,
+     127500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c6 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "7": {
+   "ferry_10": {
+    "pos": [
+     107704,
+     2800,
+     208177
+    ],
+    "dir": 90,
+    "src": "lowest T2 point of the port cell r10c5",
+    "arrive": [
+     108104,
+     2800,
+     208177
+    ]
+   },
+   "cp_suruga-cp-n_0": {
+    "pos": [
+     109404,
+     4172,
+     112108
+    ],
+    "dir": 211,
+    "src": "T2 point beside checkpoint suruga-cp-n"
+   },
+   "cp_suruga-cp-n_1": {
+    "pos": [
+     111129,
+     4013,
+     111808
+    ],
+    "dir": 230,
+    "src": "T2 point beside checkpoint suruga-cp-n"
+   },
+   "cp_suruga-cp-e_0": {
+    "pos": [
+     232500,
+     5111,
+     88500
+    ],
+    "dir": 38,
+    "src": "T2 point beside checkpoint suruga-cp-e"
+   },
+   "cp_suruga-cp-e_1": {
+    "pos": [
+     231500,
+     5054,
+     89500
+    ],
+    "dir": 64,
+    "src": "T2 point beside checkpoint suruga-cp-e"
+   },
+   "cp_suruga-cp-w_0": {
+    "pos": [
+     47782,
+     2648,
+     240338
+    ],
+    "dir": 350,
+    "src": "T2 point beside checkpoint suruga-cp-w"
+   },
+   "cp_suruga-cp-w_1": {
+    "pos": [
+     50000,
+     2753,
+     241500
+    ],
+    "dir": 309,
+    "src": "T2 point beside checkpoint suruga-cp-w"
+   }
+  },
+  "8": {
+   "cp_totomi-cp-n_0": {
+    "pos": [
+     131000,
+     6530,
+     15000
+    ],
+    "dir": 137,
+    "src": "T2 point beside checkpoint totomi-cp-n"
+   },
+   "cp_totomi-cp-n_1": {
+    "pos": [
+     131907,
+     6446,
+     16329
+    ],
+    "dir": 161,
+    "src": "T2 point beside checkpoint totomi-cp-n"
+   },
+   "cp_totomi-cp-e_0": {
+    "pos": [
+     219000,
+     5416,
+     138500
+    ],
+    "dir": 63,
+    "src": "T2 point beside checkpoint totomi-cp-e"
+   },
+   "cp_totomi-cp-e_1": {
+    "pos": [
+     218229,
+     5389,
+     139396
+    ],
+    "dir": 80,
+    "src": "T2 point beside checkpoint totomi-cp-e"
+   },
+   "cp_totomi-cp-w_0": {
+    "pos": [
+     32000,
+     4158,
+     161500
+    ],
+    "dir": 255,
+    "src": "T2 point beside checkpoint totomi-cp-w"
+   },
+   "farmer_0": {
+    "pos": [
+     69476,
+     3449,
+     152167
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     146824,
+     3670,
+     152873
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     75555,
+     5779,
+     111707
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmwife_0": {
+    "pos": [
+     74473,
+     3284,
+     152521
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     150759,
+     4250,
+     130247
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "ikko_0": {
+    "pos": [
+     104840,
+     3692,
+     191951
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r9c5 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "9": {
+   "cp_mikawa-cp-e_0": {
+    "pos": [
+     172500,
+     5248,
+     203500
+    ],
+    "dir": 63,
+    "src": "T2 point beside checkpoint mikawa-cp-e"
+   },
+   "cp_mikawa-cp-e_1": {
+    "pos": [
+     172000,
+     5148,
+     204500
+    ],
+    "dir": 79,
+    "src": "T2 point beside checkpoint mikawa-cp-e"
+   },
+   "cp_mikawa-cp-w_0": {
+    "pos": [
+     55500,
+     4565,
+     75500
+    ],
+    "dir": 230,
+    "src": "T2 point beside checkpoint mikawa-cp-w"
+   },
+   "cp_mikawa-cp-w_1": {
+    "pos": [
+     57000,
+     4216,
+     74000
+    ],
+    "dir": 260,
+    "src": "T2 point beside checkpoint mikawa-cp-w"
+   }
+  },
+  "10": {
+   "ferry_7": {
+    "pos": [
+     70712,
+     2841,
+     172086
+    ],
+    "dir": 269,
+    "src": "lowest T2 point of the port cell r8c3",
+    "arrive": [
+     67735,
+     2944,
+     172034
+    ]
+   },
+   "ferry_19": {
+    "pos": [
+     66625,
+     2944,
+     172314
+    ],
+    "dir": 104,
+    "src": "lowest T2 point of the port cell r8c3",
+    "arrive": [
+     67735,
+     2944,
+     172034
+    ]
+   },
+   "cp_owari-cp-e_0": {
+    "pos": [
+     190500,
+     6279,
+     147500
+    ],
+    "dir": 78,
+    "src": "T2 point beside checkpoint owari-cp-e"
+   },
+   "cp_owari-cp-e_1": {
+    "pos": [
+     190000,
+     4938,
+     150000
+    ],
+    "dir": 131,
+    "src": "T2 point beside checkpoint owari-cp-e"
+   },
+   "cp_owari-cp-n_0": {
+    "pos": [
+     89163,
+     4526,
+     20110
+    ],
+    "dir": 224,
+    "src": "T2 point beside checkpoint owari-cp-n"
+   },
+   "cp_owari-cp-n_1": {
+    "pos": [
+     88647,
+     4737,
+     21201
+    ],
+    "dir": 205,
+    "src": "T2 point beside checkpoint owari-cp-n"
+   },
+   "cp_owari-cp-w_0": {
+    "pos": [
+     22500,
+     5308,
+     176500
+    ],
+    "dir": 203,
+    "src": "T2 point beside checkpoint owari-cp-w"
+   },
+   "cp_owari-cp-w_1": {
+    "pos": [
+     24500,
+     4661,
+     176500
+    ],
+    "dir": 233,
+    "src": "T2 point beside checkpoint owari-cp-w"
+   },
+   "headman_0": {
+    "pos": [
+     71091,
+     3938,
+     91522
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     55797,
+     4214,
+     127585
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_2": {
+    "pos": [
+     48500,
+     5011,
+     153000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_0": {
+    "pos": [
+     107492,
+     4053,
+     88644
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c5 (wiki field NPCs)",
+    "when": "day"
+   },
+   "farmer_1": {
+    "pos": [
+     74103,
+     4188,
+     93977
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     54695,
+     4200,
+     124928
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c2 (wiki field NPCs)",
+    "when": "day"
+   },
+   "farmer_3": {
+    "pos": [
+     58462,
+     4146,
+     142540
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_4": {
+    "pos": [
+     115742,
+     5263,
+     213581
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r10c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_5": {
+    "pos": [
+     24398,
+     5397,
+     81738
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c1 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_6": {
+    "pos": [
+     35094,
+     4785,
+     164841
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r8c1 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_7": {
+    "pos": [
+     167160,
+     4383,
+     176845
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r8c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_8": {
+    "pos": [
+     174971,
+     6917,
+     125400
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "traveller_0": {
+    "pos": [
+     112500,
+     4236,
+     91500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "ikko_0": {
+    "pos": [
+     67866,
+     3201,
+     151692
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c3 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "11": {
+   "cp_mino-cp-e_0": {
+    "pos": [
+     281214,
+     7311,
+     107492
+    ],
+    "dir": 105,
+    "src": "T2 point beside checkpoint mino-cp-e"
+   },
+   "cp_mino-cp-e_1": {
+    "pos": [
+     280592,
+     7213,
+     108840
+    ],
+    "dir": 122,
+    "src": "T2 point beside checkpoint mino-cp-e"
+   },
+   "cp_mino-cp-s_0": {
+    "pos": [
+     122418,
+     5773,
+     152873
+    ],
+    "dir": 326,
+    "src": "T2 point beside checkpoint mino-cp-s"
+   },
+   "cp_mino-cp-n_0": {
+    "pos": [
+     119365,
+     6738,
+     10811
+    ],
+    "dir": 256,
+    "src": "T2 point beside checkpoint mino-cp-n"
+   },
+   "cp_mino-cp-n_1": {
+    "pos": [
+     120728,
+     6334,
+     9543
+    ],
+    "dir": 275,
+    "src": "T2 point beside checkpoint mino-cp-n"
+   },
+   "cp_mino-cp-w_0": {
+    "pos": [
+     30820,
+     6125,
+     142324
+    ],
+    "dir": 224,
+    "src": "T2 point beside checkpoint mino-cp-w"
+   },
+   "cp_mino-cp-w_1": {
+    "pos": [
+     29915,
+     6240,
+     143010
+    ],
+    "dir": 206,
+    "src": "T2 point beside checkpoint mino-cp-w"
+   },
+   "headman_0": {
+    "pos": [
+     174165,
+     6586,
+     66720
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     170589,
+     5164,
+     143804
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_0": {
+    "pos": [
+     128024,
+     4085,
+     112004
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c6 (wiki field NPCs)",
+    "when": "day"
+   },
+   "farmer_1": {
+    "pos": [
+     109167,
+     4311,
+     130186
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c5 (wiki field NPCs)",
+    "when": "day"
+   },
+   "farmer_2": {
+    "pos": [
+     173414,
+     6603,
+     65372
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     170942,
+     4881,
+     141113
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_4": {
+    "pos": [
+     173499,
+     6197,
+     89000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_5": {
+    "pos": [
+     109026,
+     5395,
+     89056
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_6": {
+    "pos": [
+     152323,
+     6296,
+     69390
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_7": {
+    "pos": [
+     70222,
+     5050,
+     156401
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r7c3 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "12": {
+   "cp_etchu-cp-e_0": {
+    "pos": [
+     164000,
+     3310,
+     19000
+    ],
+    "dir": 44,
+    "src": "T2 point beside checkpoint etchu-cp-e"
+   },
+   "cp_etchu-cp-e_1": {
+    "pos": [
+     163000,
+     3974,
+     22500
+    ],
+    "dir": 106,
+    "src": "T2 point beside checkpoint etchu-cp-e"
+   },
+   "cp_etchu-cp-w_0": {
+    "pos": [
+     10500,
+     3330,
+     98500
+    ],
+    "dir": 237,
+    "src": "T2 point beside checkpoint etchu-cp-w"
+   }
+  },
+  "13": {
+   "cp_kaga-cp-e_0": {
+    "pos": [
+     139000,
+     3750,
+     200500
+    ],
+    "dir": 55,
+    "src": "T2 point beside checkpoint kaga-cp-e"
+   },
+   "cp_kaga-cp-e_1": {
+    "pos": [
+     138007,
+     3744,
+     199758
+    ],
+    "dir": 54,
+    "src": "T2 point beside checkpoint kaga-cp-e"
+   },
+   "cp_kaga-cp-s_0": {
+    "pos": [
+     44500,
+     3700,
+     285000
+    ],
+    "dir": 329,
+    "src": "T2 point beside checkpoint kaga-cp-s"
+   },
+   "cp_kaga-cp-s_1": {
+    "pos": [
+     44000,
+     3715,
+     284000
+    ],
+    "dir": 348,
+    "src": "T2 point beside checkpoint kaga-cp-s"
+   }
+  },
+  "14": {
+   "ferry_1": {
+    "pos": [
+     53000,
+     2897,
+     41000
+    ],
+    "dir": 90,
+    "src": "lowest T2 point of the port cell r2c2",
+    "arrive": [
+     53400,
+     2897,
+     41000
+    ]
+   },
+   "cp_echizen-cp-e_0": {
+    "pos": [
+     243500,
+     7650,
+     164000
+    ],
+    "dir": 128,
+    "src": "T2 point beside checkpoint echizen-cp-e"
+   },
+   "cp_echizen-cp-e_1": {
+    "pos": [
+     243000,
+     7654,
+     163000
+    ],
+    "dir": 92,
+    "src": "T2 point beside checkpoint echizen-cp-e"
+   },
+   "cp_echizen-cp-n_0": {
+    "pos": [
+     99500,
+     4721,
+     15500
+    ],
+    "dir": 83,
+    "src": "T2 point beside checkpoint echizen-cp-n"
+   },
+   "cp_echizen-cp-n_1": {
+    "pos": [
+     99500,
+     4713,
+     17500
+    ],
+    "dir": 140,
+    "src": "T2 point beside checkpoint echizen-cp-n"
+   },
+   "cp_echizen-cp-s_0": {
+    "pos": [
+     36500,
+     6425,
+     285000
+    ],
+    "dir": 265,
+    "src": "T2 point beside checkpoint echizen-cp-s"
+   },
+   "cp_echizen-cp-s_1": {
+    "pos": [
+     36000,
+     6554,
+     283500
+    ],
+    "dir": 313,
+    "src": "T2 point beside checkpoint echizen-cp-s"
+   }
+  },
+  "15": {
+   "cp_omi-cp-e_0": {
+    "pos": [
+     187000,
+     3903,
+     106000
+    ],
+    "dir": 42,
+    "src": "T2 point beside checkpoint omi-cp-e"
+   },
+   "cp_omi-cp-e_1": {
+    "pos": [
+     184500,
+     4150,
+     110500
+    ],
+    "dir": 118,
+    "src": "T2 point beside checkpoint omi-cp-e"
+   },
+   "cp_omi-cp-n_0": {
+    "pos": [
+     137000,
+     4550,
+     11000
+    ],
+    "dir": 212,
+    "src": "T2 point beside checkpoint omi-cp-n"
+   },
+   "cp_omi-cp-n_1": {
+    "pos": [
+     136000,
+     4524,
+     12500
+    ],
+    "dir": 179,
+    "src": "T2 point beside checkpoint omi-cp-n"
+   },
+   "cp_omi-cp-s_0": {
+    "pos": [
+     139000,
+     3760,
+     250500
+    ],
+    "dir": 358,
+    "src": "T2 point beside checkpoint omi-cp-s"
+   },
+   "cp_omi-cp-s_1": {
+    "pos": [
+     138000,
+     3825,
+     250500
+    ],
+    "dir": 20,
+    "src": "T2 point beside checkpoint omi-cp-s"
+   },
+   "cp_omi-cp-w_0": {
+    "pos": [
+     19000,
+     3907,
+     263499
+    ],
+    "dir": 295,
+    "src": "T2 point beside checkpoint omi-cp-w"
+   },
+   "cp_omi-cp-w_1": {
+    "pos": [
+     20500,
+     3976,
+     263499
+    ],
+    "dir": 284,
+    "src": "T2 point beside checkpoint omi-cp-w"
+   },
+   "headman_0": {
+    "pos": [
+     171500,
+     4854,
+     84500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     134000,
+     3585,
+     186000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r9c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_2": {
+    "pos": [
+     30500,
+     3576,
+     230500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r11c1 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_0": {
+    "pos": [
+     92389,
+     3560,
+     71743
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r3c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     131000,
+     3519,
+     89500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c6 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     151000,
+     3855,
+     131000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     156334,
+     3953,
+     172356
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r8c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_4": {
+    "pos": [
+     51000,
+     3690,
+     187500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r9c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "traveller_0": {
+    "pos": [
+     150500,
+     3727,
+     89500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c7 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "16": {
+   "cp_ise-cp-n_0": {
+    "pos": [
+     134500,
+     2975,
+     26500
+    ],
+    "dir": 70,
+    "src": "T2 point beside checkpoint ise-cp-n"
+   },
+   "cp_ise-cp-w_0": {
+    "pos": [
+     53000,
+     7309,
+     64000
+    ],
+    "dir": 226,
+    "src": "T2 point beside checkpoint ise-cp-w"
+   },
+   "cp_ise-cp-s_0": {
+    "pos": [
+     42500,
+     4764,
+     143000
+    ],
+    "dir": 262,
+    "src": "T2 point beside checkpoint ise-cp-s"
+   },
+   "headman_0": {
+    "pos": [
+     88500,
+     4820,
+     32000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r1c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     50500,
+     6035,
+     88500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c2 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_2": {
+    "pos": [
+     88801,
+     3292,
+     92332
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_0": {
+    "pos": [
+     89500,
+     4900,
+     11000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r0c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     96000,
+     3780,
+     29000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r1c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     73000,
+     4716,
+     85000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     53233,
+     6700,
+     172263
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r8c2 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "17": {
+   "cp_iga-cp-e_0": {
+    "pos": [
+     119000,
+     7795,
+     117000
+    ],
+    "dir": 117,
+    "src": "T2 point beside checkpoint iga-cp-e"
+   },
+   "cp_iga-cp-w_0": {
+    "pos": [
+     18000,
+     7400,
+     157500
+    ],
+    "dir": 263,
+    "src": "T2 point beside checkpoint iga-cp-w"
+   },
+   "farmer_0": {
+    "pos": [
+     30000,
+     6955,
+     129000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c1 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     93000,
+     8720,
+     127500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "traveller_0": {
+    "pos": [
+     47781,
+     4533,
+     89771
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c2 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "19": {
+   "ferry_10": {
+    "pos": [
+     97524,
+     2800,
+     142343
+    ],
+    "dir": 90,
+    "src": "lowest T2 point of the port cell r7c4",
+    "arrive": [
+     97924,
+     2800,
+     142343
+    ]
+   },
+   "cp_settsu-cp-n_0": {
+    "pos": [
+     181000,
+     4440,
+     15500
+    ],
+    "dir": 199,
+    "src": "T2 point beside checkpoint settsu-cp-n"
+   },
+   "cp_settsu-cp-n_1": {
+    "pos": [
+     184500,
+     4736,
+     16000
+    ],
+    "dir": 243,
+    "src": "T2 point beside checkpoint settsu-cp-n"
+   },
+   "farmer_0": {
+    "pos": [
+     113000,
+     3826,
+     89000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     91500,
+     4500,
+     52500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     74500,
+     2810,
+     87000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_3": {
+    "pos": [
+     152000,
+     3130,
+     128000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c7 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_4": {
+    "pos": [
+     190773,
+     5025,
+     54000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c9 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_5": {
+    "pos": [
+     95000,
+     5199,
+     209500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r10c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     108500,
+     3900,
+     53000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_1": {
+    "pos": [
+     172500,
+     3450,
+     50000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c8 (wiki field NPCs)",
+    "when": "any"
+   },
+   "traveller_0": {
+    "pos": [
+     113500,
+     4350,
+     93500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r4c5 (wiki field NPCs)",
+    "when": "any"
+   },
+   "ikko_0": {
+    "pos": [
+     170000,
+     3250,
+     106500
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r5c8 (wiki field NPCs)",
+    "when": "any"
+   }
+  },
+  "20": {
+   "cp_yamato-cp-e_0": {
+    "pos": [
+     161500,
+     5198,
+     79000
+    ],
+    "dir": 46,
+    "src": "T2 point beside checkpoint yamato-cp-e"
+   },
+   "cp_yamato-cp-w_0": {
+    "pos": [
+     23500,
+     5100,
+     88000
+    ],
+    "dir": 306,
+    "src": "T2 point beside checkpoint yamato-cp-w"
+   },
+   "cp_yamato-cp-w_1": {
+    "pos": [
+     25000,
+     5032,
+     89500
+    ],
+    "dir": 258,
+    "src": "T2 point beside checkpoint yamato-cp-w"
+   },
+   "cp_yamato-cp-s_0": {
+    "pos": [
+     33000,
+     5100,
+     193500
+    ],
+    "dir": 251,
+    "src": "T2 point beside checkpoint yamato-cp-s"
+   },
+   "farmer_0": {
+    "pos": [
+     73968,
+     5050,
+     125599
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r6c3 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_1": {
+    "pos": [
+     92500,
+     4979,
+     54000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "farmer_2": {
+    "pos": [
+     91877,
+     6250,
+     194448
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r9c4 (wiki field NPCs)",
+    "when": "any"
+   },
+   "headman_0": {
+    "pos": [
+     112500,
+     5787,
+     47000
+    ],
+    "dir": 0,
+    "src": "T2 point in cell r2c5 (wiki field NPCs)",
+    "when": "any"
+   }
+  }
+ }
+}

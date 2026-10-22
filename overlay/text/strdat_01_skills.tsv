@@ -1,0 +1,2055 @@
+id	en
+1.0	None
+1.1	Dagger Basic
+1.2	Dagger Nov
+1.3	Dagger Adv
+1.4	Sword Basic
+1.5	Sword Nov
+1.6	Sword Adv
+1.7	Staff Basic
+1.8	Staff Nov
+1.9	Staff Adv
+1.10	Spear Basic
+1.11	Spear Nov
+1.12	Spear Adv
+1.13	Taunt
+1.14	End Stance
+1.15	End Reversal
+1.16	Defend Nov
+1.17	Defend Adv
+1.18	Defend Mstr
+1.19	Bow Basic
+1.20	Bow Nov
+1.21	Bow Adv
+1.22	Evade Nov
+1.23	Evade Adv
+1.24	Evade Mstr
+1.25	Escort
+1.26	Escort II
+1.27	Escort III
+1.28	Endure Nov
+1.29	Endure Adv
+1.30	Endure Mstr
+1.31	Zeal Nov
+1.32	Zeal Adv
+1.33	Zeal Mstr
+1.34	Flee Nov
+1.35	Flee Adv
+1.36	Flee Mstr
+1.37	Guard Nov
+1.38	Guard Adv
+1.39	Guard Mstr
+1.40	Rearguard
+1.41	End Hide
+1.42	Make Baton I
+1.43	Roar
+1.44	Roar II
+1.45	Roar III
+1.46	Cntr Nov
+1.47	Cntr Adv
+1.48	Cntr Mstr
+1.49	Lure
+1.50	Lure II
+1.51	Lure III
+1.52	Feint
+1.53	Feint II
+1.54	Feint III
+1.55	Plunder
+1.56	Plunder II
+1.57	Breakthru
+1.58	Vajra Body
+1.59	Bellow
+1.60	Desperate
+1.61	Logging I
+1.62	Make Arrow I
+1.63	Make Bow I
+1.64	Rapid Nov
+1.65	Rapid Adv
+1.66	Rapid Mstr
+1.67	Snipe
+1.68	Snipe II
+1.69	Snipe III
+1.70	Spacing
+1.71	Spacing II
+1.72	Spacing III
+1.73	Volley
+1.74	Wild Shot I
+1.75	Detect
+1.76	Cover Nov
+1.77	Forecast
+1.78	Gun Basic
+1.79	Gun Nov
+1.80	Gun Adv
+1.81	Rain Cover
+1.82	Triple Shot
+1.83	Warn Shot I
+1.84	Atk Down I
+1.85	Atk Down II
+1.86	Atk Down III
+1.87	Def Down I
+1.88	Def Down II
+1.89	Def Down III
+1.90	See Thru
+1.91	AoE See Thru
+1.92	Cover Adv
+1.93	Night Raid
+1.94	Make Warbook
+1.95	Fire Attack
+1.96	Water Attack
+1.97	Inspire
+1.98	Ambush
+1.99	Assault
+1.100	Snare Ploy
+1.101	Regen I
+1.102	Decoy Ploy
+1.103	Coax Ploy
+1.104	Bait Ambush
+1.105	AoE Atk Down
+1.106	AoE Def Down
+1.107	Cast+ Nov
+1.108	Cast+ Adv
+1.109	Cast+ Mstr
+1.110	Crane Wing
+1.111	Fish Scale
+1.112	Box Circle
+1.113	Wheel
+1.114	Regen II
+1.115	Counterplot
+1.116	Infighting
+1.117	Steal
+1.118	Regen III
+1.119	Earth Pwr I
+1.120	Earth Pwr II
+1.121	2 Strike
+1.122	3 Strike
+1.123	4 Strike
+1.124	5 Strike
+1.125	One Sword
+1.126	Dual Wield
+1.127	Quick Draw
+1.128	Peerless
+1.129	One Hit Kill
+1.130	Pierce
+1.131	Pierce Adv
+1.132	Crit Nov
+1.133	Crit Adv
+1.134	Oni Jab I
+1.135	Flash I
+1.136	1st Cut Nov
+1.137	1st Cut Adv
+1.138	No Cntr
+1.139	No Cntr Adv
+1.140	Bolt Jab I
+1.141	Star Jab I
+1.142	Sunder Nov
+1.143	Sunder Adv
+1.144	Aim Nov
+1.145	Aim Adv
+1.146	Vajra Hit I
+1.147	Void Hit I
+1.148	Swim I
+1.149	Swim II
+1.150	Earth Pwr III
+1.151	Water Pwr I
+1.152	Make Powder
+1.153	Meditate I
+1.154	Event
+1.155	Courier Nov
+1.156	Nembutsu
+1.157	Nembutsu II
+1.158	Nembutsu III
+1.159	Self Ward I
+1.160	Self Ward II
+1.161	Self Ward III
+1.162	Might I
+1.163	Might II
+1.164	Water Pwr II
+1.165	Preach Nov
+1.166	Preach Adv
+1.167	Water Pwr III
+1.168	Heal I
+1.169	Heal II
+1.170	Heal III
+1.171	Flame I
+1.172	Flame II
+1.173	Flame III
+1.174	Flame IV
+1.175	Flame V
+1.176	Alms
+1.177	Punish I
+1.178	Punish II
+1.179	Punish III
+1.180	Hellfire I
+1.181	Hellfire II
+1.182	Hellfire III
+1.183	Fire Pwr I
+1.184	Fire Pwr II
+1.185	Haste I
+1.186	Haste II
+1.187	Haste III
+1.188	Wisdom I
+1.189	Wisdom II
+1.190	Wisdom III
+1.191	Frost I
+1.192	Frost II
+1.193	Frost III
+1.194	Fire Pwr III
+1.195	Wind Pwr I
+1.196	Wind Pwr II
+1.197	Wind Pwr III
+1.198	Block
+1.199	Rebirth I
+1.200	Rebirth II
+1.201	Rebirth III
+1.202	Wpn Use
+1.203	Wpn Adv
+1.204	Wpn Mstr
+1.205	Armor Use
+1.206	Armor Adv
+1.207	AoE Heal I
+1.208	AoE Heal II
+1.209	Armor Mstr
+1.210	Vigor I
+1.211	Vigor II
+1.212	Might III
+1.213	Soul Ward I
+1.214	Full Heal
+1.215	AoE FullHeal
+1.216	AoE Life Buff
+1.217	Nirvana
+1.218	Pure Land
+1.219	LifeDef Buff
+1.220	Jewelry II
+1.221	Nio Stand
+1.222	Nio Stand II
+1.223	Nio Stand III
+1.224	Rampage I
+1.225	Rampage II
+1.226	Rampage III
+1.227	Sacrifice
+1.228	Undead I
+1.229	Undead II
+1.230	Undead III
+1.231	Sewing II
+1.232	Kotodama III
+1.233	Mix Elixir I
+1.234	Subdue I
+1.235	Subdue II
+1.236	Subdue III
+1.237	Paralyze I
+1.238	Paralyze II
+1.239	Paralyze III
+1.240	Vajra Nio
+1.241	Bishamonten
+1.242	Recall
+1.243	Mix Elixir II
+1.244	Blessing
+1.245	Great Dark
+1.246	Make Enchant
+1.247	Dispel I
+1.248	Dispel II
+1.249	Leave
+1.250	Holy Aegis I
+1.251	Holy Aegis II
+1.252	Sake
+1.253	Devotion
+1.254	Make Amulet
+1.255	Meal
+1.256	Soul Detect
+1.257	Soul Sight
+1.258	Drunk
+1.259	AoE Dispel
+1.260	God Aegis I
+1.261	God Aegis II
+1.262	God Aegis III
+1.263	Gale I
+1.264	Gale II
+1.265	Gale III
+1.266	Stance II
+1.267	Stance III
+1.268	Thunder I
+1.269	Thunder II
+1.270	Thunder III
+1.271	Thunder IV
+1.272	Thunder V
+1.273	Hex I
+1.274	Hex II
+1.275	Hex III
+1.276	Wind Edge I
+1.277	Wind Edge II
+1.278	Wind Edge III
+1.279	Wind Edge IV
+1.280	Wind Edge V
+1.281	Ward Arrow I
+1.282	Give Life I
+1.283	Give Life II
+1.284	Give Life III
+1.285	Give Ki I
+1.286	Give Ki II
+1.287	Give Ki III
+1.288	Sap Life I
+1.289	Sap Life II
+1.290	Sap Life III
+1.291	Demon I
+1.292	Demon II
+1.293	Demon III
+1.294	Give Vim I
+1.295	God Hand
+1.296	Elation I
+1.297	Elation II
+1.298	Elation III
+1.299	Hex Mist I
+1.300	Hex Mist II
+1.301	Hex Mist III
+1.302	AoE Haste
+1.303	AoE Morale Up
+1.304	Calm Song
+1.305	Dark Jaws
+1.306	Sleep Song
+1.307	Dirge I
+1.308	Dirge II
+1.309	Vital Hit
+1.310	Earth Song
+1.311	Sorrow Song
+1.312	Charm Song
+1.313	Wind Song I
+1.314	Wind Song II
+1.315	Attack
+1.316	Peace Song
+1.317	Truth Song
+1.318	Fear Song
+1.319	March
+1.320	Vanish Song
+1.321	Forget Song
+1.322	Heal Song
+1.323	Luck Buff III
+1.324	Weaken Song
+1.325	Snare Song
+1.326	Ki Song
+1.327	Parting Song
+1.328	Cheer Song
+1.329	Lullaby
+1.330	Requiem
+1.331	Aegis Song
+1.332	Dirge III
+1.333	Death Lure
+1.334	Cloak
+1.335	Ward I
+1.336	Ward II
+1.337	Ward III
+1.338	Banish I
+1.339	Banish II
+1.340	Banish III
+1.341	Luck Buff II
+1.342	Power Src I
+1.343	Fortune Adv
+1.344	Make Charm
+1.345	Luck Buff I
+1.346	Gather I
+1.347	Slow I
+1.348	Slow II
+1.349	Slow III
+1.350	Doom I
+1.351	Doom II
+1.352	Doom III
+1.353	Handcraft I
+1.354	Riposte
+1.355	Riposte II
+1.356	Shiki I
+1.357	Shiki II
+1.358	Shiki III
+1.359	Sap Ki I
+1.360	Sap Ki II
+1.361	Sap Ki III
+1.362	AoE Stun
+1.363	Soul Fire
+1.364	Evil Ward
+1.365	Charm
+1.366	Despair I
+1.367	Despair II
+1.368	Despair III
+1.369	Armor Buff
+1.370	Make TriGun
+1.371	Hypnosis
+1.372	AoE Morale Dn
+1.373	Sap Vim I
+1.374	Poison Bite
+1.375	Evil Touch
+1.376	Call Bolt I
+1.377	Call Bolt II
+1.378	Call Bolt III
+1.379	Barrage
+1.380	Flurry
+1.381	Soul Ward II
+1.382	Blizzard
+1.383	Tornado
+1.384	Purgatory
+1.385	Thunderstorm
+1.386	Petrify
+1.387	Death Omen
+1.388	Self Ward IV
+1.389	Call Knife
+1.390	Call Club
+1.391	Call Shuriken
+1.392	Call Arrow
+1.393	Spiral Wheel
+1.394	4 Slash
+1.395	6 Strike
+1.396	Call Spear
+1.397	Call Sword
+1.398	Call Sake
+1.399	Call Weight
+1.400	Shiki Pwr I
+1.401	Glare
+1.402	Call SprtStn
+1.403	Call SoulStn
+1.404	Bolt Smash
+1.405	Call Pegasus
+1.406	Make Shiki
+1.407	Inugami I
+1.408	Inugami II
+1.409	Inugami III
+1.410	Godspeed I
+1.411	Godspeed II
+1.412	Vacuum Slash
+1.413	Hidden Gun
+1.414	Str Src 2
+1.415	Hair Needle
+1.416	Prayer
+1.417	Pickpocket
+1.418	Stealth 1
+1.419	Stealth 2
+1.420	Stealth 3
+1.421	Conceal
+1.422	Conceal 2
+1.423	Conceal 3
+1.424	Mix Poison
+1.425	Mix Curse
+1.426	Mix Toxin
+1.427	Ambush
+1.428	Ambush 2
+1.429	Ambush 3
+1.430	Numb Slash
+1.431	Numb Slash 2
+1.432	Numb Slash 3
+1.433	Mk Ninja Tl1
+1.434	Mix Ench Pwd
+1.435	Wis Src 2
+1.436	Herb Gather1
+1.437	Mix Antidote
+1.438	Wis Src 3
+1.439	Vir Src 1
+1.440	Mining 1
+1.441	Night Vision
+1.442	False Rumor
+1.443	Ninpo Bind
+1.444	Stench
+1.445	Doom Flash 1
+1.446	Punish!
+1.447	Poison Mist
+1.448	Poison Mist+
+1.449	Curse 1
+1.450	Dark Scale
+1.451	Ninja Ward 1
+1.452	Ninja Ward 2
+1.453	Ninja Ward 3
+1.454	Hypnosis
+1.455	Shadow Bind
+1.456	Suggestion
+1.457	Earth Jutsu
+1.458	Water Jutsu
+1.459	Fire Jutsu
+1.460	Wind Jutsu
+1.461	Mist Hide
+1.462	Clone Jutsu
+1.463	Reversal
+1.464	Disguise 1
+1.465	Disguise 2
+1.466	Disguise 3
+1.467	False Sound
+1.468	Ninja Dog 1
+1.469	Ninja Dog 2
+1.470	Ninja Dog 3
+1.471	Dual Dagger
+1.472	Lure
+1.473	Unlock
+1.474	Disarm Trap
+1.475	Bind 1
+1.476	Bind 2
+1.477	Devour
+1.478	Wpn Repair
+1.479	Refine
+1.480	Armor Repair
+1.481	Mk Haraate
+1.482	Mk Haramaki1
+1.483	Mk Domaru 1
+1.484	Mk Gusoku 1
+1.485	Str Src 3
+1.486	Mk Mengu 1
+1.487	Mk Star Helm1
+1.488	Mk Suji Helm1
+1.489	Mk Kasa Helm
+1.490	Life Src 1
+1.491	Adorn Helm
+1.492	Katana Mstr
+1.493	Armor Mstr
+1.494	Mk Kogatana1
+1.495	Mk Blade
+1.496	Cntr Stance
+1.497	Mk Whip 1
+1.498	Mk Shuriken1
+1.499	Face Strike
+1.500	Mk Sh Spear1
+1.501	Mk Axe 1
+1.502	Mk Club 1
+1.503	Mk Spear 1
+1.504	Torso Sweep
+1.505	Mk Katana 1
+1.506	Wpn Enchant
+1.507	Soul Strike
+1.508	Wrist Strike
+1.509	Ore Detect
+1.510	Life Src 2
+1.511	Life Src 3
+1.512	Mk Veneer
+1.513	Wpn Temper
+1.514	Armor Temper
+1.515	Tech Src 1
+1.516	Mk Ammo
+1.517	Mk Gun 1
+1.518	Mk Barrel
+1.519	Mk Repeater
+1.520	Mk Cannon
+1.521	Mix Heal Pwd
+1.522	Revive 1
+1.523	Revive 2
+1.524	Revive 3
+1.525	Flash 1
+1.526	Flash 2
+1.527	Flash 3
+1.528	Demon Claw
+1.529	Scale Shot
+1.530	Poison Needle
+1.531	Venom
+1.532	Threaten
+1.533	Evil Light
+1.534	Flash 4
+1.535	Flash 5
+1.536	Vitality
+1.537	Divine Light
+1.538	Curse Rflct
+1.539	Curse Rflct2
+1.540	Weird Beam
+1.541	Curse 2
+1.542	Curse 3
+1.543	Taboo Curse
+1.544	Curse Shade1
+1.545	Curse Shade2
+1.546	Curse Shade3
+1.547	Kotodama 1
+1.548	Kotodama 2
+1.549	Death Breath
+1.550	Chaos
+1.551	AoE Dispel
+1.552	Fury
+1.553	Frenzy Dance
+1.554	Mix Tonic
+1.555	Mix Elixir 3
+1.556	Mk Omiki
+1.557	Mix Elixir 4
+1.558	Tech Src 2
+1.559	Tech Src 3
+1.560	Flame Breath
+1.561	Miracle
+1.562	Mix Eyedrops
+1.563	Poison Fog
+1.564	Vir Src 2
+1.565	Vir Src 3
+1.566	Fire Bomb
+1.567	Ice Shot
+1.568	Divine Wrath
+1.569	Tornado
+1.570	Shiki Buff 2
+1.571	Mk Jewel Swd1
+1.572	Mk Naginata1
+1.573	Def Buff 1
+1.574	Def Buff 2
+1.575	Def Buff 3
+1.576	Atk Buff 1
+1.577	Atk Buff 2
+1.578	Atk Buff 3
+1.579	AoE Atk Buff
+1.580	AoE Def Buff
+1.581	Chill 1
+1.582	Chill 2
+1.583	Chill 3
+1.584	Chill 4
+1.585	Chill 5
+1.586	Yokai Buff
+1.587	Death Call
+1.588	Dispel
+1.589	Dispel 2
+1.590	Fire Feather
+1.591	AoE Slow
+1.592	Barrier 4
+1.593	Shuriken Art
+1.594	NinjaTl Adv
+1.595	NinjaTl Mstr
+1.596	Focus
+1.597	Minor Force
+1.598	Shuriken Rain
+1.599	Immobilize
+1.600	Trap Detect
+1.601	Life Conv 1
+1.602	Life Conv 2
+1.603	Life Conv 3
+1.604	Woodwork 2
+1.605	Wis Src 1
+1.606	Ironwork
+1.607	Iron Craft
+1.608	Attack
+1.609	Shoot
+1.610	Bombard
+1.611	Shuriken
+1.612	Cancel
+1.613	End Stance
+1.614	Req Heal
+1.615	Req Buff
+1.616	Clone Attack
+1.617	Snipe
+1.618	Snipe 2
+1.619	Snipe 3
+1.620	Double Shot
+1.621	Triple Shot
+1.622	Old Barrage1
+1.623	Purge Light
+1.624	Cure
+1.625	Bind Mist
+1.626	Possess Atk
+1.627	Possess Heal
+1.628	Possess Buff
+1.629	Dog Attack
+1.630	Buddha Strike
+1.631	Buddha Wrath
+1.632	Divine Strike
+1.633	Kami Wrath
+1.634	Summon
+1.635	Join
+1.636	Gather
+1.637	Craft Tools
+1.638	Write Tools
+1.639	Health Art
+1.640	Rouse Art
+1.641	Full Strk 1
+1.642	Full Strk 2
+1.643	Full Strk 3
+1.644	Ki Strike 1
+1.645	Ki Strike 2
+1.646	Haze Slash 1
+1.647	Haze Slash 2
+1.648	Haze Slash 3
+1.649	Composure 1
+1.650	Composure 2
+1.651	Heal 4
+1.652	Heal 5
+1.653	Refresh 3
+1.654	Barrage 2
+1.655	Old Barrage2
+1.656	End Transform
+1.657	Poison Cloak
+1.658	Slash
+1.659	Full Strike
+1.660	Caltrops
+1.661	Dragon Tail
+1.662	Bite
+1.663	Flee
+1.664	Divine Ward
+1.665	Spell Blade
+1.666	Pray
+1.667	Battle Cry
+1.668	Battle Aura
+1.669	Morph
+1.670	Cloud Hide
+1.671	Cure Poison
+1.672	Cure Curse
+1.673	Flee
+1.674	Weaken Atk
+1.675	Weaken Def
+1.676	Weaken Atk+
+1.677	Weaken Def+
+1.678	Qk Heal Nov
+1.679	Qk Heal Adv
+1.680	Qk Heal Mst
+1.681	Fudo Myoo
+1.682	Grace
+1.683	Ki Cycle
+1.684	Water Form 1
+1.685	Water Form 2
+1.686	Water Form 3
+1.687	Divine Hand
+1.688	Evade (Sam)
+1.689	Courier Adv
+1.690	Evade (Mnk)
+1.691	Preaching
+1.692	Mk Jewelry 1
+1.693	Evade
+1.694	Sewing 1
+1.695	Evade (Nin)
+1.696	Gale
+1.697	Blind
+1.698	Appraise 1
+1.699	Smithing 1
+1.700	Appraise
+1.701	Sprint
+1.702	Fortune Nov
+1.703	Ki Strike
+1.704	Reckless Atk
+1.705	Heal
+1.706	Atk Buff
+1.707	Def Buff
+1.708	Haste
+1.709	Morale Up
+1.710	Life Buff
+1.711	AoE Atk Buff
+1.712	AoE Def Buff
+1.713	AoE Haste
+1.714	AoE Morale Up
+1.715	AoE Life Buff
+1.716	Atk Down
+1.717	Def Down
+1.718	Slow
+1.719	Morale Down
+1.720	AoE Atk Down
+1.721	AoE Def Down
+1.722	AoE Slow
+1.723	AoE Morale Dn
+1.724	Thunder 1
+1.725	Thunder 2
+1.726	Thunder 3
+1.727	Freeze 1
+1.728	Freeze 2
+1.729	Freeze 3
+1.730	Inferno 1
+1.731	Inferno 2
+1.732	Inferno 3
+1.733	Hellwind 1
+1.734	Hellwind 2
+1.735	Hellwind 3
+1.736	Dark Ray 1
+1.737	Dark Ray 2
+1.738	Dark Ray 3
+1.739	Hex 1
+1.740	Hex 2
+1.741	Hex 3
+1.742	Thunder 4
+1.743	Thunder 5
+1.744	Thunder Max
+1.745	Freeze 4
+1.746	Freeze 5
+1.747	Freeze Max
+1.748	Inferno 4
+1.749	Inferno 5
+1.750	Inferno Max
+1.751	Hellwind 4
+1.752	Hellwind 5
+1.753	Hellwind Max
+1.754	Dark Ray 4
+1.755	Dark Ray 5
+1.756	Dark Ray Max
+1.757	Hex 4
+1.758	Hex 5
+1.759	Hex Max
+1.760	Leaf Hide
+1.761	Self Heal Pr
+1.762	Self Heal 1
+1.763	Self Heal 2
+1.764	Self Heal 3
+1.765	Self Heal 4
+1.766	Self Heal 5
+1.767	Wisdom Art 1
+1.768	Wisdom Art 2
+1.769	Wisdom Art 3
+1.770	Ki Train 1
+1.771	Ki Train 2
+1.772	Ki Train 3
+1.773	Haste Art 1
+1.774	Haste Art 2
+1.775	Haste Art 3
+1.776	Reinforce
+1.777	Assist
+1.778	Gale Triple
+1.779	Pierce Shot
+1.780	Shock
+1.781	Dragon Jaws
+1.782	Sonic Wave
+1.783	Shuriken x2
+1.784	Shuriken x3
+1.785	Craft
+1.786	Earth Jutsu+
+1.787	Water Jutsu+
+1.788	Fire Jutsu+
+1.789	Wind Jutsu+
+1.790	Miasma
+1.791	Ikko Guide
+1.792	Sowing
+1.793	Bolt
+1.794	End Feint
+1.795	End Guard
+1.796	End Nio
+1.797	End Adamant
+1.798	Repel 1
+1.799	Repel 2
+1.800	Repel 3
+1.801	Pharmacy 1
+1.802	Woodwork 1
+1.803	Painting 1
+1.804	Painting 2
+1.805	Dark Omen
+1.806	Atk Verse 1
+1.807	Atk Verse 2
+1.808	Atk Verse 3
+1.809	Def Verse 1
+1.810	Def Verse 2
+1.811	Def Verse 3
+1.812	AtkDef Buff1
+1.813	AtkDef Buff2
+1.814	AtkDef Buff3
+1.815	Haste Verse1
+1.816	Haste Verse2
+1.817	Haste Verse3
+1.818	Ki Verse 1
+1.819	Ki Verse 2
+1.820	Ki Verse 3
+1.821	Wither Ray 1
+1.822	Wither Ray 2
+1.823	Wither Ray 3
+1.824	Wither Ray 4
+1.825	Wither Ray 5
+1.826	Doom Ray 1
+1.827	Doom Ray 2
+1.828	Doom Ray 3
+1.829	Heal 1
+1.830	Heal 2
+1.831	Heal 3
+1.832	Heal 4
+1.833	Heal 5
+1.834	Full Heal
+1.835	AoE Heal 1
+1.836	AoE Heal 2
+1.837	AoE Heal 3
+1.838	AoE FullHeal
+1.839	AtkDn Mist 1
+1.840	AtkDn Mist 2
+1.841	AtkDn Mist 3
+1.842	DefDn Mist 1
+1.843	DefDn Mist 2
+1.844	DefDn Mist 3
+1.845	Slow Mist 1
+1.846	Slow Mist 2
+1.847	Slow Mist 3
+1.848	KiDn Mist 1
+1.849	KiDn Mist 2
+1.850	KiDn Mist 3
+1.851	Barrier Brk
+1.852	Barrier Brk 2
+1.853	Barrier Brk 3
+1.854	Drain Slash 1
+1.855	Drain Slash 2
+1.856	Drain Slash 3
+1.857	Flat Strike
+1.858	Flat Strike 2
+1.859	Flat Strike 3
+1.860	Res Barrier 1
+1.861	Res Barrier 2
+1.862	Res Barrier 3
+1.863	Mute
+1.864	Mute 2
+1.865	Mute 3
+1.866	Mute Mist 1
+1.867	Mute Mist 2
+1.868	Mute Mist 3
+1.869	Cast Buff 1
+1.870	Cast Buff 2
+1.871	Cast Buff 3
+1.872	Dark Bless 1
+1.873	Dark Bless 2
+1.874	Dark Bless 3
+1.875	Vitalize 1
+1.876	Vitalize 2
+1.877	Vitalize 3
+1.878	Eerie Shade 1
+1.879	Eerie Shade 2
+1.880	Eerie Shade 3
+1.881	Yokai Ward 1
+1.882	Yokai Ward 2
+1.883	Yokai Ward 3
+1.884	YokaiWard Max
+1.885	Ruin Ray 1
+1.886	Ruin Ray 2
+1.887	Ruin Ray 3
+1.888	Ruin Ray Max
+1.889	Rebirth
+1.890	Wpn Skill 1
+1.891	Wpn Skill 2
+1.892	Wpn Skill 3
+1.893	Wpn Skill 4
+1.894	Wpn Skill 5
+1.895	Counter 1
+1.896	Counter 2
+1.897	Counter 3
+1.898	Counter 4
+1.899	Counter 5
+1.900	Evasion 1
+1.901	Evasion 2
+1.902	Evasion 3
+1.903	Evasion 4
+1.904	Evasion 5
+1.905	Accuracy 1
+1.906	Accuracy 2
+1.907	Accuracy 3
+1.908	Accuracy 4
+1.909	Accuracy 5
+1.910	Crit Aim 1
+1.911	Crit Aim 2
+1.912	Crit Aim 3
+1.913	Crit Aim 4
+1.914	Crit Aim 5
+1.915	War Spirit 1
+1.916	War Spirit 2
+1.917	War Spirit 3
+1.918	War Spirit 4
+1.919	War Spirit 5
+1.920	Survival 1
+1.921	Survival 2
+1.922	Survival 3
+1.923	Survival 4
+1.924	Survival 5
+1.925	Armor Brk 1
+1.926	Armor Brk 2
+1.927	Armor Brk 3
+1.928	Armor Brk 4
+1.929	Armor Brk 5
+1.930	Pierce 1
+1.931	Pierce 2
+1.932	Pierce 3
+1.933	Pierce 4
+1.934	Pierce 5
+1.935	Str Art Max
+1.936	Def Art Max
+1.937	Spd Art Max
+1.938	Sta Art Max
+1.939	Int Art Max
+1.940	Str+Spd Art
+1.941	Spd+Def Art
+1.942	Def+Sta Art
+1.943	Kusha Art 1
+1.944	Kusha Art 2
+1.945	Kusha Art 3
+1.946	Kusha Art Max
+1.947	Cosmos Art
+1.948	Wild 1
+1.949	Wild 2
+1.950	Wild 3
+1.951	PassOn Hit 1
+1.952	PassOn Hit 2
+1.953	PassOn Hit 3
+1.954	Death Road 1
+1.955	Death Road 2
+1.956	Death Road 3
+1.957	Slay Flash 2
+1.958	Slay Flash 3
+1.959	Life Drain 1
+1.960	Life Drain 2
+1.961	Life Drain 3
+1.962	Drain Art 1
+1.963	Drain Art 2
+1.964	Drain Art 3
+1.965	Drain Art Max
+1.966	Res Art 1
+1.967	Res Art 2
+1.968	Res Art 3
+1.969	Res Art Max
+1.970	Ki Charge 1
+1.971	Ki Charge 2
+1.972	Ki Charge 3
+1.973	Bolt 1
+1.974	Bolt 2
+1.975	Bolt 3
+1.976	Bolt 4
+1.977	Bolt 5
+1.978	Bolt Max
+1.979	Ice Edge 1
+1.980	Ice Edge 2
+1.981	Ice Edge 3
+1.982	Ice Edge 4
+1.983	Ice Edge 5
+1.984	Ice Edge Max
+1.985	Fire Edge 1
+1.986	Fire Edge 2
+1.987	Fire Edge 3
+1.988	Fire Edge 4
+1.989	Fire Edge 5
+1.990	Fire Edge Max
+1.991	Gale 1
+1.992	Gale 2
+1.993	Gale 3
+1.994	Gale 4
+1.995	Gale 5
+1.996	Gale Max
+1.997	Burst Hit 1
+1.998	Burst Hit 2
+1.999	Burst Hit 3
+1.1000	Wise Verse 1
+1.1001	Wise Verse 2
+1.1002	Wise Verse 3
+1.1003	Crush Hit 1
+1.1004	Crush Hit 2
+1.1005	Crush Hit 3
+1.1006	Ki Hit 3
+1.1007	Riposte 3
+1.1008	Bind 3
+1.1009	Skill Scroll
+1.1010	Woodwork 3
+1.1011	Woodwork 4
+1.1012	Arrow Cr 2
+1.1013	Arrow Cr 3
+1.1014	Arrow Cr 4
+1.1015	Bow Cr 2
+1.1016	Bow Cr 3
+1.1017	Handicraft 2
+1.1018	Handicraft 3
+1.1019	Painting 3
+1.1020	Jewelry Cr 3
+1.1021	Jewelry Cr 4
+1.1022	Hamaya Cr 2
+1.1023	Tailoring 3
+1.1024	Tailoring 4
+1.1025	NinTool Cr 2
+1.1026	NinTool Cr 3
+1.1027	NinTool Cr 4
+1.1028	Smithing 2
+1.1029	Smithing 3
+1.1030	Mask Cr 2
+1.1031	Mask Cr 3
+1.1032	StarHelm Cr 2
+1.1033	StarHelm Cr 3
+1.1034	RibHelm Cr 2
+1.1035	RibHelm Cr 3
+1.1036	EboHelm Cr
+1.1037	Haramaki Cr 2
+1.1038	Haramaki Cr 3
+1.1039	Domaru Cr 2
+1.1040	Domaru Cr 3
+1.1041	Gusoku Cr 2
+1.1042	Gusoku Cr 3
+1.1043	Baton Cr 2
+1.1044	Baton Cr 3
+1.1045	Whip Cr 2
+1.1046	Whip Cr 3
+1.1047	Club Cr 2
+1.1048	Club Cr 3
+1.1049	Knife Cr 2
+1.1050	Knife Cr 3
+1.1051	Axe Cr 2
+1.1052	Axe Cr 3
+1.1053	Katana Cr 2
+1.1054	Katana Cr 3
+1.1055	Naginata Cr 2
+1.1056	Naginata Cr 3
+1.1057	S.Spear Cr 2
+1.1058	S.Spear Cr 3
+1.1059	Spear Cr 2
+1.1060	Spear Cr 3
+1.1061	GemSword Cr 2
+1.1062	GemSword Cr 3
+1.1063	Shuriken Cr 2
+1.1064	Shuriken Cr 3
+1.1065	Gun Cr 2
+1.1066	Gun Cr 3
+1.1067	Potent Pill
+1.1068	Potent Elix
+1.1069	Poison Pill
+1.1070	Poison Elix
+1.1071	Curse Pill
+1.1072	Curse Elix
+1.1073	Elem Pill
+1.1074	Elem Elix
+1.1075	Tonic Pill
+1.1076	Tonic Elix
+1.1077	Buff Pill
+1.1078	Buff Elix
+1.1079	Recover Pill
+1.1080	Recover Elix
+1.1081	Cooking 1
+1.1082	Cooking 2
+1.1083	Dagger Mstry
+1.1084	Sword Mstry
+1.1085	Spear Mstry
+1.1086	Staff Mstry
+1.1087	Bow Mstry
+1.1088	Gun Mstry
+1.1089	Meditate 2
+1.1090	First Cut Mst
+1.1091	Bushi Pride
+1.1092	Self Dispel 1
+1.1093	Self Dispel 2
+1.1094	Crit Aim Mst
+1.1095	Accuracy Mst
+1.1096	Sure Hit
+1.1097	Rash Stance
+1.1098	Oni Thrust 2
+1.1099	Flash Cut 2
+1.1100	Bolt Thrust 2
+1.1101	Meteor Jab 2
+1.1102	Armor Brk Mst
+1.1103	Vajra Hit 2
+1.1104	Air Rend 2
+1.1105	CoverFire Mst
+1.1106	All Hit
+1.1107	Barrage 3
+1.1108	Fast Load
+1.1109	Perfect Aim
+1.1110	First Hit 1
+1.1111	First Hit 2
+1.1112	First Hit 3
+1.1113	Go no Sen
+1.1114	Recover Pre
+1.1115	Preach Mstry
+1.1116	Gassho
+1.1117	Dharma Wheel
+1.1118	Exorcise Pre
+1.1119	Give Vigor 2
+1.1120	Give Vigor 3
+1.1121	Light Ray
+1.1122	Focus 3
+1.1123	Thunder Pre
+1.1124	Chill Pre
+1.1125	Flame Pre
+1.1126	Wind Edge Pre
+1.1127	Earth 1
+1.1128	Earth 2
+1.1129	Earth 3
+1.1130	Water 1
+1.1131	Water 2
+1.1132	Water 3
+1.1133	Fire 1
+1.1134	Fire 2
+1.1135	Fire 3
+1.1136	Wind 1
+1.1137	Wind 2
+1.1138	Wind 3
+1.1139	Bolt Maul 1
+1.1140	Bolt Maul 2
+1.1141	Bolt Maul 3
+1.1142	Ice Maul 1
+1.1143	Ice Maul 2
+1.1144	Ice Maul 3
+1.1145	Fire Maul 1
+1.1146	Fire Maul 2
+1.1147	Fire Maul 3
+1.1148	Wind Maul 1
+1.1149	Wind Maul 2
+1.1150	Wind Maul 3
+1.1151	Darkness 1
+1.1152	Darkness 2
+1.1153	Darkness 3
+1.1154	Dark Mist 1
+1.1155	Dark Mist 2
+1.1156	Dark Mist 3
+1.1157	Pursue Hit 1
+1.1158	Pursue Hit 2
+1.1159	Pursue Hit 3
+1.1160	Curse Pre
+1.1161	Buddha Aid 3
+1.1162	Threat Shot 2
+1.1163	AoE Recover 3
+1.1164	Drain Vigor 2
+1.1165	Drain Vigor 3
+1.1166	Vitalize Pre
+1.1167	Soul Call
+1.1168	Logging 2
+1.1169	Logging 3
+1.1170	Gather Mat 2
+1.1171	Gather Mat 3
+1.1172	Foraging 2
+1.1173	Foraging 3
+1.1174	Mining 2
+1.1175	Mining 3
+1.1176	Bow Cr 4
+1.1177	Painting 4
+1.1178	Handicraft 4
+1.1179	Handicraft 5
+1.1180	Handicraft 6
+1.1181	Handicraft 7
+1.1182	Handicraft 8
+1.1183	Handicraft 9
+1.1184	TeaWare Cr 1
+1.1185	TeaWare Cr 2
+1.1186	TeaWare Cr 3
+1.1187	TeaWare Cr 4
+1.1188	Jewelry Cr 5
+1.1189	Jewelry Cr 6
+1.1190	Hamaya Cr 3
+1.1191	Tailoring 5
+1.1192	Tailoring 6
+1.1193	Tailoring 7
+1.1194	Tailoring 8
+1.1195	Tailoring 9
+1.1196	Tailoring 10
+1.1197	Tailoring 11
+1.1198	NinTool Cr 5
+1.1199	NinTool Cr 6
+1.1200	NinTool Cr 7
+1.1201	NinTool Cr 8
+1.1202	NinTool Cr 9
+1.1203	Weapon Cr 1
+1.1204	Weapon Cr 2
+1.1205	Weapon Cr 3
+1.1206	Armor Cr 1
+1.1207	Armor Cr 2
+1.1208	Armor Cr 3
+1.1209	Dye Mixing
+1.1210	Woodwork 5
+1.1211	Woodwork 6
+1.1212	Woodwork 7
+1.1213	Fortune Mstry
+1.1214	DarkSword Nov
+1.1215	DarkSword Adv
+1.1216	DarkSword Mst
+1.1217	Bite 1
+1.1218	Bite 2
+1.1219	Bite 3
+1.1220	Bite Max
+1.1221	Smash 1
+1.1222	Smash 2
+1.1223	Smash 3
+1.1224	Smash Max
+1.1225	Grudge 1
+1.1226	Grudge 2
+1.1227	Grudge 3
+1.1228	Grudge Max
+1.1229	Cleave 1
+1.1230	Cleave 2
+1.1231	Cleave 3
+1.1232	Cleave Max
+1.1233	Combo Rev
+1.1234	3Hit Rev
+1.1235	4x Combo R
+1.1236	5x Combo R
+1.1237	Bishamon Pwr
+1.1238	Echigo Wheel
+1.1239	Usami Tac
+1.1240	Echigo Rush
+1.1241	Shoki Slash
+1.1242	Oni Combo
+1.1243	Amakasu Spear
+1.1244	Koshu Wind
+1.1245	Koshu Forest
+1.1246	Koshu Fire
+1.1247	Koshu Mtn
+1.1248	Takeda Ward
+1.1249	Woodpecker
+1.1250	Red Bloodbath
+1.1251	Red Assault
+1.1252	Thousand Cut
+1.1253	Sessai Tac
+1.1254	Elegant Song
+1.1255	Capital Song
+1.1256	Maou Light
+1.1257	Sassa Snipe
+1.1258	Volley Fire
+1.1259	Hashiba Charm
+1.1260	Sunomata Def
+1.1261	Matasa Rain
+1.1262	Jar Breaker
+1.1263	Sasa Volley
+1.1264	Peerless One
+1.1265	Ult Patience
+1.1266	Iga Mist Hide
+1.1267	Iga Assassin
+1.1268	Plain Spear
+1.1269	Peerless Blow
+1.1270	Unhurt Strat
+1.1271	Sakai Drum
+1.1272	Mikawa Soul
+1.1273	Viper Venom
+1.1274	Hanbei Ploy
+1.1275	Bullheaded
+1.1276	No Tricks
+1.1277	Disperse
+1.1278	Dissipate
+1.1279	Steal Buff
+1.1280	Dispel Ploy
+1.1281	Bind Ploy
+1.1282	Chant 1
+1.1283	Chant 2
+1.1284	Chant 3
+1.1285	Chant Max
+1.1286	Rift Ray 1
+1.1287	Rift Ray 2
+1.1288	Rift Ray 3
+1.1289	Rift Ray Max
+1.1290	Drain Combo
+1.1291	Drain 3x
+1.1292	Drain 4x
+1.1293	Drain 5x
+1.1294	Weaken Dance
+1.1295	Weaken Dance+
+1.1296	Charm Dance
+1.1297	Venom Fluid
+1.1298	Venom Bite
+1.1299	Numb Bite
+1.1300	Venom Sting
+1.1301	Numb Sting
+1.1302	Curse Sting
+1.1303	Venom Scale
+1.1304	Numb Scale
+1.1305	Curse Scale
+1.1306	Fear Cry
+1.1307	Mute Cry
+1.1308	Bind Cry
+1.1309	Fear Roar
+1.1310	Mute Roar
+1.1311	Bind Roar
+1.1312	Soun Ward
+1.1313	5-Color Flame
+1.1314	5-Color Chill
+1.1315	5-Color Dark
+1.1316	5-Color Light
+1.1317	Hachiman Ward
+1.1318	Last Will
+1.1319	Iron Wall
+1.1320	Iron Fort
+1.1321	Antidote Nov
+1.1322	Antidote Adv
+1.1323	Antidote Mst
+1.1324	Psn Ward 1
+1.1325	Psn Ward 2
+1.1326	Psn Ward 3
+1.1327	Self Prayer
+1.1328	Helm Crest
+1.1329	Dye
+1.1330	Fireworks
+1.1331	Call Thunder
+1.1332	None
+1.1333	Self Dispel
+1.1334	Self FullHeal
+1.1335	Self Blessing
+1.1336	Self Vigor 3
+1.1337	Self Psn 3
+1.1338	Self Adamant
+1.1339	Morph:Snake
+1.1340	Morph:Spider
+1.1341	Morph:Wolf
+1.1342	Morph:Bear
+1.1343	Morph:Rat
+1.1344	Morph:Tiger
+1.1345	Morph:Bat
+1.1346	Morph:Fox
+1.1347	Morph:Frog
+1.1348	Morph:Golem
+1.1349	Morph:Oni
+1.1350	Morph:Tengu
+1.1351	Morph:Head
+1.1352	Morph:Hannya
+1.1353	Morph:UshiOni
+1.1354	Morph:Imp
+1.1355	Morph:Nue
+1.1356	Morph:Raijin
+1.1357	Morph:Kongo
+1.1358	Morph:Dorai
+1.1359	Morph:Yuhime
+1.1360	Morph:TsuchGm
+1.1361	Morph:Fiend
+1.1362	Morph:Undead
+1.1363	Morph:Nanban
+1.1364	Morph:Kenshin
+1.1365	Morph:Shingen
+1.1366	Morph:Ujiyasu
+1.1367	Morph:Yoshmot
+1.1368	Morph:Ieyasu
+1.1369	Morph:Nobunag
+1.1370	Morph:Dosan
+1.1371	Morph:Yoshkge
+1.1372	Morph:Nagamsa
+1.1373	Morph:Momochi
+1.1374	Morph:Yoshtru
+1.1375	Morph:Chokei
+1.1376	Morph:Magoich
+1.1377	Morph:Padre
+1.1378	Morph:Bandit
+1.1379	Morph:Pirate
+1.1380	Morph:Peasant
+1.1381	Morph:Townman
+1.1382	Sharp Arrows
+1.1383	Dragon Fury
+1.1384	Yield
+1.1385	Roar
+1.1386	Oni Slay 1
+1.1387	Oni Slay 2
+1.1388	Oni Slay 3
+1.1389	Wakai Weaken
+1.1390	Last Stand
+1.1391	Adversity
+1.1392	Money
+1.1393	Yoki Heal 1
+1.1394	Yoki Heal 2
+1.1395	Yoki Heal 3
+1.1396	Inf:Container
+1.1397	Inf:O-yoroi
+1.1398	Inf:NinjaGarb
+1.1399	Inf:Axe
+1.1400	Inf:Club
+1.1401	Inf:Painting
+1.1402	Inf:Katana
+1.1403	Inf:StarHelm
+1.1404	Inf:FancyHelm
+1.1405	Inf:Crown
+1.1406	Inf:Whip
+1.1407	Inf:MonkStaff
+1.1408	Inf:Dagger
+1.1409	Inf:Suikan
+1.1410	Inf:Hood
+1.1411	Inf:SujiHelm
+1.1412	Inf:MonkRobe
+1.1413	Inf:Baton
+1.1414	Inf:Kesa
+1.1415	Inf:ShortSpr
+1.1416	Inf:ToseiArm
+1.1417	Inf:Domaru
+1.1418	Inf:Naginata
+1.1419	Inf:NanbanArm
+1.1420	Inf:Bow
+1.1421	Inf:NinjaArm
+1.1422	Inf:Noshi
+1.1423	Inf:Haraate
+1.1424	Inf:Haramaki
+1.1425	Inf:HolySword
+1.1426	Inf:Mask
+1.1427	Inf:Spear
+1.1428	1Sword Adv
+1.1429	1Sword Mst
+1.1430	Armor Mst 1
+1.1431	Weapon Mst 1
+1.1432	2Sword Adv
+1.1433	2Sword Mst
+1.1434	Fight Spirit
+1.1435	Immov Form
+1.1436	Wisdom Art 4
+1.1437	Reckless Rush
+1.1438	4x Combo R
+1.1439	5x Combo R
+1.1440	All-Out R
+1.1441	Fire Raid 2
+1.1442	Water Raid 2
+1.1443	Clear Mind
+1.1444	Demon Thrust
+1.1445	Reversal Plan
+1.1446	Life & Death
+1.1447	Mercy 1
+1.1448	Mercy 2
+1.1449	Damnation 4
+1.1450	Buddha Ward 4
+1.1451	Pure Land R
+1.1452	Banish Evil
+1.1453	Retribution
+1.1454	Sohei Combo
+1.1455	12-Deva Blow
+1.1456	Nether Ward
+1.1457	Holy Light 2
+1.1458	Willpower
+1.1459	Dainichi Art
+1.1460	Mandala Seal
+1.1461	Crimson Wheel
+1.1462	Frost Wheel
+1.1463	Requiem
+1.1464	Peacock Art
+1.1465	Aizen Art
+1.1466	5-King Art
+1.1467	Bow Twang
+1.1468	Haste Verse
+1.1469	Guard Verse
+1.1470	Divine Arrow
+1.1471	God Descent
+1.1472	God Might 1
+1.1473	God Might 2
+1.1474	God Ki Hit 1
+1.1475	God Ki Hit 2
+1.1476	Divine Wind
+1.1477	Divine Bolt
+1.1478	Ki Drain
+1.1479	Dazzle Song
+1.1480	Discord Song
+1.1481	Divine Song
+1.1482	Eternal Song
+1.1483	Wind Song 3
+1.1484	Bless Song
+1.1485	Sound Blast
+1.1486	Thunderclap
+1.1487	Ice Crystal
+1.1488	Scorch
+1.1489	Dragon Rise
+1.1490	Bolt Maul 4
+1.1491	Ice Maul 4
+1.1492	Fire Maul 4
+1.1493	Wind Maul 4
+1.1494	Pentagram
+1.1495	All Creation
+1.1496	Hex:Sever
+1.1497	Hex:Bind
+1.1498	Hex:Drain
+1.1499	Slow Mist 4
+1.1500	Dark Mist 4
+1.1501	Inner Elixir
+1.1502	Outer Elixir
+1.1503	Seal God
+1.1504	Utsusemi
+1.1505	Utsusemi R
+1.1506	Ward Break B
+1.1507	Ward Break R
+1.1508	Shuriken Aid
+1.1509	Counter Evade
+1.1510	Magic Seal
+1.1511	Ninja 1Sword
+1.1512	God Cleave
+1.1513	Lightning
+1.1514	Annihilate
+1.1515	Weaken Jutsu
+1.1516	Haze Jutsu
+1.1517	Self-Suggest
+1.1518	Shadow Bind
+1.1519	Earth Esc Max
+1.1520	Water Esc Max
+1.1521	Fire Esc Max
+1.1522	Wind Esc Max
+1.1523	Wpn Break 1
+1.1524	Wpn Break 2
+1.1525	Arm Break 1
+1.1526	Arm Break 2
+1.1527	Armor Mst 2
+1.1528	Weapon Mst 2
+1.1529	Bellow
+1.1530	Fury Fist
+1.1531	Trap Armor 1
+1.1532	Trap Armor 2
+1.1533	Diversion
+1.1534	Taunt
+1.1535	Tirade
+1.1536	Quick Load 2
+1.1537	Cover Fire
+1.1538	Vital Shot
+1.1539	Pierce Shot
+1.1540	4x Shot
+1.1541	Point-Blank
+1.1542	Wild Barrage
+1.1543	Med Lore 1
+1.1544	Med Lore 2
+1.1545	First Aid 1
+1.1546	First Aid 2
+1.1547	Prevention
+1.1548	Recuperate
+1.1549	Psn Ward AoE
+1.1550	Vigor 4
+1.1551	Fast Vital 1
+1.1552	Fast Vital 2
+1.1553	Mystic Bolt
+1.1554	Kusha Art 4
+1.1555	Life Buff
+1.1556	Volt Ray
+1.1557	Atk Down 4
+1.1558	Def Down 4
+1.1559	Austerity
+1.1560	Hone Curse
+1.1561	Atk Mist 4
+1.1562	Def Mist 4
+1.1563	Demon Gate
+1.1564	One Mind
+1.1565	Zen
+1.1566	Mind's Eye
+1.1567	Focus
+1.1568	Water Flow
+1.1569	Guard Nov
+1.1570	Guard Adv
+1.1571	Undead Cure
+1.1572	Item
+1.1573	Vanity
+1.1574	Swift War
+1.1575	Self-Repair
+1.1576	Morph:Saika
+1.1577	Hunt Column
+1.1578	Wind Column
+1.1579	Lion's Fury
+1.1580	Ogre Thrust
+1.1581	Padre Miracle
+1.1582	Shogun Might
+1.1583	Victory Song
+1.1584	Wind Dance
+1.1585	Revolt Plot
+1.1586	Pierce Hit
+1.1587	Falcon 3x
+1.1588	Yatagarasu
+1.1589	Firefly Swarm
+1.1590	Saika Guns
+1.1591	Suiton:Frost
+1.1592	Fuuton:Kama
+1.1593	Heresy:Haze
+1.1594	Shuriken Fury
+1.1595	Divine Guide
+1.1596	Coded Letter
+1.1597	Shiki:Atk
+1.1598	Shiki:Yoki
+1.1599	Shiki:Curse
+1.1600	Shiki:Heal
+1.1601	Shiki:Ward
+1.1602	Shiki:Prism
+1.1603	Familiar 1
+1.1604	Familiar 2
+1.1605	Familiar 3
+1.1606	Quick Summon
+1.1607	Make AtkTag
+1.1608	Make YokiTag
+1.1609	Make HexTag
+1.1610	Make HealTag
+1.1611	Make WardTag
+1.1612	Make HueTag
+1.1613	Boost Tag
+1.1614	Flute Play
+1.1615	Lament
+1.1616	Slim Body
+1.1617	Plump Body
+1.1618	Shiki Heal 1
+1.1619	Fast Cast
+1.1620	Violet Flash
+1.1621	Sohei Combo R
+1.1622	Deva Halo
+1.1623	Yakushi Art
+1.1624	Swift Bolt
+1.1625	Raging Wind
+1.1626	Point Break
+1.1627	Myojin Flash
+1.1628	Malady Hit
+1.1629	Ill Wind
+1.1630	Agony Mist
+1.1631	Chase Hit Max
+1.1632	Friendship
+1.1633	Affection
+1.1634	Friend Bond
+1.1635	Love Bond
+1.1636	Omononushi
+1.1637	Go-no-Sen R
+1.1638	All-Out Max
+1.1639	Frantic
+1.1640	Sword Flash
+1.1641	Dread Aura
+1.1642	Wind Slash
+1.1643	Self-Control
+1.1644	Purge Tricks
+1.1645	Immov Form 2
+1.1646	Master Plan
+1.1647	Great Shout
+1.1648	Exorcism 2
+1.1649	Soul Crush
+1.1650	Nio Benkei
+1.1651	Enlighten
+1.1652	Holy Ray 3
+1.1653	Dark Ward 2
+1.1654	Halo
+1.1655	Break Ward
+1.1656	Avici Hell
+1.1657	Bane Seal
+1.1658	Smite Evil
+1.1659	Divine Skill
+1.1660	Soul Arrow
+1.1661	God's Hand 2
+1.1662	Light Rain
+1.1663	Festival
+1.1664	Calm Mind
+1.1665	Majesty 3
+1.1666	Pure Fire
+1.1667	Revolt Song
+1.1668	Sustain Song
+1.1669	Firm Song 2
+1.1670	Revive Song
+1.1671	Curse Arts
+1.1672	Henbai Rite
+1.1673	Five Phases
+1.1674	Taiji
+1.1675	Neidan 2
+1.1676	Waidan 2
+1.1677	Great Cycle
+1.1678	Five Thunder
+1.1679	Shiki Heal 2
+1.1680	Recall Shiki
+1.1681	Night Parade
+1.1682	Mirror Body
+1.1683	Ninja Ward 4
+1.1684	Utsusemi X
+1.1685	Flash Kill
+1.1686	God Cleave+
+1.1687	Doom Flash X
+1.1688	Hidden Pin
+1.1689	Kimon Tonko
+1.1690	Self Hypno+
+1.1691	Spell Boost
+1.1692	Mirage Mist
+1.1693	4-Body Art
+1.1694	Katana Peak+
+1.1695	Edge Break 3
+1.1696	Soul Slay
+1.1697	Blast Smash
+1.1698	Armor Peak+
+1.1699	Mail Break 3
+1.1700	Impregnable
+1.1701	Body Slam
+1.1702	Mail Shot 2
+1.1703	Snipe+
+1.1704	Roar Shot
+1.1705	Gun Salute
+1.1706	Toxic Heal
+1.1707	Relief 3
+1.1708	Dispel Evil
+1.1709	Pure Blood
+1.1710	Hone Arts
+1.1711	Myst Bolt 2
+1.1712	Wither
+1.1713	Spirit Boost
+1.1714	Mind Temper
+1.1715	Ura-Kimon
+1.1716	Mimic Spell
+1.1717	Impact Hit 4
+1.1718	Detect 2
+1.1719	Sword Surge
+1.1720	First Hit 4
+1.1721	Detect All 2
+1.1722	Hands Off
+1.1723	Ki Refine 4
+1.1724	Demon Bane
+1.1725	Dispel All 2
+1.1726	Ki Strike 4
+1.1727	Heal All 4
+1.1728	Life Save
+1.1729	Misogi
+1.1730	God's Grace 4
+1.1731	Prayer
+1.1732	Chant Buff 4
+1.1733	Ki Verse 4
+1.1734	Peace Song
+1.1735	Light Bloom
+1.1736	Doom Curse 4
+1.1737	Focus Mind 4
+1.1738	Qi Cycle+
+1.1739	Quick Ward
+1.1740	Stillness
+1.1741	Mist Slash 4
+1.1742	Vital Hit+
+1.1743	Dark Blade
+1.1744	Fortify
+1.1745	Chase Hit 4
+1.1746	Riposte+
+1.1747	Guard Mstry
+1.1748	Endurance
+1.1749	War Spirit
+1.1750	Finesse
+1.1751	Grudge
+1.1752	Taiji Array
+1.1753	Fearless
+1.1754	Cure All 4
+1.1755	Hex Infuse
+1.1756	Thanks Ltr
+1.1757	Drain Cut 4
+1.1758	Logging 4
+1.1759	Dignity
+1.1760	Challenge
+1.1761	Rally Cry
+1.1762	Crest Craft
+1.1763	Ward Evil
+1.1764	Astral Form
+1.1765	Calm Undead
+1.1766	Gather 4
+1.1767	Soul Gaze
+1.1768	Walk Chant
+1.1769	Sleep Lure
+1.1770	Vanish Song+
+1.1771	Requiem+
+1.1772	Inari Prayer
+1.1773	Soul Call
+1.1774	Taming
+1.1775	Disguise 4
+1.1776	Kagemusha
+1.1777	Seduce
+1.1778	Stealth+
+1.1779	Recall
+1.1780	Bewitch
+1.1781	Fix All Wpn
+1.1782	Fix All Mail
+1.1783	Repair All
+1.1784	Sleep Draft
+1.1785	Stimulant
+1.1786	First Aid
+1.1787	Delay Ploy
+1.1788	Heal Ploy
+1.1789	Champion
+1.1790	Atk Talis 2
+1.1791	Mag Talis 2
+1.1792	Hex Talis 2
+1.1793	Heal Talis 2
+1.1794	Ward Talis 2
+1.1795	Knife 4
+1.1796	Knife 5
+1.1797	Axe 4
+1.1798	Axe 5
+1.1799	Katana 4
+1.1800	Katana 5
+1.1801	Naginata 4
+1.1802	Naginata 5
+1.1803	S.Spear 4
+1.1804	S.Spear 5
+1.1805	Spear 4
+1.1806	Spear 5
+1.1807	Relic Swd 4
+1.1808	Relic Swd 5
+1.1809	Whip 4
+1.1810	Whip 5
+1.1811	Baton 4
+1.1812	Baton 5
+1.1813	Club 4
+1.1814	Club 5
+1.1815	Mask 4
+1.1816	Mask 5
+1.1817	Star Helm 4
+1.1818	Star Helm 5
+1.1819	Ridge Helm 4
+1.1820	Ridge Helm 5
+1.1821	Kasa Helm 2
+1.1822	Kasa Helm 3
+1.1823	Eboshi Hlm 2
+1.1824	Eboshi Hlm 3
+1.1825	Haramaki 4
+1.1826	Haramaki 5
+1.1827	Haraate 4
+1.1828	Haraate 5
+1.1829	Domaru 4
+1.1830	Domaru 5
+1.1831	Gusoku 4
+1.1832	Gusoku 5
+1.1833	Shuriken 4
+1.1834	Shuriken 5
+1.1835	Gun 4
+1.1836	Gun 5
+1.1837	Repeater 2
+1.1838	Repeater 3
+1.1839	Triple Gun 2
+1.1840	Triple Gun 3
+1.1841	Bow 5
+1.1842	Bow 6
+1.1843	Arrows 5
+1.1844	Arrows 6
+1.1845	War Book 2
+1.1846	Tea Ware 5
+1.1847	Tea Ware 6
+1.1848	Painting 5
+1.1849	Painting 6
+1.1850	Holy Arrow 4
+1.1851	Holy Arrow 5
+1.1852	Nin Tool 10
+1.1853	Nin Tool 11
+1.1854	Nin Tool 12
+1.1855	Nin Tool 13
+1.1856	Nin Tool 14
+1.1857	Nin Tool 15
+1.1858	Nin Tool 16
+1.1859	Nin Tool 17
+1.1860	Woodwork 8
+1.1861	Woodwork 9
+1.1862	Woodwork 10
+1.1863	Woodwork 11
+1.1864	Woodwork 12
+1.1865	Woodwork 13
+1.1866	Woodwork 14
+1.1867	Woodwork 15
+1.1868	Woodwork 16
+1.1869	Woodwork 17
+1.1870	Woodwork 18
+1.1871	Woodwork 19
+1.1872	Handcraft 10
+1.1873	Handcraft 11
+1.1874	Handcraft 12
+1.1875	Handcraft 13
+1.1876	Handcraft 14
+1.1877	Handcraft 15
+1.1878	Handcraft 16
+1.1879	Handcraft 17
+1.1880	Handcraft 18
+1.1881	Handcraft 19
+1.1882	Jewelry 7
+1.1883	Jewelry 8
+1.1884	Jewelry 9
+1.1885	Jewelry 10
+1.1886	Jewelry 11
+1.1887	Jewelry 12
+1.1888	Jewelry 13
+1.1889	Sewing 12
+1.1890	Sewing 13
+1.1891	Sewing 14
+1.1892	Sewing 15
+1.1893	Sewing 16
+1.1894	Sewing 17
+1.1895	Sewing 18
+1.1896	Sewing 19
+1.1897	Sewing 20
+1.1898	Sewing 21
+1.1899	Smithing 4
+1.1900	Smithing 5
+1.1901	Sake Craft 1
+1.1902	Sake Craft 2
+1.1903	Sake Craft 3
+1.1904	Dye Mix 2
+1.1905	Elixir 5
+1.1906	Elixir 6
+1.1907	Elixir 7
+1.1908	Elixir 8
+1.1909	Elixir 9
+1.1910	Elixir 10
+1.1911	Elixir 11
+1.1912	Elixir 12
+1.1913	Elixir 13
+1.1914	Elixir 14
+1.1915	Elixir 15
+1.1916	Elixir 16
+1.1917	Elixir 17
+1.1918	Elixir 18
+1.1919	Elixir 19
+1.1920	Gauntlet 1
+1.1921	Gauntlet 2
+1.1922	Gauntlet 3
+1.1923	Gauntlet 4
+1.1924	Footwear 1
+1.1925	Footwear 2
+1.1926	Footwear 3
+1.1927	Footwear 4
+1.1928	Charm 1
+1.1929	Charm 2
+1.1930	Charm 3
+1.1931	Charm 4
+1.1932	Sam Furn 1
+1.1933	Sam Furn 2
+1.1934	Sam Furn 3
+1.1935	Sam Furn 4
+1.1936	Sam Furn 5
+1.1937	Sam Furn 6
+1.1938	Sam Furn 7
+1.1939	Sam Furn 8
+1.1940	Monk Furn 1
+1.1941	Monk Furn 2
+1.1942	Monk Furn 3
+1.1943	Monk Furn 4
+1.1944	Monk Furn 5
+1.1945	Monk Furn 6
+1.1946	Monk Furn 7
+1.1947	Monk Furn 8
+1.1948	Prst Furn 1
+1.1949	Prst Furn 2
+1.1950	Prst Furn 3
+1.1951	Prst Furn 4
+1.1952	Prst Furn 5
+1.1953	Prst Furn 6
+1.1954	Prst Furn 7
+1.1955	Prst Furn 8
+1.1956	Onm Furn 1
+1.1957	Onm Furn 2
+1.1958	Onm Furn 3
+1.1959	Onm Furn 4
+1.1960	Onm Furn 5
+1.1961	Onm Furn 6
+1.1962	Onm Furn 7
+1.1963	Onm Furn 8
+1.1964	Ninja Furn 1
+1.1965	Ninja Furn 2
+1.1966	Ninja Furn 3
+1.1967	Ninja Furn 4
+1.1968	Ninja Furn 5
+1.1969	Ninja Furn 6
+1.1970	Ninja Furn 7
+1.1971	Ninja Furn 8
+1.1972	Smith Furn 1
+1.1973	Smith Furn 2
+1.1974	Smith Furn 3
+1.1975	Smith Furn 4
+1.1976	Smith Furn 5
+1.1977	Smith Furn 6
+1.1978	Smith Furn 7
+1.1979	Smith Furn 8
+1.1980	Phys Furn 1
+1.1981	Phys Furn 2
+1.1982	Phys Furn 3
+1.1983	Phys Furn 4
+1.1984	Phys Furn 5
+1.1985	Phys Furn 6
+1.1986	Phys Furn 7
+1.1987	Phys Furn 8
+1.1988	Death Dance
+1.1989	True Taiji
+1.1990	Ki Charge
+1.1991	Sake 1
+1.1992	Sake 2
+1.1993	Sake 3
+1.1994	Sake 4
+1.1995	Sake 5
+1.1996	Sake 6
+1.1997	Sake 7
+1.1998	Sake 8
+1.1999	Sake 9
+1.2000	Mining 4
+1.2001	Herb Pick 4
+1.2002	Campaign
+1.2003	Rank Book 1
+1.2004	Rank Book 2
+1.2005	Rank Book 3
+1.2006	Crest Secret
+1.2007	Bloodline
+1.2008	Blood Power
+1.2009	Citation
+1.2010	Extend
+1.2011	Shrink
+1.2012	Learn Skill
+1.2013	Emblem Pwr 1
+1.2014	Emblem Pwr 2
+1.2015	Emblem Pwr 3
+1.2016	Emblem Pwr 4
+1.2017	Emblem Pwr 5
+1.2018	Infuse Charm
+1.2019	Rookie Combo
+1.2020	Rookie Bolt
+1.2021	Meditate Pre
+1.2022	Skill Scrl 2
+1.2023	Firebolt Dn
+1.2024	Thunderfire
+1.2025	Storm Call
+1.2026	Thunder Palm
+1.2027	Thunderbolt
+1.2028	Resound
+1.2029	Windmill 1
+1.2030	Windmill 2
+1.2031	Dark Cyclone
+1.2032	Flame Shroud
+1.2033	Yomi Scream
+1.2034	Death Scent
+1.2035	Dark Claw
+1.2036	Great Roar
+1.2037	Vital Bite
+1.2038	Jaw Crush
+1.2039	Beatdown
+1.2040	Yokai Wave
+1.2041	Tanuki Tune
+1.2042	Ice Vortex 1
+1.2043	Ice Vortex 2
+1.2044	Ice Vortex 3
+1.2045	Aqua Jab 1
+1.2046	Aqua Jab 2
+1.2047	Aqua Jab 3
+1.2048	Aqua Jab X
+1.2049	Deva Halo 2
+1.2050	Heaven Fire
+1.2051	Swift Bolt
+1.2052	Flash Bolt 2
+1.2053	Mad Gale 2

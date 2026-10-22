@@ -1,0 +1,19 @@
+# Your settings and the server's state (compose.yml, setup.py)
+.env
+compose.override.yml
+/state/
+/discs/
+/backups/
+/logs/
+
+# Built by python -m extract from your disc
+/assets/
+
+__pycache__/
+*.pyc
+
+# Built by packaging/build_setup.py
+/build/
+/dist/
+.setup-files
+.setup-version

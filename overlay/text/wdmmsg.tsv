@@ -1,0 +1,504 @@
+id	en
+0.0.0	%1$s%2$s invites you to a party. Accept?
+0.1.0	%1$s%2$s accepted the invite.
+0.2.0	%1$s%2$s declined the invite.
+0.3.0	%1$s%2$s joined the party.
+0.4.0	%1$s%2$s left the party.
+0.5.0	%1$s%2$s is now party leader.
+0.6.0	%1$s%2$s is now the standard-bearer.
+0.7.0	%1$s%2$s is already in a party.
+0.8.0	%1$s%2$s was removed from the party.
+0.9.0	Invited %1$s%2$s to the party.
+0.10.0	Cannot invite an invincible player.
+0.11.0	Cannot invite the enemy side.
+0.12.0	Marching order disabled.
+0.13.0	Marching order set to %1$s.
+0.14.0	%1$s%2$s declined the trade.
+0.15.0	%1$s%2$s cannot accept trades or invites now.
+0.16.0	Cannot trade with an invincible player.
+0.17.0	Cannot trade with the enemy side.
+0.18.0	I'm hungry...
+0.18.1	So hungry, I could collapse...
+0.18.2	I'll starve at this rate. Must eat something...
+0.20.0	Your crimes in %1$s are pardoned.
+0.21.0	Died of %1$s.
+0.22.0	hunger
+0.23.0	an accident
+0.24.0	battle
+0.25.0	natural causes
+0.26.0	Returned to the %1$s graveyard.
+0.27.0	Revived!
+0.29.0	GM chat has ended.\nThank you for your cooperation.
+0.30.0	Notice: %1$s
+0.31.0	Server shutdown notice: %1$s
+0.32.0	Your character will be logged out\nfor the following reason:\n%1$s
+0.33.0	%1$s%2$s is not in this zone.
+0.34.0	Block list is full.
+0.35.0	Already on the block list.
+0.36.0	No character by that name was found.
+0.37.0	You cannot add yourself.
+0.38.0	Added %1$s%2$s to the block list.
+0.39.0	Blocked %1$s%2$s's account.
+0.40.0	Unblocked %1$s%2$s's account.
+0.41.0	That character is not blocked.
+0.42.0	That character's account is already blocked.
+0.43.0	Friend list is full.
+0.44.0	Already on the friend list.
+0.45.0	Added %1$s%2$s to the friend list.
+0.46.0	Warning: idle. You will be disconnected soon.
+0.47.0	%1$s is offline.
+0.48.0	Chat or command limit exceeded.
+0.48.1	Wait a moment and try again.
+0.49.0	No players found.
+0.49.1	%1$d players found.
+0.50.0	Showing %1$d of them.
+0.51.0	%1$s%2$s joined the %3$s troop.
+0.52.0	%1$s%2$s left the %3$s troop.
+0.53.0	You joined the %1$s troop.
+0.54.0	You left the %1$s troop.
+0.55.0	Only usable in a battlefield PvP area.
+0.56.0	Unit type %s cannot use unit commands.
+0.57.0	No %s held. Cannot use unit commands.
+0.58.0	No %s equipped. Cannot use unit commands.
+0.59.0	Operation completed.
+0.60.0	Not online.
+0.60.1	Character data not loaded.
+0.60.2	Character type is not PC.
+0.60.3	Target is not online.
+0.60.4	Target is already in a party.
+0.60.5	You may not send invites.
+0.60.6	Cannot invite yourself.
+0.60.9	You are in combat.
+0.60.10	Target is in combat.
+0.60.11	Target is ignoring you.
+0.60.12	Target is trading.
+0.60.13	Target is talking.
+0.61.0	Character not loaded.
+0.61.1	Message sender is not a PC.
+0.61.2	No character data.
+0.61.3	Failed to add to the list.
+0.63.0	No such item in the container.
+0.63.1	No such equipment slot.
+0.63.2	Cannot equip in that slot.
+0.63.3	Cannot remove current equipment.
+0.63.4	Failed to equip.
+0.63.5	You do not have that equipment.
+0.63.6	Invalid unequipped item.
+0.63.7	That item cannot be discarded.
+0.63.8	Container is full.
+0.63.9	Invalid item quantity.
+0.63.10	Too many craftable items to send.
+0.63.11	Bad materials.
+0.63.12	Invalid crafting data.
+0.63.13	That item cannot be crafted.
+0.63.14	Cannot discard equipment.
+0.63.15	Cannot offer equipment.
+0.63.16	Invalid item specified.
+0.63.17	Cannot deposit any more.
+0.63.18	Not enough items.
+0.63.19	Cannot temper any further.
+0.63.20	Exceeds container capacity.
+0.63.21	This item cannot be used.
+0.63.22	An unintended item was selected.
+0.63.23	Not enough money.
+0.63.24	Not tradable.
+0.63.25	Replacement equipment needed.
+0.63.26	Set the dual wield skill to\nhold a weapon in the left hand.
+0.63.27	That won't work here, it seems.
+0.63.28	Cannot do that while dead.
+0.63.29	That weapon is unfit for small dual wield.
+0.63.30	That weapon is unfit for dual wield.
+0.63.31	Equip a small dual-wield weapon in the right\nhand to hold a weapon in the left.
+0.63.32	Equip a dual-wield weapon in the right hand\nto hold a weapon in the left.
+0.63.33	That item is already equipped.
+0.64.3	This PC cannot query the lead server.
+0.64.4	Target not loaded.
+0.64.5	Target is not a PC.
+0.64.6	No PC data for target.
+0.65.0	No PC targeted.
+0.65.1	Target is not a PC.
+0.65.2	Target is already trading.
+0.65.4	Target is not online.
+0.65.5	Failed to send packet.
+0.65.6	Your terms are locked in.
+0.65.7	Partner is ready to trade.
+0.65.8	Partner has not locked in terms.
+0.65.9	Cannot get that item's details.
+0.65.10	Tried to offer equipment.
+0.65.11	Invalid offer.
+0.65.14	Your trade items won't fit in your containers.\nCarry fewer belongings.
+0.65.15	Partner's containers can't hold the trade items.
+0.66.0	That character is not in this zone.
+0.66.1	Partner is not online.
+0.66.2	You cannot change targets.
+0.66.3	That character cannot be targeted.
+0.66.4	Invalid character type.
+0.66.5	Cannot fight that opponent.
+0.66.6	Not a PvP area.
+0.66.7	Target has nothing equipped there.
+0.66.8	That item is no longer for sale.
+0.67.0	You have not learned that skill.
+0.67.1	Invalid skill specified.
+0.67.2	Cannot set it in that slot.
+0.67.3	That skill is already set.
+0.67.4	Invalid scroll specified.
+0.67.5	You do not have that scroll.
+0.67.6	Set a skill first.
+0.67.7	Not enough Ki.
+0.67.8	Select a target.
+0.67.9	Cannot use on that target.
+0.67.10	No skill is set.
+0.67.11	Cannot unset the skill.
+0.67.12	You have no catalyst.
+0.67.13	Proper tool not equipped.
+0.67.14	Cannot use skills while dead.
+0.67.15	Cannot use skills on a target in combat.
+0.67.16	Crafting skills need not be set.
+0.67.17	Cannot use skills while talking.
+0.67.18	Cannot use skills while trading.
+0.67.19	Usable on players only.
+0.67.20	Usable on party members only.
+0.67.21	Usable on NPCs only.
+0.67.23	Cannot do that to a target in combat.
+0.67.25	Target is too far.
+0.68.0	No target.
+0.68.1	Invalid location.
+0.69.0	Cannot do that as a ghost.
+0.69.1	Cannot use while talking.
+0.69.2	Cannot use while trading.
+0.69.3	Invalid unit type.
+0.69.4	Invalid unit command.
+0.69.5	Cannot do that to a ghost.
+0.69.6	Invalid target.
+0.69.7	Cannot do that to a target in combat.
+0.69.9	Cannot do that in combat.
+0.69.11	Target is outside the battlefield PvP area.
+0.69.12	Already confused.
+0.69.14	You lack the required item.
+0.69.15	Required item not equipped.
+0.69.16	Out of range.
+0.69.19	Cannot act while confused or stunned.
+0.69.23	Cannot use this unit command while targeting someone.
+0.69.24	Target a player on the enemy side.
+0.69.25	Target a player on your side.
+0.69.26	Cannot do that in disguise.
+0.70.0	A character with that name already exists.
+0.70.1	A character with this name\ncannot be created.
+0.71.0	Authentication OK.
+0.72.0	No account with this citizen ID.
+0.73.0	Invalid HTTP response (%1$d)
+0.74.0	Invalid HTTP response
+0.75.0	Could not reach the auth server (%1$u)
+0.76.0	Could not reach the auth server
+0.77.0	Failed to get auth data (%1$u)
+0.78.0	Failed to get auth data
+0.79.0	Citizen ID: 1-8 lowercase a-z only.
+0.80.0	No playable account.
+0.81.0	Invalid command name.
+0.82.0	Command parse error.
+0.83.0	Invalid command argument.
+0.84.0	Sign-in refused. ID: 1-8 lowercase\nletters a-z only, no digits/caps.\nPassword can't be empty.
+0.85.0	Access via that protocol is not allowed.
+0.86.0	A database error occurred.
+0.87.0	Database is busy.
+0.88.0	Invalid value for the database.
+0.89.0	Wrong password for this citizen ID.\nIDs are claimed at first sign-in.
+0.90.0	Data not found in the DB.
+0.91.0	Server is busy.
+0.92.0	Failed to communicate with the GM server.
+0.93.0	The GM server is not ready.
+0.94.0	No GM is on duty.
+0.95.0	You have already placed a GM call.
+0.96.0	Not enough memory to send the log.
+0.97.0	Unknown error (%1$d).
+0.98.0	An unknown error occurred.
+0.99.0	Troop chat cannot be rejoined until later.
+0.100.0	Tried to join a nonexistent troop chat.
+0.101.0	Failed to join troop chat.
+0.102.0	Failed to leave troop chat.
+0.103.0	Failed to connect to the server.
+0.103.1	The server did not respond.\nConnection timed out.
+0.104.0	Failed to resolve the IP address.\nCheck that your DNS settings are correct.
+0.105.0	No server is registered for this game.
+0.106.0	This client version cannot connect.\nPlease run the update again.
+0.107.0	Internal server error.
+0.108.0	The server is under maintenance.\nPlease reconnect later.
+0.110.0	A communication error occurred.
+0.114.0	Unknown client version.
+0.115.0	Patch script receive error. Code (%1$d,%2$d,%3$d,%4$d)
+0.117.0	The download result is incorrect.
+0.118.0	Network initialization failed.\nCheck that your network settings\nare correct.
+0.119.0	Network initialization failed.\nCheck that your hardware is connected properly.
+0.120.0	The line is busy.\nPlease wait and reconnect.
+0.121.0	Connection limit reached. Please wait and reconnect.
+0.122.0	The authentication server is busy.\nWait a while, then select a world\nagain.
+0.122.1	Login failed.
+0.123.0	Failed to get the character list.
+0.124.0	Failed to load the character.
+0.125.0	This character is still logged in to the world and cannot be deleted.
+0.125.1	Failed to delete the character.
+0.126.0	That name is already taken.
+0.126.1	Failed to change the name.
+0.127.0	One of your characters is already\nlogged in to this world.
+0.127.1	Login authentication failed.
+0.127.2	Failed to start the game.
+0.128.0	Disconnected due to inactivity.
+0.129.0	Received an invalid command.
+0.130.0	PlayStation BB Unit is\nnot connected.
+0.130.1	PlayStation BB Unit is\nnot initialized.\nInitialize it as described in the manual\nthat came with the "PlayStation BB Unit".
+0.130.2	PlayStation BB Unit has\na malfunction.
+0.131.0	Could not load network settings.\nMake sure "PlayStation BB Navigator"\nis installed and that the\n"PlayStation BB Navigator"\nnetwork settings are correct.
+0.132.0	Network settings are incorrect.
+0.133.0	Failed to get the interface ID.
+0.134.0	Network init error.
+0.135.0	Network settings made on another "PlayStation 2" are unusable.
+0.136.0	PlayStation BB Unit not connected.
+0.137.0	Network init failed (internal error).
+0.138.0	Network already initialized.
+0.139.0	Version data corrupt.
+0.142.0	Error code %1$d\n
+0.144.0	Continue?
+0.145.0	Connect
+0.146.0	None
+0.146.1	Echigo
+0.146.2	Kozuke
+0.146.3	Musashi
+0.146.4	Kai
+0.146.5	Shinano
+0.146.6	Sagami
+0.146.7	Suruga
+0.146.8	Totomi
+0.146.9	Mikawa
+0.146.10	Owari
+0.146.11	Mino
+0.146.12	Etchu
+0.146.13	Kaga
+0.146.14	Echizen
+0.146.15	Omi
+0.146.16	Ise
+0.146.17	Iga
+0.146.18	Yamashiro
+0.146.19	Settsu
+0.146.20	Yamato
+0.146.21	Kii
+0.146.22	Kasugayama
+0.146.23	Maebashi
+0.146.24	Kawagoe
+0.146.25	Kofu
+0.146.26	Matsumoto
+0.146.27	Odawara
+0.146.28	Sunpu
+0.146.29	Hamamatsu
+0.146.30	Okazaki
+0.146.31	Nagoya
+0.146.32	Inabayama
+0.146.33	Toyama
+0.146.34	Kanazawa
+0.146.35	Ichijodani
+0.146.36	Odani
+0.146.37	Nagashima
+0.146.38	Iga Vil.
+0.146.39	Sakyo
+0.146.40	Ukyo
+0.146.41	Nara
+0.146.42	Saika Vil.
+0.146.43	Osaka
+0.146.44	Sakai
+0.146.45	Bandit Twn
+0.146.46	Pirate Twn
+0.146.47	Kasugayama C.
+0.146.48	Maebashi C.
+0.146.49	Kawagoe C.
+0.146.50	Tsutsujigasaki
+0.146.51	Matsumoto C.
+0.146.52	Odawara C.
+0.146.53	Sunpu C.
+0.146.54	Hamamatsu C.
+0.146.55	Okazaki C.
+0.146.56	Nagoya C.
+0.146.57	Inabayama C.
+0.146.58	Toyama C.
+0.146.59	Kanazawa Gobo
+0.146.60	Ichijodani C.
+0.146.61	Odani C.
+0.146.62	Nagashima C.
+0.146.63	Iga Fort
+0.146.64	Nijo C.
+0.146.65	Koriyama C.
+0.146.66	Saika Fort
+0.146.67	Osaka C.
+0.146.68	Merchant Qtr
+0.146.69	Bandit Fort
+0.146.70	Pirate Fort
+0.146.71	Sunpu China
+0.146.72	Osaka China
+0.146.73	Nagoya Nanban
+0.146.74	Kawanakajima
+0.146.75	Itoigawa
+0.146.76	Mikuni P.
+0.146.77	Torii P.
+0.146.78	Tone R.
+0.146.79	Mimase P.
+0.146.80	Iruma R.
+0.146.81	Uedahara
+0.146.82	Fuji R.
+0.146.83	Mikatagahara
+0.146.84	Kiso R.
+0.146.85	Off Izu
+0.146.86	Oi R.
+0.146.87	Nagashino
+0.146.88	Okehazama
+0.146.89	Mt. Komaki
+0.146.90	Off Kiso
+0.146.91	Anegawa
+0.146.92	Sekigahara
+0.146.93	Tedori R.
+0.146.94	Sakai Plain
+0.146.95	Shizugatake
+0.146.96	Koka
+0.146.97	Otsu
+0.146.98	Suzuka P.
+0.146.99	Mt. Kasagi
+0.146.100	Mt. Tenno
+0.146.101	Uji
+0.146.102	Mt. Kongo
+0.146.103	Takurazaki
+0.146.104	Yoshino
+0.146.105	Fuji Cave
+0.146.106	Ura-Sakai
+0.146.107	Mt. Hiei
+0.146.108	Murakumo Hall
+0.146.109	Chibiki Cave
+0.146.110	Yomotsu Hirasaka
+0.146.111	Ne-no-Kuni
+0.146.112	Izanami-gu
+0.146.113	Shosenkyo
+0.146.114	Sado Mine
+0.146.115	Jigokudani
+0.146.116	Tojinbo Cave
+0.146.117	Hamana Cave
+0.146.118	Mirage Tower
+0.146.119	Ninja Fort
+0.146.120	Mt. Miwa
+0.146.121	Sakai Nanban
+0.146.122	Kasugayama Korea
+0.146.123	Ichijodani Korea
+0.146.138	Elite Post
+0.146.139	Phantom Manor
+0.146.140	Uguisudani
+0.146.141	Ryusozan
+0.147.0	Samurai
+0.147.1	Monk
+0.147.2	Priest
+0.147.3	Onmyoji
+0.147.4	Ninja
+0.147.5	Smith
+0.147.6	Physician
+0.147.7	Swordsman
+0.147.8	Tactician
+0.147.9	Archer
+0.147.10	Acolyte
+0.147.11	Sohei
+0.147.12	Esoteric Monk
+0.147.13	Ritualist
+0.147.14	Musician
+0.147.15	Shaman
+0.147.16	Mage
+0.147.17	Conjurer
+0.147.18	Sage
+0.147.19	Killer
+0.147.20	Shinobi
+0.147.21	Spy
+0.147.22	Bladesmith
+0.147.23	Armorer
+0.147.24	Gunsmith
+0.147.25	Doctor
+0.147.26	Chemist
+0.147.27	Ascetic
+0.147.28	Duelist
+0.147.29	Strategist
+0.147.30	Sniper
+0.147.31	Bishop
+0.147.32	Lay Monk
+0.147.33	Bonze
+0.147.34	Hierarch
+0.147.35	Kagura Dancer
+0.147.36	Sorcerer
+0.147.37	Mystic
+0.147.38	Summoner
+0.147.39	Hermit
+0.147.40	Assassin
+0.147.41	Ninjutsu Adept
+0.147.42	Covert Agent
+0.147.43	Swordsmith
+0.147.44	Armorsmith
+0.147.45	Master Gunsmith
+0.147.46	Healer
+0.147.47	Apothecary
+0.147.48	Yamabushi
+0.147.49	Kensei
+0.147.50	Abbot
+0.147.51	High Priest
+0.147.52	Savant
+0.147.53	Jonin
+0.147.54	Master Smith
+0.147.55	Saint Healer
+0.147.56	Merchant
+0.147.57	Court Noble
+0.147.58	Dragon
+0.148.2	Miko
+0.148.14	Dancer
+0.148.35	Shirabyoshi
+0.149.0	Enemy
+0.149.1	Hostile
+0.149.2	Distant
+0.149.3	Neutral
+0.149.4	Friendly
+0.149.5	Close
+0.150.0	Mononofu
+0.150.1	Ashigaru
+0.150.2	Ashigaru Capt
+0.150.3	Ashigaru Gen.
+0.150.4	Yoriki
+0.150.5	Samurai Gen.
+0.150.6	Metsuke
+0.150.7	Magistrate
+0.150.8	Churo
+0.150.9	Karo
+0.150.10	Elder
+0.151.1	Ronin
+0.151.2	Rogue
+0.151.3	Landless
+0.151.4	Kokujin
+0.151.5	Local Lord
+0.151.6	Gentry
+0.151.7	Patriot
+0.151.8	Hero
+0.151.9	Dignitary
+0.151.10	Notable
+0.152.0	Food
+0.152.1	Spices
+0.152.2	Sake
+0.152.3	Medicine
+0.152.4	Luxuries
+0.152.5	Crafts
+0.152.6	Cloth
+0.152.7	Sundries
+0.152.8	Fiber
+0.152.9	Ore
+0.152.10	Arms
+0.153.0	Unknown
+0.154.0	HQ
+0.154.1	Left Rear
+0.154.2	Center Rear
+0.154.3	Right Rear
+0.154.4	Left Main
+0.154.5	Center Main
+0.154.6	Right Main
+0.154.7	Left Van
+0.154.8	Center Van
+0.154.9	Right Van
+0.155.0	Can't move
+0.156.0	System
+0.157.0	Pos(%1$u,%2$u,%3$u) Zone(%4$u)\n
+0.158.0	Used %1$s.

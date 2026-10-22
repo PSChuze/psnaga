@@ -1,0 +1,420 @@
+id	en
+2.0	None
+2.1	Samurai Prec 1
+2.2	Samurai Prec 2
+2.3	Samurai Prec 3
+2.4	Samurai Prec 4
+2.5	Samurai Prec 5
+2.6	Samurai Prec 6
+2.7	Samurai Prec 7
+2.8	Dagger Manual 1
+2.9	Dagger Manual 2
+2.10	Dagger Manual 3
+2.11	Dagger Manual 4
+2.12	Sword Manual 1
+2.13	Sword Manual 2
+2.14	Sword Manual 3
+2.15	Sword Manual 4
+2.16	Spear Manual 1
+2.17	Spear Manual 2
+2.18	Spear Manual 3
+2.19	Spear Manual 4
+2.20	Club Manual 1
+2.21	Club Manual 2
+2.22	Club Manual 3
+2.23	Club Manual 4
+2.24	Bow Manual 1
+2.25	Bow Manual 2
+2.26	Bow Manual 3
+2.27	Bow Manual 4
+2.28	Bow Manual 5
+2.29	Gun Manual 1
+2.30	Gun Manual 2
+2.31	Gun Manual 3
+2.32	Gun Manual 4
+2.33	Martial Arts 1
+2.34	Martial Arts 2
+2.35	Martial Arts 3
+2.36	Martial Arts 4
+2.37	Martial Arts 5
+2.38	Martial Arts 6
+2.39	Tactics 1
+2.40	Tactics 2
+2.41	Tactics 3
+2.42	Tactics 4
+2.43	Tactics 5
+2.44	Tactics 6
+2.45	Formations
+2.46	Fieldcraft 1
+2.47	Fieldcraft 2
+2.48	Devotions 1
+2.49	Devotions 2
+2.50	Devotions 3
+2.51	Devotions 4
+2.52	Devotions 5
+2.53	Sohei Arts 1
+2.54	Sohei Arts 2
+2.55	Sohei Arts 3
+2.56	Sohei Arts 4
+2.57	Sohei Arts 5
+2.58	Sohei Arts 6
+2.59	Buddhist Way 1
+2.60	Buddhist Way 2
+2.61	Buddhist Way 3
+2.62	Buddhist Way 4
+2.63	Buddhist Way 5
+2.64	Buddhist Way 6
+2.65	Buddhist Satori
+2.66	Esoteric 1
+2.67	Esoteric 2
+2.68	Esoteric 3
+2.69	Esoteric 4
+2.70	Esoteric 5
+2.71	Esoteric 6
+2.72	Dharma Guard 1
+2.73	Dharma Guard 2
+2.74	Dharma Guard 3
+2.75	Dharma Guard 4
+2.76	Dharma Guard 5
+2.77	Priest Prec 1
+2.78	Priest Prec 2
+2.79	Priest Prec 3
+2.80	Priest Prec 4
+2.81	Priest Prec 5
+2.82	Priest Prec 6
+2.83	Shinto 1
+2.84	Shinto 2
+2.85	Shinto 3
+2.86	Shinto 4
+2.87	Shinto 5
+2.88	Shinto 6
+2.89	Shinto 7
+2.90	Ko-Shinto 1
+2.91	Ko-Shinto 2
+2.92	Ko-Shinto 3
+2.93	Ko-Shinto 4
+2.94	Ko-Shinto 5
+2.95	Ko-Shinto 6
+2.96	Rites 1
+2.97	Rites 2
+2.98	Rites 3
+2.99	Rites 4
+2.100	Rites 5
+2.101	Rites 6
+2.102	Gagaku 1
+2.103	Gagaku 2
+2.104	Gagaku 3
+2.105	Gagaku 4
+2.106	Gagaku 5
+2.107	Gagaku 6
+2.108	Gagaku 7
+2.109	Onmyoji Prec 1
+2.110	Onmyoji Prec 2
+2.111	Onmyoji Prec 3
+2.112	Onmyoji Prec 4
+2.113	Onmyoji Prec 5
+2.114	Onmyoji Prec 6
+2.115	Earth Arts 1
+2.116	Earth Arts 2
+2.117	Earth Arts 3
+2.118	Earth Arts 4
+2.119	Earth Arts 5
+2.120	Water Arts 1
+2.121	Water Arts 2
+2.122	Water Arts 3
+2.123	Water Arts 4
+2.124	Water Arts 5
+2.125	Fire Arts 1
+2.126	Fire Arts 2
+2.127	Fire Arts 3
+2.128	Fire Arts 4
+2.129	Fire Arts 5
+2.130	Wind Arts 1
+2.131	Wind Arts 2
+2.132	Wind Arts 3
+2.133	Wind Arts 4
+2.134	Wind Arts 5
+2.135	Sendo 1
+2.136	Sendo 2
+2.137	Sendo 3
+2.138	Sendo 4
+2.139	Sendo 5
+2.140	Sendo 6
+2.141	Summoning 1
+2.142	Summoning 2
+2.143	Summoning 3
+2.144	Summoning 4
+2.145	Summoning 5
+2.146	Ninja Prec 1
+2.147	Ninja Prec 2
+2.148	Ninja Prec 3
+2.149	Ninja Prec 4
+2.150	Ninja Prec 5
+2.151	Ninja Prec 6
+2.152	Assassination 1
+2.153	Assassination 2
+2.154	Assassination 3
+2.155	Assassination 4
+2.156	Assassination 5
+2.157	Ninjutsu 1
+2.158	Ninjutsu 2
+2.159	Ninjutsu 3
+2.160	Ninjutsu 4
+2.161	Ninjutsu 5
+2.162	Espionage 1
+2.163	Espionage 2
+2.164	Espionage 3
+2.165	Espionage 4
+2.166	Espionage 5
+2.167	Ninpo Book 1
+2.168	Ninpo Book 2
+2.169	Ninpo Book 3
+2.170	Ninpo Book 4
+2.171	Ninpo Book 5
+2.172	Ninpo Book 6
+2.173	Smith Prec 1
+2.174	Smith Prec 2
+2.175	Smith Prec 3
+2.176	Smith Prec 4
+2.177	Helmet Book 1
+2.178	Helmet Book 2
+2.179	Helmet Book 3
+2.180	Helmet Book 4
+2.181	Armor Book 1
+2.182	Armor Book 2
+2.183	Armor Book 3
+2.184	Blunt Book 1
+2.185	Blunt Book 2
+2.186	Blunt Book 3
+2.187	Sword Book 1
+2.188	Sword Book 2
+2.189	Sword Book 3
+2.190	Spear Book 1
+2.191	Spear Book 2
+2.192	Spear Book 3
+2.193	Casting Book 1
+2.194	Casting Book 2
+2.195	Smith Martial 1
+2.196	Smith Martial 2
+2.197	Smith Martial 3
+2.198	Smith Martial 4
+2.199	Physician Prec 1
+2.200	Physician Prec 2
+2.201	Physician Prec 3
+2.202	Physician Prec 4
+2.203	Mysticism 1
+2.204	Mysticism 2
+2.205	Mysticism 3
+2.206	Mysticism 4
+2.207	Mysticism 5
+2.208	Mysticism 6
+2.209	Mysticism 7
+2.210	Shugendo 1
+2.211	Shugendo 2
+2.212	Shugendo 3
+2.213	Shugendo 4
+2.214	Shugendo 5
+2.215	Shugendo 6
+2.216	Shugendo 7
+2.217	Medicine 1
+2.218	Medicine 2
+2.219	Medicine 3
+2.220	Medicine 4
+2.221	Medicine 5
+2.222	Medicine 6
+2.223	Medicine 7
+2.224	Compounding 1
+2.225	Compounding 2
+2.226	Compounding 3
+2.227	Elixir Mixing
+2.228	Elixir Mixing 2
+2.229	Prescription 1
+2.230	Prescription 2
+2.231	Prescription 3
+2.232	Bushido 1
+2.233	Bushido 2
+2.234	Martial Lore 1
+2.235	Martial Lore 2
+2.236	Adv Tactics 1
+2.237	Adv Tactics 2
+2.238	Sohei Combat 1
+2.239	Sohei Combat 2
+2.240	Buddhism 1
+2.241	Buddhism 2
+2.242	Esoteric Arts 1
+2.243	Esoteric Arts 2
+2.244	Shinto Text 1
+2.245	Samurai Mstr 1
+2.246	Samurai Mstr 2
+2.247	Samurai Mstr 3
+2.248	Samurai Mstr 4
+2.249	Fine Arts 1
+2.250	Fine Arts 2
+2.251	Fine Arts 3
+2.252	Fine Arts 4
+2.253	Priest Mstr 1
+2.254	Priest Mstr 2
+2.255	Priest Mstr 3
+2.256	Priest Mstr 4
+2.257	Priest Mstr 5
+2.258	Exorcism
+2.259	Onmyoji Mstr 1
+2.260	Onmyoji Mstr 2
+2.261	Onmyoji Mstr 3
+2.262	Ninja Mstr 1
+2.263	Ninja Mstr 2
+2.264	Ninja Mstr 3
+2.265	Poison Craft 1
+2.266	Poison Craft 2
+2.267	Poison Craft 3
+2.268	Smith Basics
+2.269	Arms Book
+2.270	Defense Book
+2.271	Ench Stone Care
+2.272	Samurai Mstr B
+2.273	Fine Arts B1
+2.274	Fine Arts B2
+2.275	Priest Mstr B
+2.276	Onmyoji Mstr B1
+2.277	Onmyoji Mstr B2
+2.278	Ninja Mstr B1
+2.279	Ninja Mstr B2
+2.280	Arms Book B1
+2.281	Arms Book B2
+2.282	Arms Book B3
+2.283	Defense Book B1
+2.284	Defense Book B2
+2.285	Defense Book B3
+2.286	Shinto Text 2
+2.287	Ko-Shinto Text 1
+2.288	Ko-Shinto Text 2
+2.289	Gagaku Art 1
+2.290	Gagaku Art 2
+2.291	Onmyodo 1
+2.292	Onmyodo 2
+2.293	Onmyodo 3
+2.294	Sendo Lore 1
+2.295	Sendo Lore 2
+2.296	Adv Summoning 1
+2.297	Adv Summoning 2
+2.298	Secret Ninpo 1
+2.299	Secret Ninpo 2
+2.300	Assassin Arts 1
+2.301	Assassin Arts 2
+2.302	Ninja Secrets 1
+2.303	Ninja Secrets 2
+2.304	Weapon Care 1
+2.305	Weapon Care 2
+2.306	Armor Care 1
+2.307	Armor Care 2
+2.308	Gun Care 1
+2.309	Gun Care 2
+2.310	Adv Medicine 1
+2.311	Adv Medicine 2
+2.312	Mystic Power 1
+2.313	Mystic Power 2
+2.314	Ascetic Power 1
+2.315	Ascetic Power 2
+2.316	Talisman Book F
+2.317	Talisman Book B
+2.318	Helmet Book 5
+2.319	Helmet Book 6
+2.320	Helmet Book 7
+2.321	Armor Book 4
+2.322	Armor Book 5
+2.323	Blunt Book 4
+2.324	Blunt Book 5
+2.325	Sword Book 4
+2.326	Sword Book 5
+2.327	Spear Book 4
+2.328	Spear Book 5
+2.329	Casting Book 3
+2.330	Casting Book 4
+2.331	Samurai Mstr 5
+2.332	Samurai Mstr 6
+2.333	Samurai Mstr 7
+2.334	Samurai Mstr 8
+2.335	Samurai Mstr 9
+2.336	Fine Arts 5
+2.337	Fine Arts 6
+2.338	Fine Arts 7
+2.339	Fine Arts 8
+2.340	Priest Mstr 6
+2.341	Priest Mstr 7
+2.342	Priest Mstr 8
+2.343	Onmyoji Mstr 4
+2.344	Onmyoji Mstr 5
+2.345	Onmyoji Mstr 6
+2.346	Ninja Mstr 4
+2.347	Ninja Mstr 5
+2.348	Ninja Mstr 6
+2.349	Physician Mstr 1
+2.350	Physician Mstr 2
+2.351	Physician Mstr 3
+2.352	Physician Mstr 4
+2.353	Physician Mstr 5
+2.354	Smith Basics 2
+2.355	Samurai Furn 1
+2.356	Samurai Furn 2
+2.357	Monk Furn 1
+2.358	Monk Furn 2
+2.359	Priest Furn 1
+2.360	Priest Furn 2
+2.361	Onmyoji Furn 1
+2.362	Onmyoji Furn 2
+2.363	Ninja Furn 1
+2.364	Ninja Furn 2
+2.365	Smith Furn 1
+2.366	Smith Furn 2
+2.367	Physician Furn 1
+2.368	Physician Furn 2
+2.369	Samurai Prec 8
+2.370	Loyalty
+2.371	Esoteric 7
+2.372	Gagaku Saibara
+2.373	Ko-Shinto 7
+2.374	Onmyoji Prec 7
+2.375	Espionage 6
+2.376	Smith Prec 5
+2.377	Smith Prec 6
+2.378	Physician Prec 5
+2.379	Battlefield Prec
+2.380	Devotions 6
+2.381	Strategy Book 1
+2.382	Strategy Book 2
+2.383	Saint Book 1
+2.384	Saint Book 2
+2.385	Shinto Rite 1
+2.386	Shinto Rite 2
+2.387	Truth Book 1
+2.388	Truth Book 2
+2.389	Secret Arts 1
+2.390	Secret Arts 2
+2.391	Master Smith 1
+2.392	Master Smith 2
+2.393	Remedy Book 1
+2.394	Remedy Book 2
+2.395	Bushido 3
+2.396	Martial Lore 3
+2.397	Adv Tactics 3
+2.398	Sohei Combat 3
+2.399	Buddhism 3
+2.400	Esoteric Arts 3
+2.401	Shinto Text 3
+2.402	Ko-Shinto Text 3
+2.403	Gagaku Art 3
+2.404	Onmyodo 4
+2.405	Sendo Lore 3
+2.406	Secret Ninpo 3
+2.407	Assassin Arts 3
+2.408	Ninja Secrets 3
+2.409	Weapon Care 3
+2.410	Armor Care 3
+2.411	Gun Care 3
+2.412	Adv Medicine 3
+2.413	Mystic Power 3
+2.414	Ascetic Power 3
+2.415	Newcomer Blade
+2.416	Newcomer Chant
+2.417	Talisman Book F2
+2.418	Talisman Book B2
