@@ -18,6 +18,10 @@ x-nobu: &nobu
   build:
     context: .
     dockerfile: server/Dockerfile
+    # The commit and build time for the panel's update notice; setup sets both.
+    args:
+      NOBU_REVISION: ${NOBU_REVISION:-}
+      NOBU_BUILT_AT: ${NOBU_BUILT_AT:-}
   image: psnaga:local
   restart: unless-stopped
   env_file: .env

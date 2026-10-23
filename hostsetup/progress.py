@@ -15,15 +15,18 @@ def minutes(seconds):
 class Progress:
     """One status line per step: "Starting the server (about a minute): 20 seconds so far",
     redrawn in place, and a closing line when the step ends. Without a terminal (output to a
-    file) only the closing lines are written."""
+    file, or a panel's job log) each step writes its first and closing lines, and a line every
+    `heartbeat` seconds in between so that a long build never looks stuck."""
 
-    def __init__(self, out=None, clock=time.monotonic):
+    def __init__(self, out=None, clock=time.monotonic, heartbeat=120):
         self.out = out or sys.stdout
         self.clock = clock
+        self.heartbeat = heartbeat
         self.live = hasattr(self.out, "isatty") and self.out.isatty()
         self.title = None
         self.detail = ""
         self.started = 0.0
+        self.said = 0.0
         self.width = 0
 
     def begin(self, title, estimate=""):
@@ -31,6 +34,7 @@ class Progress:
             return
         self.end()
         self.title, self.estimate, self.detail, self.started = title, estimate, "", self.clock()
+        self.said = self.started
         if not self.live:
             self._write("%s%s...\n" % (title, " (%s)" % estimate if estimate else ""))
         self.tick()
@@ -47,10 +51,15 @@ class Progress:
         return text + ": " + ", ".join(parts)
 
     def tick(self):
-        if self.live and self.title:
+        if not self.title:
+            return
+        if self.live:
             text = self.line()
             self._write("\r" + text + " " * max(0, self.width - len(text)))
             self.width = len(text)
+        elif self.clock() - self.said >= self.heartbeat:
+            self.said = self.clock()
+            self._write(self.line() + "\n")
 
     def end(self, ok=True):
         if not self.title:
@@ -94,6 +103,8 @@ def run_logged(cmd, log, on_line=None, progress=None, cwd=None, env=None):
             break
         log.write(line)
         log.flush()
+        if progress:
+            progress.tick()
         line = line.rstrip("\r\n")
         tail = (tail + [line])[-30:]
         if on_line:

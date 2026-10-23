@@ -4,6 +4,12 @@ The first run asks three questions (who plays, where the disc is, the server's n
 builds the game data from the disc, starts the server in Docker with the shared DNS it needs, and
 checks it. Later runs show a menu: start and stop, settings, update, backups, accounts, logs.
 Needs Docker and nothing else (Python 3.8+ when run as a script, standard library only).
+
+python setup.py --update --yes updates the server without a question (an OpenLobby panel's Update
+button runs exactly that in the server folder): the newest release is downloaded and its images
+built beside the running server, the files are swapped only once that worked, the game data is
+built again only when the release changed extract/ or overlay/, and the services that were running
+are started again. Its last line says what happened; it exits non-zero when the update failed.
 """
 import argparse
 import datetime
@@ -17,6 +23,7 @@ import socket
 import subprocess
 import sys
 import time
+import urllib.parse
 import urllib.request
 import zipfile
 
@@ -43,12 +50,19 @@ DNS_NAMES = ("nobol.koei.co.jp", "testconsv1.ax.koei.co.jp")
 # The client's first frame on the connect server: the update check (0x15).
 UPDATE_CHECK = bytes.fromhex("0011" "15" "00000001" "000f4309" "00000000" "00004e23")
 # Files of ours in the server folder that an update must never replace.
-KEEP = (".env", "compose.override.yml", "state", "backups", "discs", "logs")
+KEEP = (".env", "compose.override.yml", "state", "backups", "discs", "logs", ".update")
+# What a panel's deployer runs in the server folder to update it.
+UPDATE_COMMAND = ["python", "setup.py", "--update", "--yes"]
+# compose.yml's long-running services, in the order they are started.
+SERVICES = ("connsv", "auth", "ssl3", "world")
+# setup.json's note that an update changed the game data builder and the game data has not been
+# built again yet: the next update does it.
+DATA_PENDING = "game_data_pending"
 
 
 def use_root(path):
     """Point every path at the server folder `path`."""
-    global ROOT, ENV, ENV_EXAMPLE, BACKUPS, CHOICES, LOG, VERSION_FILE
+    global ROOT, ENV, ENV_EXAMPLE, BACKUPS, CHOICES, LOG, VERSION_FILE, REVISION_FILE
     ROOT = os.path.abspath(path)
     ENV = os.path.join(ROOT, ".env")
     ENV_EXAMPLE = os.path.join(ROOT, ".env.example")
@@ -56,6 +70,7 @@ def use_root(path):
     CHOICES = os.path.join(ROOT, "state", "setup.json")
     LOG = os.path.join(ROOT, "logs", "setup.log")
     VERSION_FILE = os.path.join(ROOT, ".setup-version")
+    REVISION_FILE = os.path.join(ROOT, ".setup-revision")
 
 
 use_root(os.path.dirname(os.path.abspath(__file__)))
@@ -71,7 +86,7 @@ def ask(question, default=""):
     shown = " [%s]" % default if default else ""
     try:
         answer = input("%s%s: " % (question, shown)).strip()
-    except EOFError:
+    except (EOFError, RuntimeError):         # RuntimeError: no input at all (stdin closed)
         if not default:
             raise SystemExit("\nNo answer (the input has ended).")
         answer = ""
@@ -209,29 +224,92 @@ def ensure_server_files():
     return True
 
 
-def latest_release():
-    """(tag, source zip URL) of the newest release, or None."""
-    url = "https://api.github.com/repos/%s/releases/latest" % REPO
+def read_revision(root=None):
+    """The commit the server's files are from and when they were packaged ({} when unknown)."""
+    try:
+        with open(os.path.join(root, ".setup-revision") if root else REVISION_FILE, encoding="utf-8") as f:
+            doc = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    return doc if isinstance(doc, dict) and isinstance(doc.get("commit"), str) else {}
+
+
+def write_revision(commit, root=None):
+    with open(os.path.join(root, ".setup-revision") if root else REVISION_FILE, "w", encoding="utf-8",
+              newline="\n") as f:
+        f.write(json.dumps({"commit": commit, "built_at": now_iso()}) + "\n")
+
+
+def now_iso():
+    return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def git_head():
+    """The commit a git checkout in ROOT is at, or ""."""
+    if not os.path.exists(os.path.join(ROOT, ".git")):
+        return ""
+    try:
+        r = run(["git", "rev-parse", "HEAD"], check=False, capture=True, stdin=subprocess.DEVNULL)
+    except OSError:
+        return ""
+    head = (r.stdout or "").strip()
+    return head if r.returncode == 0 and re.fullmatch(r"[0-9a-f]{40}", head) else ""
+
+
+def build_env(root=None):
+    """The environment for `docker compose build`: the commit and build time the panel's update
+    notice shows (compose.yml's build args), when they are known."""
+    env = dict(os.environ)
+    rev = read_revision(root)
+    commit = rev.get("commit") or (git_head() if root in (None, ROOT) else "")
+    if commit:
+        env["NOBU_REVISION"] = commit
+        env["NOBU_BUILT_AT"] = rev.get("built_at") or now_iso()
+    return env
+
+
+def github(path):
+    """GET https://api.github.com/repos/REPO/<path> -> parsed JSON, or None."""
+    url = "https://api.github.com/repos/%s/%s" % (REPO, path)
     try:
         with urllib.request.urlopen(urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"}),
-                                    timeout=10) as r:
-            info = json.load(r)
+                                    timeout=15) as r:
+            return json.load(r)
     except (OSError, ValueError):
         return None
-    tag = info.get("tag_name")
-    return (tag, "https://github.com/%s/archive/refs/tags/%s.zip" % (REPO, tag)) if tag else None
 
 
-def tree_digest(*folders):
-    """One hash over every file under these folders of ROOT, to tell whether an update changed
-    the game data builder."""
+def latest_release():
+    """(tag, commit, source zip URL) of the newest release, or None. When GitHub names the tag's
+    commit the zip is that commit, so the update notice compares exactly what was installed;
+    otherwise commit is ""."""
+    info = github("releases/latest")
+    tag = info.get("tag_name") if isinstance(info, dict) else None
+    if not isinstance(tag, str) or not tag:
+        return None
+    got = github("commits/%s" % urllib.parse.quote(tag, safe=""))
+    commit = got.get("sha") if isinstance(got, dict) else None
+    if not isinstance(commit, str) or not re.fullmatch(r"[0-9a-f]{40}", commit):
+        return tag, "", "https://github.com/%s/archive/refs/tags/%s.zip" % (REPO, urllib.parse.quote(tag))
+    return tag, commit, "https://github.com/%s/archive/%s.zip" % (REPO, commit)
+
+
+def download(url, path):
+    with urllib.request.urlopen(url, timeout=60) as r, open(path, "wb") as f:
+        shutil.copyfileobj(r, f)
+
+
+def tree_digest(*folders, root=None):
+    """One hash over every file under these folders of root (default ROOT), to tell whether an
+    update changed the game data builder."""
+    root = root or ROOT
     h = hashlib.sha256()
     for folder in folders:
-        for base, dirs, files in os.walk(os.path.join(ROOT, folder)):
+        for base, dirs, files in os.walk(os.path.join(root, folder)):
             dirs[:] = sorted(d for d in dirs if d != "__pycache__")
             for name in sorted(files):
                 path = os.path.join(base, name)
-                h.update(os.path.relpath(path, ROOT).replace("\\", "/").encode())
+                h.update(os.path.relpath(path, root).replace("\\", "/").encode())
                 with open(path, "rb") as f:
                     h.update(hashlib.sha256(f.read()).digest())
     return h.hexdigest()
@@ -678,16 +756,22 @@ def ensure_disc(choices, ask_again=False):
         write_choices(choices)
 
 
-def build_game_data(env, choices, progress, log):
-    """Run extract on the disc. True when it worked."""
+def build_game_data(env, choices, progress, log, unseen_ok=False):
+    """Run extract on the disc. True when it worked. With unseen_ok a disc image this process
+    cannot see is still handed to Docker: a panel's deployer runs setup in a container that
+    has the server folder but not the rest of the host's files, while Docker sees them all."""
     rec = choices.get("disc") or {}
+    unpacked = os.path.join(ROOT, "discs", os.path.basename(rec.get("member") or ""))
     try:
-        path = unzip_disc(rec, progress, os.path.join(ROOT, "discs")) if rec.get("member") else rec.get("path", "")
+        if rec.get("member") and unseen_ok and not os.path.exists(rec.get("path", "")) and os.path.isfile(unpacked):
+            path = unpacked
+        else:
+            path = unzip_disc(rec, progress, os.path.join(ROOT, "discs")) if rec.get("member") else rec.get("path", "")
     except (SystemExit, OSError, KeyError, zipfile.BadZipFile) as e:
         progress.end(False)
         say(str(e))
         return False
-    if not path or not os.path.exists(path):
+    if not path or not (os.path.exists(path) or (unseen_ok and os.path.isabs(path))):
         say("The disc image is not at %s any more. Choose Rebuild the game data to pick it again." % path)
         return False
     volumes, inside = disc_mount(path)
@@ -744,6 +828,16 @@ def ensure_dns(env, progress, log):
     return ok
 
 
+def updater_block():
+    """How the panel's deployer updates this install: this setup, run in this folder."""
+    return openlobby.updater(ROOT, UPDATE_COMMAND)
+
+
+def note_updater(answer):
+    if answer == "requested":
+        say("The panel's Update button works once the panel's owner approves it on Settings > Modules.")
+
+
 def pair_with_panel(env, panel):
     """Pair with the panel by its one-time code; keeps the secret in .env."""
     say("In the panel, open Settings, Modules, \"Pair with a setup program\". It shows a code.")
@@ -752,13 +846,34 @@ def pair_with_panel(env, panel):
         if not code:
             say("Skipped. Choose Change settings, then OpenLobby admin panel, to pair later.")
             return False
-        ok, got = openlobby.pair(panel, code, KEY, TITLE, ADMIN_URL, env["NOBU_ADMIN_TOKEN"])
+        ok, got, updater = openlobby.pair(panel, code, KEY, TITLE, ADMIN_URL, env["NOBU_ADMIN_TOKEN"],
+                                          updater=updater_block())
         if ok:
             write_env({"OPENLOBBY_PAIRING": got})
+            choices = read_choices()
+            choices["updater_folder"] = ROOT
+            write_choices(choices)
             say("Paired: the panel now shows %s." % TITLE)
+            note_updater(updater)
             return True
         say(got)
     return False
+
+
+def tell_panel_the_folder(env, choices):
+    """A paired panel runs updates in this folder: tell it again when the folder has moved."""
+    if not env.get("OPENLOBBY_PAIRING") or choices.get("updater_folder") == ROOT:
+        return
+    panel = openlobby.find_panel(docker_run)
+    if not panel:
+        return
+    ok, _why, updater = openlobby.pair_update(panel, KEY, env["OPENLOBBY_PAIRING"], env.get("NOBU_ADMIN_TOKEN", ""),
+                                              updater=updater_block())
+    if ok:
+        choices["updater_folder"] = ROOT
+        write_choices(choices)
+        say("Told the OpenLobby panel that the server is now in %s." % ROOT)
+        note_updater(updater)
 
 
 # --- building and starting -------------------------------------------------------------------
@@ -775,9 +890,11 @@ def failed(what, tail):
     say("Everything it wrote is in %s" % LOG)
 
 
-def build_images(progress, log):
+def build_images(progress, log, root=None):
+    """docker compose build in root (default ROOT). True when it worked."""
     progress.begin("Getting the server program ready", "about 5 minutes the first time")
-    code, tail = proglib.run_logged(["docker", "compose", "build"], log, cwd=ROOT, progress=progress)
+    code, tail = proglib.run_logged(["docker", "compose", "build"], log, cwd=root or ROOT, env=build_env(root),
+                                    progress=progress)
     progress.end(code == 0)
     if code != 0:
         failed("Getting the server program ready failed.", tail)
@@ -1062,7 +1179,8 @@ def new_token(env, choices):
     write_env({"NOBU_ADMIN_TOKEN": token})
     panel = openlobby.find_panel(docker_run)
     if env.get("OPENLOBBY_PAIRING") and panel:
-        ok, why = openlobby.pair_update(panel, KEY, env["OPENLOBBY_PAIRING"], token)
+        ok, why, _updater = openlobby.pair_update(panel, KEY, env["OPENLOBBY_PAIRING"], token,
+                                                  updater=updater_block())
         say("The panel has the new token." if ok else "The panel was not told (%s). Pair again." % why)
     return True
 
@@ -1095,48 +1213,216 @@ def stop_server():
         say("Stopped. It starts again when you choose Start the server.")
 
 
-def update():
-    """Fetch the new version, rebuild the images, and rebuild the game data when its builder changed."""
-    before = tree_digest("extract", "overlay")
+class UpdateFailed(Exception):
+    """An update that stopped; the message is the one sentence the host sees last."""
+
+
+def running_services():
+    """compose.yml's services that run now, in start order."""
+    r = run(["docker", "compose", "ps", "--status", "running", "--services"], check=False, capture=True,
+            stdin=subprocess.DEVNULL)
+    if r.returncode != 0:
+        raise UpdateFailed("Docker could not list the server's containers, so nothing was changed.")
+    names = (r.stdout or "").split()
+    return [n for n in SERVICES if n in names]
+
+
+# Run inside one of the server's containers: does a service answer on the compose network? The
+# update's check works this way because setup may itself run in a container (a panel's
+# deployer), where 127.0.0.1 is that container and not this host. With a third argument the
+# connect server must also answer the client's update check.
+PORT_CHECK = """import socket, sys
+s = socket.create_connection((sys.argv[1], int(sys.argv[2])), 5)
+if len(sys.argv) > 3:
+    s.sendall(bytes.fromhex(sys.argv[3]))
+    head = b""
+    while len(head) < 3:
+        chunk = s.recv(3 - len(head))
+        if not chunk:
+            sys.exit(1)
+        head += chunk
+    sys.exit(0 if head[2] == 0x22 else 1)
+"""
+# The services whose image has Python to run the check, in the order they are tried.
+CHECKERS = ("world", "connsv", "auth")
+
+
+def check_target(service, env):
+    """(host, port and extra arguments) of the service on the compose network."""
+    return {"connsv": ["connsv", "9070", UPDATE_CHECK.hex()],
+            "auth": ["auth", "18080"],
+            "ssl3": ["ssl3", str(login_port(env))],
+            "world": ["world", str(world_port(env))]}[service]
+
+
+def service_answers(service, env, checker):
+    """True when the service answers, checked from inside the `checker` service's container."""
+    r = run(["docker", "compose", "exec", "-T", checker, "python", "-c", PORT_CHECK] + check_target(service, env),
+            check=False, capture=True, stdin=subprocess.DEVNULL)
+    return r.returncode == 0
+
+
+def services_answer(services, env, timeout=120):
+    """Wait until every one of these services answers -> the ones that still do not."""
+    checkers = [c for c in CHECKERS if c in services]
+    if not checkers:          # only ssl3 runs: no Python to check from, running is all there is
+        return [s for s in services if s not in running_services()]
+    deadline = time.monotonic() + timeout
+    while True:
+        bad = [s for s in services if not service_answers(s, env, checkers[0])]
+        if not bad or time.monotonic() >= deadline:
+            return bad
+        time.sleep(3)
+
+
+def is_current(tag, commit):
+    have = read_revision().get("commit")
+    if commit and have:
+        return have == commit
+    return tag == installed_version()
+
+
+def update_server(yes=False):
+    """Update to the newest release (see the module docstring) -> the closing line. Raises
+    UpdateFailed with the sentence to show when it cannot."""
+    if not wait_for_docker(wait=False):
+        raise UpdateFailed("Docker is not running here, so nothing was updated.")
+    services = running_services()
     if os.path.exists(os.path.join(ROOT, ".git")):
-        if run(["git", "pull", "--ff-only"], check=False).returncode != 0:
-            say("git pull failed (local changes?). Nothing was changed.")
-            return
-    else:
-        release = latest_release()
-        if not release:
-            say("Could not reach %s. Check the internet connection." % RELEASES)
-            return
-        tag, url = release
-        if tag == installed_version():
-            say("This is the newest version (%s)." % tag)
-            if not ask_yes("Rebuild the server program anyway?", False):
-                return
-        else:
-            say("Downloading %s..." % tag)
-            archive = os.path.join(ROOT, "logs", "update.zip")
-            os.makedirs(os.path.dirname(archive), exist_ok=True)
-            try:
-                urllib.request.urlretrieve(url, archive)
-                unpack_server(archive, ROOT, tag)
-            except (OSError, zipfile.BadZipFile) as e:
-                say("The download failed (%s). Nothing was changed." % e)
-                return
-            finally:
-                if os.path.exists(archive):
-                    os.remove(archive)
-            say("Updated the server's files to %s." % tag)
-            if FROZEN:
-                say("A new Nobunaga Server Setup is also on %s" % RELEASES)
-    progress = proglib.Progress()
+        return update_checkout(services)
+    say("Looking for the newest release of %s..." % REPO)
+    release = latest_release()
+    if not release:
+        raise UpdateFailed("Could not reach GitHub to find the newest release, so nothing was changed.")
+    tag, commit, url = release
+    if is_current(tag, commit):
+        if read_choices().get(DATA_PENDING):
+            return after_update(services, True, tag)
+        return "Already up to date (%s)." % tag
+    if not yes and not ask_yes("Update from %s to %s?" % (installed_version() or "this version", tag)):
+        return "Nothing was changed."
+    stage = os.path.join(ROOT, ".update")
+    shutil.rmtree(stage, ignore_errors=True)
+    os.makedirs(stage)
+    try:
+        say("Downloading %s..." % tag)
+        archive = os.path.join(stage, "release.zip")
+        new = os.path.join(stage, "server")
+        try:
+            download(url, archive)
+            unpack_server(archive, new)
+        except (OSError, zipfile.BadZipFile) as e:
+            raise UpdateFailed("The download of %s failed (%s), so nothing was changed." % (tag, e))
+        if not os.path.exists(os.path.join(new, "compose.yml")):
+            raise UpdateFailed("The download of %s is not this server, so nothing was changed." % tag)
+        if commit:
+            write_revision(commit, new)
+        for name in (".env", "compose.override.yml"):
+            if os.path.exists(os.path.join(ROOT, name)):
+                shutil.copyfile(os.path.join(ROOT, name), os.path.join(new, name))
+        # The new images are built beside the running server, whose containers keep the old ones
+        # until they are recreated below.
+        with log_file() as log:
+            if not build_images(proglib.Progress(), log, root=new):
+                raise UpdateFailed("Building %s failed, so the server's files were not changed and the old "
+                                   "version keeps running." % tag)
+        data_changed = tree_digest("extract", "overlay") != tree_digest("extract", "overlay", root=new)
+        say("Replacing the server's files with %s..." % tag)
+        unpack_server(archive, ROOT, tag)
+        if commit:
+            write_revision(commit)
+    finally:
+        shutil.rmtree(stage, ignore_errors=True)
+    if FROZEN:
+        say("A new Nobunaga Server Setup is also on %s" % RELEASES)
+    return after_update(services, data_changed, tag)
+
+
+def update_checkout(services):
+    """A git checkout is updated with git pull, then built and restarted as a release is."""
+    head = git_head()
+    before = tree_digest("extract", "overlay")
+    say("Updating this git checkout (git pull --ff-only)...")
+    r = run(["git", "pull", "--ff-only"], check=False, capture=True, stdin=subprocess.DEVNULL)
+    if r.returncode != 0:
+        raise UpdateFailed("git pull failed (local changes?), so nothing was changed.")
+    now = git_head()
+    if now == head:
+        if read_choices().get(DATA_PENDING):
+            return after_update(services, True, now[:7])
+        return "Already up to date (%s)." % (now[:7] or "git")
     with log_file() as log:
-        if not build_images(progress, log):
-            return
-        if tree_digest("extract", "overlay") != before:
-            say("This update changes the game data: building it again.")
-            if not build_game_data(read_env(), read_choices(), progress, log):
-                return
-        start_server(progress, log)
+        if not build_images(proglib.Progress(), log):
+            raise UpdateFailed("Building %s failed; the old version keeps running." % now[:7])
+    return after_update(services, tree_digest("extract", "overlay") != before, now[:7])
+
+
+def after_update(services, data_changed, label):
+    """Build the game data again when its builder changed, then start the services that ran
+    before (and only those) and check them -> the closing line."""
+    env, choices = read_env(), read_choices()
+    progress = proglib.Progress()
+    if (data_changed or choices.get(DATA_PENDING)) and has_assets(env):
+        choices[DATA_PENDING] = True
+        write_choices(choices)
+        if not choices.get("disc"):
+            raise UpdateFailed("%s changes the game data, but setup does not know where the disc image is: run "
+                               "Nobunaga Server Setup and choose Rebuild the game data." % label)
+        say("This update changes the game data: building it again from your disc.")
+        with log_file() as log:
+            if not build_game_data(env, choices, progress, log, unseen_ok=True):
+                raise UpdateFailed("%s is in place but building the game data failed, so the old version keeps "
+                                   "running; run the update again once the cause is fixed." % label)
+        choices = read_choices()
+        choices.pop(DATA_PENDING, None)
+        write_choices(choices)
+    if not services:
+        return "Updated to %s. The server was stopped and stays stopped." % label
+    if not openlobby.ensure_network(docker_run):
+        raise UpdateFailed("Updated to %s, but the Docker network %s could not be made, so the server was not "
+                           "restarted." % (label, openlobby.NETWORK))
+    progress.begin("Restarting %s" % ", ".join(services), "under a minute")
+    with log_file() as log:
+        code, tail = proglib.run_logged(["docker", "compose", "up", "-d", "--no-build", "--no-deps"] + services,
+                                        log, cwd=ROOT, progress=progress)
+    progress.end(code == 0)
+    if code != 0:
+        failed("Restarting the server failed.", tail)
+        raise UpdateFailed("Updated to %s, but the server did not start again: see %s." % (label, LOG))
+    say("Checking the server...")
+    bad = services_answer(services, env)
+    if bad:
+        raise UpdateFailed("Updated to %s and restarted, but %s does not answer: see the server's logs."
+                           % (label, " and ".join(bad)))
+    return "Updated to %s; restarted %s, and the server answers." % (label, ", ".join(services))
+
+
+def update():
+    """The menu's Update: the same update as --update, asking before it starts."""
+    try:
+        say(update_server(yes=False))
+    except UpdateFailed as e:
+        say(str(e))
+
+
+def update_now(yes):
+    """--update: run the update -> the exit code. The last line printed is the summary."""
+    if not os.path.exists(os.path.join(ROOT, "compose.yml")):
+        say("There is no server in %s to update." % ROOT)
+        return 1
+    os.chdir(ROOT)
+    try:
+        say(update_server(yes=yes))
+        return 0
+    except UpdateFailed as e:
+        say(str(e))
+    except KeyboardInterrupt:
+        say("The update was stopped before it finished; run it again.")
+    except SystemExit as e:
+        say("The update stopped (%s); run it again." % e)
+    except Exception as e:      # whatever it was, the last line must still say so
+        say("The update stopped (%s: %s); run it again." % (type(e).__name__, e))
+    return 1
 
 
 def rebuild_assets():
@@ -1147,9 +1433,14 @@ def rebuild_assets():
     ensure_disc(choices)
     progress = proglib.Progress()
     with log_file() as log:
-        if build_game_data(env, choices, progress, log) and server_running():
-            say("Restarting the server to use it...")
-            compose("restart")
+        if not build_game_data(env, choices, progress, log):
+            return
+    choices = read_choices()
+    if choices.pop(DATA_PENDING, None):
+        write_choices(choices)
+    if server_running():
+        say("Restarting the server to use it...")
+        compose("restart")
 
 
 def data_dir():
@@ -1313,12 +1604,18 @@ def parse_args(argv=None):
     ap.add_argument("--dry-run", action="store_true",
                     help="ask the questions and look for the disc, then show what would be done; "
                          "writes nothing and needs no Docker")
+    ap.add_argument("--update", action="store_true",
+                    help="update the server to the newest release and stop (what an OpenLobby panel's "
+                         "Update button runs)")
+    ap.add_argument("--yes", action="store_true", help="with --update: never ask, never read the input")
     return ap.parse_args(argv)
 
 
 def main(argv=None):
     args = parse_args(argv)
     use_root(find_root(args.folder))
+    if args.update:
+        return update_now(args.yes)
     try:
         if args.dry_run:
             say("Server folder: %s%s" % (ROOT, "" if os.path.exists(os.path.join(ROOT, "compose.yml")) else
@@ -1334,6 +1631,7 @@ def main(argv=None):
             first_run()
             return
         env = read_env()
+        tell_panel_the_folder(env, read_choices())
         if not has_assets(env) and read_choices().get("disc"):
             say("Setup did not finish last time.")
             if ask_yes("Carry on where it stopped?"):
@@ -1346,12 +1644,14 @@ def main(argv=None):
 
 
 if __name__ == "__main__":
+    code = 0
     try:
-        main()
+        code = main()
     finally:
-        if FROZEN:
+        if FROZEN and "--yes" not in sys.argv:
             # A double-clicked program's window closes when it ends: keep it open to be read.
             try:
                 input("Press Enter to close this window.")
-            except (EOFError, KeyboardInterrupt):
+            except (EOFError, KeyboardInterrupt, RuntimeError):
                 pass
+    sys.exit(code or 0)

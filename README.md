@@ -34,6 +34,21 @@ From a clone of this repository, `python setup.py` does the same (Python 3.8 or 
 You need an image (`.iso`) of the *Hiryuu no Shou* disc, or a zip of one. Other pressings do not
 work.
 
+## Updating
+
+Any of these updates the server to the newest release, keeping your settings, accounts and
+characters. The game data is built again from your disc only when the release changed how it is
+built, and only the parts of the server that were running are started again.
+
+- In a paired OpenLobby admin panel, press Update once the panel's owner has approved one-click
+  updates for this game (Settings > Modules).
+- Run Nobunaga Server Setup and choose Update.
+- In the server folder: `python setup.py --update --yes` (it never asks anything; the last line
+  says what happened, and it exits non-zero when the update failed).
+
+The panel shows when a newer release is out. `NOBU_UPDATE_REPO` in `.env` points that check at
+another repository, or turns it off when empty.
+
 ## Players
 
 Players need a game install on a PS2 hard disk whose network settings and DNS point at this

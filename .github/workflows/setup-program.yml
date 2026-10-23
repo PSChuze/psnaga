@@ -38,6 +38,8 @@ jobs:
           python -m pip install --disable-pip-version-check "$PYINSTALLER"
           python packaging/build_setup.py --version "${GITHUB_REF_NAME}"
           ./dist/Nobunaga-Server-Setup.exe --help < /dev/null
+          # server.zip carries the commit for the panel's update notice
+          python -c "import zipfile; print(zipfile.ZipFile('build/setup/server.zip').read('psnaga/.setup-revision').decode())" | grep -q "$GITHUB_SHA"
           (cd dist && sha256sum Nobunaga-Server-Setup.exe > Nobunaga-Server-Setup.exe.sha256)
       - uses: actions/upload-artifact@v4
         with:

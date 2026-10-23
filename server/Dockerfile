@@ -36,6 +36,12 @@ RUN t=$(mktemp -d) \
 
 VOLUME ["/data", "/logs"]
 
+# The commit this image is built from and when, for the panel's update notice (nobu/updates.py).
+# Setup passes them (compose.yml's build args); last, so a new commit rebuilds only this layer.
+ARG NOBU_REVISION=
+ARG NOBU_BUILT_AT=
+ENV NOBU_REVISION=$NOBU_REVISION     NOBU_BUILT_AT=$NOBU_BUILT_AT
+
 # connsv 9070, world 9110, auth 18080 (plain HTTP behind the TLS terminator).
 EXPOSE 9070 9110 18080
 

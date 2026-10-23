@@ -233,13 +233,13 @@ class OpenLobby(unittest.TestCase):
         def opener(req, timeout=0):
             sent.append((req.full_url, json.loads(req.data)))
             return Answer(json.dumps({"ok": True, "title": "x", "pairing": "secret-1"}).encode())
-        ok, got = openlobby.pair("http://127.0.0.1:8090", " abcd-2345 ", "nobu", setup.TITLE, setup.ADMIN_URL,
-                                 "tok", opener)
-        self.assertEqual((ok, got), (True, "secret-1"))
+        ok, got, updater = openlobby.pair("http://127.0.0.1:8090", " abcd-2345 ", "nobu", setup.TITLE,
+                                          setup.ADMIN_URL, "tok", opener)
+        self.assertEqual((ok, got, updater), (True, "secret-1", ""))
         self.assertEqual(sent[0], ("http://127.0.0.1:8090/api/pair",
                                    {"code": "abcd-2345", "key": "nobu", "title": "Nobunaga's Ambition Online",
                                     "url": "http://nobu:19111", "token": "tok"}))
-        ok, _ = openlobby.pair_update("http://127.0.0.1:8090", "nobu", "secret-1", "tok2", opener=opener)
+        ok, _, _ = openlobby.pair_update("http://127.0.0.1:8090", "nobu", "secret-1", "tok2", opener=opener)
         self.assertTrue(ok)
         self.assertEqual(sent[1], ("http://127.0.0.1:8090/api/pair/update",
                                    {"key": "nobu", "pairing": "secret-1", "token": "tok2"}))
@@ -249,8 +249,8 @@ class OpenLobby(unittest.TestCase):
                 raise urllib.error.HTTPError(req.full_url, code, "no", {}, io.BytesIO(body))
             return f
         self.assertEqual(openlobby.pair("http://x", "c", "nobu", "t", "u", "tok", refused(403, b'{"error": "x"}')),
-                         (False, "The code is wrong, used or older than 10 minutes."))
-        ok, why = openlobby.pair("http://x", "c", "nobu", "t", "u", "tok", refused(400, b'{"error": "already set"}'))
+                         (False, "The code is wrong, used or older than 10 minutes.", ""))
+        ok, why, _ = openlobby.pair("http://x", "c", "nobu", "t", "u", "tok", refused(400, b'{"error": "already set"}'))
         self.assertFalse(ok)
         self.assertIn("POL_ADMIN_GAME_NOBU_URL", why)
 

@@ -17,7 +17,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from nobu import adminport, auth, chars, misc, persist, social, vce, vcecrypto, war_week, world
+from nobu import adminport, auth, chars, misc, persist, social, updates, vce, vcecrypto, war_week, world
 from nobu.test_war import Env, WarTestBase, t_jst
 
 TOKEN = "test-token-0123"
@@ -73,6 +73,10 @@ class Client:
             self.frames += self.fr.feed(self.rr.feed(data))
 
 
+def offline(url):
+    raise OSError("network is unreachable")
+
+
 def report(kind, text):
     """09 01: a Support report as the client sends it (misc.decode_report)."""
     return vce.put_u8(9) + vce.put_u8(1) + vce.put_u32(kind) + vce.put_bytes(text.encode()) + vce.put_bytes(b"LD:\n")
@@ -103,7 +107,9 @@ class AdminPortTest(WarTestBase):
         self.b = Client(gport, UID_B, 2)
         self.saved = adminport.TOKEN, adminport.BIND, adminport.PORT
         adminport.TOKEN, adminport.BIND, adminport.PORT = TOKEN, "127.0.0.1", 0
-        self.port = adminport.build(self.loop, world.store)
+        # GitHub is never asked: the update check answers from a fake that is always offline
+        self.port = adminport.build(self.loop, world.store, updates.UpdateCheck(
+            "PSChuze/psnaga", "abc1234", "2026-10-01T00:00:00Z", fetch=offline))
         self.url = "http://127.0.0.1:%d" % self.port.start()[1]
 
     def tearDown(self):
@@ -249,6 +255,9 @@ class AdminPortTest(WarTestBase):
         self.assertEqual(doc["summary"], "War round 1 of 3, 0 to 0 (Oda attacks Tokugawa at Okehazama)")
         self.assertEqual(doc["facts"][:2], [{"label": "characters", "value": 2},
                                             {"label": "war phase", "value": "round"}])
+        up = doc["update"]
+        self.assertEqual((up["running"]["commit"], up["update"], up["how"]),
+                         ("abc1234", "unknown", "Run Nobunaga Server Setup and choose Update."))
 
     def test_announce_reaches_everyone_as_a_system_line(self):
         st, out = self.call("/openlobby/actions/announce", {"text": "  Maintenance at  10:00 UTC "})

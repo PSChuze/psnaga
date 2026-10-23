@@ -31,6 +31,9 @@ waits and is sent when one next enters the world (misc.pending_answers, from
 world.world_ready_pushes). Answers, the waiting ones and closures are kept beside the reports in
 reports-state.json (NOBU_REPORT_STATE).
 
+status.json also carries "update", whether a newer release is out (nobu/updates.py); the panel's
+Update button runs Nobunaga Server Setup's `--update` through the panel's deployer, never this port.
+
 Two tool pages, both without script (olpage.py, OpenLobby's look):
   news     edit the Function menu's News items (news.json, written atomically)
   backups  the backups of chars.json and auth.json (persist.list_backups), "Back up now" (a manual
@@ -53,7 +56,7 @@ import os
 import sys
 import time
 
-from . import admin, auth, chars, live, misc, olpage, olport, persist, social, war_week, zones
+from . import admin, auth, chars, live, misc, olpage, olport, persist, social, updates, war_week, zones
 
 PORT = int(os.environ.get("NOBU_ADMIN_PORT", "0") or 0)
 BIND = os.environ.get("NOBU_ADMIN_BIND", "127.0.0.1")
@@ -558,8 +561,10 @@ def backups_page(store, form, actor):
         keep, persist.backup_dir(backup_targets(store)["chars"])), note=note)
 
 
-def build(loop, store=None):
-    """The AdminPort for the world running on `loop`; `store` is world.store. Not started."""
+def build(loop, store=None, update_check=None):
+    """The AdminPort for the world running on `loop`; `store` is world.store. Not started.
+    `update_check` answers status.json's "update" (default: nobu/updates.py from the environment)."""
+    update_check = update_check or updates.from_env()
     port = olport.AdminPort(
         "nobu", "Nobunaga's Ambition Online", short="Nobunaga", platform="PS2 HDD",
         about="Nobunaga no Yabou Online: the world server, its clans and the weekly war.",
@@ -595,6 +600,7 @@ def build(loop, store=None):
                       {"label": "war phase", "value": w.get("phase") or "static"},
                       {"label": "clans holding provinces",
                        "value": sum(1 for c in doc["clans"] if c["provinces"])}],
+            "update": update_check.get(),
         }
 
     port.calendar(war_calendar)

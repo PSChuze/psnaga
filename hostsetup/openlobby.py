@@ -143,28 +143,39 @@ def _post(url, doc, opener):
         return 0, {"error": e.__class__.__name__}
 
 
-def pair(panel_url, code, key, title, url, token, opener=urllib.request.urlopen):
-    """Pair with the panel by its one-time code (sent as typed) -> (True, pairing secret) or (False, why)."""
-    status, doc = _post(panel_url + "/api/pair", {"code": code.strip(), "key": key, "title": title,
-                                                  "url": url, "token": token}, opener)
+def updater(folder, command, timeout_minutes=60):
+    """The pairing's "updater": how the panel's deployer updates this install (folder and argv)."""
+    return {"folder": folder, "command": list(command), "timeout_minutes": timeout_minutes}
+
+
+def pair(panel_url, code, key, title, url, token, opener=urllib.request.urlopen, updater=None):
+    """Pair with the panel by its one-time code (sent as typed) -> (True, pairing secret, the
+    panel's "updater" answer) or (False, why, "")."""
+    doc = {"code": code.strip(), "key": key, "title": title, "url": url, "token": token}
+    if updater:
+        doc["updater"] = updater
+    status, doc = _post(panel_url + "/api/pair", doc, opener)
     if status == 200 and doc.get("ok") and doc.get("pairing"):
-        return True, doc["pairing"]
+        return True, doc["pairing"], str(doc.get("updater") or "")
     why = {403: "The code is wrong, used or older than 10 minutes.", 429: "Too many tries. Wait a minute.",
            0: "The panel did not answer."}.get(status)
     if status == 400:
         why = ("The panel said no: %s. If the panel already has POL_ADMIN_GAME_%s_URL set, it manages "
                "this game from that setting; remove it there to pair instead." % (
                    doc.get("error") or "bad request", key.upper()))
-    return False, why or doc.get("error") or "The panel said no (%d)." % status
+    return False, why or doc.get("error") or "The panel said no (%d)." % status, ""
 
 
-def pair_update(panel_url, key, pairing, token, url=None, opener=urllib.request.urlopen):
-    """Tell the panel the new admin token -> (ok, why)."""
+def pair_update(panel_url, key, pairing, token, url=None, opener=urllib.request.urlopen, updater=None):
+    """Tell the panel the new admin token (and the updater, when given) -> (ok, why, the panel's
+    "updater" answer)."""
     doc = {"key": key, "pairing": pairing, "token": token}
     if url:
         doc["url"] = url
+    if updater:
+        doc["updater"] = updater
     status, out = _post(panel_url + "/api/pair/update", doc, opener)
     if status == 200 and out.get("ok"):
-        return True, ""
+        return True, "", str(out.get("updater") or "")
     return False, {403: "The panel no longer knows this pairing.", 404: "The panel has no such game.",
-                   0: "The panel did not answer."}.get(status, out.get("error") or "HTTP %d" % status)
+                   0: "The panel did not answer."}.get(status, out.get("error") or "HTTP %d" % status), ""
