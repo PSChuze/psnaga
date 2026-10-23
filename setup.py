@@ -838,6 +838,26 @@ def note_updater(answer):
         say("The panel's Update button works once the panel's owner approves it on Settings > Modules.")
 
 
+def interactive():
+    """Is someone at a terminal to answer?"""
+    try:
+        return sys.stdin is not None and sys.stdin.isatty()
+    except (AttributeError, ValueError):
+        return False
+
+
+def find_panel(panels=None):
+    """The OpenLobby panel to use: the only one, the one paired before, or the owner's choice."""
+    panels = openlobby.find_panels(docker_run) if panels is None else panels
+    pick = None
+    if interactive():
+        def pick(options):
+            return ask_choice("More than one OpenLobby admin panel runs on this computer. "
+                              "Which one should %s use?" % TITLE, options)
+    return openlobby.choose_panel(panels, pick, say, read_choices().get("panel_url"),
+                                  "Nobunaga Server Setup")
+
+
 def pair_with_panel(env, panel):
     """Pair with the panel by its one-time code; keeps the secret in .env."""
     say("In the panel, open Settings, Modules, \"Pair with a setup program\". It shows a code.")
@@ -852,6 +872,7 @@ def pair_with_panel(env, panel):
             write_env({"OPENLOBBY_PAIRING": got})
             choices = read_choices()
             choices["updater_folder"] = ROOT
+            choices["panel_url"] = panel
             write_choices(choices)
             say("Paired: the panel now shows %s." % TITLE)
             note_updater(updater)
@@ -864,7 +885,7 @@ def tell_panel_the_folder(env, choices):
     """A paired panel runs updates in this folder: tell it again when the folder has moved."""
     if not env.get("OPENLOBBY_PAIRING") or choices.get("updater_folder") == ROOT:
         return
-    panel = openlobby.find_panel(docker_run)
+    panel = find_panel()
     if not panel:
         return
     ok, _why, updater = openlobby.pair_update(panel, KEY, env["OPENLOBBY_PAIRING"], env.get("NOBU_ADMIN_TOKEN", ""),
@@ -1003,7 +1024,7 @@ def first_run(dry_run=False):
     say("then setup does the rest in a few minutes.")
     env = read_env(ENV_EXAMPLE)
     choices = read_choices()
-    panel = None if dry_run else openlobby.find_panel(docker_run)
+    panel = None if dry_run else find_panel()
     total = 4 if panel else 3
     who = ask_who(total=total)
     address = ask_address(who)
@@ -1162,7 +1183,10 @@ def change_ports(env, choices):
 
 
 def change_panel(env, choices):
-    panel = openlobby.find_panel(docker_run)
+    panels = openlobby.find_panels(docker_run)
+    panel = find_panel(panels)
+    if panels and not panel:
+        return False
     if not panel:
         say("No OpenLobby admin panel runs on this computer.")
         say("Without pairing, a panel can add this game with POL_ADMIN_GAME_NOBU_URL=%s" % ADMIN_URL)
@@ -1177,7 +1201,7 @@ def new_token(env, choices):
         return False
     token = secrets.token_hex(24)
     write_env({"NOBU_ADMIN_TOKEN": token})
-    panel = openlobby.find_panel(docker_run)
+    panel = find_panel()
     if env.get("OPENLOBBY_PAIRING") and panel:
         ok, why, _updater = openlobby.pair_update(panel, KEY, env["OPENLOBBY_PAIRING"], token,
                                                   updater=updater_block())

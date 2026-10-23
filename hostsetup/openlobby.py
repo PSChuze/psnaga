@@ -119,13 +119,40 @@ def dns_remove(container, key, run=run_docker):
 
 # --- an OpenLobby admin panel --------------------------------------------------------------------
 
-def find_panel(run=run_docker):
-    """The address of a running OpenLobby panel, or None."""
+def find_panels(run=run_docker):
+    """The running OpenLobby panels -> [(container name, address)]."""
+    panels = []
     for name in running("org.openlobby.role=panel", run):
         url = label_of(name, "org.openlobby.panel.url", run)
         if url:
-            return url.rstrip("/")
-    return None
+            panels.append((name, url.rstrip("/")))
+    return panels
+
+
+def find_panel(run=run_docker):
+    """The address of the one running OpenLobby panel, or None (none, or more than one)."""
+    panels = find_panels(run)
+    return panels[0][1] if len(panels) == 1 else None
+
+
+def choose_panel(panels, pick=None, say=print, remembered=None, program="Setup"):
+    """The panel to pair with, from find_panels -> its address or None.
+
+    One panel is used as it is, and so is the one paired before (`remembered`) while it runs. With
+    more than one, `pick(options)` returns the 1-based choice; with no `pick` (no one to ask) none is
+    guessed: one sentence names them and says how to choose."""
+    if not panels:
+        return None
+    if len(panels) == 1:
+        return panels[0][1]
+    if remembered and remembered.rstrip("/") in [url for _name, url in panels]:
+        return remembered.rstrip("/")
+    options = ["%s (%s)" % (name, url) for name, url in panels]
+    if pick is None:
+        say("More than one OpenLobby admin panel runs on this computer (%s), so none was paired: "
+            "run %s and choose the panel." % (", ".join(options), program))
+        return None
+    return panels[pick(options) - 1][1]
 
 
 def _post(url, doc, opener):

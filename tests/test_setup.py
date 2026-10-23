@@ -215,6 +215,52 @@ class OpenLobby(unittest.TestCase):
         self.assertTrue(openlobby.ensure_network(dock))
         self.assertEqual(dock.calls, [["network", "inspect", "openlobby"]])
 
+    def test_more_than_one_panel(self):
+        dock = FakeDocker(running={"org.openlobby.role=panel": ["openlobby-web-1", "other-web-1"]},
+                          labels={("openlobby-web-1", "org.openlobby.panel.url"): "http://127.0.0.1:8090/",
+                                  ("other-web-1", "org.openlobby.panel.url"): "http://127.0.0.1:9090"})
+        panels = openlobby.find_panels(dock)
+        self.assertEqual(panels, [("openlobby-web-1", "http://127.0.0.1:8090"),
+                                  ("other-web-1", "http://127.0.0.1:9090")])
+        self.assertIsNone(openlobby.find_panel(dock))            # never a guess
+        # no one to ask: one sentence naming both, nothing paired
+        said = []
+        self.assertIsNone(openlobby.choose_panel(panels, None, said.append, program="Nobunaga Server Setup"))
+        self.assertEqual(len(said), 1)
+        for text in ("openlobby-web-1 (http://127.0.0.1:8090)", "other-web-1 (http://127.0.0.1:9090)",
+                     "run Nobunaga Server Setup and choose the panel"):
+            self.assertIn(text, said[0])
+        # someone to ask: numbered choices, the pick is used
+        offered = []
+
+        def pick(options):
+            offered.extend(options)
+            return 2
+        self.assertEqual(openlobby.choose_panel(panels, pick, said.append), "http://127.0.0.1:9090")
+        self.assertEqual(offered, ["openlobby-web-1 (http://127.0.0.1:8090)", "other-web-1 (http://127.0.0.1:9090)"])
+        # the panel paired before is used again without a question; a gone one is not
+        self.assertEqual(openlobby.choose_panel(panels, None, said.append, "http://127.0.0.1:8090/"),
+                         "http://127.0.0.1:8090")
+        self.assertIsNone(openlobby.choose_panel(panels, None, said.append, "http://gone"))
+        # one panel, or none: unchanged
+        self.assertEqual(openlobby.choose_panel(panels[:1], None, said.append), "http://127.0.0.1:8090")
+        self.assertIsNone(openlobby.choose_panel([], pick, said.append))
+
+    def test_setup_asks_only_at_a_terminal(self):
+        dock = FakeDocker(running={"org.openlobby.role=panel": ["a-web-1", "b-web-1"]},
+                          labels={("a-web-1", "org.openlobby.panel.url"): "http://a",
+                                  ("b-web-1", "org.openlobby.panel.url"): "http://b"})
+        out = io.StringIO()
+        with mock.patch.object(setup, "docker_run", dock), mock.patch.object(setup, "read_choices", dict),                 mock.patch("sys.stdout", out):
+            with mock.patch.object(setup, "interactive", lambda: False),                     mock.patch("builtins.input", side_effect=AssertionError("asked")):
+                self.assertIsNone(setup.find_panel())
+            self.assertIn("run Nobunaga Server Setup and choose the panel", out.getvalue())
+            with mock.patch.object(setup, "interactive", lambda: True),                     mock.patch("builtins.input", return_value="2"):
+                self.assertEqual(setup.find_panel(), "http://b")
+            self.assertIn("  1. a-web-1 (http://a)", out.getvalue())
+        with mock.patch("sys.stdin", io.StringIO("")):
+            self.assertFalse(setup.interactive())
+
     def test_panel_and_pairing(self):
         dock = FakeDocker(running={"org.openlobby.role=panel": ["openlobby-web-1"]},
                           labels={("openlobby-web-1", "org.openlobby.panel.url"): "http://127.0.0.1:8090/"})

@@ -1,4 +1,5 @@
 """The update notice (nobu/updates.py) against a fake GitHub API: python -m unittest nobu.test_updates -v"""
+import threading
 import unittest
 
 from nobu import updates
@@ -44,6 +45,17 @@ def check(revision, gh, repo="PSChuze/psnaga", built_at="2026-10-01T00:00:00Z"):
     return updates.UpdateCheck(repo, revision, built_at, fetch=gh).get(wait=5)
 
 
+def assert_unknown(t, got, running_commit=OLD):
+    """Every unknown answer keeps the panel's shape: objects, never null, behind 0, no changes."""
+    t.assertEqual(got["update"], "unknown")
+    t.assertEqual(got["latest"], {"commit": None, "date": None})
+    t.assertEqual((got["behind"], got["changes"]), (0, []))
+    t.assertEqual(got["running"], {"commit": running_commit or None, "built_at": "2026-10-01T00:00:00Z"})
+    t.assertTrue(got["why"])
+    t.assertEqual(got["how"], updates.HOW)
+    return got
+
+
 class UpdateCheckTest(unittest.TestCase):
     def test_available_lists_the_changes_newest_first_without_merges(self):
         got = check(OLD[:7], FakeGitHub())
@@ -64,19 +76,23 @@ class UpdateCheckTest(unittest.TestCase):
         self.assertFalse(any("/compare/" in p for p in gh.paths))
 
     def test_offline_is_unknown_with_a_reason(self):
-        got = check(OLD, FakeGitHub(offline=True))
-        self.assertEqual((got["update"], got["latest"], got["behind"]), ("unknown", None, None))
+        got = assert_unknown(self, check(OLD, FakeGitHub(offline=True)))
         self.assertIn("GitHub did not answer", got["why"])
-        self.assertIn("too many requests", check(OLD, FakeGitHub(status=403))["why"])
+        self.assertIn("too many requests", assert_unknown(self, check(OLD, FakeGitHub(status=403)))["why"])
 
     def test_unknown_cases(self):
-        self.assertIn("no release", check(OLD, FakeGitHub(release=None))["why"])
-        got = check("", FakeGitHub())
-        self.assertEqual((got["update"], got["running"]["commit"]), ("unknown", None))
+        self.assertIn("no release", assert_unknown(self, check(OLD, FakeGitHub(release=None)))["why"])
+        got = assert_unknown(self, check("", FakeGitHub()), running_commit="")
         self.assertIn("does not know its commit", got["why"])
-        self.assertIn("not in", check("abcdef0", FakeGitHub())["why"])
-        self.assertIn("is off", check(OLD, FakeGitHub(), repo="")["why"])
-        self.assertIn("owner/name", check(OLD, FakeGitHub(), repo="nope")["why"])
+        self.assertIn("not in", assert_unknown(self, check("abcdef0", FakeGitHub()), "abcdef0")["why"])
+        self.assertIn("is off", assert_unknown(self, check(OLD, FakeGitHub(), repo=""))["why"])
+        self.assertIn("owner/name", assert_unknown(self, check(OLD, FakeGitHub(), repo="nope"))["why"])
+        gate = threading.Event()
+        c = updates.UpdateCheck("PSChuze/psnaga", OLD, "2026-10-01T00:00:00Z",
+                                fetch=lambda url: (gate.wait(5), FakeGitHub()(url))[1])
+        self.assertIn("still asking", assert_unknown(self, c.get(wait=0))["why"])
+        gate.set()
+        c.thread and c.thread.join(5)
 
     def test_the_answer_is_cached(self):
         now = [0.0]

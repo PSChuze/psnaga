@@ -42,6 +42,8 @@ built, and only the parts of the server that were running are started again.
 
 - In a paired OpenLobby admin panel, press Update once the panel's owner has approved one-click
   updates for this game (Settings > Modules).
+  Installs of v1.0.0 must run Nobunaga Server Setup and choose Update once; after that the panel's
+  Update button works.
 - Run Nobunaga Server Setup and choose Update.
 - In the server folder: `python setup.py --update --yes` (it never asks anything; the last line
   says what happened, and it exits non-zero when the update failed).

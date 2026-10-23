@@ -323,7 +323,7 @@ class Pairing(unittest.TestCase):
             return True, "", ""
         env = {"OPENLOBBY_PAIRING": "p1", "NOBU_ADMIN_TOKEN": "t"}
         with mock.patch.object(setup.openlobby, "pair_update", pair_update), \
-                mock.patch.object(setup.openlobby, "find_panel", lambda run: "http://panel"), \
+                mock.patch.object(setup.openlobby, "find_panels", lambda run: [("web", "http://panel")]), \
                 mock.patch("sys.stdout", io.StringIO()):
             setup.tell_panel_the_folder(env, {"updater_folder": "/old/place"})
             setup.tell_panel_the_folder(env, setup.read_choices())

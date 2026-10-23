@@ -80,7 +80,9 @@ def _subject(c):
 
 
 def unknown(why):
-    return {"latest": None, "behind": None, "changes": [], "update": "unknown", "why": why, "how": HOW}
+    """No answer: the panel wants every field in its shape, so latest is an object of nulls and behind is 0."""
+    return {"latest": {"commit": None, "date": None}, "behind": 0, "changes": [], "update": "unknown",
+            "why": why, "how": HOW}
 
 
 def repo_setting(environ=None):
